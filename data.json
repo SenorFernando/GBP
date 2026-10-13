@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T06:25:00-06:00",
+ "updated": "2026-10-13T07:09:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -81,12 +81,17 @@
      "t": "2026-10-13T06:25:00-06:00",
      "price": 139,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-13T07:09:00-06:00",
+     "price": 138,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T06:25:00-06:00",
+    "checked": "2026-10-13T07:09:00-06:00",
     "cheapest": {
-     "price": 139,
+     "price": 138,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access"
@@ -108,7 +113,7 @@
      ]
     },
     "best": {
-     "price": 139,
+     "price": 138,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access"
@@ -196,26 +201,31 @@
      "t": "2026-10-12T18:20:00-06:00",
      "price": 258,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-13T07:09:00-06:00",
+     "price": 251,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-12T20:30:00-06:00",
+    "checked": "2026-10-13T07:09:00-06:00",
     "cheapest": {
-     "price": 258,
+     "price": 251,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior"
+      "This price may not include overhead bin access"
      ],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
-       "arrive": "10:34 AM +1 CJS",
-       "duration": "13 h 6 min",
+       "arrive": "3:02 PM+1 CJS",
+       "duration": "17 h 34 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "9 h 51 min",
+         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -223,14 +233,14 @@
      ]
     },
     "best": {
-     "price": 263,
+     "price": 377,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior"
+      "This price may not include overhead bin access"
      ],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -316,12 +326,17 @@
      "t": "2026-10-13T06:25:00-06:00",
      "price": 455,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-13T07:09:00-06:00",
+     "price": 459,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T06:25:00-06:00",
+    "checked": "2026-10-13T07:09:00-06:00",
     "cheapest": {
-     "price": 455,
+     "price": 459,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access"
@@ -356,7 +371,7 @@
      ]
     },
     "best": {
-     "price": 455,
+     "price": 459,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access"
@@ -472,12 +487,17 @@
      "t": "2026-10-13T06:25:00-06:00",
      "price": 487,
      "airline": "Viva vía MTY / directo"
+    },
+    {
+     "t": "2026-10-13T07:09:00-06:00",
+     "price": 486,
+     "airline": "Viva vía MTY / directo"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T06:25:00-06:00",
+    "checked": "2026-10-13T07:09:00-06:00",
     "cheapest": {
-     "price": 487,
+     "price": 486,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access",
@@ -501,13 +521,13 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "43 min",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 487,
+     "price": 486,
      "airline": "Viva",
      "warnings": [
       "This price may not include overhead bin access",
@@ -531,7 +551,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "43 min",
        "stops": []
       }
      ]
