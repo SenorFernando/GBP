@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T21:09:00-06:00",
+ "updated": "2026-10-12T22:10:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -452,16 +452,20 @@
      "t": "2026-10-12T21:09:00-06:00",
      "price": 489,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-12T22:10:00-06:00",
+     "price": 489,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-12T21:09:00-06:00",
+    "checked": "2026-10-12T22:10:00-06:00",
     "cheapest": {
      "price": 489,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets — buy each ticket separately",
-      "Carry-on/overhead bin fee may apply"
+      "Separate tickets (regreso)"
      ],
      "legs": [
       {
@@ -487,10 +491,10 @@
      ]
     },
     "best": {
-     "price": 501,
+     "price": 489,
      "airline": "Viva",
      "warnings": [
-      "Carry-on/overhead bin fee may apply"
+      "Separate tickets (regreso)"
      ],
      "legs": [
       {
