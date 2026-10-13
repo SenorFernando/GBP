@@ -27,4 +27,4 @@ e.innerHTML=`<h2>${s.name}</h2><div class="g"><div><div class="k">Precio actual<
 <canvas height="160"></canvas>${itins(s)}<a href="${s.url}" target="_blank" rel="noopener">Ver en Google Flights →</a>`;
 document.getElementById('c').appendChild(e);
 new Chart(e.querySelector('canvas'),{type:'line',data:{labels:h.map(x=>fmt(x.t)),datasets:[{label:'USD',data:h.map(x=>x.price),borderColor:'#1a73e8',tension:.2}]},options:{plugins:{legend:{display:false}}}})})});
-</script></body></html>
+</script><footer style="text-align:center;color:#9aa0a6;font-size:.85em;margin:24px 0">Los precios se revisan cada hora, de 6:09 AM a 10:09 PM (hora de Denver, MT), todos los días hasta el 23 de diciembre.</footer></body></html>
