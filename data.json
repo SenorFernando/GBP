@@ -1,0 +1,162 @@
+{
+ "updated": "2026-10-12T17:20:00-06:00",
+ "searches": [
+  {
+   "id": "A",
+   "name": "Juárez → Culiacán (23 dic, sencillo)",
+   "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDQ1VMQAFIAWoEEAEYAHABggELCP___________wGYAQI&tfu=EgYIABAAGAA&hl=en&curr=USD",
+   "baseline": 123,
+   "history": [
+    {
+     "t": "2026-10-11T11:15:00-06:00",
+     "price": 123,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T15:11:00-06:00",
+     "price": 122,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T18:13:00-06:00",
+     "price": 144,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T19:15:00-06:00",
+     "price": 122,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T12:30:00-06:00",
+     "price": 139,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T14:25:00-06:00",
+     "price": 139,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T17:20:00-06:00",
+     "price": 139,
+     "airline": null
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Culiacán → Juárez (2 ene, sencillo)",
+   "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI3LTAxLTAyagcIARIDQ1VMcgcIARIDQ0pTQAFIAWoEEAEYAHABggELCP___________wGYAQI&tfu=EgYIABAAGAA&hl=en&curr=USD",
+   "baseline": 243,
+   "history": [
+    {
+     "t": "2026-10-11T11:15:00-06:00",
+     "price": 251,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T19:15:00-06:00",
+     "price": 251,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T09:40:00-06:00",
+     "price": 235,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T13:28:00-06:00",
+     "price": 294,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T14:25:00-06:00",
+     "price": 251,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T17:20:00-06:00",
+     "price": 251,
+     "airline": null
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Juárez ⇄ Culiacán (23 dic – 2 ene, redondo)",
+   "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDQ1VMGh4SCjIwMjctMDEtMDJqBwgBEgNDVUxyBwgBEgNDSlNAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
+   "baseline": 405,
+   "history": [
+    {
+     "t": "2026-10-11T11:15:00-06:00",
+     "price": 445,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T15:11:00-06:00",
+     "price": 440,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T19:15:00-06:00",
+     "price": 454,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T12:30:00-06:00",
+     "price": 508,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T14:25:00-06:00",
+     "price": 455,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T17:20:00-06:00",
+     "price": 455,
+     "airline": null
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Juárez ⇄ Mazatlán (23 dic – 2 ene, redondo)",
+   "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDTVpUGh4SCjIwMjctMDEtMDJqBwgBEgNNWlRyBwgBEgNDSlNAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
+   "baseline": 443,
+   "history": [
+    {
+     "t": "2026-10-11T11:15:00-06:00",
+     "price": 490,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T15:11:00-06:00",
+     "price": 485,
+     "airline": null
+    },
+    {
+     "t": "2026-10-11T19:15:00-06:00",
+     "price": 485,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T12:30:00-06:00",
+     "price": 490,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T14:25:00-06:00",
+     "price": 489,
+     "airline": null
+    },
+    {
+     "t": "2026-10-12T17:20:00-06:00",
+     "price": 489,
+     "airline": null
+    }
+   ]
+  }
+ ]
+}

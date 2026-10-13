@@ -1,0 +1,20 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Precios de vuelos – Diciembre</title><script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>body{font-family:system-ui,sans-serif;margin:0;padding:12px;background:#f4f6f9;color:#222;max-width:900px;margin:auto}
+.card{background:#fff;border-radius:10px;padding:14px;margin:12px 0;box-shadow:0 1px 4px #0002}
+h1{font-size:1.3em}h2{font-size:1.05em;margin:0 0 8px}.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px}
+.k{font-size:.75em;color:#666}.v{font-size:1.2em;font-weight:600}.up{color:#c0392b}.down{color:#1e8449}.note{font-size:.8em;color:#555}a{color:#1a73e8}</style></head>
+<body><h1>✈️ Precios de vuelos – Navidad</h1><div class="note">Última actualización: <b id="upd">…</b> (hora de Denver, MT)<br>
+Precios: 1 adulto, económica, 1 equipaje de mano, USD. Las tarifas de Viva pueden no incluir el compartimento superior.</div><div id="c"></div>
+<script>
+const fmt=t=>new Date(t).toLocaleString('es-MX',{timeZone:'America/Denver',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('upd').textContent=fmt(d.updated);
+d.searches.forEach(s=>{const h=s.history,cur=h[h.length-1].price,low=Math.min(s.baseline??Infinity,...h.map(x=>x.price));
+let ch='—',cl='';for(let i=h.length-1;i>0;i--){if(h[i].price!==h[i-1].price){const df=h[i].price-h[i-1].price;ch=(df>0?'+':'−')+'$'+Math.abs(df)+' ('+fmt(h[i].t)+')';cl=df>0?'up':'down';break}}
+const e=document.createElement('div');e.className='card';
+e.innerHTML=`<h2>${s.name}</h2><div class="g"><div><div class="k">Precio actual</div><div class="v">$${cur}</div><div class="k">${h[h.length-1].airline||''}</div></div>
+<div><div class="k">Más bajo visto</div><div class="v">$${low}</div></div><div><div class="k">Último cambio</div><div class="v ${cl}" style="font-size:.95em">${ch}</div></div></div>
+<canvas height="160"></canvas><a href="${s.url}" target="_blank" rel="noopener">Ver en Google Flights →</a>`;
+document.getElementById('c').appendChild(e);
+new Chart(e.querySelector('canvas'),{type:'line',data:{labels:h.map(x=>fmt(x.t)),datasets:[{label:'USD',data:h.map(x=>x.price),borderColor:'#1a73e8',tension:.2}]},options:{plugins:{legend:{display:false}}}})})});
+</script></body></html>
