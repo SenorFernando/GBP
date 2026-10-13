@@ -661,7 +661,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -691,7 +691,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
