@@ -8,6 +8,21 @@
    "baseline": 123,
    "history": [
     {
+     "t": "2026-10-10T09:20:00-06:00",
+     "price": 138,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-10T11:20:00-06:00",
+     "price": 138,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-11T10:12:00-06:00",
+     "price": 123,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T11:15:00-06:00",
      "price": 123,
      "airline": null
@@ -23,9 +38,19 @@
      "airline": null
     },
     {
+     "t": "2026-10-11T18:13:00-06:00",
+     "price": 144,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T19:15:00-06:00",
      "price": 122,
      "airline": null
+    },
+    {
+     "t": "2026-10-12T08:35:00-06:00",
+     "price": 139,
+     "airline": "Viva vía MTY"
     },
     {
      "t": "2026-10-12T12:30:00-06:00",
@@ -56,14 +81,39 @@
    "baseline": 243,
    "history": [
     {
+     "t": "2026-10-10T09:20:00-06:00",
+     "price": 355,
+     "airline": "Aeroméxico vía MEX"
+    },
+    {
+     "t": "2026-10-10T11:20:00-06:00",
+     "price": 355,
+     "airline": "Aeroméxico vía MEX"
+    },
+    {
+     "t": "2026-10-11T10:12:00-06:00",
+     "price": 251,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T11:15:00-06:00",
      "price": 251,
      "airline": null
     },
     {
+     "t": "2026-10-11T18:13:00-06:00",
+     "price": 251,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T19:15:00-06:00",
      "price": 251,
      "airline": null
+    },
+    {
+     "t": "2026-10-12T08:35:00-06:00",
+     "price": 235,
+     "airline": "Viva vía MTY"
     },
     {
      "t": "2026-10-12T09:40:00-06:00",
@@ -99,6 +149,21 @@
    "baseline": 405,
    "history": [
     {
+     "t": "2026-10-10T09:20:00-06:00",
+     "price": 405,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-10T11:20:00-06:00",
+     "price": 457,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-11T10:12:00-06:00",
+     "price": 445,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T11:15:00-06:00",
      "price": 445,
      "airline": null
@@ -109,9 +174,19 @@
      "airline": null
     },
     {
+     "t": "2026-10-11T18:13:00-06:00",
+     "price": 440,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T19:15:00-06:00",
      "price": 454,
      "airline": null
+    },
+    {
+     "t": "2026-10-12T08:35:00-06:00",
+     "price": 449,
+     "airline": "Viva vía MTY"
     },
     {
      "t": "2026-10-12T12:30:00-06:00",
@@ -142,6 +217,21 @@
    "baseline": 443,
    "history": [
     {
+     "t": "2026-10-10T09:20:00-06:00",
+     "price": 485,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-10T11:20:00-06:00",
+     "price": 485,
+     "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-11T10:12:00-06:00",
+     "price": 490,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T11:15:00-06:00",
      "price": 490,
      "airline": null
@@ -152,9 +242,19 @@
      "airline": null
     },
     {
+     "t": "2026-10-11T18:13:00-06:00",
+     "price": 485,
+     "airline": "Viva vía MTY"
+    },
+    {
      "t": "2026-10-11T19:15:00-06:00",
      "price": 485,
      "airline": null
+    },
+    {
+     "t": "2026-10-12T08:35:00-06:00",
+     "price": 489,
+     "airline": "Viva vía MTY"
     },
     {
      "t": "2026-10-12T12:30:00-06:00",
