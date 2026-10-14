@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:21:00-06:00",
+ "updated": "2026-10-13T21:26:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -151,10 +151,15 @@
      "t": "2026-10-13T20:21:00-06:00",
      "price": 138,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-13T21:26:00-06:00",
+     "price": 138,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T20:21:00-06:00",
+    "checked": "2026-10-13T21:26:00-06:00",
     "cheapest": {
      "price": 138,
      "airline": "Viva",
@@ -336,10 +341,15 @@
      "t": "2026-10-13T20:21:00-06:00",
      "price": 255,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-13T21:26:00-06:00",
+     "price": 255,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T20:21:00-06:00",
+    "checked": "2026-10-13T21:26:00-06:00",
     "cheapest": {
      "price": 255,
      "airline": "Viva",
@@ -526,10 +536,15 @@
      "t": "2026-10-13T20:21:00-06:00",
      "price": 465,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-13T21:26:00-06:00",
+     "price": 465,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T20:21:00-06:00",
+    "checked": "2026-10-13T21:26:00-06:00",
     "cheapest": {
      "price": 465,
      "airline": "Viva",
@@ -752,12 +767,17 @@
      "t": "2026-10-13T20:21:00-06:00",
      "price": 487,
      "airline": "Viva (boletos sep.)"
+    },
+    {
+     "t": "2026-10-13T21:26:00-06:00",
+     "price": 486,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-13T20:21:00-06:00",
+    "checked": "2026-10-13T21:26:00-06:00",
     "cheapest": {
-     "price": 487,
+     "price": 486,
      "airline": "Viva",
      "warnings": [
       "may not include overhead bin access",
@@ -787,7 +807,7 @@
      ]
     },
     "best": {
-     "price": 487,
+     "price": 486,
      "airline": "Viva",
      "warnings": [
       "may not include overhead bin access",
