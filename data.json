@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T13:21:00-06:00",
+ "updated": "2026-10-14T14:09:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -181,10 +181,15 @@
      "t": "2026-10-14T13:21:00-06:00",
      "price": 137,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T14:09:00-06:00",
+     "price": 137,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T13:21:00-06:00",
+    "checked": "2026-10-14T14:09:00-06:00",
     "cheapest": {
      "price": 137,
      "airline": "Viva",
@@ -396,10 +401,15 @@
      "t": "2026-10-14T13:21:00-06:00",
      "price": 251,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T14:09:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T13:21:00-06:00",
+    "checked": "2026-10-14T14:09:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
@@ -408,7 +418,7 @@
      ],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -430,7 +440,7 @@
      ],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -611,10 +621,15 @@
      "t": "2026-10-14T13:21:00-06:00",
      "price": 461,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T14:09:00-06:00",
+     "price": 461,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T13:21:00-06:00",
+    "checked": "2026-10-14T14:09:00-06:00",
     "cheapest": {
      "price": 461,
      "airline": "Viva",
@@ -867,10 +882,15 @@
      "t": "2026-10-14T13:21:00-06:00",
      "price": 483,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T14:09:00-06:00",
+     "price": 483,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T13:21:00-06:00",
+    "checked": "2026-10-14T14:09:00-06:00",
     "cheapest": {
      "price": 483,
      "airline": "Viva",
