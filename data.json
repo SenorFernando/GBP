@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T19:20:00-06:00",
+ "updated": "2026-10-14T20:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -211,16 +211,19 @@
      "t": "2026-10-14T19:20:00-06:00",
      "price": 138,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T20:20:00-06:00",
+     "price": 138,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T19:20:00-06:00",
+    "checked": "2026-10-14T20:20:00-06:00",
     "cheapest": {
      "price": 138,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -240,9 +243,7 @@
     "best": {
      "price": 138,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -456,16 +457,19 @@
      "t": "2026-10-14T19:20:00-06:00",
      "price": 251,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T20:20:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T19:20:00-06:00",
+    "checked": "2026-10-14T20:20:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Regreso",
@@ -483,11 +487,9 @@
      ]
     },
     "best": {
-     "price": 263,
+     "price": 265,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Regreso",
@@ -701,16 +703,19 @@
      "t": "2026-10-14T19:20:00-06:00",
      "price": 408,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T20:20:00-06:00",
+     "price": 408,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T19:20:00-06:00",
+    "checked": "2026-10-14T20:20:00-06:00",
     "cheapest": {
      "price": 408,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -743,9 +748,7 @@
     "best": {
      "price": 408,
      "airline": "Viva",
-     "warnings": [
-      "may not include overhead bin access"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -987,16 +990,20 @@
      "t": "2026-10-14T19:20:00-06:00",
      "price": 483,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-14T20:20:00-06:00",
+     "price": 484,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-14T19:20:00-06:00",
+    "checked": "2026-10-14T20:20:00-06:00",
     "cheapest": {
-     "price": 483,
+     "price": 484,
      "airline": "Viva",
      "warnings": [
-      "separate tickets",
-      "may not include overhead bin access"
+      "separate tickets"
      ],
      "legs": [
       {
@@ -1022,11 +1029,10 @@
      ]
     },
     "best": {
-     "price": 483,
+     "price": 484,
      "airline": "Viva",
      "warnings": [
-      "separate tickets",
-      "may not include overhead bin access"
+      "separate tickets"
      ],
      "legs": [
       {
