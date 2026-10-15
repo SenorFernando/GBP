@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T06:18:00-06:00",
+ "updated": "2026-10-15T07:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -231,10 +231,15 @@
      "t": "2026-10-15T06:18:00-06:00",
      "price": 137,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T07:15:00-06:00",
+     "price": 137,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T06:18:00-06:00",
+    "checked": "2026-10-15T07:15:00-06:00",
     "cheapest": {
      "price": 137,
      "airline": "Viva",
@@ -492,17 +497,22 @@
      "t": "2026-10-15T06:18:00-06:00",
      "price": 251,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T07:15:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T06:18:00-06:00",
+    "checked": "2026-10-15T07:15:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -517,12 +527,12 @@
      ]
     },
     "best": {
-     "price": 265,
+     "price": 262,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -753,26 +763,31 @@
      "t": "2026-10-15T06:18:00-06:00",
      "price": 438,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T07:15:00-06:00",
+     "price": 461,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T06:18:00-06:00",
+    "checked": "2026-10-15T07:15:00-06:00",
     "cheapest": {
-     "price": 438,
+     "price": 461,
      "airline": "Viva",
      "warnings": [
-      "self transfer / separate bookings"
+      "Google muestra 'from $438' pero ese itinerario no cargó; se usa la reserva única más barata visible"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -780,12 +795,12 @@
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -793,21 +808,19 @@
      ]
     },
     "best": {
-     "price": 492,
+     "price": 467,
      "airline": "Viva",
-     "warnings": [
-      "self transfer / separate bookings"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -1059,15 +1072,20 @@
      "t": "2026-10-15T06:18:00-06:00",
      "price": 500,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T07:15:00-06:00",
+     "price": 500,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T06:18:00-06:00",
+    "checked": "2026-10-15T07:15:00-06:00",
     "cheapest": {
      "price": 500,
      "airline": "Viva",
      "warnings": [
-      "separate tickets"
+      "self transfer / separate bookings"
      ],
      "legs": [
       {
@@ -1096,7 +1114,7 @@
      "price": 500,
      "airline": "Viva",
      "warnings": [
-      "separate tickets"
+      "self transfer / separate bookings"
      ],
      "legs": [
       {
