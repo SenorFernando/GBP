@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T16:16:00-06:00",
+ "updated": "2026-10-15T17:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -281,10 +281,15 @@
      "t": "2026-10-15T16:16:00-06:00",
      "price": 142,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T17:15:00-06:00",
+     "price": 142,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T16:16:00-06:00",
+    "checked": "2026-10-15T17:15:00-06:00",
     "cheapest": {
      "price": 142,
      "airline": "Viva",
@@ -592,10 +597,15 @@
      "t": "2026-10-15T16:16:00-06:00",
      "price": 251,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T17:15:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T16:16:00-06:00",
+    "checked": "2026-10-15T17:15:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
@@ -617,7 +627,7 @@
      ]
     },
     "best": {
-     "price": 270,
+     "price": 267,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -903,15 +913,20 @@
      "t": "2026-10-15T16:16:00-06:00",
      "price": 438,
      "airline": "Viva from-price"
+    },
+    {
+     "t": "2026-10-15T17:15:00-06:00",
+     "price": 429,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T16:16:00-06:00",
+    "checked": "2026-10-15T17:15:00-06:00",
     "cheapest": {
-     "price": 438,
+     "price": 429,
      "airline": "Viva",
      "warnings": [
-      "from-price; listed RT $522; Select flight return failed with carry-on filter"
+      "from-price; Select flight failed, return not captured"
      ],
      "legs": [
       {
@@ -927,31 +942,29 @@
         }
        ]
       }
-     ],
-     "note": "Best outbound listed $522: 6:20 AM–6:12 PM MTY 8h37 daytime"
+     ]
     },
     "best": {
-     "price": 438,
+     "price": 429,
      "airline": "Viva",
      "warnings": [
-      "from-price; listed RT $522; Select flight return failed with carry-on filter"
+      "from-price; return not captured"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM CUL",
-       "duration": "16 h 17 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
-     ],
-     "note": "Best outbound listed $522: 6:20 AM–6:12 PM MTY 8h37 daytime"
+     ]
     }
    }
   },
@@ -1235,15 +1248,20 @@
      "t": "2026-10-15T16:16:00-06:00",
      "price": 583,
      "airline": "Viva boletos separados"
+    },
+    {
+     "t": "2026-10-15T17:15:00-06:00",
+     "price": 582,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T16:16:00-06:00",
+    "checked": "2026-10-15T17:15:00-06:00",
     "cheapest": {
-     "price": 583,
+     "price": 582,
      "airline": "Viva",
      "warnings": [
-      "separate tickets"
+      "from-price; return not captured this run"
      ],
      "legs": [
       {
@@ -1258,38 +1276,32 @@
          "overnight": true
         }
        ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "nonstop",
-       "stops": []
       }
-     ]
+     ],
+     "note": "Nonstop outbound 11:10 AM–12:54 PM MZT listed at $590"
     },
     "best": {
-     "price": 590,
+     "price": 582,
      "airline": "Viva",
      "warnings": [
-      "separate tickets"
+      "from-price; return not captured this run"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "2 h 44 min",
-       "stops": []
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "nonstop",
-       "stops": []
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM MZT",
+       "duration": "12 h 27 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "8 h 15 min",
+         "overnight": true
+        }
+       ]
       }
-     ]
+     ],
+     "note": "Nonstop outbound 11:10 AM–12:54 PM MZT listed at $590"
     }
    }
   }
