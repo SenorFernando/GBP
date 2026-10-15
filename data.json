@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T15:17:00-06:00",
+ "updated": "2026-10-15T16:16:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -276,10 +276,15 @@
      "t": "2026-10-15T15:17:00-06:00",
      "price": 142,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T16:16:00-06:00",
+     "price": 142,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T15:17:00-06:00",
+    "checked": "2026-10-15T16:16:00-06:00",
     "cheapest": {
      "price": 142,
      "airline": "Viva",
@@ -288,7 +293,7 @@
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "arrive": "7:02 AM CUL",
        "duration": "16 h 17 min",
        "stops": [
         {
@@ -308,7 +313,7 @@
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "arrive": "7:02 AM CUL",
        "duration": "16 h 17 min",
        "stops": [
         {
@@ -582,10 +587,15 @@
      "t": "2026-10-15T15:17:00-06:00",
      "price": 251,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T16:16:00-06:00",
+     "price": 251,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T15:17:00-06:00",
+    "checked": "2026-10-15T16:16:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
@@ -594,7 +604,7 @@
       {
        "label": "Ida",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
+       "arrive": "3:02 PM CJS",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -607,7 +617,7 @@
      ]
     },
     "best": {
-     "price": 267,
+     "price": 270,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -888,21 +898,26 @@
      "t": "2026-10-15T15:17:00-06:00",
      "price": 438,
      "airline": "Viva from-price"
+    },
+    {
+     "t": "2026-10-15T16:16:00-06:00",
+     "price": 438,
+     "airline": "Viva from-price"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T15:17:00-06:00",
+    "checked": "2026-10-15T16:16:00-06:00",
     "cheapest": {
      "price": 438,
      "airline": "Viva",
      "warnings": [
-      "from-price; RT select failed with carry-on filter; list $522"
+      "from-price; listed RT $522; Select flight return failed with carry-on filter"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "arrive": "7:02 AM CUL",
        "duration": "16 h 17 min",
        "stops": [
         {
@@ -912,29 +927,31 @@
         }
        ]
       }
-     ]
+     ],
+     "note": "Best outbound listed $522: 6:20 AM–6:12 PM MTY 8h37 daytime"
     },
     "best": {
-     "price": 522,
+     "price": 438,
      "airline": "Viva",
      "warnings": [
-      "RT select failed with carry-on filter; return not seen"
+      "from-price; listed RT $522; Select flight return failed with carry-on filter"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "2:45 PM CJS",
+       "arrive": "7:02 AM CUL",
+       "duration": "16 h 17 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "12 h 55 min",
+         "overnight": true
         }
        ]
       }
-     ]
+     ],
+     "note": "Best outbound listed $522: 6:20 AM–6:12 PM MTY 8h37 daytime"
     }
    }
   },
@@ -1213,21 +1230,26 @@
      "t": "2026-10-15T15:17:00-06:00",
      "price": 583,
      "airline": "Viva boletos separados"
+    },
+    {
+     "t": "2026-10-15T16:16:00-06:00",
+     "price": 583,
+     "airline": "Viva boletos separados"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T15:17:00-06:00",
+    "checked": "2026-10-15T16:16:00-06:00",
     "cheapest": {
      "price": 583,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "separate tickets"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
+       "arrive": "6:52 AM MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -1241,7 +1263,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "~2 h 43 min",
+       "duration": "nonstop",
        "stops": []
       }
      ]
@@ -1249,13 +1271,22 @@
     "best": {
      "price": 590,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "separate tickets"
+     ],
      "legs": [
       {
        "label": "Ida",
        "depart": "11:10 AM CJS",
        "arrive": "12:54 PM MZT",
        "duration": "2 h 44 min",
+       "stops": []
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "nonstop",
        "stops": []
       }
      ]
