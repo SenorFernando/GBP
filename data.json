@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:15:00-06:00",
+ "updated": "2026-10-15T13:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -261,10 +261,15 @@
      "t": "2026-10-15T12:15:00-06:00",
      "price": 142,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T13:15:00-06:00",
+     "price": 142,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T12:15:00-06:00",
+    "checked": "2026-10-15T13:15:00-06:00",
     "cheapest": {
      "price": 142,
      "airline": "Viva vía MTY",
@@ -552,17 +557,22 @@
      "t": "2026-10-15T12:15:00-06:00",
      "price": 251,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T13:15:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T12:15:00-06:00",
+    "checked": "2026-10-15T13:15:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva vía MTY",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 hr 34 min",
@@ -577,12 +587,12 @@
      ]
     },
     "best": {
-     "price": 267,
+     "price": 270,
      "airline": "Viva vía MTY",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 hr 32 min",
@@ -843,15 +853,20 @@
      "t": "2026-10-15T12:15:00-06:00",
      "price": 438,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T13:15:00-06:00",
+     "price": 430,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T12:15:00-06:00",
+    "checked": "2026-10-15T13:15:00-06:00",
     "cheapest": {
-     "price": 438,
+     "price": 430,
      "airline": "Viva vía MTY",
      "warnings": [
-      "Precio 'from $438' del encabezado; lista muestra $523 RT",
+      "Precio 'from $430' del encabezado; la lista alternó entre $430 y $522 RT",
       "No se pudo seleccionar regreso (sin resultados con filtro carry-on tras Select flight)"
      ],
      "legs": [
@@ -871,10 +886,11 @@
      ]
     },
     "best": {
-     "price": 523,
+     "price": 430,
      "airline": "Viva vía MTY",
      "warnings": [
-      "Regreso no disponible (selección RT falló)"
+      "Regreso no disponible (selección RT falló)",
+      "Lista alternó entre $430 y $522 RT"
      ],
      "legs": [
       {
@@ -1154,26 +1170,32 @@
      "t": "2026-10-15T12:15:00-06:00",
      "price": 584,
      "airline": "Viva vía MTY / directo"
+    },
+    {
+     "t": "2026-10-15T13:15:00-06:00",
+     "price": 583,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T12:15:00-06:00",
+    "checked": "2026-10-15T13:15:00-06:00",
     "cheapest": {
-     "price": 584,
+     "price": 583,
      "airline": "Viva vía MTY / directo",
      "warnings": [
-      "Separate tickets"
+      "Separate tickets",
+      "Encabezado muestra 'from $478' pero la lista más baja es $583"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
+       "depart": "2:45 PM CJS",
        "arrive": "6:52 AM+1 MZT",
-       "duration": "12 hr 27 min",
+       "duration": "17 hr 7 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 hr 15 min",
+         "layover": "12 hr 55 min",
          "overnight": true
         }
        ]
@@ -1182,13 +1204,13 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 591,
+     "price": 590,
      "airline": "Viva directo",
      "warnings": [
       "Separate tickets"
@@ -1205,7 +1227,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
