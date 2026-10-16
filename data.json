@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:16:00-06:00",
+ "updated": "2026-10-15T22:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -306,10 +306,15 @@
      "t": "2026-10-15T21:16:00-06:00",
      "price": 143,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T22:15:00-06:00",
+     "price": 143,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T21:16:00-06:00",
+    "checked": "2026-10-15T22:15:00-06:00",
     "cheapest": {
      "price": 143,
      "airline": "Viva",
@@ -318,7 +323,7 @@
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM CUL",
+       "arrive": "7:02 AM CUL (+1)",
        "duration": "16 h 17 min",
        "stops": [
         {
@@ -338,7 +343,7 @@
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM CUL",
+       "arrive": "7:02 AM CUL (+1)",
        "duration": "16 h 17 min",
        "stops": [
         {
@@ -642,19 +647,24 @@
      "t": "2026-10-15T21:16:00-06:00",
      "price": 251,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-15T22:15:00-06:00",
+     "price": 251,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T21:16:00-06:00",
+    "checked": "2026-10-15T22:15:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM CJS",
+       "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -667,12 +677,12 @@
      ]
     },
     "best": {
-     "price": 289,
+     "price": 270,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -978,49 +988,54 @@
      "t": "2026-10-15T21:16:00-06:00",
      "price": 439,
      "airline": "Viva from-price"
+    },
+    {
+     "t": "2026-10-15T22:15:00-06:00",
+     "price": 439,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T21:16:00-06:00",
+    "checked": "2026-10-15T22:15:00-06:00",
     "cheapest": {
      "price": 439,
      "airline": "Viva",
      "warnings": [
-      "from-price; listed $566; RT select vacío con filtro carry-on"
+      "from-price; menor listado $482 (ida 7:25 PM); regreso no capturado"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM CUL (+1)",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 439,
+     "price": 482,
      "airline": "Viva",
      "warnings": [
-      "from-price; listed $566; RT select vacío con filtro carry-on"
+      "regreso no capturado"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM CUL (+1)",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -1333,10 +1348,15 @@
      "t": "2026-10-15T21:16:00-06:00",
      "price": 582,
      "airline": "Viva boletos separados"
+    },
+    {
+     "t": "2026-10-15T22:15:00-06:00",
+     "price": 582,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T21:16:00-06:00",
+    "checked": "2026-10-15T22:15:00-06:00",
     "cheapest": {
      "price": 582,
      "airline": "Viva",
