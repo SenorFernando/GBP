@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T17:15:00-06:00",
+ "updated": "2026-10-15T18:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -286,12 +286,17 @@
      "t": "2026-10-15T17:15:00-06:00",
      "price": 142,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T18:18:00-06:00",
+     "price": 143,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T17:15:00-06:00",
+    "checked": "2026-10-15T18:18:00-06:00",
     "cheapest": {
-     "price": 142,
+     "price": 143,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -311,7 +316,7 @@
      ]
     },
     "best": {
-     "price": 142,
+     "price": 143,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -602,10 +607,15 @@
      "t": "2026-10-15T17:15:00-06:00",
      "price": 251,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T18:18:00-06:00",
+     "price": 251,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T17:15:00-06:00",
+    "checked": "2026-10-15T18:18:00-06:00",
     "cheapest": {
      "price": 251,
      "airline": "Viva",
@@ -627,7 +637,7 @@
      ]
     },
     "best": {
-     "price": 267,
+     "price": 289,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -918,10 +928,15 @@
      "t": "2026-10-15T17:15:00-06:00",
      "price": 429,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T18:18:00-06:00",
+     "price": 429,
+     "airline": "Viva from-price"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T17:15:00-06:00",
+    "checked": "2026-10-15T18:18:00-06:00",
     "cheapest": {
      "price": 429,
      "airline": "Viva",
@@ -931,13 +946,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -945,10 +960,10 @@
      ]
     },
     "best": {
-     "price": 429,
+     "price": 522,
      "airline": "Viva",
      "warnings": [
-      "from-price; return not captured"
+      "listed outbound; return not captured"
      ],
      "legs": [
       {
@@ -1253,15 +1268,20 @@
      "t": "2026-10-15T17:15:00-06:00",
      "price": 582,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-15T18:18:00-06:00",
+     "price": 582,
+     "airline": "Viva boletos separados"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-15T17:15:00-06:00",
+    "checked": "2026-10-15T18:18:00-06:00",
     "cheapest": {
      "price": 582,
      "airline": "Viva",
      "warnings": [
-      "from-price; return not captured this run"
+      "separate tickets"
      ],
      "legs": [
       {
@@ -1276,32 +1296,38 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "nonstop",
+       "stops": []
       }
-     ],
-     "note": "Nonstop outbound 11:10 AM–12:54 PM MZT listed at $590"
+     ]
     },
     "best": {
-     "price": 582,
+     "price": 590,
      "airline": "Viva",
      "warnings": [
-      "from-price; return not captured this run"
+      "separate tickets"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM MZT",
-       "duration": "12 h 27 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
-        }
-       ]
+       "depart": "11:10 AM CJS",
+       "arrive": "12:54 PM MZT",
+       "duration": "2 h 44 min",
+       "stops": []
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "nonstop",
+       "stops": []
       }
-     ],
-     "note": "Nonstop outbound 11:10 AM–12:54 PM MZT listed at $590"
+     ]
     }
    }
   }
