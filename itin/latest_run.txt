@@ -1,4 +1,4 @@
-A: $144 Viva via MTY overnight 16h17 (Best=same; also $157 daytime 8h37)
-B: $250 Viva via MTY overnight 17h34 (Best $289 daytime MTY 5h18; 1ª carga degradada, recuperada)
-C: $429 Viva from-price (ida 6:20 AM MTY 8h37 = Best outbound; RT select falló con carry-on; 1ª carga degradada, recuperada)
-D: $583 Viva boletos separados (ida 7:25 PM MTY 8h15 overnight; también $590 nonstop 11:10 AM)
+A: $143 Viva via MTY overnight 16h17 (Best=same; also $156 daytime 8h37)
+B: $250 Viva via MTY overnight 17h34 (Best $271 daytime MTY 5h18; 1ª carga se atoró, recargada)
+C: $439 Viva from-price (ida 6:20 AM MTY 8h37 = Best outbound, lista $520; RT select falló con carry-on; 1ª carga degradada, recuperada)
+D: $580 Viva (ida 7:25 PM MTY 8h15 overnight; también $588 nonstop 11:10 AM; regreso no abrió)
