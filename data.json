@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:13:00-06:00",
+ "updated": "2026-10-16T08:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -321,16 +321,19 @@
      "t": "2026-10-16T07:13:00-06:00",
      "price": 143,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T08:15:00-06:00",
+     "price": 143,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T07:13:00-06:00",
+    "checked": "2026-10-16T08:15:00-06:00",
     "cheapest": {
      "price": 143,
      "airline": "Viva",
-     "warnings": [
-      "overnight layover"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -350,9 +353,7 @@
     "best": {
      "price": 143,
      "airline": "Viva",
-     "warnings": [
-      "overnight layover"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -676,24 +677,29 @@
      "t": "2026-10-16T07:13:00-06:00",
      "price": 256,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T08:15:00-06:00",
+     "price": 250,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T07:13:00-06:00",
+    "checked": "2026-10-16T08:15:00-06:00",
     "cheapest": {
-     "price": 256,
+     "price": 250,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
        "label": "Ida",
        "depart": "9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 6 min",
+       "arrive": "3:02 PM+1 CJS",
+       "duration": "17 h 34 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "9 h 51 min",
+         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -701,7 +707,7 @@
      ]
     },
     "best": {
-     "price": 267,
+     "price": 271,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -1027,15 +1033,20 @@
      "t": "2026-10-16T07:13:00-06:00",
      "price": 439,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T08:15:00-06:00",
+     "price": 430,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T07:13:00-06:00",
+    "checked": "2026-10-16T08:15:00-06:00",
     "cheapest": {
-     "price": 439,
+     "price": 430,
      "airline": "Viva",
      "warnings": [
-      "from-price; Select flight falló con filtro carry-on; lista ida $523"
+      "from-price; Select flight OK tras reload"
      ],
      "legs": [
       {
@@ -1050,15 +1061,26 @@
          "overnight": false
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "3:02 PM+1 CJS",
+       "duration": "17 h 34 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "14 h 20 min",
+         "overnight": true
+        }
+       ]
       }
      ]
     },
     "best": {
-     "price": 523,
+     "price": 470,
      "airline": "Viva",
-     "warnings": [
-      "lista ida; Select flight falló con filtro carry-on"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -1069,6 +1091,19 @@
         {
          "airport": "MTY",
          "layover": "8 h 37 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "10:16 AM CUL",
+       "arrive": "6:48 PM CJS",
+       "duration": "8 h 32 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "5 h 18 min",
          "overnight": false
         }
        ]
@@ -1397,10 +1432,15 @@
      "t": "2026-10-16T07:13:00-06:00",
      "price": 584,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T08:15:00-06:00",
+     "price": 584,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T07:13:00-06:00",
+    "checked": "2026-10-16T08:15:00-06:00",
     "cheapest": {
      "price": 584,
      "airline": "Viva",
@@ -1434,8 +1474,7 @@
      "price": 591,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets",
-      "may not include overhead bin access"
+      "Separate tickets"
      ],
      "legs": [
       {
