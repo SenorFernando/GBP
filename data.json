@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T18:15:00-06:00",
+ "updated": "2026-10-16T19:17:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -376,10 +376,15 @@
      "t": "2026-10-16T18:15:00-06:00",
      "price": 161,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T19:17:00-06:00",
+     "price": 161,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T18:15:00-06:00",
+    "checked": "2026-10-16T19:17:00-06:00",
     "cheapest": {
      "price": 161,
      "airline": "Viva",
@@ -782,10 +787,15 @@
      "t": "2026-10-16T18:15:00-06:00",
      "price": 250,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T19:17:00-06:00",
+     "price": 250,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T18:15:00-06:00",
+    "checked": "2026-10-16T19:17:00-06:00",
     "cheapest": {
      "price": 250,
      "airline": "Viva",
@@ -1188,37 +1198,31 @@
      "t": "2026-10-16T18:15:00-06:00",
      "price": 428,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T19:17:00-06:00",
+     "price": 484,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T18:15:00-06:00",
+    "checked": "2026-10-16T19:17:00-06:00",
     "cheapest": {
-     "price": 428,
+     "price": 484,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Precio 'desde' de la ida; el regreso no abrió con filtro carry-on"
+     ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -1226,32 +1230,21 @@
      ]
     },
     "best": {
-     "price": 428,
+     "price": 484,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Precio 'desde' de la ida; el regreso no abrió con filtro carry-on"
+     ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -1635,15 +1628,20 @@
      "t": "2026-10-16T18:15:00-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-16T19:17:00-06:00",
+     "price": 581,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-16T18:15:00-06:00",
+    "checked": "2026-10-16T19:17:00-06:00",
     "cheapest": {
      "price": 581,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -1663,7 +1661,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -1672,7 +1670,7 @@
      "price": 588,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Total ida y vuelta mostrado por Google; regreso no revisado"
      ],
      "legs": [
       {
@@ -1680,13 +1678,6 @@
        "depart": "11:10 AM CJS",
        "arrive": "12:54 PM MZT",
        "duration": "2 h 44 min",
-       "stops": []
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "43 min",
        "stops": []
       }
      ]

@@ -1,4 +1,4 @@
-A: $156 Viva vía MTY diurna 11h52 MTY 8h37 (Best=mismo; también $156 overnight 16h17)
+A: $161 Viva vía MTY diurna 11h52 MTY 8h37 (Best=mismo; también $161 overnight 16h17)
 B: $250 Viva vía MTY overnight 17h34 (Best $271 diurna MTY 5h18; 1ª carga degradada Aeroméxico $465, recargada)
-C: $428 Viva from-price (ida 6:20 AM MTY 8h37 = Best; regreso no abrió con carry-on; 1ª carga degradada $879)
-D: $581 Viva boletos separados (ida 7:25 PM MTY 8h15 overnight = Best, regreso nonstop 1:25 PM; nonstop ida $588)
+C: $484 Viva from-price (ida 7:25 PM MTY 8h15 overnight = Best; regreso no abrió con carry-on)
+D: $581 Viva boletos separados (ida 7:25 PM MTY 8h15 overnight, regreso nonstop 1:25 PM; Best nonstop ida $588)
