@@ -1,1 +1,1 @@
-{"cheapest":{"price":484,"airline":"Viva","warnings":["Regreso: 'No results' con filtro carry-on; total no confirmado"],"legs":[{"label":"Ida","depart":"7:25 PM CJS","arrive":"7:02 AM+1 CUL","duration":"11 h 37 min","stops":[{"airport":"MTY","layover":"8 h 15 min","overnight":true}]}]}}
+{"cheapest":{"price":433,"airline":"Viva","warnings":["Regreso: 'No results' con filtro carry-on; total no confirmado"],"legs":[{"label":"Ida","depart":"6:20 AM CJS","arrive":"6:12 PM CUL","duration":"11 h 52 min","stops":[{"airport":"MTY","layover":"8 h 37 min","overnight":false}]}]}}
