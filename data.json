@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T08:15:00-06:00",
+ "updated": "2026-10-17T09:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -411,10 +411,15 @@
      "t": "2026-10-17T08:15:00-06:00",
      "price": 161,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-17T09:15:00-06:00",
+     "price": 161,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T08:15:00-06:00",
+    "checked": "2026-10-17T09:15:00-06:00",
     "cheapest": {
      "price": 161,
      "airline": "Viva",
@@ -852,24 +857,29 @@
      "t": "2026-10-17T08:15:00-06:00",
      "price": 250,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-17T09:15:00-06:00",
+     "price": 257,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T08:15:00-06:00",
+    "checked": "2026-10-17T09:15:00-06:00",
     "cheapest": {
-     "price": 250,
+     "price": 257,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -877,19 +887,19 @@
      ]
     },
     "best": {
-     "price": 250,
+     "price": 257,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -1288,14 +1298,21 @@
      "t": "2026-10-17T07:20:00-06:00",
      "price": 427,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-17T09:15:00-06:00",
+     "price": 427,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T07:20:00-06:00",
+    "checked": "2026-10-17T09:15:00-06:00",
     "cheapest": {
      "price": 427,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Regreso no cargó con carry-on; precio desde"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1307,19 +1324,6 @@
          "airport": "MTY",
          "layover": "8 h 37 min",
          "overnight": false
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
-         "overnight": true
         }
        ]
       }
@@ -1328,7 +1332,9 @@
     "best": {
      "price": 427,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Regreso no cargó con carry-on; precio desde"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1340,19 +1346,6 @@
          "airport": "MTY",
          "layover": "8 h 37 min",
          "overnight": false
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
-         "overnight": true
         }
        ]
       }
@@ -1770,10 +1763,15 @@
      "t": "2026-10-17T08:15:00-06:00",
      "price": 581,
      "airline": "Viva (boletos separados)"
+    },
+    {
+     "t": "2026-10-17T09:15:00-06:00",
+     "price": 581,
+     "airline": "Viva (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T08:15:00-06:00",
+    "checked": "2026-10-17T09:15:00-06:00",
     "cheapest": {
      "price": 581,
      "airline": "Viva",
@@ -1804,10 +1802,10 @@
      ]
     },
     "best": {
-     "price": 588,
+     "price": 604,
      "airline": "Viva",
      "warnings": [
-      "Regreso no cargó; precio desde"
+      "Regreso no consultado; precio redondo"
      ],
      "legs": [
       {
