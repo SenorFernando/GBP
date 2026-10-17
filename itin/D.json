@@ -1,1 +1,54 @@
-{"cheapest":{"price":581,"airline":"Viva Aerobus","warnings":["Boletos separados"],"legs":[{"label":"Ida","depart":"7:25 PM CJS","arrive":"6:52 AM+1 MZT","duration":"12 h 27 min","stops":[{"airport":"MTY","layover":"8 h 15 min","overnight":true}]},{"label":"Regreso","depart":"1:25 PM MZT","arrive":"3:08 PM CJS","duration":"Directo","stops":[]}]},"best":{"price":604,"airline":"Viva Aerobus","warnings":["Boletos separados"],"legs":[{"label":"Ida","depart":"11:10 AM CJS","arrive":"12:54 PM MZT","duration":"2 h 44 min","stops":[]},{"label":"Regreso","depart":"1:25 PM MZT","arrive":"3:08 PM CJS","duration":"Directo","stops":[]}]}}
+{
+ "cheapest": {
+  "price": 581,
+  "airline": "Viva Aerobus",
+  "warnings": [
+   "Boletos separados"
+  ],
+  "legs": [
+   {
+    "label": "Ida",
+    "depart": "7:25 PM CJS",
+    "arrive": "6:52 AM+1 MZT",
+    "duration": "12 h 27 min",
+    "stops": [
+     {
+      "airport": "MTY",
+      "layover": "8 h 15 min",
+      "overnight": true
+     }
+    ]
+   },
+   {
+    "label": "Regreso",
+    "depart": "1:25 PM MZT",
+    "arrive": "3:08 PM CJS",
+    "duration": "Directo",
+    "stops": []
+   }
+  ]
+ },
+ "best": {
+  "price": 604,
+  "airline": "Viva Aerobus",
+  "warnings": [
+   "Boletos separados"
+  ],
+  "legs": [
+   {
+    "label": "Ida",
+    "depart": "11:10 AM CJS",
+    "arrive": "12:54 PM MZT",
+    "duration": "2 h 44 min",
+    "stops": []
+   },
+   {
+    "label": "Regreso",
+    "depart": "1:25 PM MZT",
+    "arrive": "3:08 PM CJS",
+    "duration": "Directo",
+    "stops": []
+   }
+  ]
+ }
+}

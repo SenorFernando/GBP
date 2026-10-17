@@ -1,1 +1,24 @@
-{"cheapest":{"price":433,"airline":"Viva Aerobus","warnings":["Precio 'desde' del encabezado; la ida más barata listada era $577 (7:25 PM, MTY 8h15 nocturna) y el regreso no mostró opciones con el filtro de equipaje de mano"],"legs":[{"label":"Ida","depart":"7:25 PM CJS","arrive":"7:02 AM+1 CUL","duration":"11 h 37 min","stops":[{"airport":"MTY","layover":"8 h 15 min","overnight":true}]}]}}
+{
+ "cheapest": {
+  "price": 472,
+  "airline": "Viva Aerobus",
+  "warnings": [
+   "Precio 'desde' del encabezado; la ida más barata listada era $552 (6:20 AM, MTY 8h37 diurna) y el regreso no mostró opciones con el filtro de equipaje de mano"
+  ],
+  "legs": [
+   {
+    "label": "Ida",
+    "depart": "6:20 AM CJS",
+    "arrive": "6:12 PM CUL",
+    "duration": "11 h 52 min",
+    "stops": [
+     {
+      "airport": "MTY",
+      "layover": "8 h 37 min",
+      "overnight": false
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,1 +1,22 @@
-{"cheapest":{"price":256,"airline":"Viva Aerobus","warnings":[],"legs":[{"label":"Regreso","depart":"9:28 PM CUL","arrive":"3:02 PM+1 CJS","duration":"17 h 34 min","stops":[{"airport":"MTY","layover":"14 h 20 min","overnight":true}]}]}}
+{
+ "cheapest": {
+  "price": 256,
+  "airline": "Viva Aerobus",
+  "warnings": [],
+  "legs": [
+   {
+    "label": "Regreso",
+    "depart": "9:28 PM CUL",
+    "arrive": "3:02 PM+1 CJS",
+    "duration": "17 h 34 min",
+    "stops": [
+     {
+      "airport": "MTY",
+      "layover": "14 h 20 min",
+      "overnight": true
+     }
+    ]
+   }
+  ]
+ }
+}
