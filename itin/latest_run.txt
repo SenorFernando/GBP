@@ -1,4 +1,4 @@
-A: $161 Viva vía MTY diurna 11h52 MTY 8h37 (Best=mismo)
-B: $256 Viva vía MTY overnight 17h34 MTY 14h20 (Best=mismo; $257 MTY 9h51; diurno $268 MTY 5h18)
-C: $433 Viva (ida 6:20 AM MTY 8h37 diurna; regreso sin opciones con carry-on)
+A: $161 Viva vía MTY diurna 11h52 MTY 8h37 (Best=mismo; también $161 2:45 PM MTY 12h55 overnight)
+B: $256 Viva vía MTY overnight 17h34 MTY 14h20 (Best=mismo; $263 diurno MTY 5h18; $263 MTY 9h51)
+C: $433 Viva from-price (ida listada desde $577 7:25 PM MTY 8h15 overnight; regreso sin opciones con carry-on)
 D: $581 Viva boletos separados (ida 7:25 PM MTY 8h15 overnight, regreso nonstop 1:25 PM; Best nonstop $604)
