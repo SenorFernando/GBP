@@ -1,1 +1,1 @@
-{"cheapest":{"price":257,"airline":"Viva","warnings":[],"legs":[{"label":"Ida","depart":"9:28 PM CUL","arrive":"10:34 AM+1 CJS","duration":"13 h 6 min","stops":[{"airport":"MTY","layover":"9 h 51 min","overnight":true}]}]}}
+{"cheapest":{"price":260,"airline":"Viva","warnings":[],"legs":[{"label":"Ida","depart":"9:28 PM CUL","arrive":"10:34 AM+1 CJS","duration":"13 h 6 min","stops":[{"airport":"MTY","layover":"9 h 51 min","overnight":true}]}]}}

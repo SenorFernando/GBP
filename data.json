@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:16:00-06:00",
+ "updated": "2026-10-17T13:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -431,10 +431,15 @@
      "t": "2026-10-17T12:16:00-06:00",
      "price": 161,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-17T13:15:00-06:00",
+     "price": 161,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T12:16:00-06:00",
+    "checked": "2026-10-17T13:15:00-06:00",
     "cheapest": {
      "price": 161,
      "airline": "Viva",
@@ -892,12 +897,17 @@
      "t": "2026-10-17T12:16:00-06:00",
      "price": 257,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-17T13:15:00-06:00",
+     "price": 260,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T12:16:00-06:00",
+    "checked": "2026-10-17T13:15:00-06:00",
     "cheapest": {
-     "price": 257,
+     "price": 260,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -917,7 +927,7 @@
      ]
     },
     "best": {
-     "price": 257,
+     "price": 260,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -1343,10 +1353,15 @@
      "t": "2026-10-17T12:16:00-06:00",
      "price": 433,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-17T13:15:00-06:00",
+     "price": 433,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T12:16:00-06:00",
+    "checked": "2026-10-17T13:15:00-06:00",
     "cheapest": {
      "price": 433,
      "airline": "Viva",
@@ -1823,10 +1838,15 @@
      "t": "2026-10-17T12:16:00-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-17T13:15:00-06:00",
+     "price": 581,
+     "airline": "Viva (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T12:16:00-06:00",
+    "checked": "2026-10-17T13:15:00-06:00",
     "cheapest": {
      "price": 581,
      "airline": "Viva",
