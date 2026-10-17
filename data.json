@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T16:18:00-06:00",
+ "updated": "2026-10-17T17:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -451,10 +451,15 @@
      "t": "2026-10-17T16:18:00-06:00",
      "price": 161,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-17T17:15:00-06:00",
+     "price": 161,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T16:18:00-06:00",
+    "checked": "2026-10-17T17:15:00-06:00",
     "cheapest": {
      "price": 161,
      "airline": "Viva Aerobus",
@@ -932,10 +937,15 @@
      "t": "2026-10-17T16:18:00-06:00",
      "price": 256,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-17T17:15:00-06:00",
+     "price": 256,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T16:18:00-06:00",
+    "checked": "2026-10-17T17:15:00-06:00",
     "cheapest": {
      "price": 256,
      "airline": "Viva Aerobus",
@@ -1403,27 +1413,32 @@
      "t": "2026-10-17T16:18:00-06:00",
      "price": 472,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-17T17:15:00-06:00",
+     "price": 472,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T16:18:00-06:00",
+    "checked": "2026-10-17T17:15:00-06:00",
     "cheapest": {
      "price": 472,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Precio 'desde' del encabezado; la ida más barata listada era $552 (6:20 AM, MTY 8h37 diurna) y el regreso no mostró opciones con el filtro de equipaje de mano"
+      "Precio 'desde' del encabezado; la ida más barata listada era $490 (7:25 PM, MTY 8h15 overnight) y el regreso no mostró opciones con el filtro de equipaje de mano"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -1433,19 +1448,19 @@
      "price": 472,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Precio 'desde' del encabezado; la ida más barata listada era $552 (6:20 AM, MTY 8h37 diurna) y el regreso no mostró opciones con el filtro de equipaje de mano"
+      "Precio 'desde' del encabezado; la ida más barata listada era $490 (7:25 PM, MTY 8h15 overnight) y el regreso no mostró opciones con el filtro de equipaje de mano"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -1903,12 +1918,17 @@
      "t": "2026-10-17T16:18:00-06:00",
      "price": 581,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-17T17:15:00-06:00",
+     "price": 571,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T16:18:00-06:00",
+    "checked": "2026-10-17T17:15:00-06:00",
     "cheapest": {
-     "price": 581,
+     "price": 571,
      "airline": "Viva Aerobus",
      "warnings": [
       "Boletos separados"
@@ -1937,7 +1957,7 @@
      ]
     },
     "best": {
-     "price": 604,
+     "price": 594,
      "airline": "Viva Aerobus",
      "warnings": [
       "Boletos separados"

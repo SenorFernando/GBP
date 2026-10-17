@@ -1,6 +1,6 @@
 {
  "cheapest": {
-  "price": 581,
+  "price": 571,
   "airline": "Viva Aerobus",
   "warnings": [
    "Boletos separados"
@@ -29,7 +29,7 @@
   ]
  },
  "best": {
-  "price": 604,
+  "price": 594,
   "airline": "Viva Aerobus",
   "warnings": [
    "Boletos separados"
