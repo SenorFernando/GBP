@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T11:20:00-06:00",
+ "updated": "2026-10-18T12:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -511,12 +511,17 @@
      "t": "2026-10-18T11:20:00-06:00",
      "price": 116,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-18T12:15:00-06:00",
+     "price": 108,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T11:20:00-06:00",
+    "checked": "2026-10-18T12:15:00-06:00",
     "cheapest": {
-     "price": 116,
+     "price": 108,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -536,7 +541,7 @@
      ]
     },
     "best": {
-     "price": 116,
+     "price": 108,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -1052,10 +1057,15 @@
      "t": "2026-10-18T11:20:00-06:00",
      "price": 250,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-18T12:15:00-06:00",
+     "price": 250,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T11:20:00-06:00",
+    "checked": "2026-10-18T12:15:00-06:00",
     "cheapest": {
      "price": 250,
      "airline": "Viva",
@@ -1102,7 +1112,7 @@
    "id": "C",
    "name": "Juárez ⇄ Culiacán (23 dic – 2 ene, redondo)",
    "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDQ1VMGh4SCjIwMjctMDEtMDJqBwgBEgNDVUxyBwgBEgNDSlNAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
-   "baseline": 405,
+   "baseline": 373,
    "history": [
     {
      "t": "2026-10-10T09:20:00-06:00",
@@ -1583,12 +1593,17 @@
      "t": "2026-10-18T11:20:00-06:00",
      "price": 456,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-18T12:15:00-06:00",
+     "price": 373,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T11:20:00-06:00",
+    "checked": "2026-10-18T12:15:00-06:00",
     "cheapest": {
-     "price": 456,
+     "price": 373,
      "airline": "Viva",
      "warnings": [
       "precio 'desde'; regreso sin resultados con carry-on"
@@ -1596,13 +1611,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
+       "depart": "2:45 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "duration": "16 h 17 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "12 h 55 min",
          "overnight": true
         }
        ]
@@ -1610,7 +1625,7 @@
      ]
     },
     "best": {
-     "price": 456,
+     "price": 373,
      "airline": "Viva",
      "warnings": [
       "precio 'desde'; regreso sin resultados con carry-on"
@@ -1618,13 +1633,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
+       "depart": "2:45 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "duration": "16 h 17 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "12 h 55 min",
          "overnight": true
         }
        ]
@@ -2143,10 +2158,15 @@
      "t": "2026-10-18T11:20:00-06:00",
      "price": 571,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T12:15:00-06:00",
+     "price": 571,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T11:20:00-06:00",
+    "checked": "2026-10-18T12:15:00-06:00",
     "cheapest": {
      "price": 571,
      "airline": "Viva",
