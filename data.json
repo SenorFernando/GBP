@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T13:20:00-06:00",
+ "updated": "2026-10-18T15:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -521,10 +521,15 @@
      "t": "2026-10-18T13:20:00-06:00",
      "price": 108,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T15:15:00-06:00",
+     "price": 108,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T13:20:00-06:00",
+    "checked": "2026-10-18T15:15:00-06:00",
     "cheapest": {
      "price": 108,
      "airline": "Viva",
@@ -1072,10 +1077,15 @@
      "t": "2026-10-18T13:20:00-06:00",
      "price": 250,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T15:15:00-06:00",
+     "price": 250,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T13:20:00-06:00",
+    "checked": "2026-10-18T15:15:00-06:00",
     "cheapest": {
      "price": 250,
      "airline": "Viva",
@@ -1613,15 +1623,20 @@
      "t": "2026-10-18T13:20:00-06:00",
      "price": 472,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T15:15:00-06:00",
+     "price": 472,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T13:20:00-06:00",
+    "checked": "2026-10-18T15:15:00-06:00",
     "cheapest": {
      "price": 472,
      "airline": "Viva",
      "warnings": [
-      "Precio 'desde' de la ida; el regreso con carry-on no muestra resultados"
+      "Regreso: 'No results' con carry-on; precio desde (solo ida listada)"
      ],
      "legs": [
       {
@@ -1643,7 +1658,7 @@
      "price": 472,
      "airline": "Viva",
      "warnings": [
-      "Precio 'desde' de la ida; el regreso con carry-on no muestra resultados"
+      "Regreso: 'No results' con carry-on; precio desde (solo ida listada)"
      ],
      "legs": [
       {
@@ -2183,10 +2198,15 @@
      "t": "2026-10-18T13:20:00-06:00",
      "price": 572,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T15:15:00-06:00",
+     "price": 572,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T13:20:00-06:00",
+    "checked": "2026-10-18T15:15:00-06:00",
     "cheapest": {
      "price": 572,
      "airline": "Viva",
