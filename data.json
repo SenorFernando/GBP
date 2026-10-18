@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:15:00-06:00",
+ "updated": "2026-10-17T21:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -471,10 +471,15 @@
      "t": "2026-10-17T20:15:00-06:00",
      "price": 127,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-17T21:15:00-06:00",
+     "price": 127,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T20:15:00-06:00",
+    "checked": "2026-10-17T21:15:00-06:00",
     "cheapest": {
      "price": 127,
      "airline": "Viva",
@@ -972,10 +977,15 @@
      "t": "2026-10-17T20:15:00-06:00",
      "price": 256,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-17T21:15:00-06:00",
+     "price": 256,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T20:15:00-06:00",
+    "checked": "2026-10-17T21:15:00-06:00",
     "cheapest": {
      "price": 256,
      "airline": "Viva",
@@ -1463,16 +1473,20 @@
      "t": "2026-10-17T20:15:00-06:00",
      "price": 433,
      "airline": "Viva from-price"
+    },
+    {
+     "t": "2026-10-17T21:15:00-06:00",
+     "price": 433,
+     "airline": "Viva from-price"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T20:15:00-06:00",
+    "checked": "2026-10-17T21:15:00-06:00",
     "cheapest": {
      "price": 433,
      "airline": "Viva",
      "warnings": [
-      "Precio 'desde'; regreso: No results con carry-on",
-      "3 de 4 cargas degradadas (solo Aeroméxico $832+)"
+      "Precio 'desde'; regreso: No results con carry-on"
      ],
      "legs": [
       {
@@ -1984,10 +1998,15 @@
      "t": "2026-10-17T20:15:00-06:00",
      "price": 571,
      "airline": "Viva boletos separados"
+    },
+    {
+     "t": "2026-10-17T21:15:00-06:00",
+     "price": 571,
+     "airline": "Viva boletos separados"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-17T20:15:00-06:00",
+    "checked": "2026-10-17T21:15:00-06:00",
     "cheapest": {
      "price": 571,
      "airline": "Viva",
@@ -1997,13 +2016,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "6:52 AM+1 MZT",
-       "duration": "17 h 07 min",
+       "duration": "12 h 27 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
