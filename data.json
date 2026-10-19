@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T10:40:00-06:00",
+ "updated": "2026-10-19T11:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -586,10 +586,15 @@
      "t": "2026-10-19T10:40:00-06:00",
      "price": 114,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T11:15:00-06:00",
+     "price": 114,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T10:40:00-06:00",
+    "checked": "2026-10-19T11:15:00-06:00",
     "cheapest": {
      "price": 114,
      "airline": "Viva",
@@ -1202,10 +1207,15 @@
      "t": "2026-10-19T10:40:00-06:00",
      "price": 254,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T11:15:00-06:00",
+     "price": 254,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T10:40:00-06:00",
+    "checked": "2026-10-19T11:15:00-06:00",
     "cheapest": {
      "price": 254,
      "airline": "Viva",
@@ -1808,10 +1818,15 @@
      "t": "2026-10-19T10:40:00-06:00",
      "price": 473,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T11:15:00-06:00",
+     "price": 473,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T10:40:00-06:00",
+    "checked": "2026-10-19T11:15:00-06:00",
     "cheapest": {
      "price": 473,
      "airline": "Viva",
@@ -2443,15 +2458,21 @@
      "t": "2026-10-19T10:40:00-06:00",
      "price": 583,
      "airline": "Viva boletos separados"
+    },
+    {
+     "t": "2026-10-19T11:15:00-06:00",
+     "price": 583,
+     "airline": "Viva boletos separados"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T10:40:00-06:00",
+    "checked": "2026-10-19T11:15:00-06:00",
     "cheapest": {
      "price": 583,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Separate tickets",
+      "This price may not include overhead bin access"
      ],
      "legs": [
       {
@@ -2480,7 +2501,7 @@
      "price": 622,
      "airline": "Viva",
      "warnings": [
-      "Regreso marcado Separate tickets"
+      "Regreso no confirmado en esta revisión"
      ],
      "legs": [
       {
@@ -2488,13 +2509,6 @@
        "depart": "11:10 AM CJS",
        "arrive": "12:54 PM MZT",
        "duration": "2 h 44 min",
-       "stops": []
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
        "stops": []
       }
      ]
