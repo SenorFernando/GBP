@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T06:15:00-06:00",
+ "updated": "2026-10-19T07:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -566,10 +566,15 @@
      "t": "2026-10-19T06:15:00-06:00",
      "price": 114,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T07:20:00-06:00",
+     "price": 114,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T06:15:00-06:00",
+    "checked": "2026-10-19T07:20:00-06:00",
     "cheapest": {
      "price": 114,
      "airline": "Viva",
@@ -1162,17 +1167,22 @@
      "t": "2026-10-19T06:15:00-06:00",
      "price": 248,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T07:20:00-06:00",
+     "price": 248,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T06:15:00-06:00",
+    "checked": "2026-10-19T07:20:00-06:00",
     "cheapest": {
      "price": 248,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -1192,7 +1202,7 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -1748,15 +1758,20 @@
      "t": "2026-10-19T06:15:00-06:00",
      "price": 472,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T07:20:00-06:00",
+     "price": 472,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T06:15:00-06:00",
+    "checked": "2026-10-19T07:20:00-06:00",
     "cheapest": {
      "price": 472,
      "airline": "Viva",
      "warnings": [
-      "Badge 'from $404' sin listado"
+      "Load completa $472; badge from $404 en otra carga; regreso 'No results' con carry-on en carga con from $404"
      ],
      "legs": [
       {
@@ -1791,7 +1806,7 @@
      "price": 472,
      "airline": "Viva",
      "warnings": [
-      "Badge 'from $404' sin listado"
+      "Load completa $472; badge from $404 en otra carga; regreso 'No results' con carry-on en carga con from $404"
      ],
      "legs": [
       {
@@ -2389,16 +2404,20 @@
      "t": "2026-10-19T06:15:00-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T07:20:00-06:00",
+     "price": 581,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T06:15:00-06:00",
+    "checked": "2026-10-19T07:20:00-06:00",
     "cheapest": {
      "price": 581,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados",
-      "Badge 'from $537' sin listado"
+      "Separate tickets"
      ],
      "legs": [
       {
@@ -2418,37 +2437,28 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "~1 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 581,
+     "price": 604,
      "airline": "Viva",
-     "warnings": [
-      "Boletos separados",
-      "Badge 'from $537' sin listado"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
-       "duration": "12 h 27 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
-        }
-       ]
+       "depart": "11:10 AM CJS",
+       "arrive": "12:54 PM MZT",
+       "duration": "2 h 44 min",
+       "stops": []
       },
       {
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "~1 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
