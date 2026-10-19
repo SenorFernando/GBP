@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:10:00-06:00",
+ "updated": "2026-10-19T13:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -596,14 +596,21 @@
      "t": "2026-10-19T12:10:00-06:00",
      "price": 108,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T13:15:00-06:00",
+     "price": 109,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T12:10:00-06:00",
+    "checked": "2026-10-19T13:15:00-06:00",
     "cheapest": {
-     "price": 108,
+     "price": 109,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "This price may not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -621,9 +628,11 @@
      ]
     },
     "best": {
-     "price": 108,
+     "price": 109,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "This price may not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1222,14 +1231,21 @@
      "t": "2026-10-19T12:10:00-06:00",
      "price": 254,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T13:15:00-06:00",
+     "price": 254,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T12:10:00-06:00",
+    "checked": "2026-10-19T13:15:00-06:00",
     "cheapest": {
      "price": 254,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "This price may not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -1249,7 +1265,9 @@
     "best": {
      "price": 254,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "This price may not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -1838,15 +1856,21 @@
      "t": "2026-10-19T12:10:00-06:00",
      "price": 473,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T13:15:00-06:00",
+     "price": 474,
+     "airline": "Viva (from-price)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T12:10:00-06:00",
+    "checked": "2026-10-19T13:15:00-06:00",
     "cheapest": {
-     "price": 473,
+     "price": 474,
      "airline": "Viva",
      "warnings": [
-      "Precio from del redondo; regreso 'No results' con carry-on tras elegir la ida, total no confirmado; encabezado from $411; A+B separados $362 más barato"
+      "This price may not include overhead bin access",
+      "Regreso: 'No results' con filtro carry-on; precio de ida (from-price)"
      ],
      "legs": [
       {
@@ -1865,10 +1889,11 @@
      ]
     },
     "best": {
-     "price": 473,
+     "price": 474,
      "airline": "Viva",
      "warnings": [
-      "Precio from del redondo; regreso 'No results' con carry-on tras elegir la ida, total no confirmado; encabezado from $411; A+B separados $362 más barato"
+      "This price may not include overhead bin access",
+      "Regreso: 'No results' con filtro carry-on; precio de ida (from-price)"
      ],
      "legs": [
       {
@@ -2483,15 +2508,21 @@
      "t": "2026-10-19T12:10:00-06:00",
      "price": 582,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T13:15:00-06:00",
+     "price": 583,
+     "airline": "Viva (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T12:10:00-06:00",
+    "checked": "2026-10-19T13:15:00-06:00",
     "cheapest": {
-     "price": 582,
+     "price": 583,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Separate tickets",
+      "This price may not include overhead bin access"
      ],
      "legs": [
       {
@@ -2520,7 +2551,8 @@
      "price": 622,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado en esta revisión"
+      "Separate tickets",
+      "This price may not include overhead bin access"
      ],
      "legs": [
       {
@@ -2528,6 +2560,13 @@
        "depart": "11:10 AM CJS",
        "arrive": "12:54 PM MZT",
        "duration": "2 h 44 min",
+       "stops": []
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
