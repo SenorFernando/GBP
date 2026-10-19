@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:20:00-06:00",
+ "updated": "2026-10-19T08:22:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -571,10 +571,15 @@
      "t": "2026-10-19T07:20:00-06:00",
      "price": 114,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T08:22:00-06:00",
+     "price": 114,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T07:20:00-06:00",
+    "checked": "2026-10-19T08:22:00-06:00",
     "cheapest": {
      "price": 114,
      "airline": "Viva",
@@ -1172,10 +1177,15 @@
      "t": "2026-10-19T07:20:00-06:00",
      "price": 248,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T08:22:00-06:00",
+     "price": 248,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T07:20:00-06:00",
+    "checked": "2026-10-19T08:22:00-06:00",
     "cheapest": {
      "price": 248,
      "airline": "Viva",
@@ -1763,15 +1773,20 @@
      "t": "2026-10-19T07:20:00-06:00",
      "price": 472,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T08:22:00-06:00",
+     "price": 473,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T07:20:00-06:00",
+    "checked": "2026-10-19T08:22:00-06:00",
     "cheapest": {
-     "price": 472,
+     "price": 473,
      "airline": "Viva",
      "warnings": [
-      "Load completa $472; badge from $404 en otra carga; regreso 'No results' con carry-on en carga con from $404"
+      "Precio from del redondo; regreso 'No results' con carry-on tras elegir la ida, total no confirmado; badge from $410 sin listado; A+B separados $362 más barato"
      ],
      "legs": [
       {
@@ -1783,19 +1798,6 @@
         {
          "airport": "MTY",
          "layover": "12 h 55 min",
-         "overnight": true
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -1803,10 +1805,10 @@
      ]
     },
     "best": {
-     "price": 472,
+     "price": 473,
      "airline": "Viva",
      "warnings": [
-      "Load completa $472; badge from $404 en otra carga; regreso 'No results' con carry-on en carga con from $404"
+      "Precio from del redondo; regreso 'No results' con carry-on tras elegir la ida, total no confirmado; badge from $410 sin listado; A+B separados $362 más barato"
      ],
      "legs": [
       {
@@ -1818,19 +1820,6 @@
         {
          "airport": "MTY",
          "layover": "12 h 55 min",
-         "overnight": true
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -2409,12 +2398,17 @@
      "t": "2026-10-19T07:20:00-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T08:22:00-06:00",
+     "price": 582,
+     "airline": "Viva boletos separados"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T07:20:00-06:00",
+    "checked": "2026-10-19T08:22:00-06:00",
     "cheapest": {
-     "price": 581,
+     "price": 582,
      "airline": "Viva",
      "warnings": [
       "Separate tickets"
@@ -2422,13 +2416,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
+       "depart": "2:45 PM CJS",
        "arrive": "6:52 AM+1 MZT",
-       "duration": "12 h 27 min",
+       "duration": "17 h 07 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "12 h 55 min",
          "overnight": true
         }
        ]
@@ -2443,9 +2437,11 @@
      ]
     },
     "best": {
-     "price": 604,
+     "price": 605,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Regreso marcado Separate tickets"
+     ],
      "legs": [
       {
        "label": "Ida",
