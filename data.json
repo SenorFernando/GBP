@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T18:15:00-06:00",
+ "updated": "2026-10-18T19:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -541,10 +541,15 @@
      "t": "2026-10-18T18:15:00-06:00",
      "price": 108,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T19:15:00-06:00",
+     "price": 108,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T18:15:00-06:00",
+    "checked": "2026-10-18T19:15:00-06:00",
     "cheapest": {
      "price": 108,
      "airline": "Viva",
@@ -1112,10 +1117,15 @@
      "t": "2026-10-18T18:15:00-06:00",
      "price": 250,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T19:15:00-06:00",
+     "price": 250,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T18:15:00-06:00",
+    "checked": "2026-10-18T19:15:00-06:00",
     "cheapest": {
      "price": 250,
      "airline": "Viva",
@@ -1673,12 +1683,17 @@
      "t": "2026-10-18T18:15:00-06:00",
      "price": 473,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T19:15:00-06:00",
+     "price": 374,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T18:15:00-06:00",
+    "checked": "2026-10-18T19:15:00-06:00",
     "cheapest": {
-     "price": 473,
+     "price": 374,
      "airline": "Viva",
      "warnings": [
       "Precio 'desde' de la ida; el regreso con carry-on no muestra resultados"
@@ -1700,7 +1715,7 @@
      ]
     },
     "best": {
-     "price": 473,
+     "price": 374,
      "airline": "Viva",
      "warnings": [
       "Precio 'desde' de la ida; el regreso con carry-on no muestra resultados"
@@ -2263,10 +2278,15 @@
      "t": "2026-10-18T18:15:00-06:00",
      "price": 573,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-18T19:15:00-06:00",
+     "price": 573,
+     "airline": "Viva vía MTY / directo"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-18T18:15:00-06:00",
+    "checked": "2026-10-18T19:15:00-06:00",
     "cheapest": {
      "price": 573,
      "airline": "Viva",
