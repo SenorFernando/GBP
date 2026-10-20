@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:15:00-06:00",
+ "updated": "2026-10-20T17:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -701,12 +701,17 @@
      "t": "2026-10-20T16:15:00-06:00",
      "price": 124,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T17:15:00-06:00",
+     "price": 117,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T16:15:00-06:00",
+    "checked": "2026-10-20T17:15:00-06:00",
     "cheapest": {
-     "price": 124,
+     "price": 117,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -726,7 +731,7 @@
      ]
     },
     "best": {
-     "price": 124,
+     "price": 117,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -1432,17 +1437,22 @@
      "t": "2026-10-20T16:15:00-06:00",
      "price": 247,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T17:15:00-06:00",
+     "price": 247,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T16:15:00-06:00",
+    "checked": "2026-10-20T17:15:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
@@ -1462,7 +1472,7 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
@@ -2153,51 +2163,54 @@
      "t": "2026-10-20T16:15:00-06:00",
      "price": 498,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T17:15:00-06:00",
+     "price": 522,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T16:15:00-06:00",
+    "checked": "2026-10-20T17:15:00-06:00",
     "cheapest": {
-     "price": 498,
+     "price": 522,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir acceso a compartimento superior",
       "Regreso no confirmado: 'No results' con filtro de 1 carry-on; precio mostrado en etapa de ida"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM CUL (+1)",
-       "duration": "11 h 37 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 498,
+     "price": 522,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir acceso a compartimento superior",
       "Regreso no confirmado: 'No results' con filtro de 1 carry-on; precio mostrado en etapa de ida"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM CUL (+1)",
-       "duration": "11 h 37 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
@@ -2905,15 +2918,19 @@
      "t": "2026-10-20T16:15:00-06:00",
      "price": 485,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T17:15:00-06:00",
+     "price": 485,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T16:15:00-06:00",
+    "checked": "2026-10-20T17:15:00-06:00",
     "cheapest": {
      "price": 485,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir acceso a compartimento superior",
       "Regreso marcado como boletos separados"
      ],
      "legs": [
@@ -2943,7 +2960,6 @@
      "price": 485,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir acceso a compartimento superior",
       "Regreso marcado como boletos separados"
      ],
      "legs": [
