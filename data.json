@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:10:00-06:00",
+ "updated": "2026-10-20T15:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -691,14 +691,21 @@
      "t": "2026-10-20T14:10:00-06:00",
      "price": 124,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T15:20:00-06:00",
+     "price": 124,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T14:10:00-06:00",
+    "checked": "2026-10-20T15:20:00-06:00",
     "cheapest": {
      "price": 124,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Posible aviso: puede no incluir acceso a compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -718,7 +725,9 @@
     "best": {
      "price": 124,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Posible aviso: puede no incluir acceso a compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1412,17 +1421,22 @@
      "t": "2026-10-20T14:10:00-06:00",
      "price": 247,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T15:20:00-06:00",
+     "price": 247,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T14:10:00-06:00",
+    "checked": "2026-10-20T15:20:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
@@ -1442,7 +1456,7 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
@@ -2123,10 +2137,15 @@
      "t": "2026-10-20T14:10:00-06:00",
      "price": 375,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T15:20:00-06:00",
+     "price": 375,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T14:10:00-06:00",
+    "checked": "2026-10-20T15:20:00-06:00",
     "cheapest": {
      "price": 375,
      "airline": "Viva",
@@ -2150,21 +2169,34 @@
      ]
     },
     "best": {
-     "price": 375,
+     "price": 429,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado: 'No results' con filtro de 1 carry-on; precio mostrado en etapa de ida"
+      "Redondo confirmado más barato con regreso disponible"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
-       "arrive": "7:02 AM CUL (+1)",
-       "duration": "16 h 17 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 37 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "3:02 PM CJS (+1)",
+       "duration": "17 h 34 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -2863,15 +2895,20 @@
      "t": "2026-10-20T14:10:00-06:00",
      "price": 485,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T15:20:00-06:00",
+     "price": 485,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T14:10:00-06:00",
+    "checked": "2026-10-20T15:20:00-06:00",
     "cheapest": {
      "price": 485,
      "airline": "Viva",
      "warnings": [
-      "Regreso etiquetado 'Separate tickets'"
+      "Regreso marcado como boletos separados"
      ],
      "legs": [
       {
@@ -2891,7 +2928,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo (Google muestra 43 min)",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -2900,7 +2937,7 @@
      "price": 485,
      "airline": "Viva",
      "warnings": [
-      "Regreso etiquetado 'Separate tickets'"
+      "Regreso marcado como boletos separados"
      ],
      "legs": [
       {
@@ -2920,7 +2957,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo (Google muestra 43 min)",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
