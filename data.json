@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T20:20:00-06:00",
+ "updated": "2026-10-19T21:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -636,12 +636,17 @@
      "t": "2026-10-19T20:20:00-06:00",
      "price": 114,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T21:20:00-06:00",
+     "price": 109,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T20:20:00-06:00",
+    "checked": "2026-10-19T21:20:00-06:00",
     "cheapest": {
-     "price": 114,
+     "price": 109,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -661,7 +666,7 @@
      ]
     },
     "best": {
-     "price": 114,
+     "price": 109,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -1302,10 +1307,15 @@
      "t": "2026-10-19T20:20:00-06:00",
      "price": 253,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T21:20:00-06:00",
+     "price": 253,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T20:20:00-06:00",
+    "checked": "2026-10-19T21:20:00-06:00",
     "cheapest": {
      "price": 253,
      "airline": "Viva",
@@ -1958,12 +1968,17 @@
      "t": "2026-10-19T20:20:00-06:00",
      "price": 487,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T21:20:00-06:00",
+     "price": 474,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T20:20:00-06:00",
+    "checked": "2026-10-19T21:20:00-06:00",
     "cheapest": {
-     "price": 487,
+     "price": 474,
      "airline": "Viva",
      "warnings": [
       "Regreso: 'No results' con filtro carry-on; precio de ida (from-price); header from $411"
@@ -1985,7 +2000,7 @@
      ]
     },
     "best": {
-     "price": 487,
+     "price": 474,
      "airline": "Viva",
      "warnings": [
       "Regreso: 'No results' con filtro carry-on; precio de ida (from-price); header from $411"
@@ -2643,15 +2658,21 @@
      "t": "2026-10-19T20:20:00-06:00",
      "price": 583,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-19T21:20:00-06:00",
+     "price": 583,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-19T20:20:00-06:00",
+    "checked": "2026-10-19T21:20:00-06:00",
     "cheapest": {
      "price": 583,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Regreso no consultado para esta ida en esta revisión (antes: directo 1:25 PM MZT, boletos separados)",
+      "Header from $558 sin itinerario listado"
      ],
      "legs": [
       {
@@ -2666,13 +2687,6 @@
          "overnight": true
         }
        ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
-       "stops": []
       }
      ]
     },
@@ -2680,7 +2694,7 @@
      "price": 622,
      "airline": "Viva",
      "warnings": [
-      "Regreso no consultado para esta ida en esta revisión"
+      "Separate tickets"
      ],
      "legs": [
       {
@@ -2688,6 +2702,13 @@
        "depart": "11:10 AM CJS",
        "arrive": "12:54 PM MZT",
        "duration": "2 h 44 min",
+       "stops": []
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
