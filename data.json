@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:20:00-06:00",
+ "updated": "2026-10-20T09:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -661,10 +661,15 @@
      "t": "2026-10-20T08:20:00-06:00",
      "price": 114,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T09:15:00-06:00",
+     "price": 114,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T08:20:00-06:00",
+    "checked": "2026-10-20T09:15:00-06:00",
     "cheapest": {
      "price": 114,
      "airline": "Viva",
@@ -1352,17 +1357,22 @@
      "t": "2026-10-20T08:20:00-06:00",
      "price": 253,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T09:15:00-06:00",
+     "price": 253,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T08:20:00-06:00",
+    "checked": "2026-10-20T09:15:00-06:00",
     "cheapest": {
      "price": 253,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -1382,7 +1392,7 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -2033,26 +2043,46 @@
      "t": "2026-10-20T08:20:00-06:00",
      "price": 496,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T09:15:00-06:00",
+     "price": 404,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T08:20:00-06:00",
+    "checked": "2026-10-20T09:15:00-06:00",
     "cheapest": {
-     "price": 496,
+     "price": 404,
      "airline": "Viva",
      "warnings": [
-      "Regreso: 'No results' con filtro carry-on; precio de ida listado (redondo)"
+      "Self transfer",
+      "Puede no incluir acceso a compartimento superior",
+      "$404 no se pudo seleccionar; en la carga seleccionable la misma ida + este regreso sumó $536"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
+       "depart": "2:45 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "duration": "16 h 17 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "12 h 55 min",
+         "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "3:02 PM+1 CJS",
+       "duration": "17 h 34 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "14 h 20 min",
          "overnight": true
         }
        ]
@@ -2060,22 +2090,22 @@
      ]
     },
     "best": {
-     "price": 496,
+     "price": 521,
      "airline": "Viva",
      "warnings": [
-      "Regreso: 'No results' con filtro carry-on; precio de ida listado (redondo)"
+      "Regreso no consultado para esta ida"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
@@ -2743,15 +2773,21 @@
      "t": "2026-10-20T08:20:00-06:00",
      "price": 495,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-20T09:15:00-06:00",
+     "price": 484,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T08:20:00-06:00",
+    "checked": "2026-10-20T09:15:00-06:00",
     "cheapest": {
-     "price": 495,
+     "price": 484,
      "airline": "Viva",
      "warnings": [
-      "Regreso confirmado en la 1ª carga; en la recarga no cargó la lista de regreso"
+      "Puede no incluir acceso a compartimento superior (ida)",
+      "Regreso etiquetado 'Separate tickets'"
      ],
      "legs": [
       {
@@ -2777,10 +2813,11 @@
      ]
     },
     "best": {
-     "price": 495,
+     "price": 484,
      "airline": "Viva",
      "warnings": [
-      "Regreso confirmado en la 1ª carga; en la recarga no cargó la lista de regreso"
+      "Puede no incluir acceso a compartimento superior (ida)",
+      "Regreso etiquetado 'Separate tickets'"
      ],
      "legs": [
       {
