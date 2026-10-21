@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:15:00-06:00",
+ "updated": "2026-10-21T15:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -776,10 +776,15 @@
      "t": "2026-10-21T14:15:00-06:00",
      "price": 159,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-21T15:15:00-06:00",
+     "price": 159,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T14:15:00-06:00",
+    "checked": "2026-10-21T15:15:00-06:00",
     "cheapest": {
      "price": 159,
      "airline": "Viva",
@@ -1582,19 +1587,24 @@
      "t": "2026-10-21T14:15:00-06:00",
      "price": 247,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-21T15:15:00-06:00",
+     "price": 247,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T14:15:00-06:00",
+    "checked": "2026-10-21T15:15:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
+       "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -1612,9 +1622,9 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
+       "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -2378,15 +2388,20 @@
      "t": "2026-10-21T14:15:00-06:00",
      "price": 580,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-21T15:15:00-06:00",
+     "price": 580,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T14:15:00-06:00",
+    "checked": "2026-10-21T15:15:00-06:00",
     "cheapest": {
      "price": 580,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado (No options matching your filters)"
+      "Regreso sin opciones con el filtro de equipaje de mano"
      ],
      "legs": [
       {
@@ -2408,7 +2423,7 @@
      "price": 580,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado (No options matching your filters)"
+      "Regreso sin opciones con el filtro de equipaje de mano"
      ],
      "legs": [
       {
@@ -3203,10 +3218,15 @@
      "t": "2026-10-21T14:15:00-06:00",
      "price": 613,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T15:15:00-06:00",
+     "price": 613,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T14:15:00-06:00",
+    "checked": "2026-10-21T15:15:00-06:00",
     "cheapest": {
      "price": 613,
      "airline": "Viva",
@@ -3237,7 +3257,7 @@
      ]
     },
     "best": {
-     "price": 613,
+     "price": 614,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
