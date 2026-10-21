@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T11:15:00-06:00",
+ "updated": "2026-10-21T12:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -761,10 +761,15 @@
      "t": "2026-10-21T11:15:00-06:00",
      "price": 159,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T12:15:00-06:00",
+     "price": 159,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T11:15:00-06:00",
+    "checked": "2026-10-21T12:15:00-06:00",
     "cheapest": {
      "price": 159,
      "airline": "Viva",
@@ -1552,10 +1557,15 @@
      "t": "2026-10-21T11:15:00-06:00",
      "price": 247,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T12:15:00-06:00",
+     "price": 247,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T11:15:00-06:00",
+    "checked": "2026-10-21T12:15:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva",
@@ -2333,37 +2343,42 @@
      "t": "2026-10-21T11:15:00-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T12:15:00-06:00",
+     "price": 496,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T11:15:00-06:00",
+    "checked": "2026-10-21T12:15:00-06:00",
     "cheapest": {
-     "price": 581,
+     "price": 496,
      "airline": "Viva",
      "warnings": [
-      "Regreso: Google muestra 'No results' con carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 581,
+     "price": 582,
      "airline": "Viva",
      "warnings": [
-      "Regreso: Google muestra 'No results' con carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
@@ -3143,12 +3158,17 @@
      "t": "2026-10-21T11:15:00-06:00",
      "price": 614,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T12:15:00-06:00",
+     "price": 615,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T11:15:00-06:00",
+    "checked": "2026-10-21T12:15:00-06:00",
     "cheapest": {
-     "price": 614,
+     "price": 615,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
@@ -3177,7 +3197,7 @@
      ]
     },
     "best": {
-     "price": 614,
+     "price": 616,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
