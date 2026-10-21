@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:20:00-06:00",
+ "updated": "2026-10-20T20:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -716,13 +716,18 @@
      "t": "2026-10-20T19:20:00-06:00",
      "price": 124,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T20:18:00-06:00",
+     "price": 124,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T19:20:00-06:00",
+    "checked": "2026-10-20T20:18:00-06:00",
     "cheapest": {
      "price": 124,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -742,7 +747,7 @@
     },
     "best": {
      "price": 124,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -1462,13 +1467,18 @@
      "t": "2026-10-20T19:20:00-06:00",
      "price": 247,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T20:18:00-06:00",
+     "price": 247,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T19:20:00-06:00",
+    "checked": "2026-10-20T20:18:00-06:00",
     "cheapest": {
      "price": 247,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -1488,7 +1498,7 @@
     },
     "best": {
      "price": 247,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -2198,16 +2208,20 @@
      "t": "2026-10-20T19:20:00-06:00",
      "price": 498,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T20:18:00-06:00",
+     "price": 498,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T19:20:00-06:00",
+    "checked": "2026-10-20T20:18:00-06:00",
     "cheapest": {
      "price": 498,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
-      "Regreso sin confirmar: 'No results' con carry-on",
-      "Precio de etapa de ida; header desde $453"
+      "Regreso 'No results' con carry-on; total redondo no confirmado"
      ],
      "legs": [
       {
@@ -2227,10 +2241,9 @@
     },
     "best": {
      "price": 498,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
-      "Regreso sin confirmar: 'No results' con carry-on",
-      "Precio de etapa de ida; header desde $453"
+      "Regreso 'No results' con carry-on; total redondo no confirmado"
      ],
      "legs": [
       {
@@ -2965,13 +2978,18 @@
      "t": "2026-10-20T19:20:00-06:00",
      "price": 485,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T20:18:00-06:00",
+     "price": 485,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T19:20:00-06:00",
+    "checked": "2026-10-20T20:18:00-06:00",
     "cheapest": {
      "price": 485,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
       "Separate tickets"
      ],
@@ -2993,14 +3011,14 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
      "price": 485,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
       "Separate tickets"
      ],
@@ -3022,7 +3040,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
