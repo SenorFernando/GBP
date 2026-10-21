@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T06:18:00-06:00",
+ "updated": "2026-10-21T07:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -736,16 +736,19 @@
      "t": "2026-10-21T06:18:00-06:00",
      "price": 156,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T07:15:00-06:00",
+     "price": 156,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T06:18:00-06:00",
+    "checked": "2026-10-21T07:15:00-06:00",
     "cheapest": {
      "price": 156,
      "airline": "Viva",
-     "warnings": [
-      "Puede no incluir acceso a compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -765,9 +768,7 @@
     "best": {
      "price": 156,
      "airline": "Viva",
-     "warnings": [
-      "Puede no incluir acceso a compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -1506,10 +1507,15 @@
      "t": "2026-10-21T06:18:00-06:00",
      "price": 247,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T07:15:00-06:00",
+     "price": 247,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T06:18:00-06:00",
+    "checked": "2026-10-21T07:15:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva",
@@ -2262,10 +2268,15 @@
      "t": "2026-10-21T06:18:00-06:00",
      "price": 498,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T07:15:00-06:00",
+     "price": 498,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T06:18:00-06:00",
+    "checked": "2026-10-21T07:15:00-06:00",
     "cheapest": {
      "price": 498,
      "airline": "Viva",
@@ -3048,10 +3059,15 @@
      "t": "2026-10-21T06:18:00-06:00",
      "price": 483,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-21T07:15:00-06:00",
+     "price": 483,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-21T06:18:00-06:00",
+    "checked": "2026-10-21T07:15:00-06:00",
     "cheapest": {
      "price": 483,
      "airline": "Viva",
