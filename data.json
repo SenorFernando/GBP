@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:12:00-06:00",
+ "updated": "2026-10-20T19:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -711,12 +711,17 @@
      "t": "2026-10-20T18:12:00-06:00",
      "price": 117,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T19:20:00-06:00",
+     "price": 124,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T18:12:00-06:00",
+    "checked": "2026-10-20T19:20:00-06:00",
     "cheapest": {
-     "price": 117,
+     "price": 124,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -736,7 +741,7 @@
      ]
     },
     "best": {
-     "price": 117,
+     "price": 124,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -1452,10 +1457,15 @@
      "t": "2026-10-20T18:12:00-06:00",
      "price": 247,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T19:20:00-06:00",
+     "price": 247,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T18:12:00-06:00",
+    "checked": "2026-10-20T19:20:00-06:00",
     "cheapest": {
      "price": 247,
      "airline": "Viva Aerobus",
@@ -2183,10 +2193,15 @@
      "t": "2026-10-20T18:12:00-06:00",
      "price": 498,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T19:20:00-06:00",
+     "price": 498,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T18:12:00-06:00",
+    "checked": "2026-10-20T19:20:00-06:00",
     "cheapest": {
      "price": 498,
      "airline": "Viva Aerobus",
@@ -2945,10 +2960,15 @@
      "t": "2026-10-20T18:12:00-06:00",
      "price": 485,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-20T19:20:00-06:00",
+     "price": 485,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-20T18:12:00-06:00",
+    "checked": "2026-10-20T19:20:00-06:00",
     "cheapest": {
      "price": 485,
      "airline": "Viva Aerobus",
