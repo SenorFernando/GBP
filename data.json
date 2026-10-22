@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:15:00-06:00",
+ "updated": "2026-10-22T16:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -866,10 +866,15 @@
      "t": "2026-10-22T15:15:00-06:00",
      "price": 180,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T16:15:00-06:00",
+     "price": 180,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T15:15:00-06:00",
+    "checked": "2026-10-22T16:15:00-06:00",
     "cheapest": {
      "price": 180,
      "airline": "Viva",
@@ -1762,10 +1767,15 @@
      "t": "2026-10-22T15:15:00-06:00",
      "price": 266,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T16:15:00-06:00",
+     "price": 266,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T15:15:00-06:00",
+    "checked": "2026-10-22T16:15:00-06:00",
     "cheapest": {
      "price": 266,
      "airline": "Viva",
@@ -1774,7 +1784,7 @@
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
+       "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -1794,7 +1804,7 @@
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
+       "arrive": "3:02 PM CJS (+1)",
        "duration": "17 h 34 min",
        "stops": [
         {
@@ -2648,15 +2658,20 @@
      "t": "2026-10-22T15:15:00-06:00",
      "price": 613,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T16:15:00-06:00",
+     "price": 613,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T15:15:00-06:00",
+    "checked": "2026-10-22T16:15:00-06:00",
     "cheapest": {
      "price": 613,
      "airline": "Viva",
      "warnings": [
-      "Regreso: 'No results' con filtro carry-on; redondo no confirmado"
+      "Regreso no confirmado: 'No results' al seleccionar ida; redondo confirmado más barato Aeromexico $866 vía MEX 32 h 25 min (boletos separados)"
      ],
      "legs": [
       {
@@ -2678,18 +2693,31 @@
      "price": 866,
      "airline": "Aeromexico",
      "warnings": [
-      "Redondo más barato confirmado; detalles de regreso no capturados"
+      "Separate tickets"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "8:49 PM CJS",
-       "arrive": "10:08 AM+2 CUL",
+       "arrive": "10:08 AM CUL (+2)",
        "duration": "37 h 19 min",
        "stops": [
         {
          "airport": "MEX",
          "layover": "32 h 25 min",
+         "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "4:03 PM CUL",
+       "arrive": "8:45 AM CJS (+1)",
+       "duration": "16 h 42 min",
+       "stops": [
+        {
+         "airport": "MEX",
+         "layover": "11 h 35 min",
          "overnight": true
         }
        ]
@@ -3563,12 +3591,17 @@
      "t": "2026-10-22T15:15:00-06:00",
      "price": 477,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T16:15:00-06:00",
+     "price": 459,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T15:15:00-06:00",
+    "checked": "2026-10-22T16:15:00-06:00",
     "cheapest": {
-     "price": 477,
+     "price": 459,
      "airline": "Viva",
      "warnings": [
       "Separate tickets"
@@ -3591,13 +3624,13 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 594,
+     "price": 459,
      "airline": "Viva",
      "warnings": [
       "Separate tickets"
@@ -3605,16 +3638,22 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "2 h 44 min",
-       "stops": []
+       "depart": "6:20 AM CJS",
+       "arrive": "11:54 AM MZT",
+       "duration": "6 h 34 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "2 h 24 min",
+         "overnight": false
+        }
+       ]
       },
       {
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
