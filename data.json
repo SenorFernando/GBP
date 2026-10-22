@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T07:15:00-06:00",
+ "updated": "2026-10-22T08:16:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -826,10 +826,15 @@
      "t": "2026-10-22T07:15:00-06:00",
      "price": 180,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T08:16:00-06:00",
+     "price": 180,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T07:15:00-06:00",
+    "checked": "2026-10-22T08:16:00-06:00",
     "cheapest": {
      "price": 180,
      "airline": "Viva",
@@ -1682,24 +1687,29 @@
      "t": "2026-10-22T07:15:00-06:00",
      "price": 247,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T08:16:00-06:00",
+     "price": 255,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T07:15:00-06:00",
+    "checked": "2026-10-22T08:16:00-06:00",
     "cheapest": {
-     "price": 247,
+     "price": 255,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -1707,19 +1717,19 @@
      ]
     },
     "best": {
-     "price": 247,
+     "price": 255,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "3:02 PM+1 CJS",
-       "duration": "17 h 34 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "14 h 20 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -2528,10 +2538,15 @@
      "t": "2026-10-22T07:15:00-06:00",
      "price": 488,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T08:16:00-06:00",
+     "price": 488,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T07:15:00-06:00",
+    "checked": "2026-10-22T08:16:00-06:00",
     "cheapest": {
      "price": 488,
      "airline": "Viva",
@@ -2555,22 +2570,22 @@
      ]
     },
     "best": {
-     "price": 488,
+     "price": 613,
      "airline": "Viva",
      "warnings": [
-      "Regreso: 'No results' con filtro carry-on; precio de ida (from-price)"
+      "Regreso: 'No results' con filtro carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "depart": "6:20 AM CJS",
+       "arrive": "6:12 PM CUL",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
@@ -3403,16 +3418,19 @@
      "t": "2026-10-22T07:15:00-06:00",
      "price": 593,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T08:16:00-06:00",
+     "price": 593,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T07:15:00-06:00",
+    "checked": "2026-10-22T08:16:00-06:00",
     "cheapest": {
      "price": 593,
      "airline": "Viva",
-     "warnings": [
-      "Separate tickets"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -3431,7 +3449,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -3440,7 +3458,7 @@
      "price": 594,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -3454,7 +3472,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
