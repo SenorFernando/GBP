@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:25:00-06:00",
+ "updated": "2026-10-22T18:25:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -876,10 +876,15 @@
      "t": "2026-10-22T17:25:00-06:00",
      "price": 180,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T18:25:00-06:00",
+     "price": 180,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T17:25:00-06:00",
+    "checked": "2026-10-22T18:25:00-06:00",
     "cheapest": {
      "price": 180,
      "airline": "Viva",
@@ -1782,17 +1787,22 @@
      "t": "2026-10-22T17:25:00-06:00",
      "price": 266,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T18:25:00-06:00",
+     "price": 266,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T17:25:00-06:00",
+    "checked": "2026-10-22T18:25:00-06:00",
     "cheapest": {
      "price": 266,
      "airline": "Viva",
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -1812,7 +1822,7 @@
      "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "3:02 PM+1 CJS",
        "duration": "17 h 34 min",
@@ -2678,38 +2688,42 @@
      "t": "2026-10-22T17:25:00-06:00",
      "price": 653,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T18:25:00-06:00",
+     "price": 512,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T17:25:00-06:00",
+    "checked": "2026-10-22T18:25:00-06:00",
     "cheapest": {
-     "price": 653,
+     "price": 512,
      "airline": "Viva",
      "warnings": [
-      "Regreso: No results (no confirmado)"
+      "Regreso: 'No results' con carry-on; el redondo confirmado más barato es Aeromexico $866"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 865,
+     "price": 866,
      "airline": "Aeromexico",
      "warnings": [
-      "Separate tickets",
-      "Redondo confirmado más barato"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -3617,15 +3631,20 @@
      "t": "2026-10-22T17:25:00-06:00",
      "price": 459,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T18:25:00-06:00",
+     "price": 459,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T17:25:00-06:00",
+    "checked": "2026-10-22T18:25:00-06:00",
     "cheapest": {
      "price": 459,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -3645,7 +3664,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -3654,7 +3673,7 @@
      "price": 459,
      "airline": "Viva",
      "warnings": [
-      "Separate tickets"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -3674,7 +3693,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
