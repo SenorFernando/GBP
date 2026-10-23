@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:16:00-06:00",
+ "updated": "2026-10-23T12:16:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -931,15 +931,20 @@
      "t": "2026-10-23T11:16:00-06:00",
      "price": 176,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-23T12:16:00-06:00",
+     "price": 176,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T11:16:00-06:00",
+    "checked": "2026-10-23T12:16:00-06:00",
     "cheapest": {
      "price": 176,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior"
+      "Puede no incluir acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -961,7 +966,7 @@
      "price": 176,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior"
+      "Puede no incluir acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -1896,19 +1901,22 @@
      "t": "2026-10-23T11:16:00-06:00",
      "price": 279,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-23T12:16:00-06:00",
+     "price": 277,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T11:16:00-06:00",
+    "checked": "2026-10-23T12:16:00-06:00",
     "cheapest": {
-     "price": 279,
+     "price": 277,
      "airline": "Viva",
-     "warnings": [
-      "Puede no incluir compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "9:28 PM CUL",
        "arrive": "10:34 AM+1 CJS",
        "duration": "13 h 06 min",
@@ -1923,14 +1931,12 @@
      ]
     },
     "best": {
-     "price": 290,
+     "price": 288,
      "airline": "Viva",
-     "warnings": [
-      "Puede no incluir compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
-       "label": "Regreso",
+       "label": "Ida",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -2851,27 +2857,45 @@
      "t": "2026-10-23T11:16:00-06:00",
      "price": 493,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-23T12:16:00-06:00",
+     "price": 604,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T11:16:00-06:00",
+    "checked": "2026-10-23T12:16:00-06:00",
     "cheapest": {
-     "price": 493,
+     "price": 604,
      "airline": "Viva",
      "warnings": [
-      "Self transfer",
-      "Regreso sin resultados con carry-on; redondo confirmado más barato: Aeromexico $868 vía MEX"
+      "Puede no incluir acceso a compartimento superior",
+      "Lista mostraba $516-517; total confirmado al elegir regreso: $604"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "6:20 AM CJS",
-       "arrive": "6:12 PM CUL",
-       "duration": "11 h 52 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
+         "layover": "8 h 15 min",
+         "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
+       "stops": [
+        {
+         "airport": "NLU",
+         "layover": "5 h 14 min",
          "overnight": false
         }
        ]
@@ -2879,22 +2903,35 @@
      ]
     },
     "best": {
-     "price": 581,
+     "price": 607,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con carry-on"
+      "Puede no incluir acceso a compartimento superior"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "10:16 AM CUL",
+       "arrive": "6:48 PM CJS",
+       "duration": "8 h 32 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "5 h 18 min",
+         "overnight": false
         }
        ]
       }
@@ -3832,22 +3869,27 @@
      "t": "2026-10-23T11:16:00-06:00",
      "price": 575,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-23T12:16:00-06:00",
+     "price": 575,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T11:16:00-06:00",
+    "checked": "2026-10-23T12:16:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados"
+      "Una carga mostró $433 self-transfer (6:20 AM, MTY 2h24) pero al elegir regreso el total fue $624"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "7:25 PM CJS",
        "arrive": "6:52 AM+1 MZT",
-       "duration": "12 h 27 min",
+       "duration": "11 h 27 min",
        "stops": [
         {
          "airport": "MTY",
@@ -3855,41 +3897,19 @@
          "overnight": true
         }
        ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "Directo",
-       "stops": []
       }
      ]
     },
     "best": {
-     "price": 575,
+     "price": 597,
      "airline": "Viva",
-     "warnings": [
-      "Boletos separados"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
-       "duration": "12 h 27 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "depart": "11:10 AM CJS",
+       "arrive": "12:54 PM MZT",
+       "duration": "2 h 44 min",
        "stops": []
       }
      ]
