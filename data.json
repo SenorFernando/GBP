@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:25:00-06:00",
+ "updated": "2026-10-22T19:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -881,14 +881,21 @@
      "t": "2026-10-22T18:25:00-06:00",
      "price": 180,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T19:20:00-06:00",
+     "price": 180,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T18:25:00-06:00",
+    "checked": "2026-10-22T19:20:00-06:00",
     "cheapest": {
      "price": 180,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -908,7 +915,9 @@
     "best": {
      "price": 180,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1792,14 +1801,21 @@
      "t": "2026-10-22T18:25:00-06:00",
      "price": 266,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T19:20:00-06:00",
+     "price": 266,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T18:25:00-06:00",
+    "checked": "2026-10-22T19:20:00-06:00",
     "cheapest": {
      "price": 266,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -1819,7 +1835,9 @@
     "best": {
      "price": 266,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -2693,15 +2711,21 @@
      "t": "2026-10-22T18:25:00-06:00",
      "price": 512,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T19:20:00-06:00",
+     "price": 512,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T18:25:00-06:00",
+    "checked": "2026-10-22T19:20:00-06:00",
     "cheapest": {
      "price": 512,
      "airline": "Viva",
      "warnings": [
-      "Regreso: 'No results' con carry-on; el redondo confirmado más barato es Aeromexico $866"
+      "Puede no incluir compartimento superior",
+      "Regreso: No results con carry-on"
      ],
      "legs": [
       {
@@ -2720,10 +2744,11 @@
      ]
     },
     "best": {
-     "price": 866,
+     "price": 865,
      "airline": "Aeromexico",
      "warnings": [
-      "Boletos separados"
+      "Regreso: boletos separados",
+      "Ida Premium Economy"
      ],
      "legs": [
       {
@@ -3636,14 +3661,20 @@
      "t": "2026-10-22T18:25:00-06:00",
      "price": 459,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-22T19:20:00-06:00",
+     "price": 459,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-22T18:25:00-06:00",
+    "checked": "2026-10-22T19:20:00-06:00",
     "cheapest": {
      "price": 459,
      "airline": "Viva",
      "warnings": [
+      "Puede no incluir compartimento superior",
       "Boletos separados"
      ],
      "legs": [
@@ -3664,7 +3695,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -3673,6 +3704,7 @@
      "price": 459,
      "airline": "Viva",
      "warnings": [
+      "Puede no incluir compartimento superior",
       "Boletos separados"
      ],
      "legs": [
@@ -3693,7 +3725,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
