@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T15:17:00-06:00",
+ "updated": "2026-10-24T16:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1026,13 +1026,18 @@
      "t": "2026-10-24T15:17:00-06:00",
      "price": 176,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-24T16:15:00-06:00",
+     "price": 176,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T15:17:00-06:00",
+    "checked": "2026-10-24T16:15:00-06:00",
     "cheapest": {
      "price": 176,
-     "airline": "Viva",
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -1052,7 +1057,7 @@
     },
     "best": {
      "price": 176,
-     "airline": "Viva",
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -2087,13 +2092,18 @@
      "t": "2026-10-24T15:17:00-06:00",
      "price": 271,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-24T16:15:00-06:00",
+     "price": 273,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T15:17:00-06:00",
+    "checked": "2026-10-24T16:15:00-06:00",
     "cheapest": {
-     "price": 271,
-     "airline": "Viva",
+     "price": 273,
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -2112,8 +2122,8 @@
      ]
     },
     "best": {
-     "price": 282,
-     "airline": "Viva",
+     "price": 285,
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -3138,13 +3148,18 @@
      "t": "2026-10-24T15:17:00-06:00",
      "price": 474,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-24T16:15:00-06:00",
+     "price": 581,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T15:17:00-06:00",
+    "checked": "2026-10-24T16:15:00-06:00",
     "cheapest": {
-     "price": 474,
-     "airline": "Viva",
+     "price": 581,
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -3162,22 +3177,22 @@
       },
       {
        "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "10:10 PM+1 CJS",
-       "duration": "24 h 42 min",
+       "depart": "2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "21 h 27 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 507,
-     "airline": "Viva",
+     "price": 581,
+     "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
       {
@@ -3195,13 +3210,13 @@
       },
       {
        "label": "Regreso",
-       "depart": "10:16 AM CUL",
-       "arrive": "6:48 PM CJS",
-       "duration": "8 h 32 min",
+       "depart": "2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "5 h 18 min",
+         "airport": "NLU",
+         "layover": "5 h 14 min",
          "overnight": false
         }
        ]
@@ -4240,13 +4255,18 @@
      "t": "2026-10-24T15:17:00-06:00",
      "price": 575,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-24T16:15:00-06:00",
+     "price": 575,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T15:17:00-06:00",
+    "checked": "2026-10-24T16:15:00-06:00",
     "cheapest": {
      "price": 575,
-     "airline": "Viva",
+     "airline": "Viva Aerobus",
      "warnings": [
       "Boletos separados"
      ],
@@ -4268,14 +4288,14 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "43 min (directo)",
+       "duration": "Directo",
        "stops": []
       }
      ]
     },
     "best": {
      "price": 575,
-     "airline": "Viva",
+     "airline": "Viva Aerobus",
      "warnings": [
       "Boletos separados"
      ],
@@ -4297,7 +4317,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "43 min (directo)",
+       "duration": "Directo",
        "stops": []
       }
      ]
