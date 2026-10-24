@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T19:18:00-06:00",
+ "updated": "2026-10-23T20:12:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -971,13 +971,18 @@
      "t": "2026-10-23T19:18:00-06:00",
      "price": 176,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-23T20:12:00-06:00",
+     "price": 176,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T19:18:00-06:00",
+    "checked": "2026-10-23T20:12:00-06:00",
     "cheapest": {
      "price": 176,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -997,7 +1002,7 @@
     },
     "best": {
      "price": 176,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -1972,20 +1977,25 @@
      "t": "2026-10-23T19:18:00-06:00",
      "price": 279,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-23T20:12:00-06:00",
+     "price": 279,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T19:18:00-06:00",
+    "checked": "2026-10-23T20:12:00-06:00",
     "cheapest": {
      "price": 279,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 6 min",
+       "duration": "13 h 06 min",
        "stops": [
         {
          "airport": "MTY",
@@ -1998,7 +2008,7 @@
     },
     "best": {
      "price": 290,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [],
      "legs": [
       {
@@ -2963,14 +2973,21 @@
      "t": "2026-10-23T19:18:00-06:00",
      "price": 523,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-23T20:12:00-06:00",
+     "price": 523,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T19:18:00-06:00",
+    "checked": "2026-10-23T20:12:00-06:00",
     "cheapest": {
      "price": 523,
-     "airline": "Viva Aerobus",
-     "warnings": [],
+     "airline": "Viva",
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -2989,7 +3006,7 @@
        "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 6 min",
+       "duration": "13 h 06 min",
        "stops": [
         {
          "airport": "MTY",
@@ -3001,9 +3018,11 @@
      ]
     },
     "best": {
-     "price": 533,
-     "airline": "Viva Aerobus",
-     "warnings": [],
+     "price": 531,
+     "airline": "Viva",
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -4005,13 +4024,18 @@
      "t": "2026-10-23T19:18:00-06:00",
      "price": 575,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-23T20:12:00-06:00",
+     "price": 575,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-23T19:18:00-06:00",
+    "checked": "2026-10-23T20:12:00-06:00",
     "cheapest": {
      "price": 575,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
       "Boletos separados"
      ],
@@ -4033,14 +4057,14 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
     },
     "best": {
      "price": 575,
-     "airline": "Viva Aerobus",
+     "airline": "Viva",
      "warnings": [
       "Boletos separados"
      ],
@@ -4062,7 +4086,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
