@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T16:15:00-06:00",
+ "updated": "2026-10-24T17:10:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1031,10 +1031,15 @@
      "t": "2026-10-24T16:15:00-06:00",
      "price": 176,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T17:10:00-06:00",
+     "price": 176,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T16:15:00-06:00",
+    "checked": "2026-10-24T17:10:00-06:00",
     "cheapest": {
      "price": 176,
      "airline": "Viva Aerobus",
@@ -2097,10 +2102,15 @@
      "t": "2026-10-24T16:15:00-06:00",
      "price": 273,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T17:10:00-06:00",
+     "price": 273,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T16:15:00-06:00",
+    "checked": "2026-10-24T17:10:00-06:00",
     "cheapest": {
      "price": 273,
      "airline": "Viva Aerobus",
@@ -3153,14 +3163,21 @@
      "t": "2026-10-24T16:15:00-06:00",
      "price": 581,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T17:10:00-06:00",
+     "price": 581,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T16:15:00-06:00",
+    "checked": "2026-10-24T17:10:00-06:00",
     "cheapest": {
      "price": 581,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Regreso sin resultados con carry-on (precio de ida, round trip no confirmado)"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -3172,19 +3189,6 @@
          "airport": "MTY",
          "layover": "12 h 55 min",
          "overnight": true
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
-       "stops": [
-        {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
         }
        ]
       }
@@ -3193,7 +3197,9 @@
     "best": {
      "price": 581,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Regreso sin resultados con carry-on (precio de ida, round trip no confirmado)"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -3205,19 +3211,6 @@
          "airport": "MTY",
          "layover": "12 h 55 min",
          "overnight": true
-        }
-       ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
-       "stops": [
-        {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
         }
        ]
       }
@@ -4260,10 +4253,15 @@
      "t": "2026-10-24T16:15:00-06:00",
      "price": 575,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T17:10:00-06:00",
+     "price": 575,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T16:15:00-06:00",
+    "checked": "2026-10-24T17:10:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva Aerobus",
