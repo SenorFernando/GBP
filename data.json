@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:10:00-06:00",
+ "updated": "2026-10-24T21:16:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1051,14 +1051,21 @@
      "t": "2026-10-24T20:10:00-06:00",
      "price": 176,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T21:16:00-06:00",
+     "price": 176,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T20:10:00-06:00",
+    "checked": "2026-10-24T21:16:00-06:00",
     "cheapest": {
      "price": 176,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "May not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1078,7 +1085,9 @@
     "best": {
      "price": 176,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "May not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -2137,14 +2146,21 @@
      "t": "2026-10-24T20:10:00-06:00",
      "price": 271,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T21:16:00-06:00",
+     "price": 273,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T20:10:00-06:00",
+    "checked": "2026-10-24T21:16:00-06:00",
     "cheapest": {
-     "price": 271,
+     "price": 273,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "May not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -2162,9 +2178,11 @@
      ]
     },
     "best": {
-     "price": 282,
+     "price": 285,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "May not include overhead bin access"
+     ],
      "legs": [
       {
        "label": "Regreso",
@@ -3213,12 +3231,17 @@
      "t": "2026-10-24T20:10:00-06:00",
      "price": 474,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T21:16:00-06:00",
+     "price": 517,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T20:10:00-06:00",
+    "checked": "2026-10-24T21:16:00-06:00",
     "cheapest": {
-     "price": 474,
+     "price": 517,
      "airline": "Viva Aerobus",
      "warnings": [
       "May not include overhead bin access"
@@ -3226,13 +3249,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -3240,12 +3263,12 @@
       {
        "label": "Regreso",
        "depart": "9:28 PM CUL",
-       "arrive": "10:10 PM+1 CJS",
-       "duration": "24 h 42 min",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "21 h 27 min",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -3253,7 +3276,7 @@
      ]
     },
     "best": {
-     "price": 507,
+     "price": 528,
      "airline": "Viva Aerobus",
      "warnings": [
       "May not include overhead bin access"
@@ -3261,13 +3284,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -4344,15 +4367,21 @@
      "t": "2026-10-24T20:10:00-06:00",
      "price": 575,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T21:16:00-06:00",
+     "price": 575,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T20:10:00-06:00",
+    "checked": "2026-10-24T21:16:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Separate tickets"
+      "Separate tickets",
+      "May not include overhead bin access"
      ],
      "legs": [
       {
@@ -4381,7 +4410,8 @@
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Separate tickets"
+      "Separate tickets",
+      "May not include overhead bin access"
      ],
      "legs": [
       {
