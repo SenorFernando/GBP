@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:10:00-06:00",
+ "updated": "2026-10-25T16:14:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3393,10 +3393,15 @@
      "t": "2026-10-25T15:15:00-06:00",
      "price": 531,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T16:14:00-06:00",
+     "price": 531,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T15:15:00-06:00",
+    "checked": "2026-10-25T16:14:00-06:00",
     "cheapest": {
      "price": 531,
      "airline": "Viva",
@@ -4580,10 +4585,15 @@
      "t": "2026-10-25T15:15:00-06:00",
      "price": 574,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T16:14:00-06:00",
+     "price": 574,
+     "airline": "Viva vía MTY (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T15:15:00-06:00",
+    "checked": "2026-10-25T16:14:00-06:00",
     "cheapest": {
      "price": 574,
      "airline": "Viva",
@@ -4608,36 +4618,28 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "43 min (directo, cambio de zona horaria)",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 574,
+     "price": 597,
      "airline": "Viva",
-     "warnings": [
-      "Boletos separados"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
-       "duration": "12 h 27 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
-        }
-       ]
+       "depart": "11:10 AM CJS",
+       "arrive": "12:54 PM MZT",
+       "duration": "2 h 44 min",
+       "stops": []
       },
       {
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "43 min (directo, cambio de zona horaria)",
        "stops": []
       }
      ]
@@ -4654,10 +4656,15 @@
      "t": "2026-10-25T16:10:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-25T16:14:00-06:00",
+     "price": 467,
+     "airline": "Southwest vía DEN/MDW"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T16:10:00-06:00",
+    "checked": "2026-10-25T16:14:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
