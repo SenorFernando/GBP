@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T15:15:00-06:00",
+ "updated": "2026-10-25T16:10:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4639,6 +4639,88 @@
        "arrive": "3:08 PM CJS",
        "duration": "Directo",
        "stops": []
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E",
+   "name": "El Paso ⇄ Nueva York (LGA/JFK) (18–22 nov, redondo)",
+   "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhonEgoyMDI2LTExLTE4agcIARIDRUxQcgcIARIDTEdBcgcIARIDSkZLGicSCjIwMjYtMTEtMjJqBwgBEgNMR0FqBwgBEgNKRktyBwgBEgNFTFBAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
+   "baseline": 467,
+   "history": [
+    {
+     "t": "2026-10-25T16:10:00-06:00",
+     "price": 467,
+     "airline": "Southwest"
+    }
+   ],
+   "itineraries": {
+    "checked": "2026-10-25T16:10:00-06:00",
+    "cheapest": {
+     "price": 467,
+     "airline": "Southwest",
+     "warnings": [],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "3:20 PM ELP",
+       "arrive": "11:25 PM LGA",
+       "duration": "6 h 5 min",
+       "stops": [
+        {
+         "airport": "DEN",
+         "layover": "45 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "6:45 AM LGA",
+       "arrive": "12:25 PM ELP",
+       "duration": "7 h 40 min",
+       "stops": [
+        {
+         "airport": "MDW",
+         "layover": "1 h 55 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    },
+    "best": {
+     "price": 507,
+     "airline": "Southwest",
+     "warnings": [],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "3:20 PM ELP",
+       "arrive": "11:25 PM LGA",
+       "duration": "6 h 5 min",
+       "stops": [
+        {
+         "airport": "DEN",
+         "layover": "45 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "5:05 PM LGA",
+       "arrive": "10:40 PM ELP",
+       "duration": "7 h 35 min",
+       "stops": [
+        {
+         "airport": "DEN",
+         "layover": "1 h 10 min",
+         "overnight": false
+        }
+       ]
       }
      ]
     }
