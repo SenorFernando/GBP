@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T14:13:00-06:00",
+ "updated": "2026-10-25T15:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1106,10 +1106,15 @@
      "t": "2026-10-25T14:13:00-06:00",
      "price": 200,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T15:15:00-06:00",
+     "price": 200,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T14:13:00-06:00",
+    "checked": "2026-10-25T15:15:00-06:00",
     "cheapest": {
      "price": 200,
      "airline": "Viva",
@@ -2247,12 +2252,17 @@
      "t": "2026-10-25T14:13:00-06:00",
      "price": 273,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T15:15:00-06:00",
+     "price": 271,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T14:13:00-06:00",
+    "checked": "2026-10-25T15:15:00-06:00",
     "cheapest": {
-     "price": 273,
+     "price": 271,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -2272,7 +2282,7 @@
      ]
     },
     "best": {
-     "price": 285,
+     "price": 282,
      "airline": "Viva",
      "warnings": [],
      "legs": [
@@ -3378,10 +3388,15 @@
      "t": "2026-10-25T14:13:00-06:00",
      "price": 531,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T15:15:00-06:00",
+     "price": 531,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T14:13:00-06:00",
+    "checked": "2026-10-25T15:15:00-06:00",
     "cheapest": {
      "price": 531,
      "airline": "Viva",
@@ -4560,10 +4575,15 @@
      "t": "2026-10-25T14:13:00-06:00",
      "price": 574,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T15:15:00-06:00",
+     "price": 574,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T14:13:00-06:00",
+    "checked": "2026-10-25T15:15:00-06:00",
     "cheapest": {
      "price": 574,
      "airline": "Viva",
@@ -4588,7 +4608,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -4617,7 +4637,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
