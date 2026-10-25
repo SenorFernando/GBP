@@ -7,6 +7,7 @@ h1{font-size:1.3em}h2{font-size:1.05em;margin:0 0 8px}.g{display:grid;grid-templ
 <body><h1>✈️ Precios de vuelos – Navidad</h1><div class="note">Última actualización: <b id="upd">…</b> (hora de Denver, MT)<br>
 Precios: 1 adulto, económica, 1 equipaje de mano, USD. Las tarifas de Viva pueden no incluir el compartimento superior.</div><div id="c"></div>
 <script>
+const SHOW=['C','D']; // solo viajes redondos (A y B ocultos)
 const fmt=t=>new Date(t).toLocaleString('es-MX',{timeZone:'America/Denver',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 
 const esc=x=>String(x??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -19,7 +20,7 @@ function itins(s){const I=s.itineraries;if(!I||!I.cheapest)return '<div class="i
 const same=JSON.stringify(I.best||I.cheapest)===JSON.stringify(I.cheapest);
 return `<div class="it"><div class="k">Revisado: ${fmt(I.checked)}</div>${itin('💲 Más barato',I.cheapest)}${same?'<h3>⭐ Más recomendado: igual al más barato</h3>':itin('⭐ Más recomendado',I.best)}</div>`}
 fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('upd').textContent=fmt(d.updated);
-d.searches.forEach(s=>{const h=s.history,cur=h[h.length-1].price,low=Math.min(s.baseline??Infinity,...h.map(x=>x.price));
+d.searches.filter(s=>SHOW.includes(s.id)).forEach(s=>{const h=s.history,cur=h[h.length-1].price,low=Math.min(s.baseline??Infinity,...h.map(x=>x.price));
 let ch='—',cl='';for(let i=h.length-1;i>0;i--){if(h[i].price!==h[i-1].price){const df=h[i].price-h[i-1].price;ch=(df>0?'+':'−')+'$'+Math.abs(df)+' ('+fmt(h[i].t)+')';cl=df>0?'up':'down';break}}
 const e=document.createElement('div');e.className='card';
 e.innerHTML=`<h2>${s.name}</h2><div class="g"><div><div class="k">Precio actual</div><div class="v">$${cur}</div><div class="k">${h[h.length-1].airline||''}</div></div>
