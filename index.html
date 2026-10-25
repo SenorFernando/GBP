@@ -3,13 +3,18 @@
 <style>body{font-family:system-ui,sans-serif;margin:0;padding:12px;background:#f4f6f9;color:#222;max-width:900px;margin:auto}
 .card{background:#fff;border-radius:10px;padding:14px;margin:12px 0;box-shadow:0 1px 4px #0002}
 h1{font-size:1.3em}h2{font-size:1.05em;margin:0 0 8px}.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px}
-.k{font-size:.75em;color:#666}.v{font-size:1.2em;font-weight:600}.up{color:#c0392b}.down{color:#1e8449}.note{font-size:.8em;color:#555}a{color:#1a73e8}.it{border-top:1px solid #eee;margin-top:10px;padding-top:8px;font-size:.9em}.it h3{font-size:.95em;margin:4px 0}.leg{margin:4px 0 6px}.st{margin-left:14px;font-size:.85em;color:#444}.long{color:#b9770e;font-weight:600}.warn{color:#c0392b;font-size:.82em}.pend{color:#888;font-style:italic}.ins{margin:0 0 4px;font-size:.75em;color:#666;line-height:1.4}.ins .lbl{font-weight:400;color:#666}.ins .lv{font-weight:700}.ins .lv.low{color:#1e8449}.ins .lv.typical{color:#5d7b9d}.ins .lv.high{color:#c0392b}.ins .lv.unknown{color:#666}.ins .src{color:#666}.ba{width:100%;border-collapse:collapse;font-size:.82em;margin-top:4px}.ba th,.ba td{text-align:left;padding:4px 6px;border-bottom:1px solid #eee;vertical-align:top}.ba th{color:#666;font-weight:600}.ba tr.min td{background:#eaf6ee}.ba .p{font-weight:600;white-space:nowrap}.ba .s{color:#666}.ba .long{color:#b9770e}</style></head>
-<body><h1>✈️ Precios de vuelos</h1><div class="note">Última actualización: <b id="upd">…</b> (hora de Denver, MT)<br>
+.k{font-size:.75em;color:#666}.v{font-size:1.2em;font-weight:600}.up{color:#c0392b}.down{color:#1e8449}.note{font-size:.8em;color:#555}a{color:#1a73e8}.it{border-top:1px solid #eee;margin-top:10px;padding-top:8px;font-size:.9em}.it h3{font-size:.95em;margin:4px 0}.leg{margin:4px 0 6px}.st{margin-left:14px;font-size:.85em;color:#444}.long{color:#b9770e;font-weight:600}.warn{color:#c0392b;font-size:.82em}.pend{color:#888;font-style:italic}.ins{display:block;width:100%;box-sizing:border-box;margin:8px 0 2px;font-size:12px;color:#666;line-height:1.4;white-space:normal;overflow:visible;text-overflow:clip;max-width:none;overflow-wrap:anywhere}.lc,.lc *{font-size:12px!important;color:#666!important;font-weight:400!important}.lc{margin:0 0 6px}.ins .lbl{font-weight:400;color:#666}.ins .lv{font-weight:700}.ins .lv.low{color:#1e8449}.ins .lv.typical{color:#5d7b9d}.ins .lv.high{color:#c0392b}.ins .lv.unknown{color:#666}.ins .src{color:#666}.ba{width:100%;border-collapse:collapse;font-size:.82em;margin-top:4px}.ba th,.ba td{text-align:left;padding:4px 6px;border-bottom:1px solid #eee;vertical-align:top}.ba th{color:#666;font-weight:600}.ba tr.min td{background:#eaf6ee}.ba .p{font-weight:600;white-space:nowrap}.ba .s{color:#666}.ba .long{color:#b9770e}</style></head>
+<body><h1>✈️ Precios de vuelos</h1><div class="note">Última actualización: <b id="upd">…</b> (hora del Centro de México)<br>
 Precios: 1 adulto, económica, 1 equipaje de mano, USD. Las tarifas de Viva pueden no incluir el compartimento superior.</div><div id="c"></div>
 <script>
 const SHOW=['C','D','E']; // solo viajes redondos (A y B ocultos)
-const fmt=t=>new Date(t).toLocaleString('es-MX',{timeZone:'America/Denver',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+const fmt=t=>new Date(t).toLocaleString('es-MX',{timeZone:'America/Mexico_City',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 
+// Última actualización = el timestamp más reciente de cualquier dato (puntos de precio, insights, itinerarios, 'updated')
+function lastChange(d){let m=-Infinity,best=d.updated;(function w(o){if(Array.isArray(o))return o.forEach(w);if(o&&typeof o==='object')for(const k in o){const v=o[k];if(['t','updated','checked'].includes(k)&&typeof v==='string'){const n=Date.parse(v);if(!isNaN(n)&&n>m){m=n;best=v}}else w(v)}})(d);return best}
+// Convierte una hora de reloj de Denver (hoy) a hora del Centro de México
+function tzOff(tz,ms){const p=new Intl.DateTimeFormat('en-US',{timeZone:tz,timeZoneName:'longOffset'}).formatToParts(ms).find(x=>x.type==='timeZoneName').value;const r=/GMT([+-])(\d\d):?(\d\d)?/.exec(p);return r?(r[1]==='-'?-1:1)*(+r[2]*60+ +(r[3]||0)):0}
+function den2mx(h,mi){const p=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Denver',year:'numeric',month:'2-digit',day:'2-digit'}).format(Date.now()).split('-').map(Number);let u=Date.UTC(p[0],p[1]-1,p[2],h,mi);u-=tzOff('America/Denver',u)*60000;return new Date(u).toLocaleTimeString('en-US',{timeZone:'America/Mexico_City',hour:'numeric',minute:'2-digit'})}
 const esc=x=>String(x??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const hrs=s=>{const m=/(\d+)\s*h/.exec(s||''),n=/(\d+)\s*min/.exec(s||'');return (m?+m[1]:0)+(n?+n[1]/60:0)};
 function itin(t,x){if(!x)return '';let o=`<h3>${t}: $${esc(x.price)} · ${esc(x.airline)}</h3>`;
@@ -26,13 +31,13 @@ return `<h3>✈️ Por aerolínea</h3><table class="ba"><tr><th>Aerolínea</th><
 function itins(s){const I=s.itineraries;if(!I||!I.cheapest)return '<div class="it pend">Itinerarios pendientes</div>';
 const same=JSON.stringify(I.best||I.cheapest)===JSON.stringify(I.cheapest);
 return `<div class="it"><div class="k">Revisado: ${fmt(I.checked)}</div>${itin('💲 Más barato',I.cheapest)}${same?'<h3>⭐ Más recomendado: igual al más barato</h3>':itin('⭐ Más recomendado',I.best)}${byAir(I)}</div>`}
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('upd').textContent=fmt(d.updated);
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{document.getElementById('upd').textContent=fmt(lastChange(d));
 d.searches.filter(s=>SHOW.includes(s.id)).forEach(s=>{const h=s.history,cur=h[h.length-1].price,low=Math.min(s.baseline??Infinity,...h.map(x=>x.price));
 let ch='—',cl='';for(let i=h.length-1;i>0;i--){if(h[i].price!==h[i-1].price){const df=h[i].price-h[i-1].price;ch=(df>0?'+':'−')+'$'+Math.abs(df)+' ('+fmt(h[i].t)+')';cl=df>0?'up':'down';break}}
 const e=document.createElement('div');e.className='card';
 e.innerHTML=`<h2>${s.name}</h2><div class="g"><div><div class="k">Precio actual</div><div class="v">$${cur}</div><div class="k">${h[h.length-1].airline||''}</div></div>
-<div><div class="k">Más bajo visto</div><div class="v" style="color:#9aa0a6;text-decoration:line-through">$${low}</div></div><div>${insight(s)}<div class="k">Último cambio</div><div class="v ${cl}" style="font-size:.95em">${ch}</div></div></div>
+<div><div class="k">Más bajo visto</div><div class="v" style="color:#9aa0a6;text-decoration:line-through">$${low}</div></div></div>${insight(s)}<div class="k lc">Último cambio ${ch}</div>
 <canvas height="160"></canvas>${itins(s)}<a href="${s.url}" target="_blank" rel="noopener">Ver en Google Flights →</a>`;
 document.getElementById('c').appendChild(e);
 new Chart(e.querySelector('canvas'),{type:'line',data:{labels:h.map(x=>fmt(x.t)),datasets:[{label:'USD',data:h.map(x=>x.price),borderColor:'#1a73e8',tension:.2}]},options:{plugins:{legend:{display:false}}}})})});
-</script><footer style="text-align:center;color:#9aa0a6;font-size:.85em;margin:24px 0">Los precios se revisan cada hora, de 6:09 AM a 10:09 PM (hora de Denver, MT), todos los días hasta el 23 de diciembre.</footer></body></html>
+</script><footer style="text-align:center;color:#9aa0a6;font-size:.85em;margin:24px 0">Los precios se revisan cada hora, de <span id="sch1">6:09 AM</span> a <span id="sch2">10:09 PM</span> (hora del Centro de México), todos los días hasta el 23 de diciembre.</footer><script>try{document.getElementById('sch1').textContent=den2mx(6,9);document.getElementById('sch2').textContent=den2mx(22,9)}catch(e){}</script></body></html>
