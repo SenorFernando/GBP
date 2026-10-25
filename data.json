@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T10:16:00-06:00",
+ "updated": "2026-10-25T11:12:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1086,15 +1086,21 @@
      "t": "2026-10-25T10:16:00-06:00",
      "price": 180,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T11:12:00-06:00",
+     "price": 199,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T10:16:00-06:00",
+    "checked": "2026-10-25T11:12:00-06:00",
     "cheapest": {
-     "price": 180,
+     "price": 199,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Puede no incluir compartimento superior"
+      "Puede no incluir compartimento superior",
+      "Opción boletos separados Viva+Volaris $195 (7:25 PM, MTY 8 h 12 min)"
      ],
      "legs": [
       {
@@ -1113,7 +1119,7 @@
      ]
     },
     "best": {
-     "price": 180,
+     "price": 200,
      "airline": "Viva Aerobus",
      "warnings": [
       "Puede no incluir compartimento superior"
@@ -1121,13 +1127,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
+       "depart": "7:25 PM CJS",
        "arrive": "7:02 AM+1 CUL",
-       "duration": "16 h 17 min",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "12 h 55 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
@@ -2211,12 +2217,17 @@
      "t": "2026-10-25T10:16:00-06:00",
      "price": 271,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T11:12:00-06:00",
+     "price": 273,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T10:16:00-06:00",
+    "checked": "2026-10-25T11:12:00-06:00",
     "cheapest": {
-     "price": 271,
+     "price": 273,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -2236,7 +2247,7 @@
      ]
     },
     "best": {
-     "price": 282,
+     "price": 285,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -3322,10 +3333,15 @@
      "t": "2026-10-25T10:16:00-06:00",
      "price": 528,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T11:12:00-06:00",
+     "price": 528,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T10:16:00-06:00",
+    "checked": "2026-10-25T11:12:00-06:00",
     "cheapest": {
      "price": 528,
      "airline": "Viva Aerobus",
@@ -4488,10 +4504,15 @@
      "t": "2026-10-25T10:16:00-06:00",
      "price": 575,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T11:12:00-06:00",
+     "price": 575,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T10:16:00-06:00",
+    "checked": "2026-10-25T11:12:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva Aerobus",
