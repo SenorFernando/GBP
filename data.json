@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:16:00-06:00",
+ "updated": "2026-10-24T22:17:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1056,15 +1056,20 @@
      "t": "2026-10-24T21:16:00-06:00",
      "price": 176,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T22:17:00-06:00",
+     "price": 176,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T21:16:00-06:00",
+    "checked": "2026-10-24T22:17:00-06:00",
     "cheapest": {
      "price": 176,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -1086,7 +1091,7 @@
      "price": 176,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -2151,15 +2156,20 @@
      "t": "2026-10-24T21:16:00-06:00",
      "price": 273,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T22:17:00-06:00",
+     "price": 273,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T21:16:00-06:00",
+    "checked": "2026-10-24T22:17:00-06:00",
     "cheapest": {
      "price": 273,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -2181,7 +2191,7 @@
      "price": 285,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -3236,15 +3246,20 @@
      "t": "2026-10-24T21:16:00-06:00",
      "price": 517,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T22:17:00-06:00",
+     "price": 517,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T21:16:00-06:00",
+    "checked": "2026-10-24T22:17:00-06:00",
     "cheapest": {
      "price": 517,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -3279,7 +3294,7 @@
      "price": 528,
      "airline": "Viva Aerobus",
      "warnings": [
-      "May not include overhead bin access"
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -4372,16 +4387,21 @@
      "t": "2026-10-24T21:16:00-06:00",
      "price": 575,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-24T22:17:00-06:00",
+     "price": 575,
+     "airline": "Viva Aerobus"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-24T21:16:00-06:00",
+    "checked": "2026-10-24T22:17:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Separate tickets",
-      "May not include overhead bin access"
+      "Boletos separados",
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
@@ -4410,8 +4430,8 @@
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Separate tickets",
-      "May not include overhead bin access"
+      "Boletos separados",
+      "Posible sin acceso a compartimento superior"
      ],
      "legs": [
       {
