@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:17:00-06:00",
+ "updated": "2026-10-25T14:13:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1101,16 +1101,19 @@
      "t": "2026-10-25T13:17:00-06:00",
      "price": 200,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T14:13:00-06:00",
+     "price": 200,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T13:17:00-06:00",
+    "checked": "2026-10-25T14:13:00-06:00",
     "cheapest": {
      "price": 200,
      "airline": "Viva",
-     "warnings": [
-      "Viva: puede no incluir acceso al compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -1130,9 +1133,7 @@
     "best": {
      "price": 200,
      "airline": "Viva",
-     "warnings": [
-      "Viva: puede no incluir acceso al compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -2241,19 +2242,22 @@
      "t": "2026-10-25T13:17:00-06:00",
      "price": 273,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T14:13:00-06:00",
+     "price": 273,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T13:17:00-06:00",
+    "checked": "2026-10-25T14:13:00-06:00",
     "cheapest": {
      "price": 273,
      "airline": "Viva",
-     "warnings": [
-      "Viva: puede no incluir acceso al compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "9:28 PM CUL",
        "arrive": "10:34 AM+1 CJS",
        "duration": "13 h 6 min",
@@ -2270,12 +2274,10 @@
     "best": {
      "price": 285,
      "airline": "Viva",
-     "warnings": [
-      "Viva: puede no incluir acceso al compartimento superior"
-     ],
+     "warnings": [],
      "legs": [
       {
-       "label": "Ida",
+       "label": "Regreso",
        "depart": "10:16 AM CUL",
        "arrive": "6:48 PM CJS",
        "duration": "8 h 32 min",
@@ -3371,16 +3373,19 @@
      "t": "2026-10-25T13:17:00-06:00",
      "price": 605,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T14:13:00-06:00",
+     "price": 531,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T13:17:00-06:00",
+    "checked": "2026-10-25T14:13:00-06:00",
     "cheapest": {
-     "price": 605,
+     "price": 531,
      "airline": "Viva",
-     "warnings": [
-      "Regreso no confirmado: Google Flights dejó de cargar Viva al seleccionar la ida"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -3394,15 +3399,26 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
+        }
+       ]
       }
      ]
     },
     "best": {
-     "price": 605,
+     "price": 542,
      "airline": "Viva",
-     "warnings": [
-      "Regreso no confirmado: Google Flights dejó de cargar Viva al seleccionar la ida"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
@@ -3414,6 +3430,19 @@
          "airport": "MTY",
          "layover": "8 h 15 min",
          "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "10:16 AM CUL",
+       "arrive": "6:48 PM CJS",
+       "duration": "8 h 32 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "5 h 18 min",
+         "overnight": false
         }
        ]
       }
@@ -4526,10 +4555,15 @@
      "t": "2026-10-25T13:17:00-06:00",
      "price": 574,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T14:13:00-06:00",
+     "price": 574,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T13:17:00-06:00",
+    "checked": "2026-10-25T14:13:00-06:00",
     "cheapest": {
      "price": 574,
      "airline": "Viva",
