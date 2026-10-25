@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T09:13:00-06:00",
+ "updated": "2026-10-25T10:16:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -1081,14 +1081,21 @@
      "t": "2026-10-25T09:13:00-06:00",
      "price": 180,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-25T10:16:00-06:00",
+     "price": 180,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T09:13:00-06:00",
+    "checked": "2026-10-25T10:16:00-06:00",
     "cheapest": {
      "price": 180,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -1108,7 +1115,9 @@
     "best": {
      "price": 180,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -2197,12 +2206,17 @@
      "t": "2026-10-25T09:13:00-06:00",
      "price": 273,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-25T10:16:00-06:00",
+     "price": 271,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T09:13:00-06:00",
+    "checked": "2026-10-25T10:16:00-06:00",
     "cheapest": {
-     "price": 273,
+     "price": 271,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -2222,7 +2236,7 @@
      ]
     },
     "best": {
-     "price": 285,
+     "price": 282,
      "airline": "Viva Aerobus",
      "warnings": [],
      "legs": [
@@ -3303,14 +3317,21 @@
      "t": "2026-10-25T09:13:00-06:00",
      "price": 517,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-25T10:16:00-06:00",
+     "price": 528,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T09:13:00-06:00",
+    "checked": "2026-10-25T10:16:00-06:00",
     "cheapest": {
-     "price": 517,
+     "price": 528,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -3341,9 +3362,11 @@
      ]
     },
     "best": {
-     "price": 528,
+     "price": 540,
      "airline": "Viva Aerobus",
-     "warnings": [],
+     "warnings": [
+      "Puede no incluir compartimento superior"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -4460,15 +4483,21 @@
      "t": "2026-10-25T09:13:00-06:00",
      "price": 575,
      "airline": "Viva Aerobus"
+    },
+    {
+     "t": "2026-10-25T10:16:00-06:00",
+     "price": 575,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T09:13:00-06:00",
+    "checked": "2026-10-25T10:16:00-06:00",
     "cheapest": {
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Boletos separados"
+      "Boletos separados",
+      "Puede no incluir compartimento superior"
      ],
      "legs": [
       {
@@ -4497,7 +4526,8 @@
      "price": 575,
      "airline": "Viva Aerobus",
      "warnings": [
-      "Boletos separados"
+      "Boletos separados",
+      "Puede no incluir compartimento superior"
      ],
      "legs": [
       {
