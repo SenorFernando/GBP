@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T20:15:00-06:00",
+ "updated": "2026-10-25T21:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3418,15 +3418,20 @@
      "t": "2026-10-25T20:15:00-06:00",
      "price": 529,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T21:15:00-06:00",
+     "price": 549,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T20:15:00-06:00",
+    "checked": "2026-10-25T21:15:00-06:00",
     "cheapest": {
-     "price": 529,
+     "price": 549,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin opciones con carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
@@ -3445,10 +3450,10 @@
      ]
     },
     "best": {
-     "price": 529,
+     "price": 549,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin opciones con carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
@@ -3471,7 +3476,7 @@
     "level": "high",
     "text": "Precios altos según Google; viajes similares a Culiacán suelen costar $200–$455.",
     "range": "$200–$455",
-    "updated": "2026-10-25T19:20:00-06:00"
+    "updated": "2026-10-25T21:15:00-06:00"
    }
   },
   {
@@ -4614,12 +4619,17 @@
      "t": "2026-10-25T20:15:00-06:00",
      "price": 573,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T21:15:00-06:00",
+     "price": 574,
+     "airline": "Viva (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T20:15:00-06:00",
+    "checked": "2026-10-25T21:15:00-06:00",
     "cheapest": {
-     "price": 573,
+     "price": 574,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
@@ -4648,7 +4658,7 @@
      ]
     },
     "best": {
-     "price": 573,
+     "price": 574,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
@@ -4681,7 +4691,7 @@
     "level": "high",
     "text": "Precios altos según Google; viajes similares a Mazatlán suelen costar $195–$420.",
     "range": "$195–$420",
-    "updated": "2026-10-25T19:20:00-06:00"
+    "updated": "2026-10-25T21:15:00-06:00"
    }
   },
   {
@@ -4719,10 +4729,15 @@
      "t": "2026-10-25T20:15:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-25T21:15:00-06:00",
+     "price": 467,
+     "airline": "Southwest"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T20:15:00-06:00",
+    "checked": "2026-10-25T21:15:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4745,7 +4760,7 @@
        "label": "Regreso",
        "depart": "6:45 AM LGA",
        "arrive": "12:25 PM ELP",
-       "duration": "7 h 40 min",
+       "duration": "",
        "stops": [
         {
          "airport": "MDW",
@@ -4757,7 +4772,7 @@
      ]
     },
     "best": {
-     "price": 467,
+     "price": 507,
      "airline": "Southwest",
      "warnings": [],
      "legs": [
@@ -4776,13 +4791,13 @@
       },
       {
        "label": "Regreso",
-       "depart": "6:45 AM LGA",
-       "arrive": "12:25 PM ELP",
-       "duration": "7 h 40 min",
+       "depart": "5:05 PM LGA",
+       "arrive": "10:40 PM ELP",
+       "duration": "",
        "stops": [
         {
-         "airport": "MDW",
-         "layover": "1 h 55 min",
+         "airport": "DEN",
+         "layover": "1 h 10 min",
          "overnight": false
         }
        ]
@@ -4812,7 +4827,7 @@
         "label": "Regreso",
         "depart": "6:45 AM LGA",
         "arrive": "12:25 PM ELP",
-        "duration": "7 h 40 min",
+        "duration": "",
         "stops": [
          {
           "airport": "MDW",
@@ -4826,9 +4841,7 @@
      {
       "price": 513,
       "airline": "American",
-      "warnings": [
-       "Regreso con 2 escalas; 1 escala desde $527"
-      ],
+      "warnings": [],
       "legs": [
        {
         "label": "Ida",
@@ -4847,7 +4860,7 @@
         "label": "Regreso",
         "depart": "7:25 AM LGA",
         "arrive": "4:45 PM ELP",
-        "duration": "11 h 20 min",
+        "duration": "",
         "stops": [
          {
           "airport": "DCA",
@@ -4867,7 +4880,7 @@
       "price": 600,
       "airline": "Delta",
       "warnings": [
-       "Llega a JFK"
+       "Tarifa vía LGA ~$558 sin regreso confirmado"
       ],
       "legs": [
        {
@@ -4887,7 +4900,7 @@
         "label": "Regreso",
         "depart": "4:05 PM JFK",
         "arrive": "9:22 PM ELP",
-        "duration": "7 h 17 min",
+        "duration": "",
         "stops": [
          {
           "airport": "ATL",
@@ -4905,13 +4918,13 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "7:00 AM ELP",
-        "arrive": "5:27 PM LGA",
-        "duration": "8 h 27 min",
+        "depart": "5:30 AM ELP",
+        "arrive": "2:31 PM LGA",
+        "duration": "7 h 1 min",
         "stops": [
          {
-          "airport": "DEN",
-          "layover": "2 h 51 min",
+          "airport": "IAH",
+          "layover": "1 h 28 min",
           "overnight": false
          }
         ]
@@ -4920,34 +4933,12 @@
         "label": "Regreso",
         "depart": "3:29 PM LGA",
         "arrive": "9:10 PM ELP",
-        "duration": "7 h 41 min",
+        "duration": "",
         "stops": [
          {
           "airport": "DEN",
           "layover": "1 h 6 min",
           "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 894,
-      "airline": "Alaska",
-      "warnings": [
-       "Llega a JFK"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "7:09 PM ELP",
-        "arrive": "7:25 AM+1 JFK",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "SEA",
-          "layover": "1 h 12 min",
-          "overnight": true
          }
         ]
        }
@@ -4959,7 +4950,7 @@
     "level": "typical",
     "text": "Precios normales según Google; viajes similares a Nueva York suelen costar $270–$560 ($434 es típico).",
     "range": "$270–$560",
-    "updated": "2026-10-25T20:15:00-06:00"
+    "updated": "2026-10-25T21:15:00-06:00"
    }
   }
  ]
