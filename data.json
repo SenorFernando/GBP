@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T21:15:00-06:00",
+ "updated": "2026-10-25T22:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3423,15 +3423,20 @@
      "t": "2026-10-25T21:15:00-06:00",
      "price": 549,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T22:15:00-06:00",
+     "price": 640,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T21:15:00-06:00",
+    "checked": "2026-10-25T22:15:00-06:00",
     "cheapest": {
-     "price": 549,
+     "price": 640,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con carry-on"
+      "Regreso sin resultados con 1 carry-on"
      ],
      "legs": [
       {
@@ -3450,10 +3455,10 @@
      ]
     },
     "best": {
-     "price": 549,
+     "price": 640,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con carry-on"
+      "Regreso sin resultados con 1 carry-on"
      ],
      "legs": [
       {
@@ -3474,9 +3479,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos según Google; viajes similares a Culiacán suelen costar $200–$455.",
+    "text": "Precio alto según Google; viajes similares a Culiacán suelen costar $200–$455.",
     "range": "$200–$455",
-    "updated": "2026-10-25T21:15:00-06:00"
+    "updated": "2026-10-25T22:15:00-06:00"
    }
   },
   {
@@ -4624,13 +4629,18 @@
      "t": "2026-10-25T21:15:00-06:00",
      "price": 574,
      "airline": "Viva (boletos separados)"
+    },
+    {
+     "t": "2026-10-25T22:15:00-06:00",
+     "price": 574,
+     "airline": "Viva vía MTY (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T21:15:00-06:00",
+    "checked": "2026-10-25T22:15:00-06:00",
     "cheapest": {
      "price": 574,
-     "airline": "Viva",
+     "airline": "Viva (boletos separados)",
      "warnings": [
       "Boletos separados"
      ],
@@ -4652,14 +4662,14 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
      "price": 574,
-     "airline": "Viva",
+     "airline": "Viva (boletos separados)",
      "warnings": [
       "Boletos separados"
      ],
@@ -4681,7 +4691,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -4689,9 +4699,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos según Google; viajes similares a Mazatlán suelen costar $195–$420.",
+    "text": "Precio alto según Google; viajes similares a Mazatlán suelen costar $195–$420.",
     "range": "$195–$420",
-    "updated": "2026-10-25T21:15:00-06:00"
+    "updated": "2026-10-25T22:15:00-06:00"
    }
   },
   {
@@ -4734,10 +4744,15 @@
      "t": "2026-10-25T21:15:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-25T22:15:00-06:00",
+     "price": 467,
+     "airline": "Southwest vía DEN"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T21:15:00-06:00",
+    "checked": "2026-10-25T22:15:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4751,7 +4766,7 @@
        "stops": [
         {
          "airport": "DEN",
-         "layover": "45 min",
+         "layover": "0 h 45 min",
          "overnight": false
         }
        ]
@@ -4760,7 +4775,7 @@
        "label": "Regreso",
        "depart": "6:45 AM LGA",
        "arrive": "12:25 PM ELP",
-       "duration": "",
+       "duration": "7 h 40 min",
        "stops": [
         {
          "airport": "MDW",
@@ -4784,7 +4799,7 @@
        "stops": [
         {
          "airport": "DEN",
-         "layover": "45 min",
+         "layover": "0 h 45 min",
          "overnight": false
         }
        ]
@@ -4793,7 +4808,7 @@
        "label": "Regreso",
        "depart": "5:05 PM LGA",
        "arrive": "10:40 PM ELP",
-       "duration": "",
+       "duration": "7 h 35 min",
        "stops": [
         {
          "airport": "DEN",
@@ -4818,7 +4833,7 @@
         "stops": [
          {
           "airport": "DEN",
-          "layover": "45 min",
+          "layover": "0 h 45 min",
           "overnight": false
          }
         ]
@@ -4827,7 +4842,7 @@
         "label": "Regreso",
         "depart": "6:45 AM LGA",
         "arrive": "12:25 PM ELP",
-        "duration": "",
+        "duration": "7 h 40 min",
         "stops": [
          {
           "airport": "MDW",
@@ -4847,11 +4862,11 @@
         "label": "Ida",
         "depart": "5:45 AM ELP",
         "arrive": "2:03 PM LGA",
-        "duration": "6 h 18 min",
+        "duration": "",
         "stops": [
          {
           "airport": "DFW",
-          "layover": "50 min",
+          "layover": "0 h 50 min",
           "overnight": false
          }
         ]
@@ -4860,7 +4875,7 @@
         "label": "Regreso",
         "depart": "7:25 AM LGA",
         "arrive": "4:45 PM ELP",
-        "duration": "",
+        "duration": "11 h 20 min",
         "stops": [
          {
           "airport": "DCA",
@@ -4879,9 +4894,7 @@
      {
       "price": 600,
       "airline": "Delta",
-      "warnings": [
-       "Tarifa vía LGA ~$558 sin regreso confirmado"
-      ],
+      "warnings": [],
       "legs": [
        {
         "label": "Ida",
@@ -4900,7 +4913,7 @@
         "label": "Regreso",
         "depart": "4:05 PM JFK",
         "arrive": "9:22 PM ELP",
-        "duration": "",
+        "duration": "7 h 17 min",
         "stops": [
          {
           "airport": "ATL",
@@ -4931,14 +4944,36 @@
        },
        {
         "label": "Regreso",
-        "depart": "3:29 PM LGA",
-        "arrive": "9:10 PM ELP",
-        "duration": "",
+        "depart": "7:23 AM LGA",
+        "arrive": "1:26 PM ELP",
+        "duration": "8 h 3 min",
         "stops": [
          {
           "airport": "DEN",
-          "layover": "1 h 6 min",
+          "layover": "1 h 35 min",
           "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 894,
+      "airline": "Alaska",
+      "warnings": [
+       "Regreso no revisado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "7:09 PM ELP",
+        "arrive": "7:25 AM+1 JFK",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "SEA",
+          "layover": "1 h 12 min",
+          "overnight": true
          }
         ]
        }
@@ -4950,7 +4985,7 @@
     "level": "typical",
     "text": "Precios normales según Google; viajes similares a Nueva York suelen costar $270–$560 ($434 es típico).",
     "range": "$270–$560",
-    "updated": "2026-10-25T21:15:00-06:00"
+    "updated": "2026-10-25T22:15:00-06:00"
    }
   }
  ]
