@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T18:15:00-06:00",
+ "updated": "2026-10-25T19:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3408,10 +3408,15 @@
      "t": "2026-10-25T18:15:00-06:00",
      "price": 531,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-25T19:20:00-06:00",
+     "price": 531,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T18:15:00-06:00",
+    "checked": "2026-10-25T19:20:00-06:00",
     "cheapest": {
      "price": 531,
      "airline": "Viva",
@@ -3461,7 +3466,7 @@
     "level": "high",
     "text": "Precios altos según Google; viajes similares a Culiacán suelen costar $200–$455.",
     "range": "$200–$455",
-    "updated": "2026-10-25T17:20:00-06:00"
+    "updated": "2026-10-25T19:20:00-06:00"
    }
   },
   {
@@ -4594,10 +4599,15 @@
      "t": "2026-10-25T18:15:00-06:00",
      "price": 573,
      "airline": "Viva vía MTY (boletos separados)"
+    },
+    {
+     "t": "2026-10-25T19:20:00-06:00",
+     "price": 573,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T18:15:00-06:00",
+    "checked": "2026-10-25T19:20:00-06:00",
     "cheapest": {
      "price": 573,
      "airline": "Viva",
@@ -4622,7 +4632,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -4651,7 +4661,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "Directo",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -4661,7 +4671,7 @@
     "level": "high",
     "text": "Precios altos según Google; viajes similares a Mazatlán suelen costar $195–$420.",
     "range": "$195–$420",
-    "updated": "2026-10-25T17:20:00-06:00"
+    "updated": "2026-10-25T19:20:00-06:00"
    }
   },
   {
@@ -4689,10 +4699,15 @@
      "t": "2026-10-25T18:15:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-25T19:20:00-06:00",
+     "price": 467,
+     "airline": "Southwest"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T18:15:00-06:00",
+    "checked": "2026-10-25T19:20:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4747,8 +4762,8 @@
       {
        "label": "Regreso",
        "depart": "5:05 PM LGA",
-       "arrive": "ELP",
-       "duration": "",
+       "arrive": "10:40 PM ELP",
+       "duration": "7 h 35 min",
        "stops": [
         {
          "airport": "DEN",
@@ -4794,7 +4809,7 @@
       ]
      },
      {
-      "price": 508,
+      "price": 513,
       "airline": "American",
       "warnings": [],
       "legs": [
@@ -4810,19 +4825,6 @@
           "overnight": false
          }
         ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "6:00 AM LGA",
-        "arrive": "11:49 AM ELP",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "DFW",
-          "layover": "1 h 26 min",
-          "overnight": false
-         }
-        ]
        }
       ]
      },
@@ -4830,14 +4832,14 @@
       "price": 600,
       "airline": "Delta",
       "warnings": [
-       "Regreso no revisado"
+       "Llega a JFK"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "2:30 PM ELP",
         "arrive": "12:59 AM+1 JFK",
-        "duration": "",
+        "duration": "8 h 29 min",
         "stops": [
          {
           "airport": "ATL",
@@ -4849,10 +4851,30 @@
       ]
      },
      {
+      "price": 628,
+      "airline": "United",
+      "warnings": [],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "2:35 PM ELP",
+        "arrive": "11:15 PM LGA",
+        "duration": "6 h 40 min",
+        "stops": [
+         {
+          "airport": "DEN",
+          "layover": "1 h 2 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
       "price": 894,
       "airline": "Alaska",
       "warnings": [
-       "Regreso no revisado"
+       "Llega a JFK"
       ],
       "legs": [
        {
