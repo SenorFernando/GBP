@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T09:20:00-06:00",
+ "updated": "2026-10-26T10:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3443,22 +3443,27 @@
      "t": "2026-10-26T09:20:00-06:00",
      "price": 528,
      "airline": "Viva+Volaris vía MTY"
+    },
+    {
+     "t": "2026-10-26T10:15:00-06:00",
+     "price": 521,
+     "airline": "Viva+Volaris vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T09:20:00-06:00",
+    "checked": "2026-10-26T10:15:00-06:00",
     "cheapest": {
-     "price": 528,
+     "price": 521,
      "airline": "Viva + Volaris (boletos separados)",
      "warnings": [
-      "Boletos separados (self-transfer)",
-      "Regreso no leído"
+      "Autotransferencia",
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "CJS 7:25 PM",
-       "arrive": "CUL 6:52 AM +1",
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM+1 CUL",
        "duration": "11 h 27 min",
        "stops": [
         {
@@ -3467,20 +3472,27 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "Sin resultados con carry-on",
+       "arrive": "",
+       "duration": "",
+       "stops": []
       }
      ]
     },
     "best": {
-     "price": 549,
+     "price": 552,
      "airline": "Viva",
      "warnings": [
-      "Regreso: sin resultados con carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "CJS 7:25 PM",
-       "arrive": "CUL 7:02 AM +1",
+       "depart": "7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3489,15 +3501,22 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "Sin resultados con carry-on",
+       "arrive": "",
+       "duration": "",
+       "stops": []
       }
      ]
     }
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto; Google dice que los precios están altos",
+    "text": "Precio alto; Google dice que los precios están altos (normal $205–475)",
     "range": "$205–475",
-    "updated": "2026-10-26T08:25:00-06:00"
+    "updated": "2026-10-26T10:15:00-06:00"
    }
   },
   {
@@ -4665,41 +4684,53 @@
      "t": "2026-10-26T09:20:00-06:00",
      "price": 578,
      "airline": "Viva (boletos separados)"
+    },
+    {
+     "t": "2026-10-26T10:15:00-06:00",
+     "price": 511,
+     "airline": "Viva vía MTY/NLU"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T09:20:00-06:00",
+    "checked": "2026-10-26T10:15:00-06:00",
     "cheapest": {
-     "price": 578,
+     "price": 511,
      "airline": "Viva (boletos separados)",
      "warnings": [
-      "Boletos separados"
+      "Autotransferencia",
+      "Escalas sin duración visible",
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "CJS 7:25 PM",
-       "arrive": "MZT 6:52 AM +1",
-       "duration": "12 h 27 min",
+       "depart": "2:45 PM CJS",
+       "arrive": "7:48 PM+1 MZT",
+       "duration": "30 h 03 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "n/d",
+         "overnight": true
+        },
+        {
+         "airport": "NLU",
+         "layover": "n/d",
          "overnight": true
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "MZT 1:25 PM",
-       "arrive": "CJS 3:08 PM",
-       "duration": "directo",
+       "depart": "Sin resultados con carry-on",
+       "arrive": "",
+       "duration": "",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 578,
+     "price": 545,
      "airline": "Viva (boletos separados)",
      "warnings": [
       "Boletos separados"
@@ -4707,22 +4738,16 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "CJS 7:25 PM",
-       "arrive": "MZT 6:52 AM +1",
-       "duration": "12 h 27 min",
-       "stops": [
-        {
-         "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
-        }
-       ]
+       "depart": "11:10 AM CJS",
+       "arrive": "12:54 PM MZT",
+       "duration": "2 h 44 min",
+       "stops": []
       },
       {
        "label": "Regreso",
-       "depart": "MZT 1:25 PM",
-       "arrive": "CJS 3:08 PM",
-       "duration": "directo",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "",
        "stops": []
       }
      ]
@@ -4730,9 +4755,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto; $576 es alto según Google",
-    "range": "$195–475",
-    "updated": "2026-10-26T08:25:00-06:00"
+    "text": "Precio alto; $577 es alto según Google (normal $195–420)",
+    "range": "$195–420",
+    "updated": "2026-10-26T10:15:00-06:00"
    }
   },
   {
@@ -4795,10 +4820,15 @@
      "t": "2026-10-26T09:20:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-26T10:15:00-06:00",
+     "price": 467,
+     "airline": "Southwest vía DEN"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T09:20:00-06:00",
+    "checked": "2026-10-26T10:15:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4806,9 +4836,9 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "ELP 3:20 PM",
-       "arrive": "LGA 11:25 PM",
-       "duration": "6 h 5 min",
+       "depart": "3:20 PM ELP",
+       "arrive": "11:25 PM LGA",
+       "duration": "6 h 05 min",
        "stops": [
         {
          "airport": "DEN",
@@ -4819,8 +4849,8 @@
       },
       {
        "label": "Regreso",
-       "depart": "LGA 6:45 AM",
-       "arrive": "ELP 12:25 PM",
+       "depart": "6:45 AM LGA",
+       "arrive": "12:25 PM ELP",
        "duration": "7 h 40 min",
        "stops": [
         {
@@ -4839,9 +4869,9 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "ELP 3:20 PM",
-       "arrive": "LGA 11:25 PM",
-       "duration": "6 h 5 min",
+       "depart": "3:20 PM ELP",
+       "arrive": "11:25 PM LGA",
+       "duration": "6 h 05 min",
        "stops": [
         {
          "airport": "DEN",
@@ -4852,8 +4882,8 @@
       },
       {
        "label": "Regreso",
-       "depart": "LGA 6:45 AM",
-       "arrive": "ELP 12:25 PM",
+       "depart": "6:45 AM LGA",
+       "arrive": "12:25 PM ELP",
        "duration": "7 h 40 min",
        "stops": [
         {
@@ -4873,9 +4903,9 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 3:20 PM",
-        "arrive": "LGA 11:25 PM",
-        "duration": "6 h 5 min",
+        "depart": "3:20 PM ELP",
+        "arrive": "11:25 PM LGA",
+        "duration": "6 h 05 min",
         "stops": [
          {
           "airport": "DEN",
@@ -4886,8 +4916,8 @@
        },
        {
         "label": "Regreso",
-        "depart": "LGA 6:45 AM",
-        "arrive": "ELP 12:25 PM",
+        "depart": "6:45 AM LGA",
+        "arrive": "12:25 PM ELP",
         "duration": "7 h 40 min",
         "stops": [
          {
@@ -4900,14 +4930,16 @@
       ]
      },
      {
-      "price": 508,
+      "price": 513,
       "airline": "American",
-      "warnings": [],
+      "warnings": [
+       "Regreso operado por Republic"
+      ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 5:45 AM",
-        "arrive": "LGA 2:03 PM",
+        "depart": "5:45 AM ELP",
+        "arrive": "2:03 PM LGA",
         "duration": "6 h 18 min",
         "stops": [
          {
@@ -4919,13 +4951,18 @@
        },
        {
         "label": "Regreso",
-        "depart": "LGA 11:13 AM",
-        "arrive": "ELP 6:54 PM",
-        "duration": "9 h 41 min",
+        "depart": "7:25 AM LGA",
+        "arrive": "4:45 PM ELP",
+        "duration": "11 h 20 min",
         "stops": [
          {
+          "airport": "DCA",
+          "layover": "n/d",
+          "overnight": false
+         },
+         {
           "airport": "DFW",
-          "layover": "3 h 25 min",
+          "layover": "n/d",
           "overnight": false
          }
         ]
@@ -4933,21 +4970,69 @@
       ]
      },
      {
-      "price": 531,
-      "airline": "Delta",
+      "price": 587,
+      "airline": "United",
       "warnings": [
-       "Regreso no confirmado (con carry-on solo desde JFK, $636)"
+       "Ida operada por Republic"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 2:30 PM",
-        "arrive": "LGA 10:39 PM",
-        "duration": "6 h 9 min",
+        "depart": "8:00 AM ELP",
+        "arrive": "6:19 PM LGA",
+        "duration": "8 h 19 min",
+        "stops": [
+         {
+          "airport": "ORD",
+          "layover": "2 h 48 min",
+          "overnight": false
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "3:29 PM LGA",
+        "arrive": "9:10 PM ELP",
+        "duration": "7 h 41 min",
+        "stops": [
+         {
+          "airport": "DEN",
+          "layover": "1 h 06 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 719,
+      "airline": "Delta",
+      "warnings": [
+       "Llega 12:59 AM"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "2:30 PM ELP",
+        "arrive": "12:59 AM+1 JFK",
+        "duration": "8 h 29 min",
         "stops": [
          {
           "airport": "ATL",
-          "layover": "1 h 0 min",
+          "layover": "3 h 10 min",
+          "overnight": false
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "4:05 PM JFK",
+        "arrive": "9:22 PM ELP",
+        "duration": "7 h 17 min",
+        "stops": [
+         {
+          "airport": "ATL",
+          "layover": "1 h 14 min",
           "overnight": false
          }
         ]
@@ -4955,21 +5040,32 @@
       ]
      },
      {
-      "price": 577,
-      "airline": "United",
-      "warnings": [
-       "Regreso no leído"
-      ],
+      "price": 894,
+      "airline": "Alaska",
+      "warnings": [],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 11:45 AM",
-        "arrive": "LGA 9:47 PM",
-        "duration": "8 h 2 min",
+        "depart": "7:09 PM ELP",
+        "arrive": "7:25 AM+1 JFK",
+        "duration": "",
         "stops": [
          {
-          "airport": "IAH",
-          "layover": "2 h 25 min",
+          "airport": "SEA",
+          "layover": "1 h 12 min",
+          "overnight": true
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "7:00 AM JFK",
+        "arrive": "6:20 PM ELP",
+        "duration": "13 h 20 min",
+        "stops": [
+         {
+          "airport": "SEA",
+          "layover": "3 h 38 min",
           "overnight": false
          }
         ]
@@ -4980,9 +5076,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Precio normal · El mejor momento para comprar suele ser ahora, hasta el 4 nov",
-    "range": "$290–560",
-    "updated": "2026-10-26T08:25:00-06:00"
+    "text": "Precio normal · Google dice que los precios están normales ($290–580)",
+    "range": "$290–580",
+    "updated": "2026-10-26T10:15:00-06:00"
    }
   }
  ]
