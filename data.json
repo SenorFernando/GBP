@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T06:20:00-06:00",
+ "updated": "2026-10-26T08:25:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3433,21 +3433,26 @@
      "t": "2026-10-26T06:20:00-06:00",
      "price": 547,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-26T08:25:00-06:00",
+     "price": 643,
+     "airline": "Viva vía MTY (solo ida confirmada)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T06:20:00-06:00",
+    "checked": "2026-10-26T08:25:00-06:00",
     "cheapest": {
-     "price": 547,
+     "price": 643,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con 1 carry-on"
+      "Regreso sin resultados con carry-on; precio de ida mostrado como total"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "depart": "CJS 7:25 PM",
+       "arrive": "CUL 7:02 AM (+1)",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3460,22 +3465,22 @@
      ]
     },
     "best": {
-     "price": 547,
+     "price": 683,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con 1 carry-on"
+      "Regreso sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "depart": "CJS 6:20 AM",
+       "arrive": "CUL 6:12 PM",
+       "duration": "11 h 52 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
-         "overnight": true
+         "layover": "8 h 37 min",
+         "overnight": false
         }
        ]
       }
@@ -3484,9 +3489,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto según Google; viajes similares a Culiacán suelen costar $205–$475.",
-    "range": "$205–$475",
-    "updated": "2026-10-26T06:20:00-06:00"
+    "text": "Precio alto; Google dice que los precios están altos",
+    "range": "$205–475",
+    "updated": "2026-10-26T08:25:00-06:00"
    }
   },
   {
@@ -4644,12 +4649,17 @@
      "t": "2026-10-26T06:20:00-06:00",
      "price": 575,
      "airline": "Viva vía MTY (boletos separados)"
+    },
+    {
+     "t": "2026-10-26T08:25:00-06:00",
+     "price": 576,
+     "airline": "Viva vía MTY + directo (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T06:20:00-06:00",
+    "checked": "2026-10-26T08:25:00-06:00",
     "cheapest": {
-     "price": 575,
+     "price": 576,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
@@ -4657,8 +4667,8 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
+       "depart": "CJS 7:25 PM",
+       "arrive": "MZT 6:52 AM (+1)",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -4670,15 +4680,15 @@
       },
       {
        "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "depart": "MZT 1:25 PM",
+       "arrive": "CJS 3:08 PM",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 575,
+     "price": 576,
      "airline": "Viva",
      "warnings": [
       "Boletos separados"
@@ -4686,8 +4696,8 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
+       "depart": "CJS 7:25 PM",
+       "arrive": "MZT 6:52 AM (+1)",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -4699,9 +4709,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "depart": "MZT 1:25 PM",
+       "arrive": "CJS 3:08 PM",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -4709,9 +4719,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto según Google; viajes similares a Mazatlán suelen costar $195–$420.",
-    "range": "$195–$420",
-    "updated": "2026-10-26T06:20:00-06:00"
+    "text": "Precio alto; $576 es alto según Google",
+    "range": "$195–475",
+    "updated": "2026-10-26T08:25:00-06:00"
    }
   },
   {
@@ -4764,10 +4774,15 @@
      "t": "2026-10-26T06:20:00-06:00",
      "price": 467,
      "airline": "Southwest vía DEN"
+    },
+    {
+     "t": "2026-10-26T08:25:00-06:00",
+     "price": 467,
+     "airline": "Southwest vía DEN/MDW"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T06:20:00-06:00",
+    "checked": "2026-10-26T08:25:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4775,21 +4790,21 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "3:20 PM ELP",
-       "arrive": "11:25 PM LGA",
+       "depart": "ELP 3:20 PM",
+       "arrive": "LGA 11:25 PM",
        "duration": "6 h 5 min",
        "stops": [
         {
          "airport": "DEN",
-         "layover": "45 min",
+         "layover": "0 h 45 min",
          "overnight": false
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "6:45 AM LGA",
-       "arrive": "12:25 PM ELP",
+       "depart": "LGA 6:45 AM",
+       "arrive": "ELP 12:25 PM",
        "duration": "7 h 40 min",
        "stops": [
         {
@@ -4808,21 +4823,21 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "3:20 PM ELP",
-       "arrive": "11:25 PM LGA",
+       "depart": "ELP 3:20 PM",
+       "arrive": "LGA 11:25 PM",
        "duration": "6 h 5 min",
        "stops": [
         {
          "airport": "DEN",
-         "layover": "45 min",
+         "layover": "0 h 45 min",
          "overnight": false
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "6:45 AM LGA",
-       "arrive": "12:25 PM ELP",
+       "depart": "LGA 6:45 AM",
+       "arrive": "ELP 12:25 PM",
        "duration": "7 h 40 min",
        "stops": [
         {
@@ -4842,21 +4857,21 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "3:20 PM ELP",
-        "arrive": "11:25 PM LGA",
+        "depart": "ELP 3:20 PM",
+        "arrive": "LGA 11:25 PM",
         "duration": "6 h 5 min",
         "stops": [
          {
           "airport": "DEN",
-          "layover": "45 min",
+          "layover": "0 h 45 min",
           "overnight": false
          }
         ]
        },
        {
         "label": "Regreso",
-        "depart": "6:45 AM LGA",
-        "arrive": "12:25 PM ELP",
+        "depart": "LGA 6:45 AM",
+        "arrive": "ELP 12:25 PM",
         "duration": "7 h 40 min",
         "stops": [
          {
@@ -4869,37 +4884,32 @@
       ]
      },
      {
-      "price": 513,
+      "price": 508,
       "airline": "American",
       "warnings": [],
       "legs": [
        {
         "label": "Ida",
-        "depart": "5:45 AM ELP",
-        "arrive": "2:03 PM LGA",
+        "depart": "ELP 5:45 AM",
+        "arrive": "LGA 2:03 PM",
         "duration": "6 h 18 min",
         "stops": [
          {
           "airport": "DFW",
-          "layover": "50 min",
+          "layover": "0 h 50 min",
           "overnight": false
          }
         ]
        },
        {
         "label": "Regreso",
-        "depart": "7:25 AM LGA",
-        "arrive": "4:45 PM ELP",
-        "duration": "11 h 20 min",
+        "depart": "LGA 11:13 AM",
+        "arrive": "ELP 6:54 PM",
+        "duration": "9 h 41 min",
         "stops": [
          {
-          "airport": "DCA",
-          "layover": "",
-          "overnight": false
-         },
-         {
           "airport": "DFW",
-          "layover": "",
+          "layover": "3 h 25 min",
           "overnight": false
          }
         ]
@@ -4913,21 +4923,21 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "8:00 AM ELP",
-        "arrive": "4:15 PM LGA",
-        "duration": "6 h 15 min",
+        "depart": "ELP 8:00 AM",
+        "arrive": "LGA 5:15 PM",
+        "duration": "7 h 15 min",
         "stops": [
          {
           "airport": "ORD",
-          "layover": "48 min",
+          "layover": "1 h 48 min",
           "overnight": false
          }
         ]
        },
        {
         "label": "Regreso",
-        "depart": "7:23 AM LGA",
-        "arrive": "1:26 PM ELP",
+        "depart": "LGA 7:23 AM",
+        "arrive": "ELP 1:26 PM",
         "duration": "",
         "stops": [
          {
@@ -4942,14 +4952,12 @@
      {
       "price": 719,
       "airline": "Delta",
-      "warnings": [
-       "Llega después de medianoche"
-      ],
+      "warnings": [],
       "legs": [
        {
         "label": "Ida",
-        "depart": "2:30 PM ELP",
-        "arrive": "12:59 AM+1 JFK",
+        "depart": "ELP 2:30 PM",
+        "arrive": "JFK 12:59 AM (+1)",
         "duration": "8 h 29 min",
         "stops": [
          {
@@ -4961,46 +4969,13 @@
        },
        {
         "label": "Regreso",
-        "depart": "4:05 PM JFK",
-        "arrive": "9:22 PM ELP",
+        "depart": "JFK 6:00 AM",
+        "arrive": "ELP 1:25 PM",
         "duration": "",
         "stops": [
          {
           "airport": "ATL",
-          "layover": "1 h 14 min",
-          "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 894,
-      "airline": "Alaska",
-      "warnings": [],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "7:09 PM ELP",
-        "arrive": "7:25 AM+1 JFK",
-        "duration": "10 h 16 min",
-        "stops": [
-         {
-          "airport": "SEA",
-          "layover": "1 h 12 min",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "7:00 AM JFK",
-        "arrive": "6:20 PM ELP",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "SEA",
-          "layover": "3 h 38 min",
+          "layover": "3 h 34 min",
           "overnight": false
          }
         ]
@@ -5011,9 +4986,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Precios normales según Google; el mejor momento para comprar suele ser ahora, hasta el 4 de nov. Viajes similares suelen costar $270–$560.",
-    "range": "$270–$560",
-    "updated": "2026-10-26T06:20:00-06:00"
+    "text": "Precio normal · El mejor momento para comprar suele ser ahora, hasta el 4 nov",
+    "range": "$290–560",
+    "updated": "2026-10-26T08:25:00-06:00"
    }
   }
  ]
