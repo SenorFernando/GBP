@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T08:25:00-06:00",
+ "updated": "2026-10-26T09:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3438,26 +3438,32 @@
      "t": "2026-10-26T08:25:00-06:00",
      "price": 643,
      "airline": "Viva vía MTY (solo ida confirmada)"
+    },
+    {
+     "t": "2026-10-26T09:20:00-06:00",
+     "price": 528,
+     "airline": "Viva+Volaris vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T08:25:00-06:00",
+    "checked": "2026-10-26T09:20:00-06:00",
     "cheapest": {
-     "price": 643,
-     "airline": "Viva",
+     "price": 528,
+     "airline": "Viva + Volaris (boletos separados)",
      "warnings": [
-      "Regreso sin resultados con carry-on; precio de ida mostrado como total"
+      "Boletos separados (self-transfer)",
+      "Regreso no leído"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "CJS 7:25 PM",
-       "arrive": "CUL 7:02 AM (+1)",
-       "duration": "11 h 37 min",
+       "arrive": "CUL 6:52 AM +1",
+       "duration": "11 h 27 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "8 h 12 min",
          "overnight": true
         }
        ]
@@ -3465,22 +3471,22 @@
      ]
     },
     "best": {
-     "price": 683,
+     "price": 549,
      "airline": "Viva",
      "warnings": [
-      "Regreso sin resultados con carry-on"
+      "Regreso: sin resultados con carry-on"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "CJS 6:20 AM",
-       "arrive": "CUL 6:12 PM",
-       "duration": "11 h 52 min",
+       "depart": "CJS 7:25 PM",
+       "arrive": "CUL 7:02 AM +1",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 37 min",
-         "overnight": false
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -4654,13 +4660,18 @@
      "t": "2026-10-26T08:25:00-06:00",
      "price": 576,
      "airline": "Viva vía MTY + directo (boletos separados)"
+    },
+    {
+     "t": "2026-10-26T09:20:00-06:00",
+     "price": 578,
+     "airline": "Viva (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T08:25:00-06:00",
+    "checked": "2026-10-26T09:20:00-06:00",
     "cheapest": {
-     "price": 576,
-     "airline": "Viva",
+     "price": 578,
+     "airline": "Viva (boletos separados)",
      "warnings": [
       "Boletos separados"
      ],
@@ -4668,7 +4679,7 @@
       {
        "label": "Ida",
        "depart": "CJS 7:25 PM",
-       "arrive": "MZT 6:52 AM (+1)",
+       "arrive": "MZT 6:52 AM +1",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -4682,14 +4693,14 @@
        "label": "Regreso",
        "depart": "MZT 1:25 PM",
        "arrive": "CJS 3:08 PM",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 576,
-     "airline": "Viva",
+     "price": 578,
+     "airline": "Viva (boletos separados)",
      "warnings": [
       "Boletos separados"
      ],
@@ -4697,7 +4708,7 @@
       {
        "label": "Ida",
        "depart": "CJS 7:25 PM",
-       "arrive": "MZT 6:52 AM (+1)",
+       "arrive": "MZT 6:52 AM +1",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -4711,7 +4722,7 @@
        "label": "Regreso",
        "depart": "MZT 1:25 PM",
        "arrive": "CJS 3:08 PM",
-       "duration": "2 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -4779,10 +4790,15 @@
      "t": "2026-10-26T08:25:00-06:00",
      "price": 467,
      "airline": "Southwest vía DEN/MDW"
+    },
+    {
+     "t": "2026-10-26T09:20:00-06:00",
+     "price": 467,
+     "airline": "Southwest"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T08:25:00-06:00",
+    "checked": "2026-10-26T09:20:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4917,32 +4933,21 @@
       ]
      },
      {
-      "price": 628,
-      "airline": "United",
-      "warnings": [],
+      "price": 531,
+      "airline": "Delta",
+      "warnings": [
+       "Regreso no confirmado (con carry-on solo desde JFK, $636)"
+      ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 8:00 AM",
-        "arrive": "LGA 5:15 PM",
-        "duration": "7 h 15 min",
+        "depart": "ELP 2:30 PM",
+        "arrive": "LGA 10:39 PM",
+        "duration": "6 h 9 min",
         "stops": [
          {
-          "airport": "ORD",
-          "layover": "1 h 48 min",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "LGA 7:23 AM",
-        "arrive": "ELP 1:26 PM",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "DEN",
-          "layover": "1 h 35 min",
+          "airport": "ATL",
+          "layover": "1 h 0 min",
           "overnight": false
          }
         ]
@@ -4950,32 +4955,21 @@
       ]
      },
      {
-      "price": 719,
-      "airline": "Delta",
-      "warnings": [],
+      "price": 577,
+      "airline": "United",
+      "warnings": [
+       "Regreso no leído"
+      ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP 2:30 PM",
-        "arrive": "JFK 12:59 AM (+1)",
-        "duration": "8 h 29 min",
+        "depart": "ELP 11:45 AM",
+        "arrive": "LGA 9:47 PM",
+        "duration": "8 h 2 min",
         "stops": [
          {
-          "airport": "ATL",
-          "layover": "3 h 10 min",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "JFK 6:00 AM",
-        "arrive": "ELP 1:25 PM",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "ATL",
-          "layover": "3 h 34 min",
+          "airport": "IAH",
+          "layover": "2 h 25 min",
           "overnight": false
          }
         ]
