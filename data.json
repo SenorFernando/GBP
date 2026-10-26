@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:20:00-06:00",
+ "updated": "2026-10-25T20:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3413,15 +3413,20 @@
      "t": "2026-10-25T19:20:00-06:00",
      "price": 531,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T20:15:00-06:00",
+     "price": 529,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T19:20:00-06:00",
+    "checked": "2026-10-25T20:15:00-06:00",
     "cheapest": {
-     "price": 531,
+     "price": 529,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado con carry-on (sin opciones con el filtro)"
+      "Regreso sin opciones con carry-on"
      ],
      "legs": [
       {
@@ -3440,10 +3445,10 @@
      ]
     },
     "best": {
-     "price": 531,
+     "price": 529,
      "airline": "Viva",
      "warnings": [
-      "Regreso no confirmado con carry-on (sin opciones con el filtro)"
+      "Regreso sin opciones con carry-on"
      ],
      "legs": [
       {
@@ -4604,10 +4609,15 @@
      "t": "2026-10-25T19:20:00-06:00",
      "price": 573,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-25T20:15:00-06:00",
+     "price": 573,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T19:20:00-06:00",
+    "checked": "2026-10-25T20:15:00-06:00",
     "cheapest": {
      "price": 573,
      "airline": "Viva",
@@ -4632,7 +4642,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -4661,7 +4671,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -4704,10 +4714,15 @@
      "t": "2026-10-25T19:20:00-06:00",
      "price": 467,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-10-25T20:15:00-06:00",
+     "price": 467,
+     "airline": "Southwest"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-25T19:20:00-06:00",
+    "checked": "2026-10-25T20:15:00-06:00",
     "cheapest": {
      "price": 467,
      "airline": "Southwest",
@@ -4742,7 +4757,7 @@
      ]
     },
     "best": {
-     "price": 507,
+     "price": 467,
      "airline": "Southwest",
      "warnings": [],
      "legs": [
@@ -4761,13 +4776,13 @@
       },
       {
        "label": "Regreso",
-       "depart": "5:05 PM LGA",
-       "arrive": "10:40 PM ELP",
-       "duration": "7 h 35 min",
+       "depart": "6:45 AM LGA",
+       "arrive": "12:25 PM ELP",
+       "duration": "7 h 40 min",
        "stops": [
         {
-         "airport": "DEN",
-         "layover": "1 h 10 min",
+         "airport": "MDW",
+         "layover": "1 h 55 min",
          "overnight": false
         }
        ]
@@ -4811,7 +4826,9 @@
      {
       "price": 513,
       "airline": "American",
-      "warnings": [],
+      "warnings": [
+       "Regreso con 2 escalas; 1 escala desde $527"
+      ],
       "legs": [
        {
         "label": "Ida",
@@ -4822,6 +4839,24 @@
          {
           "airport": "DFW",
           "layover": "50 min",
+          "overnight": false
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "7:25 AM LGA",
+        "arrive": "4:45 PM ELP",
+        "duration": "11 h 20 min",
+        "stops": [
+         {
+          "airport": "DCA",
+          "layover": "",
+          "overnight": false
+         },
+         {
+          "airport": "DFW",
+          "layover": "",
           "overnight": false
          }
         ]
@@ -4847,6 +4882,19 @@
           "overnight": false
          }
         ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "4:05 PM JFK",
+        "arrive": "9:22 PM ELP",
+        "duration": "7 h 17 min",
+        "stops": [
+         {
+          "airport": "ATL",
+          "layover": "1 h 14 min",
+          "overnight": false
+         }
+        ]
        }
       ]
      },
@@ -4857,13 +4905,26 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "2:35 PM ELP",
-        "arrive": "11:15 PM LGA",
-        "duration": "6 h 40 min",
+        "depart": "7:00 AM ELP",
+        "arrive": "5:27 PM LGA",
+        "duration": "8 h 27 min",
         "stops": [
          {
           "airport": "DEN",
-          "layover": "1 h 2 min",
+          "layover": "2 h 51 min",
+          "overnight": false
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "3:29 PM LGA",
+        "arrive": "9:10 PM ELP",
+        "duration": "7 h 41 min",
+        "stops": [
+         {
+          "airport": "DEN",
+          "layover": "1 h 6 min",
           "overnight": false
          }
         ]
@@ -4896,9 +4957,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Precios normales según Google; viajes similares a Nueva York suelen costar $270–$560.",
+    "text": "Precios normales según Google; viajes similares a Nueva York suelen costar $270–$560 ($434 es típico).",
     "range": "$270–$560",
-    "updated": "2026-10-25T17:20:00-06:00"
+    "updated": "2026-10-25T20:15:00-06:00"
    }
   }
  ]
