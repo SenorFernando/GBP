@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T08:25:00-06:00",
+ "updated": "2026-10-27T09:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3523,28 +3523,38 @@
      "t": "2026-10-27T08:25:00-06:00",
      "price": 553,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-27T09:18:00-06:00",
+     "price": 553,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T08:25:00-06:00",
+    "checked": "2026-10-27T09:18:00-06:00",
     "cheapest": {
-     "price": 553,
-     "airline": "Viva",
+     "price": 532,
+     "airline": "Viva + Volaris",
      "warnings": [
-      "regreso no confirmado (sin resultados con carry-on)",
-      "encabezado 'desde $532' sin verificar"
+      "boletos separados",
+      "regreso no confirmado"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
-       "duration": "11 h 37 min",
+       "arrive": "10:46 AM+1 CUL",
+       "duration": "15 h 21 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 15 min",
+         "layover": "",
          "overnight": true
+        },
+        {
+         "airport": "GDL",
+         "layover": "",
+         "overnight": false
         }
        ]
       }
@@ -3554,8 +3564,7 @@
      "price": 553,
      "airline": "Viva",
      "warnings": [
-      "regreso no confirmado (sin resultados con carry-on)",
-      "encabezado 'desde $532' sin verificar"
+      "regreso no confirmado (sin resultados con carry-on)"
      ],
      "legs": [
       {
@@ -3574,6 +3583,34 @@
      ]
     },
     "byAirline": [
+     {
+      "price": 532,
+      "airline": "Viva + Volaris",
+      "warnings": [
+       "boletos separados",
+       "regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "7:25 PM CJS",
+        "arrive": "10:46 AM+1 CUL",
+        "duration": "15 h 21 min",
+        "stops": [
+         {
+          "airport": "MTY",
+          "layover": "",
+          "overnight": true
+         },
+         {
+          "airport": "GDL",
+          "layover": "",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
      {
       "price": 553,
       "airline": "Viva",
@@ -3597,21 +3634,22 @@
       ]
      },
      {
-      "price": 795,
+      "price": 600,
       "airline": "Volaris",
       "warnings": [
-       "regreso no leído"
+       "boletos separados (self transfer)",
+       "regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "7:53 AM CJS",
-        "arrive": "5:07 PM CUL",
-        "duration": "10 h 14 min",
+        "arrive": "7:12 PM CUL",
+        "duration": "12 h 19 min",
         "stops": [
          {
           "airport": "GDL",
-          "layover": "5 h 45 min",
+          "layover": "7 h 50 min",
           "overnight": false
          }
         ]
@@ -3623,7 +3661,7 @@
       "airline": "Aeroméxico",
       "warnings": [
        "Premium Economy",
-       "regreso no leído"
+       "regreso no confirmado"
       ],
       "legs": [
        {
@@ -4895,15 +4933,21 @@
      "t": "2026-10-27T08:25:00-06:00",
      "price": 588,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-27T09:18:00-06:00",
+     "price": 628,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T08:25:00-06:00",
+    "checked": "2026-10-27T09:18:00-06:00",
     "cheapest": {
-     "price": 588,
+     "price": 628,
      "airline": "Viva",
      "warnings": [
-      "regreso no leído"
+      "boletos separados",
+      "Google muestra 'desde $518' sin itinerario visible"
      ],
      "legs": [
       {
@@ -4918,22 +4962,36 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "directo",
+       "stops": []
       }
      ]
     },
     "best": {
-     "price": 589,
+     "price": 628,
      "airline": "Viva",
      "warnings": [
-      "boletos separados"
+      "boletos separados",
+      "Google muestra 'desde $518' sin itinerario visible"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "2 h 44 min",
-       "stops": []
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
+       "duration": "12 h 27 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "8 h 15 min",
+         "overnight": true
+        }
+       ]
       },
       {
        "label": "Regreso",
@@ -4946,10 +5004,10 @@
     },
     "byAirline": [
      {
-      "price": 588,
+      "price": 628,
       "airline": "Viva",
       "warnings": [
-       "regreso no leído"
+       "boletos separados"
       ],
       "legs": [
        {
@@ -4964,6 +5022,13 @@
           "overnight": true
          }
         ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "1:25 PM MZT",
+        "arrive": "3:08 PM CJS",
+        "duration": "directo",
+        "stops": []
        }
       ]
      },
@@ -4971,7 +5036,7 @@
       "price": 1194,
       "airline": "Aeroméxico",
       "warnings": [
-       "regreso no leído"
+       "regreso no confirmado"
       ],
       "legs": [
        {
@@ -5138,10 +5203,15 @@
      "t": "2026-10-27T08:25:00-06:00",
      "price": 441,
      "airline": "American"
+    },
+    {
+     "t": "2026-10-27T09:18:00-06:00",
+     "price": 441,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T08:25:00-06:00",
+    "checked": "2026-10-27T09:18:00-06:00",
     "cheapest": {
      "price": 441,
      "airline": "American",
@@ -5162,9 +5232,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "11:33 AM LGA",
-       "arrive": "6:54 PM ELP",
-       "duration": "9 h 21 min",
+       "depart": "9:23 AM LGA",
+       "arrive": "4:45 PM ELP",
+       "duration": "9 h 22 min",
        "stops": [
         {
          "airport": "DCA",
@@ -5184,7 +5254,7 @@
      "price": 461,
      "airline": "American",
      "warnings": [
-      "regreso no leído"
+      "regreso con 1 escala sube a $506"
      ],
      "legs": [
       {
@@ -5196,6 +5266,24 @@
         {
          "airport": "DFW",
          "layover": "50 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:23 AM LGA",
+       "arrive": "4:45 PM ELP",
+       "duration": "9 h 22 min",
+       "stops": [
+        {
+         "airport": "DCA",
+         "layover": "",
+         "overnight": false
+        },
+        {
+         "airport": "DFW",
+         "layover": "",
          "overnight": false
         }
        ]
@@ -5223,9 +5311,9 @@
        },
        {
         "label": "Regreso",
-        "depart": "11:33 AM LGA",
-        "arrive": "6:54 PM ELP",
-        "duration": "9 h 21 min",
+        "depart": "9:23 AM LGA",
+        "arrive": "4:45 PM ELP",
+        "duration": "9 h 22 min",
         "stops": [
          {
           "airport": "DCA",
