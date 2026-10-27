@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T17:20:00-06:00",
+ "updated": "2026-10-26T18:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3483,16 +3483,20 @@
      "t": "2026-10-26T17:20:00-06:00",
      "price": 552,
      "airline": "Viva vía MTY"
+    },
+    {
+     "t": "2026-10-26T18:20:00-06:00",
+     "price": 549,
+     "airline": "Viva vía MTY"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T17:20:00-06:00",
+    "checked": "2026-10-26T18:20:00-06:00",
     "cheapest": {
-     "price": 552,
+     "price": 549,
      "airline": "Viva",
      "warnings": [
-      "regreso no confirmado (sin resultados con carry-on)",
-      "escala nocturna"
+      "escala nocturna en ida y regreso"
      ],
      "legs": [
       {
@@ -3507,15 +3511,27 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
+        }
+       ]
       }
      ]
     },
     "best": {
-     "price": 552,
+     "price": 549,
      "airline": "Viva",
      "warnings": [
-      "regreso no confirmado (sin resultados con carry-on)",
-      "escala nocturna"
+      "escala nocturna en ida y regreso"
      ],
      "legs": [
       {
@@ -3527,6 +3543,19 @@
         {
          "airport": "MTY",
          "layover": "8 h 15 min",
+         "overnight": true
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "9 h 51 min",
          "overnight": true
         }
        ]
@@ -3535,11 +3564,11 @@
     },
     "byAirline": [
      {
-      "price": 552,
+      "price": 549,
       "airline": "Viva",
       "warnings": [
-       "regreso no confirmado (sin resultados con carry-on)",
-       "escala nocturna"
+       "escala nocturna en ida y regreso",
+       "regreso 10:16 AM (MTY 5 h 18 min) por $560"
       ],
       "legs": [
        {
@@ -3554,15 +3583,28 @@
           "overnight": true
          }
         ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "9:28 PM CUL",
+        "arrive": "10:34 AM+1 CJS",
+        "duration": "13 h 6 min",
+        "stops": [
+         {
+          "airport": "MTY",
+          "layover": "9 h 51 min",
+          "overnight": true
+         }
+        ]
        }
       ]
      },
      {
-      "price": 874,
+      "price": 873,
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado",
-       "Premium Economy; sin esa etiqueta desde $1,107 (MEX 4 h 40 min)"
+       "Premium Economy; Economy desde $1,037"
       ],
       "legs": [
        {
@@ -3574,29 +3616,6 @@
          {
           "airport": "MEX",
           "layover": "32 h 25 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 877,
-      "airline": "Volaris",
-      "warnings": [
-       "regreso no confirmado",
-       "escala nocturna"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "8:52 PM CJS",
-        "arrive": "7:42 AM+1 CUL",
-        "duration": "11 h 50 min",
-        "stops": [
-         {
-          "airport": "GDL",
-          "layover": "7 h 21 min",
           "overnight": true
          }
         ]
@@ -4817,10 +4836,15 @@
      "t": "2026-10-26T17:20:00-06:00",
      "price": 578,
      "airline": "Viva vía MTY (boletos separados)"
+    },
+    {
+     "t": "2026-10-26T18:20:00-06:00",
+     "price": 578,
+     "airline": "Viva vía MTY (boletos separados)"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T17:20:00-06:00",
+    "checked": "2026-10-26T18:20:00-06:00",
     "cheapest": {
      "price": 578,
      "airline": "Viva",
@@ -4887,7 +4911,8 @@
       "airline": "Viva",
       "warnings": [
        "boletos separados",
-       "escala nocturna"
+       "escala nocturna",
+       "ida directa 11:10 AM por $586"
       ],
       "legs": [
        {
@@ -4913,10 +4938,11 @@
       ]
      },
      {
-      "price": 1200,
+      "price": 1199,
       "airline": "Aeroméxico",
       "warnings": [
-       "escala nocturna"
+       "escala nocturna",
+       "regreso no confirmado"
       ],
       "legs": [
        {
@@ -4929,19 +4955,6 @@
           "airport": "MEX",
           "layover": "11 h 15 min",
           "overnight": true
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "2:08 PM MZT",
-        "arrive": "10:38 PM CJS",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "3 h 45 min",
-          "overnight": false
          }
         ]
        }
@@ -5056,10 +5069,15 @@
      "t": "2026-10-26T17:20:00-06:00",
      "price": 441,
      "airline": "American vía DFW"
+    },
+    {
+     "t": "2026-10-26T18:20:00-06:00",
+     "price": 441,
+     "airline": "American vía DFW"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-26T17:20:00-06:00",
+    "checked": "2026-10-26T18:20:00-06:00",
     "cheapest": {
      "price": 441,
      "airline": "American",
@@ -5277,7 +5295,7 @@
       ]
      },
      {
-      "price": 894,
+      "price": 1022,
       "airline": "Alaska",
       "warnings": [
        "regreso no confirmado"
