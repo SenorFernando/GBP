@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:20:00-06:00",
+ "updated": "2026-10-28T12:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3623,27 +3623,38 @@
      "t": "2026-10-28T11:20:00-06:00",
      "price": 486,
      "airline": "Viva + Volaris"
+    },
+    {
+     "t": "2026-10-28T12:15:00-06:00",
+     "price": 503,
+     "airline": "Viva + Volaris"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T11:20:00-06:00",
+    "checked": "2026-10-28T12:15:00-06:00",
     "cheapest": {
-     "price": 486,
+     "price": 503,
      "airline": "Viva + Volaris",
      "warnings": [
-      "Boletos separados (self transfer)"
+      "Boletos separados (self transfer)",
+      "Escalas de ida no leídas en detalle"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 CUL",
-       "duration": "11 h 27 min",
+       "arrive": "10:46 AM+1 CUL",
+       "duration": "15 h 21 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 12 min",
+         "layover": "no leída",
          "overnight": true
+        },
+        {
+         "airport": "GDL",
+         "layover": "no leída",
+         "overnight": false
         }
        ]
       },
@@ -3665,7 +3676,9 @@
     "best": {
      "price": 667,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Regreso no leído"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -3679,40 +3692,33 @@
          "overnight": true
         }
        ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
-       "stops": [
-        {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
-        }
-       ]
       }
      ]
     },
     "byAirline": [
      {
-      "price": 486,
+      "price": 503,
       "airline": "Viva + Volaris",
       "warnings": [
-       "Boletos separados (self transfer)"
+       "Boletos separados (self transfer)",
+       "Escalas de ida no leídas en detalle"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "7:25 PM CJS",
-        "arrive": "6:52 AM+1 CUL",
-        "duration": "11 h 27 min",
+        "arrive": "10:46 AM+1 CUL",
+        "duration": "15 h 21 min",
         "stops": [
          {
           "airport": "MTY",
-          "layover": "8 h 12 min",
+          "layover": "no leída",
           "overnight": true
+         },
+         {
+          "airport": "GDL",
+          "layover": "no leída",
+          "overnight": false
          }
         ]
        },
@@ -3742,8 +3748,8 @@
        {
         "label": "Ida",
         "depart": "7:25 PM CJS",
-        "arrive": "6:52 AM+1 CUL",
-        "duration": "11 h 27 min",
+        "arrive": "7:02 AM+1 CUL",
+        "duration": "11 h 37 min",
         "stops": [
          {
           "airport": "MTY",
@@ -3781,19 +3787,19 @@
       "price": 869,
       "airline": "Aeroméxico",
       "warnings": [
-       "Escala de 32 h en MEX",
-       "Regreso no confirmado"
+       "Regreso no confirmado",
+       "Partes en Premium Economy"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "10:08 AM+2 CUL",
-        "duration": "",
+        "duration": "32 h 25 min",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "32 h 25 min",
+          "layover": "no leída",
           "overnight": true
          }
         ]
@@ -3897,6 +3903,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 486
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 503
      }
     ],
     "Viva": [
@@ -4035,6 +4045,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 547
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 547
      }
     ],
     "Volaris": [
@@ -4164,6 +4178,10 @@
      },
      {
       "t": "2026-10-28T11:20:00-06:00",
+      "price": 584
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
       "price": 584
      }
     ],
@@ -4302,6 +4320,10 @@
      },
      {
       "t": "2026-10-28T11:20:00-06:00",
+      "price": 869
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
       "price": 869
      }
     ]
@@ -5652,32 +5674,38 @@
      "t": "2026-10-28T11:20:00-06:00",
      "price": 508,
      "airline": "Viva + TAR + Volaris"
+    },
+    {
+     "t": "2026-10-28T12:15:00-06:00",
+     "price": 508,
+     "airline": "TAR México + Viva + Volaris"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T11:20:00-06:00",
+    "checked": "2026-10-28T12:15:00-06:00",
     "cheapest": {
      "price": 508,
-     "airline": "Viva + TAR + Volaris",
+     "airline": "TAR México + Viva + Volaris",
      "warnings": [
       "Boletos separados (self transfer)",
-      "Precio cambió durante la carga"
+      "Ida Viva, regreso TAR México + Volaris",
+      "Escalas de ida no leídas en detalle"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "2:45 PM CJS",
        "arrive": "7:48 PM+1 MZT",
-       "duration": "30 h 03 min",
+       "duration": "30 h 3 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "",
+         "layover": "no leída",
          "overnight": true
         },
         {
          "airport": "NLU",
-         "layover": "",
+         "layover": "no leída",
          "overnight": false
         }
        ]
@@ -5686,16 +5714,16 @@
        "label": "Regreso",
        "depart": "10:45 AM MZT",
        "arrive": "8:46 PM CJS",
-       "duration": "10 h 01 min",
+       "duration": "10 h 1 min",
        "stops": [
         {
          "airport": "HMO",
-         "layover": "",
+         "layover": "no leída",
          "overnight": false
         },
         {
          "airport": "TIJ",
-         "layover": "",
+         "layover": "no leída",
          "overnight": false
         }
        ]
@@ -5703,35 +5731,22 @@
      ]
     },
     "best": {
-     "price": 532,
-     "airline": "Viva + TAR + Volaris",
+     "price": 628,
+     "airline": "Viva",
      "warnings": [
-      "Ida directa Viva; regreso TAR + Volaris con 2 escalas",
-      "Boletos separados (self transfer)"
+      "Regreso no leído"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "2 h 44 min",
-       "stops": []
-      },
-      {
-       "label": "Regreso",
-       "depart": "10:45 AM MZT",
-       "arrive": "8:46 PM CJS",
-       "duration": "10 h 01 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
+       "duration": "12 h 27 min",
        "stops": [
         {
-         "airport": "HMO",
-         "layover": "",
-         "overnight": false
-        },
-        {
-         "airport": "TIJ",
-         "layover": "",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -5740,26 +5755,27 @@
     "byAirline": [
      {
       "price": 508,
-      "airline": "Viva + TAR + Volaris",
+      "airline": "TAR México + Viva + Volaris",
       "warnings": [
        "Boletos separados (self transfer)",
-       "Precio cambió durante la carga"
+       "Ida Viva, regreso TAR México + Volaris",
+       "Escalas de ida no leídas en detalle"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "2:45 PM CJS",
         "arrive": "7:48 PM+1 MZT",
-        "duration": "30 h 03 min",
+        "duration": "30 h 3 min",
         "stops": [
          {
           "airport": "MTY",
-          "layover": "",
+          "layover": "no leída",
           "overnight": true
          },
          {
           "airport": "NLU",
-          "layover": "",
+          "layover": "no leída",
           "overnight": false
          }
         ]
@@ -5768,16 +5784,16 @@
         "label": "Regreso",
         "depart": "10:45 AM MZT",
         "arrive": "8:46 PM CJS",
-        "duration": "10 h 01 min",
+        "duration": "10 h 1 min",
         "stops": [
          {
           "airport": "HMO",
-          "layover": "",
+          "layover": "no leída",
           "overnight": false
          },
          {
           "airport": "TIJ",
-          "layover": "",
+          "layover": "no leída",
           "overnight": false
          }
         ]
@@ -5796,16 +5812,16 @@
         "label": "Ida",
         "depart": "2:45 PM CJS",
         "arrive": "11:20 AM+1 MZT",
-        "duration": "21 h 35 min",
+        "duration": "",
         "stops": [
          {
           "airport": "MTY",
-          "layover": "",
-          "overnight": true
+          "layover": "no leída",
+          "overnight": false
          },
          {
           "airport": "GDL",
-          "layover": "",
+          "layover": "no leída",
           "overnight": false
          }
         ]
@@ -5813,11 +5829,11 @@
       ]
      },
      {
-      "price": 555,
+      "price": 532,
       "airline": "Viva",
       "warnings": [
-       "Directo ida y vuelta; precio varió $555–$607 entre cargas",
-       "Algunas cargas: boletos separados reservados juntos"
+       "Vuelo directo ida y vuelta",
+       "Emparejamiento de regreso incierto (mostró $555 boletos separados)"
       ],
       "legs": [
        {
@@ -5831,7 +5847,7 @@
         "label": "Regreso",
         "depart": "1:25 PM MZT",
         "arrive": "3:08 PM CJS",
-        "duration": "",
+        "duration": "1 h 43 min",
         "stops": []
        }
       ]
@@ -6023,6 +6039,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 555
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 532
      }
     ],
     "Viva + Volaris": [
@@ -6040,6 +6060,10 @@
      },
      {
       "t": "2026-10-28T11:20:00-06:00",
+      "price": 523
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
       "price": 523
      }
     ],
@@ -6088,6 +6112,10 @@
      },
      {
       "t": "2026-10-28T11:20:00-06:00",
+      "price": 623
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
       "price": 623
      }
     ],
@@ -6227,6 +6255,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 794
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 794
      }
     ],
     "Viva + TAR + Volaris": [
@@ -6267,6 +6299,12 @@
      {
       "t": "2026-10-28T10:15:00-06:00",
       "price": 532
+     }
+    ],
+    "TAR México + Viva + Volaris": [
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 508
      }
     ]
    }
@@ -6511,10 +6549,15 @@
      "t": "2026-10-28T11:20:00-06:00",
      "price": 436,
      "airline": "American"
+    },
+    {
+     "t": "2026-10-28T12:15:00-06:00",
+     "price": 436,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T11:20:00-06:00",
+    "checked": "2026-10-28T12:15:00-06:00",
     "cheapest": {
      "price": 436,
      "airline": "American",
@@ -6522,13 +6565,13 @@
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:03 AM ELP",
-       "arrive": "4:13 PM LGA",
-       "duration": "7 h 10 min",
+       "depart": "9:57 AM ELP",
+       "arrive": "6:24 PM LGA",
+       "duration": "6 h 27 min",
        "stops": [
         {
          "airport": "DFW",
-         "layover": "1 h 44 min",
+         "layover": "1 h 1 min",
          "overnight": false
         }
        ]
@@ -6540,8 +6583,8 @@
        "duration": "7 h 58 min",
        "stops": [
         {
-         "airport": "ORD",
-         "layover": "1 h 08 min",
+         "airport": "ORD (American Eagle/Envoy)",
+         "layover": "1 h 8 min",
          "overnight": false
         }
        ]
@@ -6549,19 +6592,19 @@
      ]
     },
     "best": {
-     "price": 456,
+     "price": 436,
      "airline": "American",
      "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "5:45 AM ELP",
-       "arrive": "2:03 PM LGA",
-       "duration": "6 h 18 min",
+       "depart": "9:57 AM ELP",
+       "arrive": "6:24 PM LGA",
+       "duration": "6 h 27 min",
        "stops": [
         {
          "airport": "DFW",
-         "layover": "50 min",
+         "layover": "1 h 1 min",
          "overnight": false
         }
        ]
@@ -6573,8 +6616,8 @@
        "duration": "7 h 58 min",
        "stops": [
         {
-         "airport": "ORD",
-         "layover": "1 h 08 min",
+         "airport": "ORD (American Eagle/Envoy)",
+         "layover": "1 h 8 min",
          "overnight": false
         }
        ]
@@ -6589,13 +6632,13 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "7:03 AM ELP",
-        "arrive": "4:13 PM LGA",
-        "duration": "7 h 10 min",
+        "depart": "9:57 AM ELP",
+        "arrive": "6:24 PM LGA",
+        "duration": "6 h 27 min",
         "stops": [
          {
           "airport": "DFW",
-          "layover": "1 h 44 min",
+          "layover": "1 h 1 min",
           "overnight": false
          }
         ]
@@ -6607,8 +6650,8 @@
         "duration": "7 h 58 min",
         "stops": [
          {
-          "airport": "ORD",
-          "layover": "1 h 08 min",
+          "airport": "ORD (American Eagle/Envoy)",
+          "layover": "1 h 8 min",
           "overnight": false
          }
         ]
@@ -6618,35 +6661,26 @@
      {
       "price": 472,
       "airline": "Southwest",
-      "warnings": [],
+      "warnings": [
+       "2 escalas",
+       "1 escala desde $508 (11:25 AM → 7:25 PM, DAL 1 h 5 min)",
+       "Regreso no confirmado"
+      ],
       "legs": [
        {
         "label": "Ida",
         "depart": "6:10 AM ELP",
         "arrive": "4:45 PM LGA",
-        "duration": "8 h 35 min",
+        "duration": "",
         "stops": [
          {
           "airport": "DAL",
-          "layover": "",
+          "layover": "no leída",
           "overnight": false
          },
          {
           "airport": "MSY",
-          "layover": "",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "2:00 PM LGA",
-        "arrive": "8:00 PM ELP",
-        "duration": "8 h",
-        "stops": [
-         {
-          "airport": "DAL",
-          "layover": "2 h 20 min",
+          "layover": "no leída",
           "overnight": false
          }
         ]
@@ -6656,30 +6690,20 @@
      {
       "price": 556,
       "airline": "United",
-      "warnings": [],
+      "warnings": [
+       "Operado por Republic",
+       "Regreso no confirmado"
+      ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "5:30 AM ELP",
-        "arrive": "2:31 PM LGA",
-        "duration": "7 h 01 min",
+        "depart": "8:00 AM ELP",
+        "arrive": "4:15 PM LGA",
+        "duration": "",
         "stops": [
          {
-          "airport": "IAH",
-          "layover": "1 h 28 min",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "6:00 AM LGA",
-        "arrive": "1:27 PM ELP",
-        "duration": "9 h 27 min",
-        "stops": [
-         {
-          "airport": "IAH",
-          "layover": "3 h 04 min",
+          "airport": "ORD",
+          "layover": "48 min",
           "overnight": false
          }
         ]
@@ -6687,32 +6711,21 @@
       ]
      },
      {
-      "price": 557,
+      "price": 637,
       "airline": "Delta",
-      "warnings": [],
+      "warnings": [
+       "Regreso no confirmado"
+      ],
       "legs": [
        {
         "label": "Ida",
         "depart": "2:30 PM ELP",
         "arrive": "10:39 PM LGA",
-        "duration": "6 h 09 min",
+        "duration": "",
         "stops": [
          {
           "airport": "ATL",
           "layover": "1 h",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "4:05 PM JFK",
-        "arrive": "9:22 PM ELP",
-        "duration": "7 h 17 min",
-        "stops": [
-         {
-          "airport": "ATL",
-          "layover": "1 h 14 min",
           "overnight": false
          }
         ]
@@ -6734,7 +6747,7 @@
         "stops": [
          {
           "airport": "SEA",
-          "layover": "",
+          "layover": "no leída",
           "overnight": true
          }
         ]
@@ -6930,6 +6943,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 436
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 436
      }
     ],
     "Southwest": [
@@ -7112,6 +7129,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 472
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 472
      }
     ],
     "United": [
@@ -7290,6 +7311,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 556
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 556
      }
     ],
     "Delta": [
@@ -7460,6 +7485,10 @@
      {
       "t": "2026-10-28T11:20:00-06:00",
       "price": 557
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
+      "price": 637
      }
     ],
     "Alaska": [
@@ -7585,6 +7614,10 @@
      },
      {
       "t": "2026-10-28T11:20:00-06:00",
+      "price": 1022
+     },
+     {
+      "t": "2026-10-28T12:15:00-06:00",
       "price": 1022
      }
     ]
