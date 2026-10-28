@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T17:18:00-06:00",
+ "updated": "2026-10-27T18:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3568,16 +3568,21 @@
      "t": "2026-10-27T17:18:00-06:00",
      "price": 583,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-27T18:20:00-06:00",
+     "price": 583,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T17:18:00-06:00",
+    "checked": "2026-10-27T18:20:00-06:00",
     "cheapest": {
      "price": 583,
      "airline": "Viva",
      "warnings": [
-      "boletos separados",
-      "regreso sin resultados con carry-on"
+      "Boletos separados",
+      "Regreso no confirmado (sin resultados con carry-on)"
      ],
      "legs": [
       {
@@ -3599,8 +3604,8 @@
      "price": 608,
      "airline": "Viva",
      "warnings": [
-      "boletos separados",
-      "regreso no confirmado"
+      "Self transfer",
+      "Regreso no confirmado"
      ],
      "legs": [
       {
@@ -3623,8 +3628,8 @@
       "price": 583,
       "airline": "Viva",
       "warnings": [
-       "boletos separados",
-       "regreso sin resultados con carry-on"
+       "Boletos separados",
+       "Regreso no confirmado"
       ],
       "legs": [
        {
@@ -3646,8 +3651,8 @@
       "price": 593,
       "airline": "Viva + Volaris",
       "warnings": [
-       "boletos separados",
-       "regreso no confirmado"
+       "Boletos separados",
+       "Regreso no confirmado"
       ],
       "legs": [
        {
@@ -3674,8 +3679,8 @@
       "price": 643,
       "airline": "Volaris",
       "warnings": [
-       "boletos separados",
-       "regreso no confirmado"
+       "Self transfer",
+       "Regreso no confirmado"
       ],
       "legs": [
        {
@@ -3694,18 +3699,17 @@
       ]
      },
      {
-      "price": 869,
+      "price": 867,
       "airline": "Aeroméxico",
       "warnings": [
-       "Premium Economy",
-       "regreso no confirmado"
+       "Regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "10:08 AM+2 CUL",
-        "duration": "",
+        "duration": "37 h 19 min",
         "stops": [
          {
           "airport": "MEX",
@@ -5015,15 +5019,20 @@
      "t": "2026-10-27T17:18:00-06:00",
      "price": 627,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-27T18:20:00-06:00",
+     "price": 627,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T17:18:00-06:00",
+    "checked": "2026-10-27T18:20:00-06:00",
     "cheapest": {
      "price": 627,
      "airline": "Viva",
      "warnings": [
-      "boletos separados"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -5043,7 +5052,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -5052,7 +5061,7 @@
      "price": 627,
      "airline": "Viva",
      "warnings": [
-      "boletos separados"
+      "Boletos separados"
      ],
      "legs": [
       {
@@ -5072,7 +5081,7 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "directo",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -5082,7 +5091,7 @@
       "price": 627,
       "airline": "Viva",
       "warnings": [
-       "boletos separados"
+       "Boletos separados"
       ],
       "legs": [
        {
@@ -5102,16 +5111,16 @@
         "label": "Regreso",
         "depart": "1:25 PM MZT",
         "arrive": "3:08 PM CJS",
-        "duration": "directo",
+        "duration": "2 h 43 min",
         "stops": []
        }
       ]
      },
      {
-      "price": 1192,
+      "price": 1191,
       "airline": "Aeroméxico",
       "warnings": [
-       "regreso no confirmado"
+       "Regreso no confirmado"
       ],
       "legs": [
        {
@@ -5323,10 +5332,15 @@
      "t": "2026-10-27T17:18:00-06:00",
      "price": 436,
      "airline": "American"
+    },
+    {
+     "t": "2026-10-27T18:20:00-06:00",
+     "price": 436,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-27T17:18:00-06:00",
+    "checked": "2026-10-27T18:20:00-06:00",
     "cheapest": {
      "price": 436,
      "airline": "American",
@@ -5363,19 +5377,30 @@
     "best": {
      "price": 436,
      "airline": "American",
-     "warnings": [
-      "regreso no confirmado"
-     ],
+     "warnings": [],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:03 AM ELP",
-       "arrive": "4:13 PM LGA",
-       "duration": "7 h 10 min",
+       "depart": "5:45 AM ELP",
+       "arrive": "3:03 PM LGA",
+       "duration": "7 h 18 min",
        "stops": [
         {
          "airport": "DFW",
          "layover": "1 h 44 min",
+         "overnight": false
+        }
+       ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "6:06 PM LGA",
+       "arrive": "12:04 AM+1 ELP",
+       "duration": "7 h 58 min",
+       "stops": [
+        {
+         "airport": "ORD",
+         "layover": "1 h 8 min",
          "overnight": false
         }
        ]
@@ -5420,7 +5445,7 @@
       "price": 467,
       "airline": "Southwest",
       "warnings": [
-       "regreso no confirmado"
+       "Regreso no leído"
       ],
       "legs": [
        {
@@ -5442,12 +5467,12 @@
       "price": 573,
       "airline": "United",
       "warnings": [
-       "regreso no confirmado"
+       "Regreso no leído"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP",
+        "depart": "5:30 AM ELP",
         "arrive": "4:42 PM LGA",
         "duration": "9 h 12 min",
         "stops": [
@@ -5464,7 +5489,7 @@
       "price": 719,
       "airline": "Delta",
       "warnings": [
-       "regreso no confirmado"
+       "Regreso no leído"
       ],
       "legs": [
        {
@@ -5486,14 +5511,14 @@
       "price": 1022,
       "airline": "Alaska",
       "warnings": [
-       "regreso no confirmado"
+       "Regreso no leído"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "ELP",
-        "arrive": "JFK",
-        "duration": "",
+        "depart": "7:09 PM ELP",
+        "arrive": "7:25 AM+1 JFK",
+        "duration": "10 h 16 min",
         "stops": [
          {
           "airport": "SEA",
