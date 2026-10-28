@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T09:20:00-06:00",
+ "updated": "2026-10-28T10:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3613,15 +3613,20 @@
      "t": "2026-10-28T09:20:00-06:00",
      "price": 451,
      "airline": "Viva + Volaris"
+    },
+    {
+     "t": "2026-10-28T10:15:00-06:00",
+     "price": 486,
+     "airline": "Viva + Volaris"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T09:20:00-06:00",
+    "checked": "2026-10-28T10:15:00-06:00",
     "cheapest": {
-     "price": 451,
+     "price": 486,
      "airline": "Viva + Volaris",
      "warnings": [
-      "Boletos separados"
+      "Boletos separados (self transfer)"
      ],
      "legs": [
       {
@@ -3655,7 +3660,9 @@
     "best": {
      "price": 666,
      "airline": "Viva",
-     "warnings": [],
+     "warnings": [
+      "Regreso no confirmado"
+     ],
      "legs": [
       {
        "label": "Ida",
@@ -3669,28 +3676,15 @@
          "overnight": true
         }
        ]
-      },
-      {
-       "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
-       "stops": [
-        {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
-        }
-       ]
       }
      ]
     },
     "byAirline": [
      {
-      "price": 451,
+      "price": 486,
       "airline": "Viva + Volaris",
       "warnings": [
-       "Boletos separados"
+       "Boletos separados (self transfer)"
       ],
       "legs": [
        {
@@ -3722,10 +3716,10 @@
       ]
      },
      {
-      "price": 546,
+      "price": 547,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados",
+       "Boletos separados (self transfer)",
        "Regreso no confirmado"
       ],
       "legs": [
@@ -3748,7 +3742,7 @@
       "price": 584,
       "airline": "Volaris",
       "warnings": [
-       "Boletos separados",
+       "Boletos separados (self transfer)",
        "Regreso no confirmado"
       ],
       "legs": [
@@ -3756,7 +3750,7 @@
         "label": "Ida",
         "depart": "9:30 AM CJS",
         "arrive": "5:49 PM CUL",
-        "duration": "",
+        "duration": "9 h 19 min",
         "stops": [
          {
           "airport": "TIJ",
@@ -3771,18 +3765,19 @@
       "price": 869,
       "airline": "Aeroméxico",
       "warnings": [
+       "Premium Economy; Economy desde $903",
        "Regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "8:49 PM CJS",
-        "arrive": "10:08 AM+2 CUL",
-        "duration": "",
+        "arrive": "7:02 AM+1 CUL",
+        "duration": "10 h 13 min",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "32 h 25 min",
+          "layover": "5 h 16 min",
           "overnight": true
          }
         ]
@@ -3878,6 +3873,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 451
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 486
      }
     ],
     "Viva": [
@@ -4008,6 +4007,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 546
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 547
      }
     ],
     "Volaris": [
@@ -4129,6 +4132,10 @@
      },
      {
       "t": "2026-10-28T09:20:00-06:00",
+      "price": 584
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
       "price": 584
      }
     ],
@@ -4259,6 +4266,10 @@
      },
      {
       "t": "2026-10-28T09:20:00-06:00",
+      "price": 869
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
       "price": 869
      }
     ]
@@ -5599,16 +5610,22 @@
      "t": "2026-10-28T09:20:00-06:00",
      "price": 522,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-28T10:15:00-06:00",
+     "price": 520,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T09:20:00-06:00",
+    "checked": "2026-10-28T10:15:00-06:00",
     "cheapest": {
-     "price": 522,
+     "price": 520,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados",
-      "Regreso no confirmado"
+      "Boletos separados (self transfer)",
+      "Regreso no confirmado",
+      "2 escalas, 30 h"
      ],
      "legs": [
       {
@@ -5632,34 +5649,22 @@
      ]
     },
     "best": {
-     "price": 532,
-     "airline": "Viva + TAR + Volaris",
+     "price": 627,
+     "airline": "Viva",
      "warnings": [
-      "Boletos separados"
+      "Regreso no confirmado"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "2 h 44 min (directo)",
-       "stops": []
-      },
-      {
-       "label": "Regreso",
-       "depart": "10:45 AM MZT",
-       "arrive": "8:46 PM CJS",
-       "duration": "10 h 1 min",
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
+       "duration": "12 h 27 min",
        "stops": [
         {
-         "airport": "HMO",
-         "layover": "",
-         "overnight": false
-        },
-        {
-         "airport": "TIJ",
-         "layover": "",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "8 h 15 min",
+         "overnight": true
         }
        ]
       }
@@ -5667,11 +5672,12 @@
     },
     "byAirline": [
      {
-      "price": 522,
+      "price": 520,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados",
-       "Regreso no confirmado"
+       "Boletos separados (self transfer)",
+       "Regreso no confirmado",
+       "2 escalas, 30 h"
       ],
       "legs": [
        {
@@ -5695,10 +5701,10 @@
       ]
      },
      {
-      "price": 530,
+      "price": 523,
       "airline": "Viva + Volaris",
       "warnings": [
-       "Boletos separados",
+       "Boletos separados (self transfer)",
        "Regreso no confirmado"
       ],
       "legs": [
@@ -5706,7 +5712,7 @@
         "label": "Ida",
         "depart": "2:45 PM CJS",
         "arrive": "11:20 AM+1 MZT",
-        "duration": "",
+        "duration": "21 h 35 min",
         "stops": [
          {
           "airport": "MTY",
@@ -5723,10 +5729,11 @@
       ]
      },
      {
-      "price": 576,
-      "airline": "Viva (directo ida y vuelta)",
+      "price": 532,
+      "airline": "TAR + Viva + Volaris",
       "warnings": [
-       "Boletos separados"
+       "Boletos separados (self transfer)",
+       "Ida directa Viva; regreso TAR + Volaris 2 escalas"
       ],
       "legs": [
        {
@@ -5738,18 +5745,29 @@
        },
        {
         "label": "Regreso",
-        "depart": "1:25 PM MZT",
-        "arrive": "3:08 PM CJS",
-        "duration": "directo",
-        "stops": []
+        "depart": "10:45 AM MZT",
+        "arrive": "8:46 PM CJS",
+        "duration": "10 h 1 min",
+        "stops": [
+         {
+          "airport": "HMO",
+          "layover": "",
+          "overnight": false
+         },
+         {
+          "airport": "TIJ",
+          "layover": "",
+          "overnight": false
+         }
+        ]
        }
       ]
      },
      {
-      "price": 629,
+      "price": 623,
       "airline": "Volaris",
       "warnings": [
-       "Boletos separados",
+       "Boletos separados (self transfer)",
        "Regreso no confirmado"
       ],
       "legs": [
@@ -5769,10 +5787,10 @@
       ]
      },
      {
-      "price": 814,
+      "price": 769,
       "airline": "Aeroméxico",
       "warnings": [
-       "Boletos separados",
+       "Separate tickets booked together",
        "Regreso no confirmado"
       ],
       "legs": [
@@ -5780,7 +5798,7 @@
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "12:46 PM+1 MZT",
-        "duration": "",
+        "duration": "15 h 57 min",
         "stops": [
          {
           "airport": "MEX",
@@ -5797,7 +5815,7 @@
     "level": "high",
     "text": "Google dice que los precios están altos ($627 es alto); sin consejo de compra.",
     "range": "$195–420",
-    "updated": "2026-10-28T09:20:00-06:00"
+    "updated": "2026-10-28T10:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -5924,6 +5942,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 522
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 520
      }
     ],
     "Viva + Volaris": [
@@ -5934,6 +5956,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 530
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 523
      }
     ],
     "Viva (directo ida y vuelta)": [
@@ -5974,6 +6000,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 629
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 623
      }
     ],
     "Aeroméxico": [
@@ -6104,6 +6134,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 814
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 769
      }
     ],
     "Viva + TAR + Volaris": [
@@ -6134,6 +6168,12 @@
      {
       "t": "2026-10-28T07:30:00-06:00",
       "price": 538
+     }
+    ],
+    "TAR + Viva + Volaris": [
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 532
      }
     ]
    }
@@ -6368,10 +6408,15 @@
      "t": "2026-10-28T09:20:00-06:00",
      "price": 436,
      "airline": "American"
+    },
+    {
+     "t": "2026-10-28T10:15:00-06:00",
+     "price": 436,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-28T09:20:00-06:00",
+    "checked": "2026-10-28T10:15:00-06:00",
     "cheapest": {
      "price": 436,
      "airline": "American",
@@ -6476,7 +6521,8 @@
       "price": 472,
       "airline": "Southwest",
       "warnings": [
-       "Regreso no confirmado"
+       "Regreso no confirmado",
+       "2 escalas"
       ],
       "legs": [
        {
@@ -6522,7 +6568,7 @@
       ]
      },
      {
-      "price": 637,
+      "price": 557,
       "airline": "Delta",
       "warnings": [
        "Regreso no confirmado"
@@ -6569,9 +6615,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Google dice que los precios están normales; el mejor momento para comprar suele ser ahora, hasta el 4 de nov ($379 típico sin filtro, incluye EWR).",
-    "range": "$290–560",
-    "updated": "2026-10-28T09:20:00-06:00"
+    "text": "Google dice que los precios están normales ($428 típico sin filtro); hoy no mostró consejo de cuándo comprar.",
+    "range": "$290–580",
+    "updated": "2026-10-28T10:15:00-06:00"
    },
    "airlineHistory": {
     "American": [
@@ -6745,6 +6791,10 @@
      },
      {
       "t": "2026-10-28T09:20:00-06:00",
+      "price": 436
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
       "price": 436
      }
     ],
@@ -6920,6 +6970,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 472
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 472
      }
     ],
     "United": [
@@ -7090,6 +7144,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 556
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 556
      }
     ],
     "Delta": [
@@ -7252,6 +7310,10 @@
      {
       "t": "2026-10-28T09:20:00-06:00",
       "price": 637
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
+      "price": 557
      }
     ],
     "Alaska": [
@@ -7369,6 +7431,10 @@
      },
      {
       "t": "2026-10-28T09:20:00-06:00",
+      "price": 1022
+     },
+     {
+      "t": "2026-10-28T10:15:00-06:00",
       "price": 1022
      }
     ]
