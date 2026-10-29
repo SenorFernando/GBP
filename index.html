@@ -9,7 +9,7 @@ h1{font-size:1.3em}h2{font-size:1.05em;margin:0 0 8px}.g{display:grid;grid-templ
 Precios: 1 adulto, económica, 1 equipaje de mano, USD. Las tarifas de Viva pueden no incluir el compartimento superior.</div><div id="c"></div>
 <div class="mo" id="mo" aria-hidden="true"><div class="mb" role="dialog" aria-modal="true" aria-labelledby="mt"><button type="button" class="mx" id="mx" aria-label="Cerrar">×</button><h2 id="mt"></h2><div class="g" id="ms"></div><div id="mr"></div><canvas id="mc" height="200"></canvas><div class="mf" id="mn"></div></div></div>
 <script>
-const SHOW=['C','D','E']; // solo viajes redondos (A y B ocultos)
+const SHOW=['C','D']; // solo viajes redondos (A y B ocultos)
 const fmt=t=>new Date(t).toLocaleString('es-MX',{timeZone:'America/Mexico_City',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 
 // Última actualización = el timestamp más reciente de cualquier dato (puntos de precio, insights, itinerarios, 'updated')
