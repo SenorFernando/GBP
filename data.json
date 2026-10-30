@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:16:00-06:00",
+ "updated": "2026-10-30T07:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3753,149 +3753,101 @@
      "t": "2026-10-30T06:16:00-06:00",
      "price": 508,
      "airline": "Viva + Volaris"
+    },
+    {
+     "t": "2026-10-30T07:15:00-06:00",
+     "price": 615,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T06:16:00-06:00",
+    "checked": "2026-10-30T07:15:00-06:00",
     "cheapest": {
-     "price": 508,
-     "airline": "Viva + Volaris",
+     "price": 615,
+     "airline": "Viva",
      "warnings": [
-      "boletos separados (self transfer)",
-      "escala nocturna de 8 h en MTY"
+      "Escala nocturna en MTY a la ida",
+      "Precios variaron entre cargas"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 CUL",
-       "duration": "11 h 27 min",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 12 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "8:19 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "14 h 15 min",
+       "depart": "Sáb 2 ene 10:16 AM CUL",
+       "arrive": "Sáb 2 ene 6:48 PM CJS",
+       "duration": "8 h 32 min",
        "stops": [
         {
-         "airport": "MEX",
-         "layover": "",
-         "overnight": true
-        },
-        {
          "airport": "MTY",
-         "layover": "",
-         "overnight": true
+         "layover": "5 h 18 min",
+         "overnight": false
         }
-       ],
-       "airline": "Volaris + Viva"
+       ]
       }
      ]
     },
     "best": {
-     "price": 508,
-     "airline": "Viva + Volaris",
+     "price": 615,
+     "airline": "Viva",
      "warnings": [
-      "boletos separados (self transfer)",
-      "escala nocturna de 8 h en MTY"
+      "Escala nocturna en MTY a la ida",
+      "Precios variaron entre cargas"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 CUL",
-       "duration": "11 h 27 min",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
+       "duration": "11 h 37 min",
        "stops": [
         {
          "airport": "MTY",
-         "layover": "8 h 12 min",
+         "layover": "8 h 15 min",
          "overnight": true
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "8:19 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "14 h 15 min",
+       "depart": "Sáb 2 ene 10:16 AM CUL",
+       "arrive": "Sáb 2 ene 6:48 PM CJS",
+       "duration": "8 h 32 min",
        "stops": [
         {
-         "airport": "MEX",
-         "layover": "",
-         "overnight": true
-        },
-        {
          "airport": "MTY",
-         "layover": "",
-         "overnight": true
+         "layover": "5 h 18 min",
+         "overnight": false
         }
-       ],
-       "airline": "Volaris + Viva"
+       ]
       }
      ]
     },
     "byAirline": [
      {
-      "price": 508,
-      "airline": "Viva + Volaris",
-      "warnings": [
-       "boletos separados (self transfer)",
-       "escala nocturna de 8 h en MTY"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "7:25 PM CJS",
-        "arrive": "6:52 AM+1 CUL",
-        "duration": "11 h 27 min",
-        "stops": [
-         {
-          "airport": "MTY",
-          "layover": "8 h 12 min",
-          "overnight": true
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "8:19 PM CUL",
-        "arrive": "10:34 AM+1 CJS",
-        "duration": "14 h 15 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "",
-          "overnight": true
-         },
-         {
-          "airport": "MTY",
-          "layover": "",
-          "overnight": true
-         }
-        ],
-        "airline": "Volaris + Viva"
-       }
-      ]
-     },
-     {
       "price": 615,
       "airline": "Viva",
       "warnings": [
-       "regreso no confirmado"
+       "Escala nocturna en MTY a la ida",
+       "Precios variaron entre cargas"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "7:25 PM CJS",
-        "arrive": "7:02 AM+1 CUL",
-        "duration": "",
+        "depart": "Mié 23 dic 7:25 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
+        "duration": "11 h 37 min",
         "stops": [
          {
           "airport": "MTY",
@@ -3903,21 +3855,33 @@
           "overnight": true
          }
         ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "Sáb 2 ene 10:16 AM CUL",
+        "arrive": "Sáb 2 ene 6:48 PM CJS",
+        "duration": "8 h 32 min",
+        "stops": [
+         {
+          "airport": "MTY",
+          "layover": "5 h 18 min",
+          "overnight": false
+         }
+        ]
        }
       ]
      },
      {
-      "price": 649,
+      "price": 880,
       "airline": "Volaris",
       "warnings": [
-       "boletos separados",
-       "regreso no confirmado"
+       "Regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "9:30 AM CJS",
-        "arrive": "5:49 PM CUL",
+        "depart": "Mié 23 dic 9:30 AM CJS",
+        "arrive": "Mié 23 dic 5:49 PM CUL",
         "duration": "",
         "stops": [
          {
@@ -3930,17 +3894,17 @@
       ]
      },
      {
-      "price": 888,
+      "price": 887,
       "airline": "Aeroméxico",
       "warnings": [
-       "Premium Economy en una carga",
-       "regreso no confirmado"
+       "Regreso no confirmado",
+       "Aeroméxico Connect"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "8:49 PM CJS",
-        "arrive": "7:02 AM+1 CUL",
+        "depart": "Mié 23 dic 8:49 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
         "duration": "",
         "stops": [
          {
@@ -4395,6 +4359,10 @@
      {
       "t": "2026-10-30T06:16:00-06:00",
       "price": 615
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 615
      }
     ],
     "Volaris": [
@@ -4629,6 +4597,10 @@
      {
       "t": "2026-10-30T06:16:00-06:00",
       "price": 649
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 880
      }
     ],
     "Aeroméxico": [
@@ -4871,6 +4843,10 @@
      {
       "t": "2026-10-30T06:16:00-06:00",
       "price": 888
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 887
      }
     ],
     "Aeroméxico + Volaris": [
@@ -6360,23 +6336,27 @@
      "t": "2026-10-30T06:16:00-06:00",
      "price": 518,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T07:15:00-06:00",
+     "price": 518,
+     "airline": "TAR + Viva + Volaris"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T06:16:00-06:00",
+    "checked": "2026-10-30T07:15:00-06:00",
     "cheapest": {
      "price": 518,
-     "airline": "Viva",
+     "airline": "TAR + Viva + Volaris",
      "warnings": [
-      "boletos separados (self transfer)",
-      "2 escalas, 30 h",
-      "regreso no leído"
+      "Boletos separados (self transfer)",
+      "Ida 30 h con escalas MTY + NLU (nocturna)"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2:45 PM CJS",
-       "arrive": "7:48 PM+1 MZT",
+       "depart": "Mié 23 dic 2:45 PM CJS",
+       "arrive": "Jue 24 dic 7:48 PM MZT",
        "duration": "30 h 3 min",
        "stops": [
         {
@@ -6390,6 +6370,24 @@
          "overnight": true
         }
        ]
+      },
+      {
+       "label": "Regreso",
+       "depart": "Sáb 2 ene 10:45 AM MZT",
+       "arrive": "Sáb 2 ene 8:46 PM CJS",
+       "duration": "10 h 1 min",
+       "stops": [
+        {
+         "airport": "HMO",
+         "layover": "",
+         "overnight": false
+        },
+        {
+         "airport": "TIJ",
+         "layover": "",
+         "overnight": false
+        }
+       ]
       }
      ]
     },
@@ -6398,21 +6396,21 @@
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
-      "una carga mostró $638 como boletos separados"
+      "otra carga mostró $637"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
+       "depart": "Mié 23 dic 11:10 AM CJS",
+       "arrive": "Mié 23 dic 12:54 PM MZT",
        "duration": "2 h 44 min",
        "stops": []
       },
       {
        "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "",
+       "depart": "Sáb 2 ene 1:25 PM MZT",
+       "arrive": "Sáb 2 ene 3:08 PM CJS",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -6420,18 +6418,16 @@
     "byAirline": [
      {
       "price": 518,
-      "airline": "Viva",
+      "airline": "TAR + Viva + Volaris",
       "warnings": [
-       "boletos separados (self transfer)",
-       "2 escalas, 30 h",
-       "regreso no leído",
-       "Viva directo ida y vuelta: $575"
+       "Boletos separados (self transfer)",
+       "Ida 30 h con escalas MTY + NLU (nocturna)"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "2:45 PM CJS",
-        "arrive": "7:48 PM+1 MZT",
+        "depart": "Mié 23 dic 2:45 PM CJS",
+        "arrive": "Jue 24 dic 7:48 PM MZT",
         "duration": "30 h 3 min",
         "stops": [
          {
@@ -6445,50 +6441,12 @@
           "overnight": true
          }
         ]
-       }
-      ]
-     },
-     {
-      "price": 527,
-      "airline": "Viva + Volaris",
-      "warnings": [
-       "boletos separados",
-       "regreso no confirmado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "2:45 PM CJS",
-        "arrive": "11:20 AM+1 MZT",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "MTY",
-          "layover": "",
-          "overnight": true
-         },
-         {
-          "airport": "GDL",
-          "layover": "",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 544,
-      "airline": "TAR + Volaris",
-      "warnings": [
-       "boletos separados",
-       "ida no confirmada"
-      ],
-      "legs": [
+       },
        {
         "label": "Regreso",
-        "depart": "10:45 AM MZT",
-        "arrive": "8:46 PM CJS",
-        "duration": "",
+        "depart": "Sáb 2 ene 10:45 AM MZT",
+        "arrive": "Sáb 2 ene 8:46 PM CJS",
+        "duration": "10 h 1 min",
         "stops": [
          {
           "airport": "HMO",
@@ -6505,17 +6463,69 @@
       ]
      },
      {
-      "price": 575,
-      "airline": "Volaris",
+      "price": 527,
+      "airline": "Viva + Volaris",
       "warnings": [
-       "boletos separados",
-       "regreso no confirmado"
+       "Boletos separados",
+       "Regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "8:52 PM CJS",
-        "arrive": "11:20 AM+1 MZT",
+        "depart": "Mié 23 dic 2:45 PM CJS",
+        "arrive": "",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "MTY",
+          "layover": "",
+          "overnight": true
+         },
+         {
+          "airport": "GDL",
+          "layover": "",
+          "overnight": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 575,
+      "airline": "Viva",
+      "warnings": [
+       "directo ida y vuelta",
+       "otra carga mostró $637"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "Mié 23 dic 11:10 AM CJS",
+        "arrive": "Mié 23 dic 12:54 PM MZT",
+        "duration": "2 h 44 min",
+        "stops": []
+       },
+       {
+        "label": "Regreso",
+        "depart": "Sáb 2 ene 1:25 PM MZT",
+        "arrive": "Sáb 2 ene 3:08 PM CJS",
+        "duration": "1 h 43 min",
+        "stops": []
+       }
+      ]
+     },
+     {
+      "price": 575,
+      "airline": "Volaris",
+      "warnings": [
+       "Self transfer",
+       "Regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "Mié 23 dic 8:52 PM CJS",
+        "arrive": "Jue 24 dic 11:20 AM MZT",
         "duration": "",
         "stops": [
          {
@@ -6528,24 +6538,23 @@
       ]
      },
      {
-      "price": 791,
+      "price": 1046,
       "airline": "Aeroméxico",
       "warnings": [
-       "boletos separados",
-       "regreso no confirmado",
-       "precio varió entre cargas ($791–$1,266)"
+       "Boletos separados reservados juntos",
+       "Regreso no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "8:49 PM CJS",
-        "arrive": "12:46 PM+1 MZT",
+        "depart": "Mié 23 dic 6:00 AM CJS",
+        "arrive": "Mié 23 dic 12:46 PM MZT",
         "duration": "",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "11 h 15 min",
-          "overnight": true
+          "layover": "2 h 5 min",
+          "overnight": false
          }
         ]
        }
@@ -6796,6 +6805,10 @@
      {
       "t": "2026-10-30T06:16:00-06:00",
       "price": 518
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 575
      }
     ],
     "Viva + Volaris": [
@@ -6897,6 +6910,10 @@
      },
      {
       "t": "2026-10-30T06:16:00-06:00",
+      "price": 527
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
       "price": 527
      }
     ],
@@ -7041,6 +7058,10 @@
      },
      {
       "t": "2026-10-30T06:16:00-06:00",
+      "price": 575
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
       "price": 575
      }
     ],
@@ -7280,6 +7301,10 @@
      {
       "t": "2026-10-30T06:16:00-06:00",
       "price": 791
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 1046
      }
     ],
     "Viva + TAR + Volaris": [
@@ -7384,6 +7409,10 @@
      {
       "t": "2026-10-29T20:14:00-06:00",
       "price": 519
+     },
+     {
+      "t": "2026-10-30T07:15:00-06:00",
+      "price": 518
      }
     ],
     "TAR México + Viva + Volaris": [
