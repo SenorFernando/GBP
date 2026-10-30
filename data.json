@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:20:00-06:00",
+ "updated": "2026-10-30T12:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -6394,16 +6394,20 @@
      "t": "2026-10-30T11:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T12:15:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T11:20:00-06:00",
+    "checked": "2026-10-30T12:15:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $637)",
-      "Carry-on con costo extra",
+      "Boletos separados en viva.com ($624); como reserva única $637",
       "Escala nocturna de 8 h 15 min en MTY a la ida"
      ],
      "legs": [
@@ -6423,8 +6427,8 @@
       {
        "label": "Regreso",
        "depart": "Sáb 2 ene 1:25 PM MZT",
-       "arrive": "Sáb 2 ene 3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "arrive": "3:08 PM CJS",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -6433,8 +6437,7 @@
      "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $637)",
-      "Carry-on con costo extra",
+      "Boletos separados en viva.com ($624); como reserva única $637",
       "Escala nocturna de 8 h 15 min en MTY a la ida"
      ],
      "legs": [
@@ -6454,8 +6457,8 @@
       {
        "label": "Regreso",
        "depart": "Sáb 2 ene 1:25 PM MZT",
-       "arrive": "Sáb 2 ene 3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "arrive": "3:08 PM CJS",
+       "duration": "Directo",
        "stops": []
       }
      ]
@@ -6465,8 +6468,8 @@
       "price": 624,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados en Viva (una sola reserva $637)",
-       "Directo ida y vuelta (11:10 AM / 1:25 PM): $641 boletos separados, $654 una sola reserva"
+       "Más barato de Viva: ida con escala nocturna en MTY (8 h 15 min), regreso directo",
+       "Directo ida y vuelta (11:10 AM → 12:54 PM; regreso 1:25 PM → 3:08 PM): $641, boletos separados ($653 reserva única)"
       ],
       "legs": [
        {
@@ -6485,8 +6488,8 @@
        {
         "label": "Regreso",
         "depart": "Sáb 2 ene 1:25 PM MZT",
-        "arrive": "Sáb 2 ene 3:08 PM CJS",
-        "duration": "1 h 43 min",
+        "arrive": "3:08 PM CJS",
+        "duration": "Directo",
         "stops": []
        }
       ]
@@ -6495,15 +6498,15 @@
       "price": 1185,
       "airline": "Aeroméxico",
       "warnings": [
-       "Precio de lista; sitio de Aeroméxico no verificado",
-       "Regreso no confirmado"
+       "Regreso no confirmado",
+       "Escala nocturna de 11 h 15 min en MEX"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "Mié 23 dic 8:49 PM CJS",
         "arrive": "Jue 24 dic 12:46 PM MZT",
-        "duration": "",
+        "duration": "15 h 57 min",
         "stops": [
          {
           "airport": "MEX",
@@ -6518,9 +6521,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $618 es alto para estas fechas; lo típico es $225–610.",
+    "text": "Google: $624 es alto para estas fechas; lo típico es $225–610. Sin aviso de cuándo comprar.",
     "range": "$225–610",
-    "updated": "2026-10-30T11:20:00-06:00"
+    "updated": "2026-10-30T12:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6778,6 +6781,10 @@
      },
      {
       "t": "2026-10-30T11:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-30T12:15:00-06:00",
       "price": 624
      }
     ],
@@ -7286,6 +7293,10 @@
      },
      {
       "t": "2026-10-30T11:20:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-30T12:15:00-06:00",
       "price": 1185
      }
     ],
