@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:20:00-06:00",
+ "updated": "2026-10-30T17:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3798,15 +3798,21 @@
      "t": "2026-10-30T16:20:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T17:18:00-06:00",
+     "price": 662,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T16:20:00-06:00",
+    "checked": "2026-10-30T17:18:00-06:00",
     "cheapest": {
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior (equipaje de mano con costo)"
+      "Puede no incluir compartimento superior (equipaje de mano con costo)",
+      "Regreso y vendedor no confirmados (Google: itinerario no disponible)"
      ],
      "legs": [
       {
@@ -3841,7 +3847,8 @@
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Puede no incluir compartimento superior (equipaje de mano con costo)"
+      "Puede no incluir compartimento superior (equipaje de mano con costo)",
+      "Regreso y vendedor no confirmados (Google: itinerario no disponible)"
      ],
      "legs": [
       {
@@ -3877,7 +3884,8 @@
       "price": 662,
       "airline": "Viva",
       "warnings": [
-       "Puede no incluir compartimento superior (equipaje de mano con costo)"
+       "Puede no incluir compartimento superior (equipaje de mano con costo)",
+       "Regreso y vendedor no confirmados (Google: itinerario no disponible)"
       ],
       "legs": [
        {
@@ -3913,7 +3921,7 @@
       "airline": "Aeroméxico",
       "warnings": [
        "Precio de lista, vendedor y regreso no confirmados",
-       "Operado por Aeroméxico Connect"
+       "Operado por Aeroméxico Connect; marcado Premium Economy (Economy desde $909)"
       ],
       "legs": [
        {
@@ -4413,6 +4421,10 @@
      },
      {
       "t": "2026-10-30T16:20:00-06:00",
+      "price": 662
+     },
+     {
+      "t": "2026-10-30T17:18:00-06:00",
       "price": 662
      }
     ],
@@ -4933,6 +4945,10 @@
      },
      {
       "t": "2026-10-30T16:20:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-10-30T17:18:00-06:00",
       "price": 891
      }
     ],
@@ -6473,10 +6489,15 @@
      "t": "2026-10-30T16:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T17:18:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T16:20:00-06:00",
+    "checked": "2026-10-30T17:18:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6597,9 +6618,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: $624 (típico $225–610). El Viva directo ($641) también marcado alto. Sin consejo de cuándo reservar.",
+    "text": "Google: $624 es alto para Economy (rango usual $225–610). Sin consejo de cuándo comprar.",
     "range": "$225–610",
-    "updated": "2026-10-30T16:20:00-06:00"
+    "updated": "2026-10-30T17:18:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6877,6 +6898,10 @@
      },
      {
       "t": "2026-10-30T16:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-30T17:18:00-06:00",
       "price": 624
      }
     ],
@@ -7405,6 +7430,10 @@
      },
      {
       "t": "2026-10-30T16:20:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-30T17:18:00-06:00",
       "price": 1185
      }
     ],
