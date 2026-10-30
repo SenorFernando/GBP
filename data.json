@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:20:00-06:00",
+ "updated": "2026-10-30T16:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3793,15 +3793,20 @@
      "t": "2026-10-30T15:20:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T16:20:00-06:00",
+     "price": 662,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T15:20:00-06:00",
+    "checked": "2026-10-30T16:20:00-06:00",
     "cheapest": {
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra"
+      "Puede no incluir compartimento superior (equipaje de mano con costo)"
      ],
      "legs": [
       {
@@ -3836,7 +3841,7 @@
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra"
+      "Puede no incluir compartimento superior (equipaje de mano con costo)"
      ],
      "legs": [
       {
@@ -3872,7 +3877,7 @@
       "price": 662,
       "airline": "Viva",
       "warnings": [
-       "Equipaje de mano con costo extra"
+       "Puede no incluir compartimento superior (equipaje de mano con costo)"
       ],
       "legs": [
        {
@@ -3908,7 +3913,7 @@
       "airline": "Aeroméxico",
       "warnings": [
        "Precio de lista, vendedor y regreso no confirmados",
-       "Mostrado como Premium Economy (operado por Aeromexico Connect)"
+       "Operado por Aeroméxico Connect"
       ],
       "legs": [
        {
@@ -3932,7 +3937,7 @@
     "level": "unknown",
     "text": "Sin recomendación de Google en esta lectura",
     "range": "",
-    "updated": "2026-10-30T15:20:00-06:00"
+    "updated": "2026-10-30T16:20:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -4404,6 +4409,10 @@
      },
      {
       "t": "2026-10-30T15:20:00-06:00",
+      "price": 662
+     },
+     {
+      "t": "2026-10-30T16:20:00-06:00",
       "price": 662
      }
     ],
@@ -4920,6 +4929,10 @@
      },
      {
       "t": "2026-10-30T15:20:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-10-30T16:20:00-06:00",
       "price": 891
      }
     ],
@@ -6455,16 +6468,22 @@
      "t": "2026-10-30T15:20:00-06:00",
      "price": 637,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T16:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T15:20:00-06:00",
+    "checked": "2026-10-30T16:20:00-06:00",
     "cheapest": {
-     "price": 637,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra",
-      "Viva directo ida y vuelta: $653 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
+      "Boletos separados (en Viva.com; $637 en un solo boleto)",
+      "Puede no incluir compartimento superior (equipaje de mano con costo)",
+      "Viva directo ida y vuelta: $641 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
      ],
      "legs": [
       {
@@ -6490,11 +6509,12 @@
      ]
     },
     "best": {
-     "price": 637,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra",
-      "Viva directo ida y vuelta: $653 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
+      "Boletos separados (en Viva.com; $637 en un solo boleto)",
+      "Puede no incluir compartimento superior (equipaje de mano con costo)",
+      "Viva directo ida y vuelta: $641 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
      ],
      "legs": [
       {
@@ -6521,11 +6541,12 @@
     },
     "byAirline": [
      {
-      "price": 637,
+      "price": 624,
       "airline": "Viva",
       "warnings": [
-       "Equipaje de mano con costo extra",
-       "Viva directo ida y vuelta: $653 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
+       "Boletos separados (en Viva.com; $637 en un solo boleto)",
+       "Puede no incluir compartimento superior (equipaje de mano con costo)",
+       "Viva directo ida y vuelta: $641 (11:10 AM→12:54 PM, regreso 1:25 PM→3:08 PM)"
       ],
       "legs": [
        {
@@ -6565,7 +6586,7 @@
         "stops": [
          {
           "airport": "MEX",
-          "layover": "",
+          "layover": "11 h 15 min",
           "overnight": true
          }
         ]
@@ -6576,9 +6597,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: $623 (típico $225–610). El Viva directo ($639) también marcado alto. Sin consejo de cuándo reservar.",
+    "text": "Precio alto: $624 (típico $225–610). El Viva directo ($641) también marcado alto. Sin consejo de cuándo reservar.",
     "range": "$225–610",
-    "updated": "2026-10-30T14:20:00-06:00"
+    "updated": "2026-10-30T16:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6853,6 +6874,10 @@
      {
       "t": "2026-10-30T15:20:00-06:00",
       "price": 637
+     },
+     {
+      "t": "2026-10-30T16:20:00-06:00",
+      "price": 624
      }
     ],
     "Viva + Volaris": [
@@ -7376,6 +7401,10 @@
      },
      {
       "t": "2026-10-30T15:20:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-30T16:20:00-06:00",
       "price": 1185
      }
     ],
