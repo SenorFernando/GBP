@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:20:00-06:00",
+ "updated": "2026-10-30T11:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3773,16 +3773,21 @@
      "t": "2026-10-30T10:20:00-06:00",
      "price": 664,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T11:20:00-06:00",
+     "price": 663,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T10:20:00-06:00",
+    "checked": "2026-10-30T11:20:00-06:00",
     "cheapest": {
-     "price": 664,
+     "price": 663,
      "airline": "Viva",
      "warnings": [
-      "Carry-on con costo extra",
-      "Escala nocturna de 8 h 15 min en MTY a la ida"
+      "Escala nocturna de 8 h 15 min en MTY a la ida",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
@@ -3800,13 +3805,13 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 10:16 AM CUL",
-       "arrive": "Sáb 2 ene 6:48 PM CJS",
-       "duration": "8 h 32 min",
+       "depart": "Sáb 2 ene 2:20 PM CUL",
+       "arrive": "Sáb 2 ene 11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "5 h 18 min",
+         "airport": "NLU",
+         "layover": "5 h 14 min",
          "overnight": false
         }
        ]
@@ -3814,11 +3819,11 @@
      ]
     },
     "best": {
-     "price": 664,
+     "price": 666,
      "airline": "Viva",
      "warnings": [
-      "Carry-on con costo extra",
-      "Escala nocturna de 8 h 15 min en MTY a la ida"
+      "Escala nocturna de 8 h 15 min en MTY a la ida",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
@@ -3851,10 +3856,9 @@
     },
     "byAirline": [
      {
-      "price": 664,
+      "price": 663,
       "airline": "Viva",
       "warnings": [
-       "Carry-on con costo extra",
        "Escala nocturna de 8 h 15 min en MTY a la ida"
       ],
       "legs": [
@@ -3873,14 +3877,37 @@
        },
        {
         "label": "Regreso",
-        "depart": "Sáb 2 ene 10:16 AM CUL",
-        "arrive": "Sáb 2 ene 6:48 PM CJS",
-        "duration": "8 h 32 min",
+        "depart": "Sáb 2 ene 2:20 PM CUL",
+        "arrive": "Sáb 2 ene 11:50 PM CJS",
+        "duration": "9 h 30 min",
         "stops": [
          {
-          "airport": "MTY",
-          "layover": "5 h 18 min",
+          "airport": "NLU",
+          "layover": "5 h 14 min",
           "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 891,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "Precio de lista; sitio de Aeroméxico no verificado",
+       "Regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "Mié 23 dic 8:49 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "5 h 16 min",
+          "overnight": true
          }
         ]
        }
@@ -4349,6 +4376,10 @@
      {
       "t": "2026-10-30T10:20:00-06:00",
       "price": 664
+     },
+     {
+      "t": "2026-10-30T11:20:00-06:00",
+      "price": 663
      }
     ],
     "Volaris": [
@@ -4845,6 +4876,10 @@
      {
       "t": "2026-10-30T09:20:00-06:00",
       "price": 888
+     },
+     {
+      "t": "2026-10-30T11:20:00-06:00",
+      "price": 891
      }
     ],
     "Aeroméxico + Volaris": [
@@ -6354,15 +6389,20 @@
      "t": "2026-10-30T10:20:00-06:00",
      "price": 623,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-30T11:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-30T10:20:00-06:00",
+    "checked": "2026-10-30T11:20:00-06:00",
     "cheapest": {
-     "price": 623,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $636)",
+      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $637)",
       "Carry-on con costo extra",
       "Escala nocturna de 8 h 15 min en MTY a la ida"
      ],
@@ -6390,10 +6430,10 @@
      ]
     },
     "best": {
-     "price": 623,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $636)",
+      "Boletos separados en Viva (se compran por separado en viva.com; en una sola reserva $637)",
       "Carry-on con costo extra",
       "Escala nocturna de 8 h 15 min en MTY a la ida"
      ],
@@ -6422,11 +6462,11 @@
     },
     "byAirline": [
      {
-      "price": 623,
+      "price": 624,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados en Viva (una sola reserva $636)",
-       "Directo ida y vuelta (11:10 AM / 1:25 PM): $653"
+       "Boletos separados en Viva (una sola reserva $637)",
+       "Directo ida y vuelta (11:10 AM / 1:25 PM): $641 boletos separados, $654 una sola reserva"
       ],
       "legs": [
        {
@@ -6450,14 +6490,37 @@
         "stops": []
        }
       ]
+     },
+     {
+      "price": 1185,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "Precio de lista; sitio de Aeroméxico no verificado",
+       "Regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "Mié 23 dic 8:49 PM CJS",
+        "arrive": "Jue 24 dic 12:46 PM MZT",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "11 h 15 min",
+          "overnight": true
+         }
+        ]
+       }
+      ]
      }
     ]
    },
    "insight": {
-    "level": "typical",
-    "text": "Google (página de reserva) dice que $577 es típico; vuelos similares suelen costar $225–610. Sin consejo de cuándo comprar.",
+    "level": "high",
+    "text": "Google: $618 es alto para estas fechas; lo típico es $225–610.",
     "range": "$225–610",
-    "updated": "2026-10-30T10:20:00-06:00"
+    "updated": "2026-10-30T11:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6712,6 +6775,10 @@
      {
       "t": "2026-10-30T10:20:00-06:00",
       "price": 623
+     },
+     {
+      "t": "2026-10-30T11:20:00-06:00",
+      "price": 624
      }
     ],
     "Viva + Volaris": [
@@ -7216,6 +7283,10 @@
      {
       "t": "2026-10-30T08:12:00-06:00",
       "price": 833
+     },
+     {
+      "t": "2026-10-30T11:20:00-06:00",
+      "price": 1185
      }
     ],
     "Viva + TAR + Volaris": [
