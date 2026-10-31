@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T09:20:00-06:00",
+ "updated": "2026-10-31T10:10:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3833,15 +3833,20 @@
      "t": "2026-10-31T09:20:00-06:00",
      "price": 640,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T10:10:00-06:00",
+     "price": 640,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T09:20:00-06:00",
+    "checked": "2026-10-31T10:10:00-06:00",
     "cheapest": {
      "price": 640,
      "airline": "Viva",
      "warnings": [
-      "vendedor no confirmado (Google no cargó opciones de compra)",
+      "vendedor no confirmado (Google: itinerario ya no disponible)",
       "escala nocturna larga"
      ],
      "legs": [
@@ -3874,11 +3879,11 @@
      ]
     },
     "best": {
-     "price": 640,
+     "price": 662,
      "airline": "Viva",
      "warnings": [
-      "vendedor no confirmado (Google no cargó opciones de compra)",
-      "escala nocturna larga"
+      "vendedor no confirmado",
+      "escala nocturna larga en la ida"
      ],
      "legs": [
       {
@@ -3896,14 +3901,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 6 min",
+       "depart": "2 ene 2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 51 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
@@ -3914,7 +3919,7 @@
       "price": 640,
       "airline": "Viva",
       "warnings": [
-       "vendedor no confirmado (Google no cargó opciones de compra)",
+       "vendedor no confirmado (Google: itinerario ya no disponible)",
        "escala nocturna larga"
       ],
       "legs": [
@@ -3947,40 +3952,18 @@
       ]
      },
      {
-      "price": 871,
-      "airline": "Volaris",
-      "warnings": [
-       "regreso no confirmado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "23 dic 9:30 AM CJS",
-        "arrive": "5:49 PM CUL",
-        "duration": "8 h 19 min",
-        "stops": [
-         {
-          "airport": "TIJ",
-          "layover": "4 h 22 min",
-          "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
       "price": 891,
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado",
-       "operado por Aerolitoral"
+       "vendedor no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "23 dic 8:49 PM CJS",
         "arrive": "7:02 AM+1 CUL",
-        "duration": "10 h 13 min",
+        "duration": "",
         "stops": [
          {
           "airport": "MEX",
@@ -4505,6 +4488,10 @@
      },
      {
       "t": "2026-10-31T09:20:00-06:00",
+      "price": 640
+     },
+     {
+      "t": "2026-10-31T10:10:00-06:00",
       "price": 640
      }
     ],
@@ -5061,6 +5048,10 @@
      },
      {
       "t": "2026-10-31T09:20:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-10-31T10:10:00-06:00",
       "price": 891
      }
     ],
@@ -6651,16 +6642,22 @@
      "t": "2026-10-31T09:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T10:10:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T09:20:00-06:00",
+    "checked": "2026-10-31T10:10:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos en Viva)",
-      "escala nocturna larga"
+      "escala nocturna larga en la ida",
+      "regreso directo"
      ],
      "legs": [
       {
@@ -6680,7 +6677,7 @@
        "label": "Regreso",
        "depart": "2 ene 1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -6690,7 +6687,8 @@
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos en Viva)",
-      "escala nocturna larga"
+      "escala nocturna larga en la ida",
+      "regreso directo"
      ],
      "legs": [
       {
@@ -6710,7 +6708,7 @@
        "label": "Regreso",
        "depart": "2 ene 1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "2 h 43 min",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -6721,8 +6719,8 @@
       "airline": "Viva",
       "warnings": [
        "boletos separados (ambos en Viva)",
-       "escala nocturna larga",
-       "directo ida y vuelta: $641 (boletos separados)"
+       "escala nocturna larga en la ida",
+       "regreso directo"
       ],
       "legs": [
        {
@@ -6742,7 +6740,7 @@
         "label": "Regreso",
         "depart": "2 ene 1:25 PM MZT",
         "arrive": "3:08 PM CJS",
-        "duration": "2 h 43 min",
+        "duration": "1 h 43 min",
         "stops": []
        }
       ]
@@ -6751,14 +6749,15 @@
       "price": 1185,
       "airline": "Aeroméxico",
       "warnings": [
-       "regreso no confirmado"
+       "regreso no confirmado",
+       "vendedor no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "23 dic 8:49 PM CJS",
         "arrive": "12:46 PM+1 MZT",
-        "duration": "15 h 57 min",
+        "duration": "",
         "stops": [
          {
           "airport": "MEX",
@@ -6773,9 +6772,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $624 es alto para económica; lo típico para viajes similares es $225–610.",
+    "text": "Google: $624 es alto para económica; lo típico para viajes similares es $225–610. Sin fecha recomendada de compra.",
     "range": "$225–610",
-    "updated": "2026-10-31T09:20:00-06:00"
+    "updated": "2026-10-31T10:10:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7093,6 +7092,10 @@
      },
      {
       "t": "2026-10-31T09:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T10:10:00-06:00",
       "price": 624
      }
     ],
@@ -7649,6 +7652,10 @@
      },
      {
       "t": "2026-10-31T09:20:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-31T10:10:00-06:00",
       "price": 1185
      }
     ],
