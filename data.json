@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T10:10:00-06:00",
+ "updated": "2026-10-31T11:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3838,10 +3838,15 @@
      "t": "2026-10-31T10:10:00-06:00",
      "price": 640,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T11:18:00-06:00",
+     "price": 640,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T10:10:00-06:00",
+    "checked": "2026-10-31T11:18:00-06:00",
     "cheapest": {
      "price": 640,
      "airline": "Viva",
@@ -3879,11 +3884,11 @@
      ]
     },
     "best": {
-     "price": 662,
+     "price": 640,
      "airline": "Viva",
      "warnings": [
-      "vendedor no confirmado",
-      "escala nocturna larga en la ida"
+      "vendedor no confirmado (Google: itinerario ya no disponible)",
+      "escala nocturna larga"
      ],
      "legs": [
       {
@@ -3901,14 +3906,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "2 ene 9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
@@ -3952,23 +3957,24 @@
       ]
      },
      {
-      "price": 891,
+      "price": 872,
       "airline": "Aeroméxico",
       "warnings": [
+       "boletos separados",
        "regreso no confirmado",
        "vendedor no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 8:49 PM CJS",
-        "arrive": "7:02 AM+1 CUL",
+        "depart": "23 dic 6:00 AM CJS",
+        "arrive": "2:52 PM CUL",
         "duration": "",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "5 h 16 min",
-          "overnight": true
+          "layover": "3 h 55 min",
+          "overnight": false
          }
         ]
        }
@@ -4492,6 +4498,10 @@
      },
      {
       "t": "2026-10-31T10:10:00-06:00",
+      "price": 640
+     },
+     {
+      "t": "2026-10-31T11:18:00-06:00",
       "price": 640
      }
     ],
@@ -5053,6 +5063,10 @@
      {
       "t": "2026-10-31T10:10:00-06:00",
       "price": 891
+     },
+     {
+      "t": "2026-10-31T11:18:00-06:00",
+      "price": 872
      }
     ],
     "Aeroméxico + Volaris": [
@@ -6647,10 +6661,15 @@
      "t": "2026-10-31T10:10:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T11:18:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T10:10:00-06:00",
+    "checked": "2026-10-31T11:18:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6774,7 +6793,7 @@
     "level": "high",
     "text": "Google: $624 es alto para económica; lo típico para viajes similares es $225–610. Sin fecha recomendada de compra.",
     "range": "$225–610",
-    "updated": "2026-10-31T10:10:00-06:00"
+    "updated": "2026-10-31T11:18:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7096,6 +7115,10 @@
      },
      {
       "t": "2026-10-31T10:10:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T11:18:00-06:00",
       "price": 624
      }
     ],
@@ -7656,6 +7679,10 @@
      },
      {
       "t": "2026-10-31T10:10:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-31T11:18:00-06:00",
       "price": 1185
      }
     ],
