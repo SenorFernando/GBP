@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:20:00-06:00",
+ "updated": "2026-10-31T14:17:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3848,22 +3848,28 @@
      "t": "2026-10-31T13:20:00-06:00",
      "price": 640,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T14:17:00-06:00",
+     "price": 643,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T13:20:00-06:00",
+    "checked": "2026-10-31T14:17:00-06:00",
     "cheapest": {
-     "price": 640,
+     "price": 643,
      "airline": "Viva",
      "warnings": [
       "vendedor no confirmado (Google: itinerario ya no disponible)",
-      "escala nocturna larga"
+      "escalas nocturnas largas en MTY",
+      "lista mostró $614 en la ida; $643 al elegir el regreso"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3875,8 +3881,8 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
        "duration": "13 h 6 min",
        "stops": [
         {
@@ -3889,17 +3895,18 @@
      ]
     },
     "best": {
-     "price": 640,
+     "price": 643,
      "airline": "Viva",
      "warnings": [
       "vendedor no confirmado (Google: itinerario ya no disponible)",
-      "escala nocturna larga"
+      "escalas nocturnas largas en MTY",
+      "lista mostró $614 en la ida; $643 al elegir el regreso"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 7:25 PM CJS",
-       "arrive": "7:02 AM+1 CUL",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3911,8 +3918,8 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
        "duration": "13 h 6 min",
        "stops": [
         {
@@ -3926,17 +3933,17 @@
     },
     "byAirline": [
      {
-      "price": 640,
+      "price": 643,
       "airline": "Viva",
       "warnings": [
        "vendedor no confirmado (Google: itinerario ya no disponible)",
-       "escala nocturna larga"
+       "escalas nocturnas largas en MTY"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 7:25 PM CJS",
-        "arrive": "7:02 AM+1 CUL",
+        "depart": "Mié 23 dic 7:25 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
         "duration": "11 h 37 min",
         "stops": [
          {
@@ -3948,8 +3955,8 @@
        },
        {
         "label": "Regreso",
-        "depart": "2 ene 9:28 PM CUL",
-        "arrive": "10:34 AM+1 CJS",
+        "depart": "Sáb 2 ene 9:28 PM CUL",
+        "arrive": "Dom 3 ene 10:34 AM CJS",
         "duration": "13 h 6 min",
         "stops": [
          {
@@ -3962,7 +3969,7 @@
       ]
      },
      {
-      "price": 871,
+      "price": 874,
       "airline": "Volaris",
       "warnings": [
        "regreso no confirmado",
@@ -3971,8 +3978,8 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 9:30 AM CJS",
-        "arrive": "5:49 PM CUL",
+        "depart": "Mié 23 dic 9:30 AM CJS",
+        "arrive": "Mié 23 dic 5:49 PM CUL",
         "duration": "",
         "stops": [
          {
@@ -3994,8 +4001,8 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 8:49 PM CJS",
-        "arrive": "7:02 AM+1 CUL",
+        "depart": "Mié 23 dic 8:49 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
         "duration": "",
         "stops": [
          {
@@ -4534,6 +4541,10 @@
      {
       "t": "2026-10-31T13:20:00-06:00",
       "price": 640
+     },
+     {
+      "t": "2026-10-31T14:17:00-06:00",
+      "price": 643
      }
     ],
     "Volaris": [
@@ -4796,6 +4807,10 @@
      {
       "t": "2026-10-31T13:20:00-06:00",
       "price": 871
+     },
+     {
+      "t": "2026-10-31T14:17:00-06:00",
+      "price": 874
      }
     ],
     "Aeroméxico": [
@@ -5105,6 +5120,10 @@
      },
      {
       "t": "2026-10-31T13:20:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-10-31T14:17:00-06:00",
       "price": 891
      }
     ],
@@ -6715,23 +6734,28 @@
      "t": "2026-10-31T13:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T14:17:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T13:20:00-06:00",
+    "checked": "2026-10-31T14:17:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
      "warnings": [
       "Boletos separados en el sitio de Viva (boleto único $637)",
-      "Carry-on con costo extra",
-      "Escala nocturna en MTY"
+      "Escala nocturna en MTY",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 6:52 AM MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -6743,9 +6767,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "depart": "Sáb 2 ene 1:25 PM MZT",
+       "arrive": "Sáb 2 ene 3:08 PM CJS",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -6755,14 +6779,14 @@
      "airline": "Viva",
      "warnings": [
       "Boletos separados en el sitio de Viva (boleto único $637)",
-      "Carry-on con costo extra",
-      "Escala nocturna en MTY"
+      "Escala nocturna en MTY",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "7:25 PM CJS",
-       "arrive": "6:52 AM+1 MZT",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 6:52 AM MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -6774,9 +6798,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "1:25 PM MZT",
-       "arrive": "3:08 PM CJS",
-       "duration": "43 min",
+       "depart": "Sáb 2 ene 1:25 PM MZT",
+       "arrive": "Sáb 2 ene 3:08 PM CJS",
+       "duration": "directo",
        "stops": []
       }
      ]
@@ -6787,14 +6811,14 @@
       "airline": "Viva",
       "warnings": [
        "Boletos separados en el sitio de Viva (boleto único $637)",
-       "Directo ida y vuelta: $640",
+       "Directo ida y vuelta: $641 (boleto único $654)",
        "Escala nocturna en MTY"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "7:25 PM CJS",
-        "arrive": "6:52 AM+1 MZT",
+        "depart": "Mié 23 dic 7:25 PM CJS",
+        "arrive": "Jue 24 dic 6:52 AM MZT",
         "duration": "12 h 27 min",
         "stops": [
          {
@@ -6806,9 +6830,9 @@
        },
        {
         "label": "Regreso",
-        "depart": "1:25 PM MZT",
-        "arrive": "3:08 PM CJS",
-        "duration": "43 min",
+        "depart": "Sáb 2 ene 1:25 PM MZT",
+        "arrive": "Sáb 2 ene 3:08 PM CJS",
+        "duration": "directo",
         "stops": []
        }
       ]
@@ -6823,9 +6847,9 @@
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 8:49 PM CJS",
-        "arrive": "12:46 PM+1 MZT",
-        "duration": "",
+        "depart": "Mié 23 dic 8:49 PM CJS",
+        "arrive": "Jue 24 dic 12:46 PM MZT",
+        "duration": "15 h 57 min",
         "stops": [
          {
           "airport": "MEX",
@@ -7176,6 +7200,10 @@
      },
      {
       "t": "2026-10-31T13:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T14:17:00-06:00",
       "price": 624
      }
     ],
@@ -7744,6 +7772,10 @@
      },
      {
       "t": "2026-10-31T13:20:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-31T14:17:00-06:00",
       "price": 1185
      }
     ],
