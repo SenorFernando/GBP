@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:16:00-06:00",
+ "updated": "2026-10-31T13:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3843,10 +3843,15 @@
      "t": "2026-10-31T11:18:00-06:00",
      "price": 640,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T13:20:00-06:00",
+     "price": 640,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T11:18:00-06:00",
+    "checked": "2026-10-31T13:20:00-06:00",
     "cheapest": {
      "price": 640,
      "airline": "Viva",
@@ -3957,24 +3962,46 @@
       ]
      },
      {
-      "price": 872,
-      "airline": "Aeroméxico",
+      "price": 871,
+      "airline": "Volaris",
       "warnings": [
-       "boletos separados",
        "regreso no confirmado",
        "vendedor no confirmado"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 6:00 AM CJS",
-        "arrive": "2:52 PM CUL",
+        "depart": "23 dic 9:30 AM CJS",
+        "arrive": "5:49 PM CUL",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "TIJ",
+          "layover": "4 h 22 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 891,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "regreso no confirmado",
+       "vendedor no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 8:49 PM CJS",
+        "arrive": "7:02 AM+1 CUL",
         "duration": "",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "3 h 55 min",
-          "overnight": false
+          "layover": "5 h 16 min",
+          "overnight": true
          }
         ]
        }
@@ -4503,6 +4530,10 @@
      {
       "t": "2026-10-31T11:18:00-06:00",
       "price": 640
+     },
+     {
+      "t": "2026-10-31T13:20:00-06:00",
+      "price": 640
      }
     ],
     "Volaris": [
@@ -4760,6 +4791,10 @@
      },
      {
       "t": "2026-10-31T09:20:00-06:00",
+      "price": 871
+     },
+     {
+      "t": "2026-10-31T13:20:00-06:00",
       "price": 871
      }
     ],
@@ -5067,6 +5102,10 @@
      {
       "t": "2026-10-31T11:18:00-06:00",
       "price": 872
+     },
+     {
+      "t": "2026-10-31T13:20:00-06:00",
+      "price": 891
      }
     ],
     "Aeroméxico + Volaris": [
@@ -6671,10 +6710,15 @@
      "t": "2026-10-31T12:16:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T13:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T12:16:00-06:00",
+    "checked": "2026-10-31T13:20:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6768,14 +6812,37 @@
         "stops": []
        }
       ]
+     },
+     {
+      "price": 1185,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "regreso no confirmado",
+       "vendedor no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 8:49 PM CJS",
+        "arrive": "12:46 PM+1 MZT",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "11 h 15 min",
+          "overnight": true
+         }
+        ]
+       }
+      ]
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: $624 es alto para económica; lo típico para viajes similares es $225–610. Sin fecha recomendada de compra.",
+    "text": "Precio alto: $624 está arriba del rango típico ($225–610). Sin consejo de compra.",
     "range": "$225–610",
-    "updated": "2026-10-31T12:16:00-06:00"
+    "updated": "2026-10-31T13:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7105,6 +7172,10 @@
      },
      {
       "t": "2026-10-31T12:16:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T13:20:00-06:00",
       "price": 624
      }
     ],
@@ -7669,6 +7740,10 @@
      },
      {
       "t": "2026-10-31T11:18:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-31T13:20:00-06:00",
       "price": 1185
      }
     ],
