@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T07:20:00-06:00",
+ "updated": "2026-10-31T08:13:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -6581,10 +6581,15 @@
      "t": "2026-10-31T07:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T08:13:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T07:20:00-06:00",
+    "checked": "2026-10-31T08:13:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6684,9 +6689,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: $624 está por encima de lo típico ($195–420) para viajes similares. Sin fecha recomendada de compra.",
-    "range": "$195–420",
-    "updated": "2026-10-31T07:20:00-06:00"
+    "text": "Precios altos: $624 está alto para Economy; lo típico es $225–610.",
+    "range": "$225–610",
+    "updated": "2026-10-31T08:13:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6996,6 +7001,10 @@
      },
      {
       "t": "2026-10-31T07:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T08:13:00-06:00",
       "price": 624
      }
     ],
