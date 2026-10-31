@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:13:00-06:00",
+ "updated": "2026-10-31T09:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3828,23 +3828,27 @@
      "t": "2026-10-31T07:20:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T09:20:00-06:00",
+     "price": 640,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T07:20:00-06:00",
+    "checked": "2026-10-31T09:20:00-06:00",
     "cheapest": {
-     "price": 662,
+     "price": 640,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva, boleto único",
-      "Escala nocturna de 8 h 15 min en MTY",
-      "Misma tarifa con salida 2:45 PM (escala 12 h 55 min en MTY)"
+      "vendedor no confirmado (Google no cargó opciones de compra)",
+      "escala nocturna larga"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "Mié 23 dic 7:25 PM CJS",
-       "arrive": "Jue 24 dic 7:02 AM CUL",
+       "depart": "23 dic 7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3856,32 +3860,31 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 2:20 PM CUL",
-       "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "10 h 30 min",
+       "depart": "2 ene 9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 662,
+     "price": 640,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva, boleto único",
-      "Escala nocturna de 8 h 15 min en MTY",
-      "Misma tarifa con salida 2:45 PM (escala 12 h 55 min en MTY)"
+      "vendedor no confirmado (Google no cargó opciones de compra)",
+      "escala nocturna larga"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "Mié 23 dic 7:25 PM CJS",
-       "arrive": "Jue 24 dic 7:02 AM CUL",
+       "depart": "23 dic 7:25 PM CJS",
+       "arrive": "7:02 AM+1 CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -3893,14 +3896,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 2:20 PM CUL",
-       "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "10 h 30 min",
+       "depart": "2 ene 9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
@@ -3908,17 +3911,17 @@
     },
     "byAirline": [
      {
-      "price": 662,
+      "price": 640,
       "airline": "Viva",
       "warnings": [
-       "Book with Viva, boleto único",
-       "Escala nocturna de 8 h 15 min en MTY"
+       "vendedor no confirmado (Google no cargó opciones de compra)",
+       "escala nocturna larga"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "Mié 23 dic 7:25 PM CJS",
-        "arrive": "Jue 24 dic 7:02 AM CUL",
+        "depart": "23 dic 7:25 PM CJS",
+        "arrive": "7:02 AM+1 CUL",
         "duration": "11 h 37 min",
         "stops": [
          {
@@ -3930,14 +3933,59 @@
        },
        {
         "label": "Regreso",
-        "depart": "Sáb 2 ene 2:20 PM CUL",
-        "arrive": "Sáb 2 ene 11:50 PM CJS",
-        "duration": "10 h 30 min",
+        "depart": "2 ene 9:28 PM CUL",
+        "arrive": "10:34 AM+1 CJS",
+        "duration": "13 h 6 min",
         "stops": [
          {
-          "airport": "NLU",
-          "layover": "5 h 14 min",
+          "airport": "MTY",
+          "layover": "9 h 51 min",
+          "overnight": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 871,
+      "airline": "Volaris",
+      "warnings": [
+       "regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 9:30 AM CJS",
+        "arrive": "5:49 PM CUL",
+        "duration": "8 h 19 min",
+        "stops": [
+         {
+          "airport": "TIJ",
+          "layover": "4 h 22 min",
           "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 891,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "regreso no confirmado",
+       "operado por Aerolitoral"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 8:49 PM CJS",
+        "arrive": "7:02 AM+1 CUL",
+        "duration": "10 h 13 min",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "5 h 16 min",
+          "overnight": true
          }
         ]
        }
@@ -4454,6 +4502,10 @@
      {
       "t": "2026-10-31T07:20:00-06:00",
       "price": 662
+     },
+     {
+      "t": "2026-10-31T09:20:00-06:00",
+      "price": 640
      }
     ],
     "Volaris": [
@@ -4708,6 +4760,10 @@
      {
       "t": "2026-10-30T22:19:00-06:00",
       "price": 934
+     },
+     {
+      "t": "2026-10-31T09:20:00-06:00",
+      "price": 871
      }
     ],
     "Aeroméxico": [
@@ -5001,6 +5057,10 @@
      },
      {
       "t": "2026-10-30T22:19:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-10-31T09:20:00-06:00",
       "price": 891
      }
     ],
@@ -6586,24 +6646,27 @@
      "t": "2026-10-31T08:13:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T09:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T08:13:00-06:00",
+    "checked": "2026-10-31T09:20:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva, boletos separados ($637 en boleto único)",
-      "Escala nocturna de 8 h 15 min en MTY",
-      "Regreso directo",
-      "Viva directo ida y vuelta: $641 ($654 boleto único)"
+      "boletos separados (ambos en Viva)",
+      "escala nocturna larga"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "Mié 23 dic 7:25 PM CJS",
-       "arrive": "Jue 24 dic 6:52 AM MZT",
+       "depart": "23 dic 7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -6615,9 +6678,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 1:25 PM MZT",
-       "arrive": "Sáb 2 ene 3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "depart": "2 ene 1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -6626,16 +6689,14 @@
      "price": 624,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva, boletos separados ($637 en boleto único)",
-      "Escala nocturna de 8 h 15 min en MTY",
-      "Regreso directo",
-      "Viva directo ida y vuelta: $641 ($654 boleto único)"
+      "boletos separados (ambos en Viva)",
+      "escala nocturna larga"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "Mié 23 dic 7:25 PM CJS",
-       "arrive": "Jue 24 dic 6:52 AM MZT",
+       "depart": "23 dic 7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -6647,9 +6708,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 1:25 PM MZT",
-       "arrive": "Sáb 2 ene 3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "depart": "2 ene 1:25 PM MZT",
+       "arrive": "3:08 PM CJS",
+       "duration": "2 h 43 min",
        "stops": []
       }
      ]
@@ -6659,14 +6720,15 @@
       "price": 624,
       "airline": "Viva",
       "warnings": [
-       "Book with Viva, boletos separados ($637 en boleto único)",
-       "Viva directo ida y vuelta: $641 (11:10 AM → 12:54 PM; regreso 1:25 PM → 3:08 PM)"
+       "boletos separados (ambos en Viva)",
+       "escala nocturna larga",
+       "directo ida y vuelta: $641 (boletos separados)"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "Mié 23 dic 7:25 PM CJS",
-        "arrive": "Jue 24 dic 6:52 AM MZT",
+        "depart": "23 dic 7:25 PM CJS",
+        "arrive": "6:52 AM+1 MZT",
         "duration": "12 h 27 min",
         "stops": [
          {
@@ -6678,10 +6740,32 @@
        },
        {
         "label": "Regreso",
-        "depart": "Sáb 2 ene 1:25 PM MZT",
-        "arrive": "Sáb 2 ene 3:08 PM CJS",
-        "duration": "1 h 43 min",
+        "depart": "2 ene 1:25 PM MZT",
+        "arrive": "3:08 PM CJS",
+        "duration": "2 h 43 min",
         "stops": []
+       }
+      ]
+     },
+     {
+      "price": 1185,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 8:49 PM CJS",
+        "arrive": "12:46 PM+1 MZT",
+        "duration": "15 h 57 min",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "11 h 15 min",
+          "overnight": true
+         }
+        ]
        }
       ]
      }
@@ -6689,9 +6773,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos: $624 está alto para Economy; lo típico es $225–610.",
+    "text": "Google: $624 es alto para económica; lo típico para viajes similares es $225–610.",
     "range": "$225–610",
-    "updated": "2026-10-31T08:13:00-06:00"
+    "updated": "2026-10-31T09:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7005,6 +7089,10 @@
      },
      {
       "t": "2026-10-31T08:13:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T09:20:00-06:00",
       "price": 624
      }
     ],
@@ -7557,6 +7645,10 @@
      },
      {
       "t": "2026-10-30T22:19:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-10-31T09:20:00-06:00",
       "price": 1185
      }
     ],
