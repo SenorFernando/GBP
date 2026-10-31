@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:10:00-06:00",
+ "updated": "2026-10-31T07:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3823,17 +3823,22 @@
      "t": "2026-10-31T06:10:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T07:20:00-06:00",
+     "price": 662,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T06:10:00-06:00",
+    "checked": "2026-10-31T07:20:00-06:00",
     "cheapest": {
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva (boleto único)",
+      "Book with Viva, boleto único",
       "Escala nocturna de 8 h 15 min en MTY",
-      "Carry-on con costo extra en Viva"
+      "Misma tarifa con salida 2:45 PM (escala 12 h 55 min en MTY)"
      ],
      "legs": [
       {
@@ -3853,7 +3858,7 @@
        "label": "Regreso",
        "depart": "Sáb 2 ene 2:20 PM CUL",
        "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "duration": "10 h 30 min",
        "stops": [
         {
          "airport": "NLU",
@@ -3868,9 +3873,9 @@
      "price": 662,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva (boleto único)",
+      "Book with Viva, boleto único",
       "Escala nocturna de 8 h 15 min en MTY",
-      "Carry-on con costo extra en Viva"
+      "Misma tarifa con salida 2:45 PM (escala 12 h 55 min en MTY)"
      ],
      "legs": [
       {
@@ -3890,7 +3895,7 @@
        "label": "Regreso",
        "depart": "Sáb 2 ene 2:20 PM CUL",
        "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "duration": "10 h 30 min",
        "stops": [
         {
          "airport": "NLU",
@@ -3906,7 +3911,7 @@
       "price": 662,
       "airline": "Viva",
       "warnings": [
-       "Book with Viva (boleto único)",
+       "Book with Viva, boleto único",
        "Escala nocturna de 8 h 15 min en MTY"
       ],
       "legs": [
@@ -3927,7 +3932,7 @@
         "label": "Regreso",
         "depart": "Sáb 2 ene 2:20 PM CUL",
         "arrive": "Sáb 2 ene 11:50 PM CJS",
-        "duration": "9 h 30 min",
+        "duration": "10 h 30 min",
         "stops": [
          {
           "airport": "NLU",
@@ -3941,10 +3946,10 @@
     ]
    },
    "insight": {
-    "level": "unknown",
-    "text": "Sin recomendación de Google en esta lectura",
-    "range": "",
-    "updated": "2026-10-30T16:20:00-06:00"
+    "level": "high",
+    "text": "Precio alto: Google dice que viajes similares suelen costar $205–490. Sin fecha recomendada de compra.",
+    "range": "$205–490",
+    "updated": "2026-10-31T07:20:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -4444,6 +4449,10 @@
      },
      {
       "t": "2026-10-31T06:10:00-06:00",
+      "price": 662
+     },
+     {
+      "t": "2026-10-31T07:20:00-06:00",
       "price": 662
      }
     ],
@@ -6567,10 +6576,15 @@
      "t": "2026-10-31T06:10:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T07:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T06:10:00-06:00",
+    "checked": "2026-10-31T07:20:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6670,9 +6684,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: $624 está por encima de lo típico ($225–610) para viajes similares. Google no da fecha recomendada de compra.",
-    "range": "$225–610",
-    "updated": "2026-10-30T21:16:00-06:00"
+    "text": "Precio alto: $624 está por encima de lo típico ($195–420) para viajes similares. Sin fecha recomendada de compra.",
+    "range": "$195–420",
+    "updated": "2026-10-31T07:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -6978,6 +6992,10 @@
      },
      {
       "t": "2026-10-31T06:10:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-10-31T07:20:00-06:00",
       "price": 624
      }
     ],
