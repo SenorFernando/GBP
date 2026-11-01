@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:15:00-06:00",
+ "updated": "2026-10-31T19:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -6744,17 +6744,23 @@
      "t": "2026-10-31T17:15:00-06:00",
      "price": 637,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-10-31T19:15:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-10-31T17:15:00-06:00",
+    "checked": "2026-10-31T19:15:00-06:00",
     "cheapest": {
-     "price": 637,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
       "Escala nocturna de 8 h 15 min en MTY a la ida",
       "Regreso directo",
-      "Comprado en el sitio de Viva"
+      "Comprado en el sitio de Viva (2 boletos separados en Viva)",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
@@ -6774,42 +6780,51 @@
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "best": {
-     "price": 654,
+     "price": 624,
      "airline": "Viva",
      "warnings": [
-      "directo ida y vuelta",
-      "Comprado en el sitio de Viva"
+      "Escala nocturna de 8 h 15 min en MTY a la ida",
+      "Regreso directo",
+      "Comprado en el sitio de Viva (2 boletos separados en Viva)",
+      "Carry-on con costo extra"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11:10 AM CJS",
-       "arrive": "12:54 PM MZT",
-       "duration": "1 h 44 min",
-       "stops": []
+       "depart": "7:25 PM CJS",
+       "arrive": "6:52 AM+1 MZT",
+       "duration": "12 h 27 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "8 h 15 min",
+         "overnight": true
+        }
+       ]
       },
       {
        "label": "Regreso",
        "depart": "1:25 PM MZT",
        "arrive": "3:08 PM CJS",
-       "duration": "1 h 43 min",
+       "duration": "directo",
        "stops": []
       }
      ]
     },
     "byAirline": [
      {
-      "price": 637,
+      "price": 624,
       "airline": "Viva",
       "warnings": [
        "Escala nocturna de 8 h 15 min en MTY a la ida",
-       "Directo ida y vuelta: $654"
+       "Regreso directo",
+       "Viva directo ida y vuelta: $641 (11:10 AM CJS → 12:54 PM MZT; regreso 1:25 PM MZT → 3:08 PM CJS)"
       ],
       "legs": [
        {
@@ -6829,7 +6844,7 @@
         "label": "Regreso",
         "depart": "1:25 PM MZT",
         "arrive": "3:08 PM CJS",
-        "duration": "1 h 43 min",
+        "duration": "directo",
         "stops": []
        }
       ]
@@ -6838,9 +6853,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: Google dice \"$641 is high\" para el Viva directo; viajes similares a Mazatlán suelen costar $165–495. Sin consejo de cuándo comprar.",
-    "range": "$165–495",
-    "updated": "2026-10-31T18:15:00-06:00"
+    "text": "Precio alto: Google dice \"$624 is high\"; viajes similares a Mazatlán suelen costar $225–610. El Viva directo ($641) también sale alto ($165–495). Sin consejo de cuándo comprar.",
+    "range": "$225–610",
+    "updated": "2026-10-31T19:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7191,6 +7206,10 @@
      {
       "t": "2026-10-31T17:15:00-06:00",
       "price": 637
+     },
+     {
+      "t": "2026-10-31T19:15:00-06:00",
+      "price": 624
      }
     ],
     "Viva + Volaris": [
