@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:20:00-06:00",
+ "updated": "2026-11-01T09:14:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -6873,10 +6873,15 @@
      "t": "2026-11-01T08:20:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T09:14:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T08:20:00-06:00",
+    "checked": "2026-11-01T09:14:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -6936,8 +6941,8 @@
       "price": 624,
       "airline": "Viva",
       "warnings": [
-       "boletos separados en el sitio de Viva; reserva única $637",
-       "regreso directo"
+       "boletos separados en el sitio de Viva",
+       "directo ida y vuelta por $641"
       ],
       "legs": [
        {
@@ -6961,37 +6966,14 @@
         "stops": []
        }
       ]
-     },
-     {
-      "price": 1185,
-      "airline": "Aeroméxico",
-      "warnings": [
-       "precio de la lista, no verificado",
-       "regreso no confirmado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "8:49 PM CJS",
-        "arrive": "12:46 PM +1 MZT",
-        "duration": "15 h 57 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "11 h 15 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: $624 es alto para Economy; rango típico $225–610. Sin consejo de cuándo comprar.",
+    "text": "Google: $624 es alto; normal $225–610. Sin consejo de cuándo comprar.",
     "range": "$225–610",
-    "updated": "2026-11-01T08:20:00-06:00"
+    "updated": "2026-11-01T09:14:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7365,6 +7347,10 @@
      },
      {
       "t": "2026-11-01T08:20:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-11-01T09:14:00-06:00",
       "price": 624
      }
     ],
