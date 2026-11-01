@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:15:00-06:00",
+ "updated": "2026-11-01T15:13:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3918,10 +3918,15 @@
      "t": "2026-11-01T14:15:00-06:00",
      "price": 663,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T15:13:00-06:00",
+     "price": 663,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T14:15:00-06:00",
+    "checked": "2026-11-01T15:13:00-06:00",
     "cheapest": {
      "price": 663,
      "airline": "Viva",
@@ -4039,8 +4044,7 @@
       "airline": "Aeroméxico",
       "warnings": [
        "Regreso no confirmado",
-       "Precio de lista de Google",
-       "Tarifa Premium Economy"
+       "Precio de lista de Google"
       ],
       "legs": [
        {
@@ -4640,6 +4644,10 @@
      },
      {
       "t": "2026-11-01T14:15:00-06:00",
+      "price": 663
+     },
+     {
+      "t": "2026-11-01T15:13:00-06:00",
       "price": 663
      }
     ],
@@ -5284,6 +5292,10 @@
      },
      {
       "t": "2026-11-01T14:15:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-11-01T15:13:00-06:00",
       "price": 891
      }
     ],
@@ -6974,10 +6986,15 @@
      "t": "2026-11-01T14:15:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T15:13:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T14:15:00-06:00",
+    "checked": "2026-11-01T15:13:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -7095,7 +7112,7 @@
     "level": "high",
     "text": "Precio alto: $624 está por arriba de lo normal ($225–610); el directo $640 también alto. Sin consejo de compra.",
     "range": "$225–610",
-    "updated": "2026-11-01T14:15:00-06:00"
+    "updated": "2026-11-01T15:13:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7493,6 +7510,10 @@
      },
      {
       "t": "2026-11-01T14:15:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-11-01T15:13:00-06:00",
       "price": 624
      }
     ],
@@ -8105,6 +8126,10 @@
      },
      {
       "t": "2026-11-01T14:15:00-06:00",
+      "price": 1186
+     },
+     {
+      "t": "2026-11-01T15:13:00-06:00",
       "price": 1186
      }
     ],
