@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:12:00-06:00",
+ "updated": "2026-11-01T23:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3958,16 +3958,22 @@
      "t": "2026-11-01T22:12:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T23:20:00-06:00",
+     "price": 663,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T22:12:00-06:00",
+    "checked": "2026-11-01T23:20:00-06:00",
     "cheapest": {
-     "price": 662,
+     "price": 663,
      "airline": "Viva",
      "warnings": [
-      "precio de lista; en el sitio de Viva la combinación verificada salió $666",
-      "equipaje de mano con costo extra"
+      "precio de lista; vendedor no verificado (Google: itinerario 'no longer available' al elegir regreso)",
+      "equipaje de mano con costo extra",
+      "regreso exacto no confirmado ($663–666)"
      ],
      "legs": [
       {
@@ -3985,25 +3991,26 @@
       },
       {
        "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 06 min",
+       "depart": "2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 51 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 662,
+     "price": 663,
      "airline": "Viva",
      "warnings": [
-      "precio de lista; en el sitio de Viva la combinación verificada salió $666",
-      "equipaje de mano con costo extra"
+      "precio de lista; vendedor no verificado (Google: itinerario 'no longer available' al elegir regreso)",
+      "equipaje de mano con costo extra",
+      "regreso exacto no confirmado ($663–666)"
      ],
      "legs": [
       {
@@ -4021,14 +4028,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "9:28 PM CUL",
-       "arrive": "10:34 AM+1 CJS",
-       "duration": "13 h 06 min",
+       "depart": "2:20 PM CUL",
+       "arrive": "11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 51 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
@@ -4036,10 +4043,10 @@
     },
     "byAirline": [
      {
-      "price": 662,
+      "price": 663,
       "airline": "Viva",
       "warnings": [
-       "precio de lista; en el sitio de Viva $666",
+       "precio de lista; vendedor no verificado",
        "equipaje de mano con costo extra"
       ],
       "legs": [
@@ -4058,26 +4065,24 @@
        },
        {
         "label": "Regreso",
-        "depart": "9:28 PM CUL",
-        "arrive": "10:34 AM+1 CJS",
-        "duration": "13 h 06 min",
+        "depart": "2:20 PM CUL",
+        "arrive": "11:50 PM CJS",
+        "duration": "9 h 30 min",
         "stops": [
          {
-          "airport": "MTY",
-          "layover": "9 h 51 min",
-          "overnight": true
+          "airport": "NLU",
+          "layover": "5 h 14 min",
+          "overnight": false
          }
         ]
        }
       ]
      },
      {
-      "price": 891,
+      "price": 892,
       "airline": "Aeroméxico",
       "warnings": [
-       "regreso no confirmado",
-       "marcado Premium Economy",
-       "operado por Aerolitoral"
+       "regreso no confirmado"
       ],
       "legs": [
        {
@@ -4123,7 +4128,7 @@
     "level": "unknown",
     "text": "Google no mostró recomendación esta vez.",
     "range": "",
-    "updated": "2026-11-01T19:15:00-06:00"
+    "updated": "2026-11-01T23:20:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -4732,6 +4737,10 @@
      {
       "t": "2026-11-01T22:12:00-06:00",
       "price": 662
+     },
+     {
+      "t": "2026-11-01T23:20:00-06:00",
+      "price": 663
      }
     ],
     "Volaris": [
@@ -5037,6 +5046,10 @@
      },
      {
       "t": "2026-11-01T22:12:00-06:00",
+      "price": 935
+     },
+     {
+      "t": "2026-11-01T23:20:00-06:00",
       "price": 935
      }
     ],
@@ -5428,6 +5441,10 @@
      {
       "t": "2026-11-01T22:12:00-06:00",
       "price": 891
+     },
+     {
+      "t": "2026-11-01T23:20:00-06:00",
+      "price": 892
      }
     ],
     "Aeroméxico + Volaris": [
@@ -7157,16 +7174,22 @@
      "t": "2026-11-01T22:12:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T23:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T22:12:00-06:00",
+    "checked": "2026-11-01T23:20:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos en Viva; reserva única en Viva $637)",
-      "ida con escala nocturna"
+      "ida con escala nocturna",
+      "equipaje de mano con costo extra"
      ],
      "legs": [
       {
@@ -7196,7 +7219,8 @@
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
-      "boletos separados en Viva $641; reserva única en Viva $654 (lista Google $640)"
+      "boletos separados en Viva $641; reserva única en Viva $654 (tras recargar solo $654)",
+      "equipaje de mano con costo extra"
      ],
      "legs": [
       {
@@ -7247,7 +7271,7 @@
       ]
      },
      {
-      "price": 1185,
+      "price": 1186,
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado"
@@ -7272,9 +7296,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precio alto: $624 es alto para económica (Google)",
-    "range": "$225–610",
-    "updated": "2026-11-01T22:12:00-06:00"
+    "text": "Precio alto: $624 es alto para económica (Google); sin consejo de cuándo comprar.",
+    "range": "$225–620",
+    "updated": "2026-11-01T23:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7704,6 +7728,10 @@
      },
      {
       "t": "2026-11-01T22:12:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-11-01T23:20:00-06:00",
       "price": 624
      }
     ],
@@ -8349,6 +8377,10 @@
      {
       "t": "2026-11-01T22:12:00-06:00",
       "price": 1185
+     },
+     {
+      "t": "2026-11-01T23:20:00-06:00",
+      "price": 1186
      }
     ],
     "Viva + TAR + Volaris": [
