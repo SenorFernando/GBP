@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T15:15:00-06:00",
+ "updated": "2026-11-02T16:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4003,16 +4003,21 @@
      "t": "2026-11-02T15:15:00-06:00",
      "price": 670,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T16:15:00-06:00",
+     "price": 670,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T15:15:00-06:00",
+    "checked": "2026-11-02T16:15:00-06:00",
     "cheapest": {
      "price": 670,
      "airline": "Viva",
      "warnings": [
       "Escala nocturna de 8 h 15 min en MTY a la ida",
-      "Vendedor no reconfirmado esta corrida (Google no abrió opciones de compra); verificado en sitio de Viva la hora anterior"
+      "Carry-on con costo extra (Viva)"
      ],
      "legs": [
       {
@@ -4048,7 +4053,7 @@
      "airline": "Viva",
      "warnings": [
       "Escala nocturna de 8 h 15 min en MTY a la ida",
-      "Vendedor no reconfirmado esta corrida (Google no abrió opciones de compra); verificado en sitio de Viva la hora anterior"
+      "Carry-on con costo extra (Viva)"
      ],
      "legs": [
       {
@@ -4085,7 +4090,7 @@
       "airline": "Viva",
       "warnings": [
        "Escala nocturna de 8 h 15 min en MTY a la ida",
-       "Vendedor no reconfirmado esta corrida (Google no abrió opciones de compra); verificado en sitio de Viva la hora anterior"
+       "Carry-on con costo extra (Viva)"
       ],
       "legs": [
        {
@@ -4793,6 +4798,10 @@
      },
      {
       "t": "2026-11-02T15:15:00-06:00",
+      "price": 670
+     },
+     {
+      "t": "2026-11-02T16:15:00-06:00",
       "price": 670
      }
     ],
@@ -5537,6 +5546,10 @@
      },
      {
       "t": "2026-11-02T15:15:00-06:00",
+      "price": 901
+     },
+     {
+      "t": "2026-11-02T16:15:00-06:00",
       "price": 901
      }
     ],
@@ -7322,10 +7335,15 @@
      "t": "2026-11-02T15:15:00-06:00",
      "price": 621,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T16:15:00-06:00",
+     "price": 621,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T15:15:00-06:00",
+    "checked": "2026-11-02T16:15:00-06:00",
     "cheapest": {
      "price": 621,
      "airline": "Viva",
@@ -7441,9 +7459,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: \"$621 is high\"; lo típico para viajes similares es $225–620. Sin consejo de cuándo comprar. Viva directo $638 también \"alto\" ($170–495).",
+    "text": "Google: \"$621 is high\"; lo típico para viajes similares es $225–620. Sin consejo de cuándo comprar. Viva directo $638 también \"alto\" ($170–500).",
     "range": "$225–620",
-    "updated": "2026-11-02T15:15:00-06:00"
+    "updated": "2026-11-02T16:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7917,6 +7935,10 @@
      },
      {
       "t": "2026-11-02T15:15:00-06:00",
+      "price": 621
+     },
+     {
+      "t": "2026-11-02T16:15:00-06:00",
       "price": 621
      }
     ],
@@ -8601,6 +8623,10 @@
      },
      {
       "t": "2026-11-02T15:15:00-06:00",
+      "price": 1199
+     },
+     {
+      "t": "2026-11-02T16:15:00-06:00",
       "price": 1199
      }
     ],
