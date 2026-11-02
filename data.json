@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:24:00-06:00",
+ "updated": "2026-11-02T10:43:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -7228,12 +7228,17 @@
      "t": "2026-11-02T10:24:00-06:00",
      "price": 587,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T10:43:00-06:00",
+     "price": 620,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T10:24:00-06:00",
+    "checked": "2026-11-02T10:43:00-06:00",
     "cheapest": {
-     "price": 587,
+     "price": 620,
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos en sitio de Viva)",
@@ -7264,11 +7269,11 @@
      ]
     },
     "best": {
-     "price": 603,
+     "price": 638,
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
-      "boletos separados (ambos en sitio de Viva)",
+      "precio de lista, vendedor no verificado en la recomprobación",
       "Equipaje de mano con costo extra"
      ],
      "legs": [
@@ -7290,7 +7295,7 @@
     },
     "byAirline": [
      {
-      "price": 587,
+      "price": 620,
       "airline": "Viva",
       "warnings": [
        "boletos separados (ambos en sitio de Viva)",
@@ -7346,10 +7351,10 @@
     ]
    },
    "insight": {
-    "level": "high",
-    "text": "Google: el directo a $570 se marca alto (normal $170–500); la opción con escala nocturna en MTY a $587 se marca típica ($225–620); sin consejo de cuándo comprar",
+    "level": "typical",
+    "text": "Google: $620 (Viva con escala nocturna en MTY y regreso directo, boletos separados en el sitio de Viva) se marca típico ($225–620); el directo se marcó alto ($170–500); sin consejo de cuándo comprar",
     "range": "$225–620",
-    "updated": "2026-11-02T10:24:00-06:00"
+    "updated": "2026-11-02T10:43:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7800,6 +7805,10 @@
      {
       "t": "2026-11-02T10:24:00-06:00",
       "price": 587
+     },
+     {
+      "t": "2026-11-02T10:43:00-06:00",
+      "price": 620
      }
     ],
     "Viva + Volaris": [
@@ -8463,6 +8472,10 @@
      },
      {
       "t": "2026-11-02T10:24:00-06:00",
+      "price": 1200
+     },
+     {
+      "t": "2026-11-02T10:43:00-06:00",
       "price": 1200
      }
     ],
