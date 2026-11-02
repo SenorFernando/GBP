@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T09:20:00-06:00",
+ "updated": "2026-11-02T10:24:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3978,16 +3978,21 @@
      "t": "2026-11-02T09:20:00-06:00",
      "price": 669,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T10:24:00-06:00",
+     "price": 654,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T09:20:00-06:00",
+    "checked": "2026-11-02T10:24:00-06:00",
     "cheapest": {
-     "price": 669,
+     "price": 654,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra",
-      "Escalas nocturnas largas en MTY"
+      "Escalas nocturnas largas en MTY",
+      "vendedor no verificado"
      ],
      "legs": [
       {
@@ -4019,11 +4024,11 @@
      ]
     },
     "best": {
-     "price": 669,
+     "price": 654,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra",
-      "Escalas nocturnas largas en MTY"
+      "Escalas nocturnas largas en MTY",
+      "vendedor no verificado"
      ],
      "legs": [
       {
@@ -4056,11 +4061,11 @@
     },
     "byAirline": [
      {
-      "price": 669,
+      "price": 654,
       "airline": "Viva",
       "warnings": [
-       "Equipaje de mano con costo extra",
-       "Escalas nocturnas largas en MTY"
+       "Escalas nocturnas largas en MTY",
+       "vendedor no verificado"
       ],
       "legs": [
        {
@@ -4092,10 +4097,9 @@
       ]
      },
      {
-      "price": 895,
+      "price": 902,
       "airline": "Aeroméxico",
       "warnings": [
-       "Premium Economy en la lista",
        "regreso no confirmado",
        "vendedor no verificado"
       ],
@@ -4746,6 +4750,10 @@
      {
       "t": "2026-11-02T09:20:00-06:00",
       "price": 669
+     },
+     {
+      "t": "2026-11-02T10:24:00-06:00",
+      "price": 654
      }
     ],
     "Volaris": [
@@ -5462,6 +5470,10 @@
      {
       "t": "2026-11-02T09:20:00-06:00",
       "price": 895
+     },
+     {
+      "t": "2026-11-02T10:24:00-06:00",
+      "price": 902
      }
     ],
     "Aeroméxico + Volaris": [
@@ -7211,16 +7223,22 @@
      "t": "2026-11-02T09:20:00-06:00",
      "price": 604,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T10:24:00-06:00",
+     "price": 587,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T09:20:00-06:00",
+    "checked": "2026-11-02T10:24:00-06:00",
     "cheapest": {
-     "price": 604,
+     "price": 587,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra",
-      "Regreso directo"
+      "boletos separados (ambos en sitio de Viva)",
+      "Regreso directo",
+      "Equipaje de mano con costo extra"
      ],
      "legs": [
       {
@@ -7246,10 +7264,11 @@
      ]
     },
     "best": {
-     "price": 621,
+     "price": 603,
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
+      "boletos separados (ambos en sitio de Viva)",
       "Equipaje de mano con costo extra"
      ],
      "legs": [
@@ -7271,11 +7290,12 @@
     },
     "byAirline": [
      {
-      "price": 604,
+      "price": 587,
       "airline": "Viva",
       "warnings": [
-       "Equipaje de mano con costo extra",
-       "Regreso directo"
+       "boletos separados (ambos en sitio de Viva)",
+       "Regreso directo",
+       "Equipaje de mano con costo extra"
       ],
       "legs": [
        {
@@ -7301,7 +7321,7 @@
       ]
      },
      {
-      "price": 1191,
+      "price": 1200,
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado",
@@ -7327,9 +7347,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $604 (vuelo sencillo) es alto para Económica; con boletos separados $583 se marca típico (típico $225–620); el directo a $600–621 se marca alto ($165–500); sin consejo de cuándo comprar",
+    "text": "Google: el directo a $570 se marca alto (normal $170–500); la opción con escala nocturna en MTY a $587 se marca típica ($225–620); sin consejo de cuándo comprar",
     "range": "$225–620",
-    "updated": "2026-11-02T09:20:00-06:00"
+    "updated": "2026-11-02T10:24:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7776,6 +7796,10 @@
      {
       "t": "2026-11-02T09:20:00-06:00",
       "price": 604
+     },
+     {
+      "t": "2026-11-02T10:24:00-06:00",
+      "price": 587
      }
     ],
     "Viva + Volaris": [
@@ -8436,6 +8460,10 @@
      {
       "t": "2026-11-02T09:20:00-06:00",
       "price": 1191
+     },
+     {
+      "t": "2026-11-02T10:24:00-06:00",
+      "price": 1200
      }
     ],
     "Viva + TAR + Volaris": [
