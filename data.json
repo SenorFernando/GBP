@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T08:20:00-06:00",
+ "updated": "2026-11-02T09:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3973,15 +3973,21 @@
      "t": "2026-11-02T08:20:00-06:00",
      "price": 665,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T09:20:00-06:00",
+     "price": 669,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T08:20:00-06:00",
+    "checked": "2026-11-02T09:20:00-06:00",
     "cheapest": {
-     "price": 665,
+     "price": 669,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra"
+      "Equipaje de mano con costo extra",
+      "Escalas nocturnas largas en MTY"
      ],
      "legs": [
       {
@@ -3999,24 +4005,25 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 2:20 PM CUL",
-       "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 665,
+     "price": 669,
      "airline": "Viva",
      "warnings": [
-      "Equipaje de mano con costo extra"
+      "Equipaje de mano con costo extra",
+      "Escalas nocturnas largas en MTY"
      ],
      "legs": [
       {
@@ -4034,14 +4041,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 2:20 PM CUL",
-       "arrive": "Sáb 2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
@@ -4049,10 +4056,11 @@
     },
     "byAirline": [
      {
-      "price": 665,
+      "price": 669,
       "airline": "Viva",
       "warnings": [
-       "Equipaje de mano con costo extra"
+       "Equipaje de mano con costo extra",
+       "Escalas nocturnas largas en MTY"
       ],
       "legs": [
        {
@@ -4070,14 +4078,14 @@
        },
        {
         "label": "Regreso",
-        "depart": "Sáb 2 ene 2:20 PM CUL",
-        "arrive": "Sáb 2 ene 11:50 PM CJS",
-        "duration": "9 h 30 min",
+        "depart": "Sáb 2 ene 9:28 PM CUL",
+        "arrive": "Dom 3 ene 10:34 AM CJS",
+        "duration": "13 h 06 min",
         "stops": [
          {
-          "airport": "NLU",
-          "layover": "5 h 14 min",
-          "overnight": false
+          "airport": "MTY",
+          "layover": "9 h 51 min",
+          "overnight": true
          }
         ]
        }
@@ -4087,8 +4095,9 @@
       "price": 895,
       "airline": "Aeroméxico",
       "warnings": [
-       "Operado por Aerolitoral",
-       "regreso no confirmado"
+       "Premium Economy en la lista",
+       "regreso no confirmado",
+       "vendedor no verificado"
       ],
       "legs": [
        {
@@ -4733,6 +4742,10 @@
      {
       "t": "2026-11-02T08:20:00-06:00",
       "price": 665
+     },
+     {
+      "t": "2026-11-02T09:20:00-06:00",
+      "price": 669
      }
     ],
     "Volaris": [
@@ -5444,6 +5457,10 @@
      },
      {
       "t": "2026-11-02T08:20:00-06:00",
+      "price": 895
+     },
+     {
+      "t": "2026-11-02T09:20:00-06:00",
       "price": 895
      }
     ],
@@ -7189,10 +7206,15 @@
      "t": "2026-11-02T08:20:00-06:00",
      "price": 604,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T09:20:00-06:00",
+     "price": 604,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T08:20:00-06:00",
+    "checked": "2026-11-02T09:20:00-06:00",
     "cheapest": {
      "price": 604,
      "airline": "Viva",
@@ -7224,7 +7246,7 @@
      ]
     },
     "best": {
-     "price": 620,
+     "price": 621,
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
@@ -7282,7 +7304,8 @@
       "price": 1191,
       "airline": "Aeroméxico",
       "warnings": [
-       "regreso no confirmado"
+       "regreso no confirmado",
+       "vendedor no verificado"
       ],
       "legs": [
        {
@@ -7304,9 +7327,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $604 es alto para Económica (típico $220–600); el directo a $620 también se marca alto; sin consejo de cuándo comprar",
-    "range": "$220–600",
-    "updated": "2026-11-02T08:20:00-06:00"
+    "text": "Google: $604 (vuelo sencillo) es alto para Económica; con boletos separados $583 se marca típico (típico $225–620); el directo a $600–621 se marca alto ($165–500); sin consejo de cuándo comprar",
+    "range": "$225–620",
+    "updated": "2026-11-02T09:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7748,6 +7771,10 @@
      },
      {
       "t": "2026-11-02T08:20:00-06:00",
+      "price": 604
+     },
+     {
+      "t": "2026-11-02T09:20:00-06:00",
       "price": 604
      }
     ],
@@ -8404,6 +8431,10 @@
      },
      {
       "t": "2026-11-02T08:20:00-06:00",
+      "price": 1191
+     },
+     {
+      "t": "2026-11-02T09:20:00-06:00",
       "price": 1191
      }
     ],
