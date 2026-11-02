@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T19:15:00-06:00",
+ "updated": "2026-11-01T20:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3943,16 +3943,21 @@
      "t": "2026-11-01T19:15:00-06:00",
      "price": 662,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T20:20:00-06:00",
+     "price": 662,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T19:15:00-06:00",
+    "checked": "2026-11-01T20:20:00-06:00",
     "cheapest": {
      "price": 662,
      "airline": "Viva",
      "warnings": [
       "escala nocturna larga en MTY",
-      "reserva en sitio de Viva"
+      "vendedor no verificado esta lectura (Google: 'no longer available')"
      ],
      "legs": [
       {
@@ -3988,7 +3993,7 @@
      "airline": "Viva",
      "warnings": [
       "escala nocturna larga en MTY",
-      "reserva en sitio de Viva"
+      "vendedor no verificado esta lectura (Google: 'no longer available')"
      ],
      "legs": [
       {
@@ -4060,14 +4065,14 @@
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado",
-       "operado por Aerolitoral; marcado Premium Economy"
+       "operado por Aerolitoral"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "7:02 AM+1 CUL",
-        "duration": "",
+        "duration": "10 h 13 min",
         "stops": [
          {
           "airport": "MEX",
@@ -4079,7 +4084,7 @@
       ]
      },
      {
-      "price": 1007,
+      "price": 934,
       "airline": "Volaris",
       "warnings": [
        "regreso no confirmado"
@@ -4089,7 +4094,7 @@
         "label": "Ida",
         "depart": "9:30 AM CJS",
         "arrive": "5:49 PM CUL",
-        "duration": "",
+        "duration": "9 h 19 min",
         "stops": [
          {
           "airport": "TIJ",
@@ -4703,6 +4708,10 @@
      {
       "t": "2026-11-01T19:15:00-06:00",
       "price": 662
+     },
+     {
+      "t": "2026-11-01T20:20:00-06:00",
+      "price": 662
      }
     ],
     "Volaris": [
@@ -4997,6 +5006,10 @@
      {
       "t": "2026-11-01T19:15:00-06:00",
       "price": 1007
+     },
+     {
+      "t": "2026-11-01T20:20:00-06:00",
+      "price": 934
      }
     ],
     "Aeroméxico": [
@@ -5374,6 +5387,10 @@
      },
      {
       "t": "2026-11-01T19:15:00-06:00",
+      "price": 891
+     },
+     {
+      "t": "2026-11-01T20:20:00-06:00",
       "price": 891
      }
     ],
@@ -7089,10 +7106,15 @@
      "t": "2026-11-01T19:15:00-06:00",
      "price": 624,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-01T20:20:00-06:00",
+     "price": 624,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-01T19:15:00-06:00",
+    "checked": "2026-11-01T20:20:00-06:00",
     "cheapest": {
      "price": 624,
      "airline": "Viva",
@@ -7128,7 +7150,7 @@
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
-      "boletos separados"
+      "boletos separados (reserva única en Viva $654)"
      ],
      "legs": [
       {
@@ -7190,7 +7212,7 @@
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "12:46 PM+1 MZT",
-        "duration": "",
+        "duration": "15 h 57 min",
         "stops": [
          {
           "airport": "MEX",
@@ -7205,9 +7227,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos: $624 es alto para económica; sin consejo de cuándo reservar",
+    "text": "Precio alto: $624 está por encima de lo típico para Mazatlán.",
     "range": "$225–610",
-    "updated": "2026-11-01T19:15:00-06:00"
+    "updated": "2026-11-01T20:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7625,6 +7647,10 @@
      },
      {
       "t": "2026-11-01T19:15:00-06:00",
+      "price": 624
+     },
+     {
+      "t": "2026-11-01T20:20:00-06:00",
       "price": 624
      }
     ],
@@ -8257,6 +8283,10 @@
      },
      {
       "t": "2026-11-01T19:15:00-06:00",
+      "price": 1185
+     },
+     {
+      "t": "2026-11-01T20:20:00-06:00",
       "price": 1185
      }
     ],
