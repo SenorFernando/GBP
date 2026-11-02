@@ -1155,7 +1155,10 @@
       }
      ]
     }
-   }
+   },
+   "group": "CJS",
+   "trip": "solo ida",
+   "dates": "23 dic 2026"
   },
   {
    "id": "B",
@@ -2301,11 +2304,14 @@
       }
      ]
     }
-   }
+   },
+   "group": "CJS",
+   "trip": "solo ida",
+   "dates": "2 ene 2027"
   },
   {
    "id": "C",
-   "name": "Juárez ⇄ Culiacán (23 dic – 2 ene, redondo)",
+   "name": "Ciudad Juárez (CJS) ⇄ Culiacán (CUL)",
    "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDQ1VMGh4SCjIwMjctMDEtMDJqBwgBEgNDVUxyBwgBEgNDSlNAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
    "baseline": 373,
    "history": [
@@ -5563,11 +5569,14 @@
       "price": 855
      }
     ]
-   }
+   },
+   "group": "CJS",
+   "trip": "redondo",
+   "dates": "23 dic 2026 – 2 ene 2027"
   },
   {
    "id": "D",
-   "name": "Juárez ⇄ Mazatlán (23 dic – 2 ene, redondo)",
+   "name": "Ciudad Juárez (CJS) ⇄ Mazatlán (MZT)",
    "url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEyLTIzagcIARIDQ0pTcgcIARIDTVpUGh4SCjIwMjctMDEtMDJqBwgBEgNNWlRyBwgBEgNDSlNAAUgBagQQARgAcAGCAQsI____________AZgBAQ&tfu=EgYIABABGAA&hl=en&curr=USD",
    "baseline": 443,
    "history": [
@@ -8780,6 +8789,330 @@
      {
       "t": "2026-10-29T10:20:00-06:00",
       "price": 790
+     }
+    ]
+   },
+   "group": "CJS",
+   "trip": "redondo",
+   "dates": "23 dic 2026 – 2 ene 2027",
+   "sub": "Incluye opción Viva directo ida y vuelta"
+  },
+  {
+   "id": "CV",
+   "group": "CJS",
+   "trip": "solo ida",
+   "name": "Ciudad Juárez (CJS) → Culiacán (CUL)",
+   "dates": "22 dic 2026",
+   "sub": "Incluye conexiones vía CDMX o Monterrey",
+   "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0yMmoHCAESA0NKU3IHCAESA0NVTEABSAGYAQI&curr=USD&hl=en",
+   "urls": [
+    {
+     "label": "22 dic",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0yMmoHCAESA0NKU3IHCAESA0NVTEABSAGYAQI&curr=USD&hl=en"
+    }
+   ],
+   "baseline": null,
+   "history": [],
+   "pending": "Sin precio oficial confirmado",
+   "seen": [
+    {
+     "price": 279,
+     "airline": "Viva",
+     "note": "Vía MTY; al volver a revisar el itinerario ya no estaba disponible",
+     "date": "2 nov"
+    },
+    {
+     "price": 494,
+     "airline": "Aeroméxico",
+     "note": "Vía MEX; no verificado en aeromexico.com",
+     "date": "2 nov"
+    }
+   ]
+  },
+  {
+   "id": "NY1",
+   "group": "NY",
+   "trip": "solo ida",
+   "name": "Nueva York (JFK/EWR/LGA) → Culiacán (CUL)",
+   "dates": "22 o 23 dic 2026",
+   "sub": "La fecha más barata de las dos; un solo boleto (incl. vía Monterrey o CDMX)",
+   "url": "https://www.google.com/travel/flights/search?tfs=EAAaMBIKMjAyNi0xMi0yMmoHCAESA0pGS2oHCAESA0VXUmoHCAESA0xHQXIHCAESA0NVTEABSAGYAQI&curr=USD&hl=en",
+   "urls": [
+    {
+     "label": "22 dic",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaMBIKMjAyNi0xMi0yMmoHCAESA0pGS2oHCAESA0VXUmoHCAESA0xHQXIHCAESA0NVTEABSAGYAQI&curr=USD&hl=en"
+    },
+    {
+     "label": "23 dic",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaMBIKMjAyNi0xMi0yM2oHCAESA0pGS2oHCAESA0VXUmoHCAESA0xHQXIHCAESA0NVTEABSAGYAQI&curr=USD&hl=en"
+    }
+   ],
+   "baseline": null,
+   "history": [
+    {
+     "t": "2026-11-02T15:47:00-06:00",
+     "price": 832,
+     "airline": "Viva"
+    }
+   ],
+   "itineraries": {
+    "checked": "2026-11-02T15:47:00-06:00",
+    "cheapest": {
+     "price": 832,
+     "airline": "Viva",
+     "warnings": [
+      "Sale de madrugada (1:30 AM del martes 22)",
+      "Escala larga de 12 h 17 min en MTY",
+      "Carry-on con costo extra (Viva)"
+     ],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "Mar 22 dic 1:30 AM JFK",
+       "arrive": "Mar 22 dic 6:12 PM CUL",
+       "duration": "18 h 42 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "12 h 17 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    },
+    "best": {
+     "price": 832,
+     "airline": "Viva",
+     "warnings": [
+      "Sale de madrugada (1:30 AM del martes 22)",
+      "Escala larga de 12 h 17 min en MTY",
+      "Carry-on con costo extra (Viva)"
+     ],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "Mar 22 dic 1:30 AM JFK",
+       "arrive": "Mar 22 dic 6:12 PM CUL",
+       "duration": "18 h 42 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "12 h 17 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    },
+    "byAirline": [
+     {
+      "price": 832,
+      "airline": "Viva",
+      "warnings": [
+       "Sale de madrugada (1:30 AM del martes 22)",
+       "Escala larga de 12 h 17 min en MTY",
+       "Carry-on con costo extra (Viva)"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "Mar 22 dic 1:30 AM JFK",
+        "arrive": "Mar 22 dic 6:12 PM CUL",
+        "duration": "18 h 42 min",
+        "stops": [
+         {
+          "airport": "MTY",
+          "layover": "12 h 17 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "airlineHistory": {
+    "Viva": [
+     {
+      "t": "2026-11-02T15:47:00-06:00",
+      "price": 832
+     }
+    ]
+   }
+  },
+  {
+   "id": "NY2",
+   "group": "NY",
+   "trip": "solo ida",
+   "name": "Mazatlán (MZT) → Nueva York (JFK/EWR/LGA)",
+   "dates": "2 ene 2027",
+   "url": "https://www.google.com/travel/flights/search?tfs=EAAaMBIKMjAyNy0wMS0wMmoHCAESA01aVHIHCAESA0pGS3IHCAESA0VXUnIHCAESA0xHQUABSAGYAQI&curr=USD&hl=en",
+   "urls": [
+    {
+     "label": "2 ene",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaMBIKMjAyNy0wMS0wMmoHCAESA01aVHIHCAESA0pGS3IHCAESA0VXUnIHCAESA0xHQUABSAGYAQI&curr=USD&hl=en"
+    }
+   ],
+   "baseline": null,
+   "history": [],
+   "pending": "Sin precio oficial confirmado",
+   "seen": [
+    {
+     "price": 702,
+     "airline": "Viva",
+     "note": "Vendedor no verificado",
+     "date": "2 nov",
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "Sáb 2 ene 7:32 AM MZT",
+       "arrive": "Dom 3 ene 12:20 AM JFK",
+       "duration": "14 h 48 min",
+       "stops": [
+        {
+         "airport": "MTY",
+         "layover": "9 h 6 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "NY3",
+   "group": "NY",
+   "trip": "solo ida",
+   "name": "Nueva York LaGuardia (LGA) → El Paso (ELP)",
+   "dates": "10 u 11 dic 2026",
+   "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0xMGoHCAESA0xHQXIHCAESA0VMUEABSAGYAQI&curr=USD&hl=en",
+   "urls": [
+    {
+     "label": "10 dic",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0xMGoHCAESA0xHQXIHCAESA0VMUEABSAGYAQI&curr=USD&hl=en"
+    },
+    {
+     "label": "11 dic",
+     "url": "https://www.google.com/travel/flights/search?tfs=EAAaHhIKMjAyNi0xMi0xMWoHCAESA0xHQXIHCAESA0VMUEABSAGYAQI&curr=USD&hl=en"
+    }
+   ],
+   "baseline": null,
+   "history": [
+    {
+     "t": "2026-11-02T16:03:00-06:00",
+     "price": 224,
+     "airline": "United"
+    }
+   ],
+   "itineraries": {
+    "checked": "2026-11-02T16:03:00-06:00",
+    "cheapest": {
+     "price": 224,
+     "airline": "United",
+     "warnings": [
+      "Basic Economy: sin maleta de mano (Economy con maleta de mano: $284)",
+      "Visto para 10 u 11 dic: confirma el día al reservar en united.com"
+     ],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "7:15 AM LGA",
+       "arrive": "1:20 PM ELP",
+       "duration": "8 h 5 min",
+       "stops": [
+        {
+         "airport": "DEN",
+         "layover": "1 h 38 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    },
+    "best": {
+     "price": 224,
+     "airline": "United",
+     "warnings": [
+      "Basic Economy: sin maleta de mano (Economy con maleta de mano: $284)",
+      "Visto para 10 u 11 dic: confirma el día al reservar en united.com"
+     ],
+     "legs": [
+      {
+       "label": "Ida",
+       "depart": "7:15 AM LGA",
+       "arrive": "1:20 PM ELP",
+       "duration": "8 h 5 min",
+       "stops": [
+        {
+         "airport": "DEN",
+         "layover": "1 h 38 min",
+         "overnight": false
+        }
+       ]
+      }
+     ]
+    },
+    "byAirline": [
+     {
+      "price": 224,
+      "airline": "United",
+      "warnings": [
+       "Basic Economy: sin maleta de mano (Economy con maleta de mano: $284)",
+       "Visto para 10 u 11 dic: confirma el día al reservar en united.com"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "7:15 AM LGA",
+        "arrive": "1:20 PM ELP",
+        "duration": "8 h 5 min",
+        "stops": [
+         {
+          "airport": "DEN",
+          "layover": "1 h 38 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 224,
+      "airline": "American",
+      "warnings": [
+       "Precio visto en Google; no verificado en el sitio de la aerolínea"
+      ],
+      "legs": []
+     },
+     {
+      "price": 224,
+      "airline": "Delta",
+      "warnings": [
+       "Precio visto en Google; no verificado en el sitio de la aerolínea"
+      ],
+      "legs": []
+     }
+    ]
+   },
+   "airlineHistory": {
+    "United": [
+     {
+      "t": "2026-11-02T16:03:00-06:00",
+      "price": 224
+     }
+    ],
+    "American": [
+     {
+      "t": "2026-11-02T16:03:00-06:00",
+      "price": 224
+     }
+    ],
+    "Delta": [
+     {
+      "t": "2026-11-02T16:03:00-06:00",
+      "price": 224
      }
     ]
    }

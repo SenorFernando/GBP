@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-# Uso: python3 set_itin.py data.json <A|B|C|D|E> <itin.json> [checked_ISO]
+# Uso: python3 set_itin.py data.json <ID> <itin.json> [checked_ISO]
+# IDs: C, D, CV (desde Ciudad Juárez) · NY1, NY2, NY3 (desde Nueva York, viajes de Dannia)
+# Solo ida (CV, NY1, NY2, NY3): cada ITIN lleva un solo tramo en "legs": [{"label":"Ida",...}]
 # itin.json: {"cheapest":ITIN,"best":ITIN}  (opcional "checked"); best puede omitirse = igual al más barato
-# opcional "byAirline": [ITIN,...] el redondo más barato por aerolínea; se guarda ordenado por precio
+# opcional "byAirline": [ITIN,...] el más barato por aerolínea (redondo o solo ida); se guarda ordenado por precio
 # y se agrega {t,price} de cada aerolínea a s['airlineHistory'][aerolínea] (sin duplicar t)
 import json,sys,datetime as D
+if len(sys.argv)<4: sys.exit("Uso: python3 set_itin.py data.json <ID> <itin.json> [checked_ISO]")
 f,i,src=sys.argv[1:4]
+if i in {'E'}: sys.exit("id bloqueado: "+i)
 it=json.load(open(src))
 if 'cheapest' not in it: sys.exit("itin.json necesita 'cheapest'")
 it.setdefault('best',it['cheapest'])
 it['checked']=sys.argv[4] if len(sys.argv)>4 else it.get('checked') or D.datetime.now(D.timezone(D.timedelta(hours=-6))).isoformat(timespec='seconds')
 d=json.load(open(f));s=next((x for x in d['searches'] if x['id']==i),None)
-if not s: sys.exit("id no encontrado: "+i)
+if not s: sys.exit("id no encontrado: "+i+" (válidos: "+", ".join(x['id'] for x in d['searches'])+")")
 s['itineraries']={"checked":it['checked'],"cheapest":it['cheapest'],"best":it['best']}
 ba=it.get('byAirline')
 if isinstance(ba,list) and ba:
