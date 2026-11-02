@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T07:20:00-06:00",
+ "updated": "2026-11-02T08:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3968,12 +3968,17 @@
      "t": "2026-11-02T07:20:00-06:00",
      "price": 664,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T08:20:00-06:00",
+     "price": 665,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T07:20:00-06:00",
+    "checked": "2026-11-02T08:20:00-06:00",
     "cheapest": {
-     "price": 664,
+     "price": 665,
      "airline": "Viva",
      "warnings": [
       "Equipaje de mano con costo extra"
@@ -4008,7 +4013,7 @@
      ]
     },
     "best": {
-     "price": 664,
+     "price": 665,
      "airline": "Viva",
      "warnings": [
       "Equipaje de mano con costo extra"
@@ -4044,7 +4049,7 @@
     },
     "byAirline": [
      {
-      "price": 664,
+      "price": 665,
       "airline": "Viva",
       "warnings": [
        "Equipaje de mano con costo extra"
@@ -4724,6 +4729,10 @@
      {
       "t": "2026-11-02T07:20:00-06:00",
       "price": 664
+     },
+     {
+      "t": "2026-11-02T08:20:00-06:00",
+      "price": 665
      }
     ],
     "Volaris": [
@@ -5431,6 +5440,10 @@
      },
      {
       "t": "2026-11-02T07:20:00-06:00",
+      "price": 895
+     },
+     {
+      "t": "2026-11-02T08:20:00-06:00",
       "price": 895
      }
     ],
@@ -7171,16 +7184,21 @@
      "t": "2026-11-02T07:20:00-06:00",
      "price": 616,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T08:20:00-06:00",
+     "price": 604,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T07:20:00-06:00",
+    "checked": "2026-11-02T08:20:00-06:00",
     "cheapest": {
-     "price": 616,
+     "price": 604,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados (ambos en sitio de Viva)",
-      "$639 como un solo boleto"
+      "Equipaje de mano con costo extra",
+      "Regreso directo"
      ],
      "legs": [
       {
@@ -7206,19 +7224,18 @@
      ]
     },
     "best": {
-     "price": 632,
+     "price": 620,
      "airline": "Viva",
      "warnings": [
-      "Directo ida y vuelta",
-      "Boletos separados (ambos en sitio de Viva)",
-      "$655 como un solo boleto"
+      "directo ida y vuelta",
+      "Equipaje de mano con costo extra"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "Mié 23 dic 11:10 AM CJS",
        "arrive": "Mié 23 dic 12:54 PM MZT",
-       "duration": "1 h 44 min",
+       "duration": "2 h 44 min",
        "stops": []
       },
       {
@@ -7232,12 +7249,11 @@
     },
     "byAirline": [
      {
-      "price": 616,
+      "price": 604,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados (ambos en sitio de Viva)",
-       "$639 como un solo boleto",
-       "Directo ida y vuelta: $632 (boletos separados) / $655"
+       "Equipaje de mano con costo extra",
+       "Regreso directo"
       ],
       "legs": [
        {
@@ -7263,7 +7279,7 @@
       ]
      },
      {
-      "price": 1190,
+      "price": 1191,
       "airline": "Aeroméxico",
       "warnings": [
        "regreso no confirmado"
@@ -7287,10 +7303,10 @@
     ]
    },
    "insight": {
-    "level": "typical",
-    "text": "Google: $616 es típico para Económica (el directo a $632 se marca alto); sin consejo de cuándo comprar",
-    "range": "$225–620",
-    "updated": "2026-11-02T07:20:00-06:00"
+    "level": "high",
+    "text": "Google: $604 es alto para Económica (típico $220–600); el directo a $620 también se marca alto; sin consejo de cuándo comprar",
+    "range": "$220–600",
+    "updated": "2026-11-02T08:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7729,6 +7745,10 @@
      {
       "t": "2026-11-02T07:20:00-06:00",
       "price": 616
+     },
+     {
+      "t": "2026-11-02T08:20:00-06:00",
+      "price": 604
      }
     ],
     "Viva + Volaris": [
@@ -8381,6 +8401,10 @@
      {
       "t": "2026-11-02T07:20:00-06:00",
       "price": 1190
+     },
+     {
+      "t": "2026-11-02T08:20:00-06:00",
+      "price": 1191
      }
     ],
     "Viva + TAR + Volaris": [
