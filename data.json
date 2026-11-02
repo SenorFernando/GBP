@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T11:20:00-06:00",
+ "updated": "2026-11-02T12:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -3991,14 +3991,14 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T11:20:00-06:00",
+    "checked": "2026-11-02T12:15:00-06:00",
     "cheapest": {
-     "price": 661,
+     "price": 671,
      "airline": "Viva",
      "warnings": [
-      "Escalas nocturnas largas en MTY",
       "vendedor no verificado (Google: itinerario no disponible al abrir opciones)",
-      "precio varió $649–$671 entre cargas"
+      "Ida con escala nocturna larga en MTY",
+      "opción de $649 boletos separados sin vendedor confirmado"
      ],
      "legs": [
       {
@@ -4016,26 +4016,26 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 9:28 PM CUL",
-       "arrive": "Dom 3 ene 10:34 AM CJS",
-       "duration": "13 h 06 min",
+       "depart": "Sáb 2 ene 2:20 PM CUL",
+       "arrive": "Sáb 2 ene 11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 51 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 661,
+     "price": 671,
      "airline": "Viva",
      "warnings": [
-      "Escalas nocturnas largas en MTY",
       "vendedor no verificado (Google: itinerario no disponible al abrir opciones)",
-      "precio varió $649–$671 entre cargas"
+      "Ida con escala nocturna larga en MTY",
+      "opción de $649 boletos separados sin vendedor confirmado"
      ],
      "legs": [
       {
@@ -4053,14 +4053,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "Sáb 2 ene 9:28 PM CUL",
-       "arrive": "Dom 3 ene 10:34 AM CJS",
-       "duration": "13 h 06 min",
+       "depart": "Sáb 2 ene 2:20 PM CUL",
+       "arrive": "Sáb 2 ene 11:50 PM CJS",
+       "duration": "9 h 30 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 51 min",
-         "overnight": true
+         "airport": "NLU",
+         "layover": "5 h 14 min",
+         "overnight": false
         }
        ]
       }
@@ -4068,12 +4068,12 @@
     },
     "byAirline": [
      {
-      "price": 661,
+      "price": 671,
       "airline": "Viva",
       "warnings": [
-       "Escalas nocturnas largas en MTY",
        "vendedor no verificado (Google: itinerario no disponible al abrir opciones)",
-       "precio varió $649–$671 entre cargas"
+       "Ida con escala nocturna larga en MTY",
+       "opción de $649 boletos separados sin vendedor confirmado"
       ],
       "legs": [
        {
@@ -4091,36 +4091,13 @@
        },
        {
         "label": "Regreso",
-        "depart": "Sáb 2 ene 9:28 PM CUL",
-        "arrive": "Dom 3 ene 10:34 AM CJS",
-        "duration": "13 h 06 min",
+        "depart": "Sáb 2 ene 2:20 PM CUL",
+        "arrive": "Sáb 2 ene 11:50 PM CJS",
+        "duration": "9 h 30 min",
         "stops": [
          {
-          "airport": "MTY",
-          "layover": "9 h 51 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 874,
-      "airline": "Volaris",
-      "warnings": [
-       "regreso no confirmado",
-       "vendedor no verificado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "Mié 23 dic 9:30 AM CJS",
-        "arrive": "Mié 23 dic 5:49 PM CUL",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "TIJ",
-          "layover": "4 h 22 min",
+          "airport": "NLU",
+          "layover": "5 h 14 min",
           "overnight": false
          }
         ]
@@ -4789,6 +4766,10 @@
      {
       "t": "2026-11-02T11:20:00-06:00",
       "price": 661
+     },
+     {
+      "t": "2026-11-02T12:15:00-06:00",
+      "price": 671
      }
     ],
     "Volaris": [
@@ -5516,6 +5497,10 @@
      },
      {
       "t": "2026-11-02T11:20:00-06:00",
+      "price": 902
+     },
+     {
+      "t": "2026-11-02T12:15:00-06:00",
       "price": 902
      }
     ],
@@ -7281,10 +7266,15 @@
      "t": "2026-11-02T11:20:00-06:00",
      "price": 622,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T12:15:00-06:00",
+     "price": 622,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T11:20:00-06:00",
+    "checked": "2026-11-02T12:15:00-06:00",
     "cheapest": {
      "price": 622,
      "airline": "Viva",
@@ -7400,9 +7390,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: \"$622 is high\" (en página del itinerario); el Viva directo $638. Sin consejo de compra.",
+    "text": "Google: $622 es alto para Mazatlán (típico $225–620); el Viva directo $638 también alto ($170–500).",
     "range": "$225–620",
-    "updated": "2026-11-02T11:20:00-06:00"
+    "updated": "2026-11-02T12:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -7860,6 +7850,10 @@
      },
      {
       "t": "2026-11-02T11:20:00-06:00",
+      "price": 622
+     },
+     {
+      "t": "2026-11-02T12:15:00-06:00",
       "price": 622
      }
     ],
@@ -8532,6 +8526,10 @@
      },
      {
       "t": "2026-11-02T11:20:00-06:00",
+      "price": 1200
+     },
+     {
+      "t": "2026-11-02T12:15:00-06:00",
       "price": 1200
      }
     ],
