@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:20:00-06:00",
+ "updated": "2026-11-02T21:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -7426,16 +7426,21 @@
      "t": "2026-11-02T20:20:00-06:00",
      "price": 621,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T21:20:00-06:00",
+     "price": 621,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T20:20:00-06:00",
+    "checked": "2026-11-02T21:20:00-06:00",
     "cheapest": {
      "price": 621,
      "airline": "Viva",
      "warnings": [
-      "boletos separados (ambos en el sitio de Viva)",
-      "Escala nocturna en MTY a la ida"
+      "Boletos separados en el sitio de Viva ($644 en una sola reserva)",
+      "Escala nocturna larga en MTY a la ida"
      ],
      "legs": [
       {
@@ -7455,7 +7460,7 @@
        "label": "Regreso",
        "depart": "2 ene 1:25 PM",
        "arrive": "2 ene 3:08 PM",
-       "duration": "directo",
+       "duration": "43 min",
        "stops": []
       }
      ]
@@ -7464,8 +7469,8 @@
      "price": 638,
      "airline": "Viva",
      "warnings": [
-      "directo ida y vuelta",
-      "boletos separados en el sitio de Viva ($661 boleto único)"
+      "Directo ida y vuelta",
+      "Boletos separados en el sitio de Viva ($661 en una sola reserva)"
      ],
      "legs": [
       {
@@ -7479,7 +7484,7 @@
        "label": "Regreso",
        "depart": "2 ene 1:25 PM",
        "arrive": "2 ene 3:08 PM",
-       "duration": "directo",
+       "duration": "43 min",
        "stops": []
       }
      ]
@@ -7489,8 +7494,8 @@
       "price": 621,
       "airline": "Viva",
       "warnings": [
-       "boletos separados (ambos en el sitio de Viva)",
-       "Escala nocturna en MTY a la ida"
+       "Boletos separados en el sitio de Viva ($644 en una sola reserva)",
+       "Viva directo ida y vuelta $638 (boletos separados; $661 una reserva)"
       ],
       "legs": [
        {
@@ -7510,31 +7515,8 @@
         "label": "Regreso",
         "depart": "2 ene 1:25 PM",
         "arrive": "2 ene 3:08 PM",
-        "duration": "directo",
+        "duration": "43 min",
         "stops": []
-       }
-      ]
-     },
-     {
-      "price": 1198,
-      "airline": "Aeroméxico",
-      "warnings": [
-       "Vendedor no verificado",
-       "regreso no confirmado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "23 dic 8:49 PM",
-        "arrive": "24 dic 12:46 PM",
-        "duration": "",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "11 h 15 min",
-          "overnight": true
-         }
-        ]
        }
       ]
      }
@@ -7542,9 +7524,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $621 es alto; vuelos similares suelen costar $225–620. Sin consejo de cuándo comprar.",
+    "text": "Google: $621 es alto para económica; normalmente $225–620. Tip: viajar 22–30 dic desde $315. Viva directo $638 también alto ($170–495).",
     "range": "$225–620",
-    "updated": "2026-11-02T20:20:00-06:00"
+    "updated": "2026-11-02T21:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8038,6 +8020,10 @@
      },
      {
       "t": "2026-11-02T20:20:00-06:00",
+      "price": 621
+     },
+     {
+      "t": "2026-11-02T21:20:00-06:00",
       "price": 621
      }
     ],
@@ -8929,6 +8915,11 @@
      "t": "2026-11-02T20:20:00-06:00",
      "price": 549,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-02T21:20:00-06:00",
+     "price": 549,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -8947,7 +8938,7 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T20:20:00-06:00",
+    "checked": "2026-11-02T21:20:00-06:00",
     "cheapest": {
      "price": 549,
      "airline": "Aeroméxico",
@@ -9033,14 +9024,18 @@
      {
       "t": "2026-11-02T20:20:00-06:00",
       "price": 549
+     },
+     {
+      "t": "2026-11-02T21:20:00-06:00",
+      "price": 549
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: $567 es alto para Economy.",
+    "text": "Google: $549 es alto; normalmente $90–350.",
     "range": "$90–350",
-    "updated": "2026-11-02T19:20:00-06:00"
+    "updated": "2026-11-02T21:20:00-06:00"
    }
   },
   {
@@ -9087,17 +9082,22 @@
      "t": "2026-11-02T20:20:00-06:00",
      "price": 832,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T21:20:00-06:00",
+     "price": 832,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T20:20:00-06:00",
+    "checked": "2026-11-02T21:20:00-06:00",
     "cheapest": {
      "price": 832,
      "airline": "Viva",
      "warnings": [
       "22 dic (23 dic mismo vuelo y precio)",
       "Horas locales de cada aeropuerto",
-      "Escala larga de día en MTY"
+      "Escala larga en MTY"
      ],
      "legs": [
       {
@@ -9121,7 +9121,7 @@
      "warnings": [
       "22 dic (23 dic mismo vuelo y precio)",
       "Horas locales de cada aeropuerto",
-      "Escala larga de día en MTY"
+      "Escala larga en MTY"
      ],
      "legs": [
       {
@@ -9146,7 +9146,7 @@
       "warnings": [
        "22 dic (23 dic mismo vuelo y precio)",
        "Horas locales de cada aeropuerto",
-       "Escala larga de día en MTY"
+       "Escala larga en MTY"
       ],
       "legs": [
        {
@@ -9187,14 +9187,18 @@
      {
       "t": "2026-11-02T20:20:00-06:00",
       "price": 832
+     },
+     {
+      "t": "2026-11-02T21:20:00-06:00",
+      "price": 832
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: precios altos ahora; similares suelen costar $210–450.",
+    "text": "Google: precios altos ahora; $832 es alto, normalmente $210–450.",
     "range": "$210–450",
-    "updated": "2026-11-02T20:20:00-06:00"
+    "updated": "2026-11-02T21:20:00-06:00"
    }
   },
   {
@@ -9377,10 +9381,15 @@
      "t": "2026-11-02T20:20:00-06:00",
      "price": 224,
      "airline": "Delta"
+    },
+    {
+     "t": "2026-11-02T21:20:00-06:00",
+     "price": 224,
+     "airline": "Delta"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T20:20:00-06:00",
+    "checked": "2026-11-02T21:20:00-06:00",
     "cheapest": {
      "price": 224,
      "airline": "Delta",
@@ -9497,14 +9506,18 @@
      {
       "t": "2026-11-02T20:20:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-02T21:20:00-06:00",
+      "price": 224
      }
     ]
    },
    "insight": {
     "level": "typical",
-    "text": "Google: precios típicos ahora.",
+    "text": "Google: precios normales ahora (10 y 11 dic).",
     "range": "",
-    "updated": "2026-11-02T20:20:00-06:00"
+    "updated": "2026-11-02T21:20:00-06:00"
    }
   }
  ]
