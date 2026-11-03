@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:20:00-06:00",
+ "updated": "2026-11-02T22:18:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4034,10 +4034,15 @@
      "t": "2026-11-02T20:20:00-06:00",
      "price": 673,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 670,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T20:20:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
      "price": 673,
      "airline": "Viva",
@@ -4846,6 +4851,10 @@
      {
       "t": "2026-11-02T20:20:00-06:00",
       "price": 673
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
+      "price": 673
      }
     ],
     "Volaris": [
@@ -5613,6 +5622,10 @@
      },
      {
       "t": "2026-11-02T20:20:00-06:00",
+      "price": 901
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
       "price": 901
      }
     ],
@@ -7431,10 +7444,15 @@
      "t": "2026-11-02T21:20:00-06:00",
      "price": 621,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 620,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T21:20:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
      "price": 621,
      "airline": "Viva",
@@ -7524,9 +7542,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $621 es alto para económica; normalmente $225–620. Tip: viajar 22–30 dic desde $315. Viva directo $638 también alto ($170–495).",
-    "range": "$225–620",
-    "updated": "2026-11-02T21:20:00-06:00"
+    "text": "Google: $638 (Viva directo) es alto; viajes similares suelen costar $170–495.",
+    "range": "$170–495",
+    "updated": "2026-11-02T22:18:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8024,6 +8042,10 @@
      },
      {
       "t": "2026-11-02T21:20:00-06:00",
+      "price": 621
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
       "price": 621
      }
     ],
@@ -8920,6 +8942,11 @@
      "t": "2026-11-02T21:20:00-06:00",
      "price": 549,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 549,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -8938,7 +8965,7 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T21:20:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
      "price": 549,
      "airline": "Aeroméxico",
@@ -9028,6 +9055,10 @@
      {
       "t": "2026-11-02T21:20:00-06:00",
       "price": 549
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
+      "price": 549
      }
     ]
    },
@@ -9087,10 +9118,15 @@
      "t": "2026-11-02T21:20:00-06:00",
      "price": 832,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 832,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T21:20:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
      "price": 832,
      "airline": "Viva",
@@ -9191,14 +9227,18 @@
      {
       "t": "2026-11-02T21:20:00-06:00",
       "price": 832
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
+      "price": 832
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: precios altos ahora; $832 es alto, normalmente $210–450.",
-    "range": "$210–450",
-    "updated": "2026-11-02T21:20:00-06:00"
+    "text": "Google: precios altos ahora (22 y 23 dic).",
+    "range": "",
+    "updated": "2026-11-02T22:18:00-06:00"
    }
   },
   {
@@ -9219,6 +9259,11 @@
     {
      "t": "2026-11-02T17:25:00-06:00",
      "price": 755,
+     "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 754,
      "airline": "Viva"
     }
    ],
@@ -9247,20 +9292,20 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T17:25:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
-     "price": 755,
+     "price": 754,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva ($702 en la lista de Google era de agencias)",
+      "Precio en el sitio de Viva (las agencias muestran $693–702)",
       "Horas locales de cada aeropuerto",
       "Llega pasada la medianoche"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2 ene 7:32 AM MZT",
-       "arrive": "3 ene 12:20 AM JFK",
+       "depart": "2 ene 7:32 AM (MZT)",
+       "arrive": "3 ene 12:20 AM (JFK)",
        "duration": "14 h 48 min",
        "stops": [
         {
@@ -9273,18 +9318,18 @@
      ]
     },
     "best": {
-     "price": 755,
+     "price": 754,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva ($702 en la lista de Google era de agencias)",
+      "Precio en el sitio de Viva (las agencias muestran $693–702)",
       "Horas locales de cada aeropuerto",
       "Llega pasada la medianoche"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2 ene 7:32 AM MZT",
-       "arrive": "3 ene 12:20 AM JFK",
+       "depart": "2 ene 7:32 AM (MZT)",
+       "arrive": "3 ene 12:20 AM (JFK)",
        "duration": "14 h 48 min",
        "stops": [
         {
@@ -9298,18 +9343,18 @@
     },
     "byAirline": [
      {
-      "price": 755,
+      "price": 754,
       "airline": "Viva",
       "warnings": [
-       "Precio en el sitio de Viva ($702 en la lista de Google era de agencias)",
+       "Precio en el sitio de Viva (las agencias muestran $693–702)",
        "Horas locales de cada aeropuerto",
        "Llega pasada la medianoche"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "2 ene 7:32 AM MZT",
-        "arrive": "3 ene 12:20 AM JFK",
+        "depart": "2 ene 7:32 AM (MZT)",
+        "arrive": "3 ene 12:20 AM (JFK)",
         "duration": "14 h 48 min",
         "stops": [
          {
@@ -9328,6 +9373,10 @@
      {
       "t": "2026-11-02T17:25:00-06:00",
       "price": 755
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
+      "price": 754
      }
     ]
    },
@@ -9386,10 +9435,15 @@
      "t": "2026-11-02T21:20:00-06:00",
      "price": 224,
      "airline": "Delta"
+    },
+    {
+     "t": "2026-11-02T22:18:00-06:00",
+     "price": 224,
+     "airline": "Delta"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T21:20:00-06:00",
+    "checked": "2026-11-02T22:18:00-06:00",
     "cheapest": {
      "price": 224,
      "airline": "Delta",
@@ -9510,6 +9564,10 @@
      {
       "t": "2026-11-02T21:20:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-02T22:18:00-06:00",
+      "price": 224
      }
     ]
    },
@@ -9517,7 +9575,7 @@
     "level": "typical",
     "text": "Google: precios normales ahora (10 y 11 dic).",
     "range": "",
-    "updated": "2026-11-02T21:20:00-06:00"
+    "updated": "2026-11-02T22:18:00-06:00"
    }
   }
  ]
