@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:18:00-06:00",
+ "updated": "2026-11-02T23:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4039,22 +4039,27 @@
      "t": "2026-11-02T22:18:00-06:00",
      "price": 670,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 673,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
      "price": 673,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva (Google lista $661)",
-      "Escalas largas nocturnas en MTY"
+      "Precio en el sitio de Viva",
+      "Escalas nocturnas en MTY ida y regreso"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 7:25 PM",
-       "arrive": "24 dic 7:02 AM",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -4066,9 +4071,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM",
-       "arrive": "3 ene 10:34 AM",
-       "duration": "13 h 06 min",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
@@ -4083,14 +4088,14 @@
      "price": 673,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva (Google lista $661)",
-      "Escalas largas nocturnas en MTY"
+      "Precio en el sitio de Viva",
+      "Escalas nocturnas en MTY ida y regreso"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 7:25 PM",
-       "arrive": "24 dic 7:02 AM",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 7:02 AM CUL",
        "duration": "11 h 37 min",
        "stops": [
         {
@@ -4102,9 +4107,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM",
-       "arrive": "3 ene 10:34 AM",
-       "duration": "13 h 06 min",
+       "depart": "Sáb 2 ene 9:28 PM CUL",
+       "arrive": "Dom 3 ene 10:34 AM CJS",
+       "duration": "13 h 6 min",
        "stops": [
         {
          "airport": "MTY",
@@ -4120,14 +4125,14 @@
       "price": 673,
       "airline": "Viva",
       "warnings": [
-       "Precio en el sitio de Viva (Google lista $661)",
-       "Escalas largas nocturnas en MTY"
+       "Precio en el sitio de Viva",
+       "Escalas nocturnas en MTY ida y regreso"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 7:25 PM",
-        "arrive": "24 dic 7:02 AM",
+        "depart": "Mié 23 dic 7:25 PM CJS",
+        "arrive": "Jue 24 dic 7:02 AM CUL",
         "duration": "11 h 37 min",
         "stops": [
          {
@@ -4139,37 +4144,13 @@
        },
        {
         "label": "Regreso",
-        "depart": "2 ene 9:28 PM",
-        "arrive": "3 ene 10:34 AM",
-        "duration": "13 h 06 min",
+        "depart": "Sáb 2 ene 9:28 PM CUL",
+        "arrive": "Dom 3 ene 10:34 AM CJS",
+        "duration": "13 h 6 min",
         "stops": [
          {
           "airport": "MTY",
           "layover": "9 h 51 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 901,
-      "airline": "Aeroméxico",
-      "warnings": [
-       "Vendedor no verificado",
-       "Google lo marca Premium Economy",
-       "regreso no confirmado"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "23 dic 8:49 PM",
-        "arrive": "24 dic 7:02 AM",
-        "duration": "10 h 13 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "5 h 16 min",
           "overnight": true
          }
         ]
@@ -4180,9 +4161,9 @@
    },
    "insight": {
     "level": "unknown",
-    "text": "Google no mostró recomendación esta vez.",
+    "text": "Google no mostró recomendación de precio hoy.",
     "range": "",
-    "updated": "2026-11-01T23:20:00-06:00"
+    "updated": "2026-11-02T23:20:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -4854,6 +4835,10 @@
      },
      {
       "t": "2026-11-02T22:18:00-06:00",
+      "price": 673
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
       "price": 673
      }
     ],
@@ -7449,22 +7434,28 @@
      "t": "2026-11-02T22:18:00-06:00",
      "price": 620,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 621,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
      "price": 621,
      "airline": "Viva",
      "warnings": [
-      "Boletos separados en el sitio de Viva ($644 en una sola reserva)",
-      "Escala nocturna larga en MTY a la ida"
+      "Boletos separados (ambos en el sitio de Viva); una sola reserva $644",
+      "Escala nocturna en MTY a la ida",
+      "Regreso directo"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 7:25 PM",
-       "arrive": "24 dic 6:52 AM",
+       "depart": "Mié 23 dic 7:25 PM CJS",
+       "arrive": "Jue 24 dic 6:52 AM MZT",
        "duration": "12 h 27 min",
        "stops": [
         {
@@ -7476,9 +7467,9 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 1:25 PM",
-       "arrive": "2 ene 3:08 PM",
-       "duration": "43 min",
+       "depart": "Sáb 2 ene 1:25 PM MZT",
+       "arrive": "Sáb 2 ene 3:08 PM CJS",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -7487,22 +7478,22 @@
      "price": 638,
      "airline": "Viva",
      "warnings": [
-      "Directo ida y vuelta",
-      "Boletos separados en el sitio de Viva ($661 en una sola reserva)"
+      "Viva directo ida y vuelta",
+      "Boletos separados en el sitio de Viva; una sola reserva $661"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 11:10 AM",
-       "arrive": "23 dic 12:54 PM",
-       "duration": "2 h 44 min",
+       "depart": "Mié 23 dic 11:10 AM CJS",
+       "arrive": "Mié 23 dic 12:54 PM MZT",
+       "duration": "1 h 44 min",
        "stops": []
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 1:25 PM",
-       "arrive": "2 ene 3:08 PM",
-       "duration": "43 min",
+       "depart": "Sáb 2 ene 1:25 PM MZT",
+       "arrive": "Sáb 2 ene 3:08 PM CJS",
+       "duration": "1 h 43 min",
        "stops": []
       }
      ]
@@ -7512,14 +7503,15 @@
       "price": 621,
       "airline": "Viva",
       "warnings": [
-       "Boletos separados en el sitio de Viva ($644 en una sola reserva)",
-       "Viva directo ida y vuelta $638 (boletos separados; $661 una reserva)"
+       "Boletos separados (ambos en el sitio de Viva); una sola reserva $644",
+       "Escala nocturna en MTY a la ida",
+       "Regreso directo"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 7:25 PM",
-        "arrive": "24 dic 6:52 AM",
+        "depart": "Mié 23 dic 7:25 PM CJS",
+        "arrive": "Jue 24 dic 6:52 AM MZT",
         "duration": "12 h 27 min",
         "stops": [
          {
@@ -7531,9 +7523,9 @@
        },
        {
         "label": "Regreso",
-        "depart": "2 ene 1:25 PM",
-        "arrive": "2 ene 3:08 PM",
-        "duration": "43 min",
+        "depart": "Sáb 2 ene 1:25 PM MZT",
+        "arrive": "Sáb 2 ene 3:08 PM CJS",
+        "duration": "1 h 43 min",
         "stops": []
        }
       ]
@@ -7542,9 +7534,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Google: $638 (Viva directo) es alto; viajes similares suelen costar $170–495.",
-    "range": "$170–495",
-    "updated": "2026-11-02T22:18:00-06:00"
+    "text": "Precios altos: $621 es alto; normalmente cuestan $225–620. El Viva directo ($638) también es alto (típico $170–495).",
+    "range": "$225–620",
+    "updated": "2026-11-02T23:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8046,6 +8038,10 @@
      },
      {
       "t": "2026-11-02T22:18:00-06:00",
+      "price": 621
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
       "price": 621
      }
     ],
@@ -8947,6 +8943,11 @@
      "t": "2026-11-02T22:18:00-06:00",
      "price": 549,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 494,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -8965,48 +8966,52 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
-     "price": 549,
+     "price": 494,
      "airline": "Aeroméxico",
      "warnings": [
-      "Tarifa Am Plus Básica en el sitio de Aeroméxico (incluye 1 carry-on); Clásica $581",
-      "22 dic"
+      "Martes 22 dic",
+      "Tarifa Premier Básica (Google la marca como Business): incluye 1 carry-on y 1 maleta documentada",
+      "Sin cambios ni reembolsos",
+      "Operado por Aeroméxico Connect"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "22 dic 6:00 AM",
-       "arrive": "22 dic 2:52 PM",
-       "duration": "8 h 52 min",
+       "depart": "Mar 22 dic 8:49 PM CJS",
+       "arrive": "Mié 23 dic 7:02 AM CUL",
+       "duration": "10 h 13 min",
        "stops": [
         {
          "airport": "MEX",
-         "layover": "3 h 55 min",
-         "overnight": false
+         "layover": "5 h 16 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 549,
+     "price": 494,
      "airline": "Aeroméxico",
      "warnings": [
-      "Tarifa Am Plus Básica en el sitio de Aeroméxico (incluye 1 carry-on); Clásica $581",
-      "22 dic"
+      "Martes 22 dic",
+      "Tarifa Premier Básica (Google la marca como Business): incluye 1 carry-on y 1 maleta documentada",
+      "Sin cambios ni reembolsos",
+      "Operado por Aeroméxico Connect"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "22 dic 6:00 AM",
-       "arrive": "22 dic 2:52 PM",
-       "duration": "8 h 52 min",
+       "depart": "Mar 22 dic 8:49 PM CJS",
+       "arrive": "Mié 23 dic 7:02 AM CUL",
+       "duration": "10 h 13 min",
        "stops": [
         {
          "airport": "MEX",
-         "layover": "3 h 55 min",
-         "overnight": false
+         "layover": "5 h 16 min",
+         "overnight": true
         }
        ]
       }
@@ -9014,23 +9019,25 @@
     },
     "byAirline": [
      {
-      "price": 549,
+      "price": 494,
       "airline": "Aeroméxico",
       "warnings": [
-       "Tarifa Am Plus Básica en el sitio de Aeroméxico (incluye 1 carry-on); Clásica $581",
-       "22 dic"
+       "Martes 22 dic",
+       "Tarifa Premier Básica (Google la marca como Business): incluye 1 carry-on y 1 maleta documentada",
+       "Sin cambios ni reembolsos",
+       "Operado por Aeroméxico Connect"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "22 dic 6:00 AM",
-        "arrive": "22 dic 2:52 PM",
-        "duration": "8 h 52 min",
+        "depart": "Mar 22 dic 8:49 PM CJS",
+        "arrive": "Mié 23 dic 7:02 AM CUL",
+        "duration": "10 h 13 min",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "3 h 55 min",
-          "overnight": false
+          "layover": "5 h 16 min",
+          "overnight": true
          }
         ]
        }
@@ -9059,14 +9066,18 @@
      {
       "t": "2026-11-02T22:18:00-06:00",
       "price": 549
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
+      "price": 494
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: $549 es alto; normalmente $90–350.",
+    "text": "Precios altos; normalmente cuestan $90–350.",
     "range": "$90–350",
-    "updated": "2026-11-02T21:20:00-06:00"
+    "updated": "2026-11-02T23:20:00-06:00"
    }
   },
   {
@@ -9123,23 +9134,28 @@
      "t": "2026-11-02T22:18:00-06:00",
      "price": 832,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 832,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
      "price": 832,
      "airline": "Viva",
      "warnings": [
-      "22 dic (23 dic mismo vuelo y precio)",
+      "Mismo vuelo y precio el 22 y el 23 dic",
       "Horas locales de cada aeropuerto",
-      "Escala larga en MTY"
+      "Vendedor no reconfirmado en esta lectura"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "22 dic 1:30 AM (JFK)",
-       "arrive": "22 dic 6:12 PM (CUL)",
+       "arrive": "22 dic 6:18 PM (CUL)",
        "duration": "18 h 42 min",
        "stops": [
         {
@@ -9155,15 +9171,15 @@
      "price": 832,
      "airline": "Viva",
      "warnings": [
-      "22 dic (23 dic mismo vuelo y precio)",
+      "Mismo vuelo y precio el 22 y el 23 dic",
       "Horas locales de cada aeropuerto",
-      "Escala larga en MTY"
+      "Vendedor no reconfirmado en esta lectura"
      ],
      "legs": [
       {
        "label": "Ida",
        "depart": "22 dic 1:30 AM (JFK)",
-       "arrive": "22 dic 6:12 PM (CUL)",
+       "arrive": "22 dic 6:18 PM (CUL)",
        "duration": "18 h 42 min",
        "stops": [
         {
@@ -9180,15 +9196,15 @@
       "price": 832,
       "airline": "Viva",
       "warnings": [
-       "22 dic (23 dic mismo vuelo y precio)",
+       "Mismo vuelo y precio el 22 y el 23 dic",
        "Horas locales de cada aeropuerto",
-       "Escala larga en MTY"
+       "Vendedor no reconfirmado en esta lectura"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "22 dic 1:30 AM (JFK)",
-        "arrive": "22 dic 6:12 PM (CUL)",
+        "arrive": "22 dic 6:18 PM (CUL)",
         "duration": "18 h 42 min",
         "stops": [
          {
@@ -9231,14 +9247,18 @@
      {
       "t": "2026-11-02T22:18:00-06:00",
       "price": 832
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
+      "price": 832
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: precios altos ahora (22 y 23 dic).",
+    "text": "Precios altos según Google.",
     "range": "",
-    "updated": "2026-11-02T22:18:00-06:00"
+    "updated": "2026-11-02T23:20:00-06:00"
    }
   },
   {
@@ -9264,6 +9284,11 @@
     {
      "t": "2026-11-02T22:18:00-06:00",
      "price": 754,
+     "airline": "Viva"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 746,
      "airline": "Viva"
     }
    ],
@@ -9292,12 +9317,12 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
-     "price": 754,
+     "price": 746,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva (las agencias muestran $693–702)",
+      "Precio en el sitio de Viva (las agencias muestran $693–729)",
       "Horas locales de cada aeropuerto",
       "Llega pasada la medianoche"
      ],
@@ -9310,7 +9335,7 @@
        "stops": [
         {
          "airport": "MTY",
-         "layover": "9 h 06 min",
+         "layover": "9 h 6 min",
          "overnight": false
         }
        ]
@@ -9318,10 +9343,10 @@
      ]
     },
     "best": {
-     "price": 754,
+     "price": 746,
      "airline": "Viva",
      "warnings": [
-      "Precio en el sitio de Viva (las agencias muestran $693–702)",
+      "Precio en el sitio de Viva (las agencias muestran $693–729)",
       "Horas locales de cada aeropuerto",
       "Llega pasada la medianoche"
      ],
@@ -9334,7 +9359,7 @@
        "stops": [
         {
          "airport": "MTY",
-         "layover": "9 h 06 min",
+         "layover": "9 h 6 min",
          "overnight": false
         }
        ]
@@ -9343,10 +9368,10 @@
     },
     "byAirline": [
      {
-      "price": 754,
+      "price": 746,
       "airline": "Viva",
       "warnings": [
-       "Precio en el sitio de Viva (las agencias muestran $693–702)",
+       "Precio en el sitio de Viva (las agencias muestran $693–729)",
        "Horas locales de cada aeropuerto",
        "Llega pasada la medianoche"
       ],
@@ -9359,7 +9384,7 @@
         "stops": [
          {
           "airport": "MTY",
-          "layover": "9 h 06 min",
+          "layover": "9 h 6 min",
           "overnight": false
          }
         ]
@@ -9377,14 +9402,18 @@
      {
       "t": "2026-11-02T22:18:00-06:00",
       "price": 754
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
+      "price": 746
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: precios altos ahora; viajando el 31 dic hay desde $412.",
+    "text": "Precios altos según Google.",
     "range": "",
-    "updated": "2026-11-02T19:20:00-06:00"
+    "updated": "2026-11-02T23:20:00-06:00"
    }
   },
   {
@@ -9440,28 +9469,34 @@
      "t": "2026-11-02T22:18:00-06:00",
      "price": 224,
      "airline": "Delta"
+    },
+    {
+     "t": "2026-11-02T23:20:00-06:00",
+     "price": 224,
+     "airline": "United"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-02T22:18:00-06:00",
+    "checked": "2026-11-02T23:20:00-06:00",
     "cheapest": {
      "price": 224,
-     "airline": "Delta",
+     "airline": "United",
      "warnings": [
-      "11 dic (10 dic mismo precio)",
-      "Delta Main Basic: sin selección de asiento, 1 carry-on incluido; Main Classic $284",
+      "Jueves 10 dic (el 11 dic también desde $224, vendedor no confirmado)",
+      "Basic Economy sin carry-on; Economy con carry-on $284",
+      "Operado por Mesa / United Express",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11 dic 7:59 AM (LGA)",
-       "arrive": "11 dic 1:16 PM (ELP)",
-       "duration": "7 h 17 min",
+       "depart": "10 dic 12:25 PM (LGA)",
+       "arrive": "10 dic 5:37 PM (ELP)",
+       "duration": "7 h 12 min",
        "stops": [
         {
-         "airport": "ATL",
-         "layover": "1 h 14 min",
+         "airport": "IAH",
+         "layover": "50 min",
          "overnight": false
         }
        ]
@@ -9470,22 +9505,23 @@
     },
     "best": {
      "price": 224,
-     "airline": "Delta",
+     "airline": "United",
      "warnings": [
-      "11 dic (10 dic mismo precio)",
-      "Delta Main Basic: sin selección de asiento, 1 carry-on incluido; Main Classic $284",
+      "Jueves 10 dic (el 11 dic también desde $224, vendedor no confirmado)",
+      "Basic Economy sin carry-on; Economy con carry-on $284",
+      "Operado por Mesa / United Express",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "11 dic 7:59 AM (LGA)",
-       "arrive": "11 dic 1:16 PM (ELP)",
-       "duration": "7 h 17 min",
+       "depart": "10 dic 12:25 PM (LGA)",
+       "arrive": "10 dic 5:37 PM (ELP)",
+       "duration": "7 h 12 min",
        "stops": [
         {
-         "airport": "ATL",
-         "layover": "1 h 14 min",
+         "airport": "IAH",
+         "layover": "50 min",
          "overnight": false
         }
        ]
@@ -9495,22 +9531,23 @@
     "byAirline": [
      {
       "price": 224,
-      "airline": "Delta",
+      "airline": "United",
       "warnings": [
-       "11 dic (10 dic mismo precio)",
-       "Delta Main Basic: sin selección de asiento, 1 carry-on incluido; Main Classic $284",
+       "Jueves 10 dic (el 11 dic también desde $224, vendedor no confirmado)",
+       "Basic Economy sin carry-on; Economy con carry-on $284",
+       "Operado por Mesa / United Express",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "11 dic 7:59 AM (LGA)",
-        "arrive": "11 dic 1:16 PM (ELP)",
-        "duration": "7 h 17 min",
+        "depart": "10 dic 12:25 PM (LGA)",
+        "arrive": "10 dic 5:37 PM (ELP)",
+        "duration": "7 h 12 min",
         "stops": [
          {
-          "airport": "ATL",
-          "layover": "1 h 14 min",
+          "airport": "IAH",
+          "layover": "50 min",
           "overnight": false
          }
         ]
@@ -9535,6 +9572,10 @@
      },
      {
       "t": "2026-11-02T19:20:00-06:00",
+      "price": 224
+     },
+     {
+      "t": "2026-11-02T23:20:00-06:00",
       "price": 224
      }
     ],
@@ -9573,9 +9614,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Google: precios normales ahora (10 y 11 dic).",
+    "text": "Precios normales según Google (10 y 11 dic).",
     "range": "",
-    "updated": "2026-11-02T22:18:00-06:00"
+    "updated": "2026-11-02T23:20:00-06:00"
    }
   }
  ]
