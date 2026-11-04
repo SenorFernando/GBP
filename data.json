@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:20:00-06:00",
+ "updated": "2026-11-03T22:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4089,6 +4089,11 @@
      "t": "2026-11-03T21:20:00-06:00",
      "price": 664,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
+     "price": 660,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
@@ -7630,17 +7635,21 @@
      "t": "2026-11-03T21:20:00-06:00",
      "price": 567,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
+     "price": 566,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T21:20:00-06:00",
+    "checked": "2026-11-03T22:20:00-06:00",
     "cheapest": {
-     "price": 567,
+     "price": 566,
      "airline": "Viva",
      "warnings": [
       "Boletos separados (ambos en sitio de Viva)",
-      "Una sola reserva: $600",
-      "Carry-on y 1a maleta con costo"
+      "Una sola reserva: $600"
      ],
      "legs": [
       {
@@ -7666,7 +7675,7 @@
      ]
     },
     "best": {
-     "price": 589,
+     "price": 587,
      "airline": "Viva",
      "warnings": [
       "Directo ida y vuelta",
@@ -7691,11 +7700,11 @@
     },
     "byAirline": [
      {
-      "price": 567,
+      "price": 566,
       "airline": "Viva",
       "warnings": [
        "Boletos separados (ambos en sitio de Viva)",
-       "Directo ida y vuelta: $589"
+       "Directo ida y vuelta: $587 ($621 una reserva)"
       ],
       "legs": [
        {
@@ -7724,9 +7733,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Típico para la ruta (rango $220–620); el directo de Viva Google lo marca alto (rango $165–485).",
+    "text": "Típico para la ruta ($566); el directo de Viva Google lo marca alto ($587, rango $165–485).",
     "range": "$220–620",
-    "updated": "2026-11-03T21:20:00-06:00"
+    "updated": "2026-11-03T22:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8293,6 +8302,10 @@
      {
       "t": "2026-11-03T21:20:00-06:00",
       "price": 567
+     },
+     {
+      "t": "2026-11-03T22:20:00-06:00",
+      "price": 566
      }
     ],
     "Viva + Volaris": [
@@ -9317,6 +9330,11 @@
      "t": "2026-11-03T21:20:00-06:00",
      "price": 487,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
+     "price": 487,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9501,9 +9519,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos ahora.",
-    "range": "",
-    "updated": "2026-11-03T21:20:00-06:00"
+    "text": "Precios altos ahora ($487).",
+    "range": "$90–345",
+    "updated": "2026-11-03T22:20:00-06:00"
    }
   },
   {
@@ -9638,6 +9656,11 @@
     },
     {
      "t": "2026-11-03T21:20:00-06:00",
+     "price": 832,
+     "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
      "price": 832,
      "airline": "Viva"
     }
@@ -9836,9 +9859,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos ahora (22 y 23 dic).",
-    "range": "",
-    "updated": "2026-11-03T21:20:00-06:00"
+    "text": "Precios altos ahora.",
+    "range": "$210–450",
+    "updated": "2026-11-03T22:20:00-06:00"
    }
   },
   {
@@ -9923,6 +9946,11 @@
     },
     {
      "t": "2026-11-03T21:20:00-06:00",
+     "price": 741,
+     "airline": "American"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
      "price": 741,
      "airline": "American"
     }
@@ -10283,6 +10311,11 @@
      "t": "2026-11-03T21:20:00-06:00",
      "price": 224,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-03T22:20:00-06:00",
+     "price": 224,
+     "airline": "United"
     }
    ],
    "itineraries": {
@@ -10635,9 +10668,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Precios típicos (10 y 11 dic).",
+    "text": "Precios típicos ahora.",
     "range": "",
-    "updated": "2026-11-03T21:20:00-06:00"
+    "updated": "2026-11-03T22:20:00-06:00"
    }
   }
  ]
