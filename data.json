@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:26:00-06:00",
+ "updated": "2026-11-03T21:20:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4084,17 +4084,22 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 661,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 664,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
-     "price": 661,
+     "price": 664,
      "airline": "Viva",
      "warnings": [
       "Una sola reserva en sitio de Viva",
-      "Carry-on y 1a maleta con costo",
-      "Volaris: precio oculto en su sitio, no confirmado"
+      "Carry-on con costo",
+      "Volaris y Aeroméxico: regreso y vendedor no confirmados"
      ],
      "legs": [
       {
@@ -4112,26 +4117,26 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 2:20 PM CUL",
-       "arrive": "2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "2 ene 9:28 PM CUL",
+       "arrive": "3 ene 10:34 AM CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 661,
+     "price": 664,
      "airline": "Viva",
      "warnings": [
       "Una sola reserva en sitio de Viva",
-      "Carry-on y 1a maleta con costo",
-      "Volaris: precio oculto en su sitio, no confirmado"
+      "Carry-on con costo",
+      "Volaris y Aeroméxico: regreso y vendedor no confirmados"
      ],
      "legs": [
       {
@@ -4149,14 +4154,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 2:20 PM CUL",
-       "arrive": "2 ene 11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "2 ene 9:28 PM CUL",
+       "arrive": "3 ene 10:34 AM CJS",
+       "duration": "13 h 06 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "9 h 51 min",
+         "overnight": true
         }
        ]
       }
@@ -4164,10 +4169,12 @@
     },
     "byAirline": [
      {
-      "price": 661,
+      "price": 664,
       "airline": "Viva",
       "warnings": [
-       "Una sola reserva en sitio de Viva"
+       "Una sola reserva en sitio de Viva",
+       "Carry-on con costo",
+       "Volaris y Aeroméxico: regreso y vendedor no confirmados"
       ],
       "legs": [
        {
@@ -4185,14 +4192,14 @@
        },
        {
         "label": "Regreso",
-        "depart": "2 ene 2:20 PM CUL",
-        "arrive": "2 ene 11:50 PM CJS",
-        "duration": "9 h 30 min",
+        "depart": "2 ene 9:28 PM CUL",
+        "arrive": "3 ene 10:34 AM CJS",
+        "duration": "13 h 06 min",
         "stops": [
          {
-          "airport": "NLU",
-          "layover": "5 h 14 min",
-          "overnight": false
+          "airport": "MTY",
+          "layover": "9 h 51 min",
+          "overnight": true
          }
         ]
        }
@@ -4913,6 +4920,10 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 661
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 664
      }
     ],
     "Volaris": [
@@ -7614,10 +7625,15 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 567,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 567,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
      "price": 567,
      "airline": "Viva",
@@ -7654,7 +7670,7 @@
      "airline": "Viva",
      "warnings": [
       "Directo ida y vuelta",
-      "Boletos separados en sitio de Viva; una sola reserva $622"
+      "Boletos separados en sitio de Viva; una sola reserva $621"
      ],
      "legs": [
       {
@@ -7708,9 +7724,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Típico para la ruta (rango $220–620 en la tarifa con escala); el directo de Viva Google lo marca alto (rango $165–485).",
+    "text": "Típico para la ruta (rango $220–620); el directo de Viva Google lo marca alto (rango $165–485).",
     "range": "$220–620",
-    "updated": "2026-11-03T20:26:00-06:00"
+    "updated": "2026-11-03T21:20:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8272,6 +8288,10 @@
      },
      {
       "t": "2026-11-03T20:26:00-06:00",
+      "price": 567
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
       "price": 567
      }
     ],
@@ -9292,6 +9312,11 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 487,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 487,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9310,7 +9335,7 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
      "price": 487,
      "airline": "Aeroméxico",
@@ -9467,14 +9492,18 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 487
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 487
      }
     ]
    },
    "insight": {
-    "level": "typical",
-    "text": "Precio típico ($487).",
-    "range": "$180–590",
-    "updated": "2026-11-03T19:20:00-06:00"
+    "level": "high",
+    "text": "Precios altos ahora.",
+    "range": "",
+    "updated": "2026-11-03T21:20:00-06:00"
    }
   },
   {
@@ -9606,10 +9635,15 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 832,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 832,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
      "price": 832,
      "airline": "Viva",
@@ -9767,6 +9801,10 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 832
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 832
      }
     ],
     "Volaris": [
@@ -9798,9 +9836,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos ahora.",
+    "text": "Precios altos ahora (22 y 23 dic).",
     "range": "",
-    "updated": "2026-11-03T20:26:00-06:00"
+    "updated": "2026-11-03T21:20:00-06:00"
    }
   },
   {
@@ -9882,6 +9920,11 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 736,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 741,
+     "airline": "American"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9909,48 +9952,60 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
-     "price": 736,
-     "airline": "Viva",
+     "price": 741,
+     "airline": "American",
      "warnings": [
-      "Tarifa básica; carry-on con costo (precio no mostrado)",
-      "Horas locales"
+      "Basic Economy: carry-on incluido; sin cambios",
+      "Horas locales",
+      "Viva no apareció en esta revisión"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2 ene 7:32 AM MZT",
-       "arrive": "3 ene 12:20 AM JFK",
-       "duration": "14 h 48 min",
+       "depart": "2 ene 1:15 PM MZT",
+       "arrive": "3 ene 7:30 PM JFK",
+       "duration": "28 h 15 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 6 min",
-         "overnight": false
+         "airport": "DFW",
+         "layover": "12 h 15 min",
+         "overnight": true
+        },
+        {
+         "airport": "ORD",
+         "layover": "8 h 22 min",
+         "overnight": true
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 736,
-     "airline": "Viva",
+     "price": 741,
+     "airline": "American",
      "warnings": [
-      "Tarifa básica; carry-on con costo (precio no mostrado)",
-      "Horas locales"
+      "Basic Economy: carry-on incluido; sin cambios",
+      "Horas locales",
+      "Viva no apareció en esta revisión"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "2 ene 7:32 AM MZT",
-       "arrive": "3 ene 12:20 AM JFK",
-       "duration": "14 h 48 min",
+       "depart": "2 ene 1:15 PM MZT",
+       "arrive": "3 ene 7:30 PM JFK",
+       "duration": "28 h 15 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "9 h 6 min",
-         "overnight": false
+         "airport": "DFW",
+         "layover": "12 h 15 min",
+         "overnight": true
+        },
+        {
+         "airport": "ORD",
+         "layover": "8 h 22 min",
+         "overnight": true
         }
        ]
       }
@@ -9958,35 +10013,12 @@
     },
     "byAirline": [
      {
-      "price": 736,
-      "airline": "Viva",
-      "warnings": [
-       "Tarifa básica; carry-on con costo (precio no mostrado)",
-       "Horas locales"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "2 ene 7:32 AM MZT",
-        "arrive": "3 ene 12:20 AM JFK",
-        "duration": "14 h 48 min",
-        "stops": [
-         {
-          "airport": "MTY",
-          "layover": "9 h 6 min",
-          "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 742,
+      "price": 741,
       "airline": "American",
       "warnings": [
-       "Basic Economy: carry-on incluido, 1a maleta $55; sin cambios",
-       "Main Cabin $810",
-       "Horas locales"
+       "Basic Economy: carry-on incluido; sin cambios",
+       "Horas locales",
+       "Viva no apareció en esta revisión"
       ],
       "legs": [
        {
@@ -10070,6 +10102,10 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 742
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 741
      }
     ],
     "United": [
@@ -10109,9 +10145,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Sin nivel hoy; Google sugiere viajar el 31 dic por $419.",
+    "text": "Precios altos ahora; Google sugiere viajar el 31 dic por $419.",
     "range": "",
-    "updated": "2026-11-03T20:26:00-06:00"
+    "updated": "2026-11-03T21:20:00-06:00"
    }
   },
   {
@@ -10242,10 +10278,15 @@
      "t": "2026-11-03T20:26:00-06:00",
      "price": 224,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-03T21:20:00-06:00",
+     "price": 224,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T20:26:00-06:00",
+    "checked": "2026-11-03T21:20:00-06:00",
     "cheapest": {
      "price": 224,
      "airline": "American",
@@ -10435,6 +10476,10 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 224
      }
     ],
     "American": [
@@ -10496,6 +10541,10 @@
      },
      {
       "t": "2026-11-03T20:26:00-06:00",
+      "price": 224
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
       "price": 224
      }
     ],
@@ -10567,6 +10616,10 @@
      {
       "t": "2026-11-03T20:26:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-03T21:20:00-06:00",
+      "price": 224
      }
     ],
     "Southwest": [
@@ -10584,7 +10637,7 @@
     "level": "typical",
     "text": "Precios típicos (10 y 11 dic).",
     "range": "",
-    "updated": "2026-11-03T20:26:00-06:00"
+    "updated": "2026-11-03T21:20:00-06:00"
    }
   }
  ]
