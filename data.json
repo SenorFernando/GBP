@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:15:00-06:00",
+ "updated": "2026-11-03T18:15:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4069,15 +4069,20 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 661,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 661,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 661,
      "airline": "Viva",
      "warnings": [
-      "Una sola reserva en el sitio de Viva",
+      "Precio en lista; Viva mostró 'itinerario ya no disponible' al abrir (no verificado)",
       "Escala nocturna de 8 h 15 min en Monterrey (ida)"
      ],
      "legs": [
@@ -4096,14 +4101,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "9 h 51 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "",
+         "overnight": true
         }
        ]
       }
@@ -4113,7 +4118,7 @@
      "price": 661,
      "airline": "Viva",
      "warnings": [
-      "Una sola reserva en el sitio de Viva",
+      "Precio en lista; Viva mostró 'itinerario ya no disponible' al abrir (no verificado)",
       "Escala nocturna de 8 h 15 min en Monterrey (ida)"
      ],
      "legs": [
@@ -4132,14 +4137,14 @@
       },
       {
        "label": "Regreso",
-       "depart": "2:20 PM CUL",
-       "arrive": "11:50 PM CJS",
-       "duration": "9 h 30 min",
+       "depart": "9:28 PM CUL",
+       "arrive": "10:34 AM+1 CJS",
+       "duration": "9 h 51 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "5 h 14 min",
-         "overnight": false
+         "airport": "MTY",
+         "layover": "",
+         "overnight": true
         }
        ]
       }
@@ -4150,7 +4155,7 @@
       "price": 661,
       "airline": "Viva",
       "warnings": [
-       "Una sola reserva en el sitio de Viva",
+       "Precio en lista; Viva mostró 'itinerario ya no disponible' al abrir (no verificado)",
        "Escala nocturna de 8 h 15 min en Monterrey (ida)"
       ],
       "legs": [
@@ -4169,14 +4174,14 @@
        },
        {
         "label": "Regreso",
-        "depart": "2:20 PM CUL",
-        "arrive": "11:50 PM CJS",
-        "duration": "9 h 30 min",
+        "depart": "9:28 PM CUL",
+        "arrive": "10:34 AM+1 CJS",
+        "duration": "9 h 51 min",
         "stops": [
          {
-          "airport": "NLU",
-          "layover": "5 h 14 min",
-          "overnight": false
+          "airport": "MTY",
+          "layover": "",
+          "overnight": true
          }
         ]
        }
@@ -4186,15 +4191,16 @@
       "price": 889,
       "airline": "Aeroméxico",
       "warnings": [
-       "Boletos separados",
-       "Premium Economy; en el sitio de Aeroméxico desde $932, precio no confirmado"
+       "Boletos separados en el sitio de Aeroméxico",
+       "Etiquetado Premium Economy",
+       "Escalas nocturnas en MEX"
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "8:49 PM CJS",
         "arrive": "7:02 AM+1 CUL",
-        "duration": "",
+        "duration": "10 h 13 min",
         "stops": [
          {
           "airport": "MEX",
@@ -4207,7 +4213,7 @@
         "label": "Regreso",
         "depart": "4:03 PM CUL",
         "arrive": "8:45 AM+1 CJS",
-        "duration": "",
+        "duration": "16 h 42 min",
         "stops": [
          {
           "airport": "MEX",
@@ -4222,9 +4228,9 @@
    },
    "insight": {
     "level": "unknown",
-    "text": "Google no mostró recomendación de precio hoy.",
+    "text": "Google no mostró recomendación para la tarifa de Viva; solo calificó como alto el $889 de Aeroméxico (similares $360–640).",
     "range": "",
-    "updated": "2026-11-02T23:20:00-06:00"
+    "updated": "2026-11-03T18:15:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -4920,6 +4926,10 @@
      },
      {
       "t": "2026-11-03T17:15:00-06:00",
+      "price": 661
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
       "price": 661
      }
     ],
@@ -5712,6 +5722,10 @@
      },
      {
       "t": "2026-11-03T17:15:00-06:00",
+      "price": 889
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
       "price": 889
      }
     ],
@@ -7595,10 +7609,15 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 567,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 567,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 567,
      "airline": "Viva",
@@ -7685,6 +7704,30 @@
         "stops": []
        }
       ]
+     },
+     {
+      "price": 1182,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "Vía MEX, escala de 11 h 15 min",
+       "Vendedor no verificado",
+       "Regreso no confirmado"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "8:49 PM CJS",
+        "arrive": "12:46 PM+1 MZT",
+        "duration": "",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "11 h 15 min",
+          "overnight": true
+         }
+        ]
+       }
+      ]
      }
     ]
    },
@@ -7692,7 +7735,7 @@
     "level": "typical",
     "text": "Google: $567 de Viva es típico (similares $220–620); el Viva directo ($589) aparece como alto (típico $165–485).",
     "range": "$220–620",
-    "updated": "2026-11-03T17:15:00-06:00"
+    "updated": "2026-11-03T18:15:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8242,6 +8285,10 @@
      },
      {
       "t": "2026-11-03T17:15:00-06:00",
+      "price": 567
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
       "price": 567
      }
     ],
@@ -8979,6 +9026,10 @@
      {
       "t": "2026-11-03T15:15:00-06:00",
       "price": 1182
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 1182
      }
     ],
     "Viva + TAR + Volaris": [
@@ -9239,6 +9290,11 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 487,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 487,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9257,13 +9313,14 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 487,
      "airline": "Aeroméxico",
      "warnings": [
-      "Premier Básica en el sitio de Aeroméxico: incluye carry-on y 1ª maleta documentada",
-      "Operado por Aerolitoral; llega al día siguiente"
+      "Tarifa Premier Básica en aeromexico.com (1 carry-on incluido)",
+      "Escala nocturna de 5 h 16 min en MEX",
+      "Viva $290 en lista pero 'ya no disponible' (no verificado)"
      ],
      "legs": [
       {
@@ -9275,7 +9332,7 @@
         {
          "airport": "MEX",
          "layover": "5 h 16 min",
-         "overnight": false
+         "overnight": true
         }
        ]
       }
@@ -9285,8 +9342,9 @@
      "price": 487,
      "airline": "Aeroméxico",
      "warnings": [
-      "Premier Básica en el sitio de Aeroméxico: incluye carry-on y 1ª maleta documentada",
-      "Operado por Aerolitoral; llega al día siguiente"
+      "Tarifa Premier Básica en aeromexico.com (1 carry-on incluido)",
+      "Escala nocturna de 5 h 16 min en MEX",
+      "Viva $290 en lista pero 'ya no disponible' (no verificado)"
      ],
      "legs": [
       {
@@ -9298,7 +9356,7 @@
         {
          "airport": "MEX",
          "layover": "5 h 16 min",
-         "overnight": false
+         "overnight": true
         }
        ]
       }
@@ -9309,8 +9367,9 @@
       "price": 487,
       "airline": "Aeroméxico",
       "warnings": [
-       "Premier Básica en el sitio de Aeroméxico: incluye carry-on y 1ª maleta documentada",
-       "Operado por Aerolitoral; llega al día siguiente"
+       "Tarifa Premier Básica en aeromexico.com (1 carry-on incluido)",
+       "Escala nocturna de 5 h 16 min en MEX",
+       "Viva $290 en lista pero 'ya no disponible' (no verificado)"
       ],
       "legs": [
        {
@@ -9322,7 +9381,7 @@
          {
           "airport": "MEX",
           "layover": "5 h 16 min",
-          "overnight": false
+          "overnight": true
          }
         ]
        }
@@ -9399,14 +9458,18 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 487
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 487
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google: precios altos para Economy (típico $90–345); $487 Aeroméxico incluye carry-on y maleta.",
+    "text": "Google: precios altos para Economy (típico $90–345); $487 Aeroméxico incluye carry-on.",
     "range": "$90–345",
-    "updated": "2026-11-03T17:15:00-06:00"
+    "updated": "2026-11-03T18:15:00-06:00"
    }
   },
   {
@@ -9523,16 +9586,21 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 832,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 832,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 832,
      "airline": "Viva",
      "warnings": [
-      "Mismo precio 22 y 23 dic",
-      "Carry-on con costo extra",
+      "Reserva única en el sitio de Viva",
+      "Mismo precio 22 y 23 dic (verificado 22 dic)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
@@ -9555,8 +9623,8 @@
      "price": 832,
      "airline": "Viva",
      "warnings": [
-      "Mismo precio 22 y 23 dic",
-      "Carry-on con costo extra",
+      "Reserva única en el sitio de Viva",
+      "Mismo precio 22 y 23 dic (verificado 22 dic)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
@@ -9580,8 +9648,8 @@
       "price": 832,
       "airline": "Viva",
       "warnings": [
-       "Mismo precio 22 y 23 dic",
-       "Carry-on con costo extra",
+       "Reserva única en el sitio de Viva",
+       "Mismo precio 22 y 23 dic (verificado 22 dic)",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
@@ -9604,7 +9672,6 @@
       "price": 936,
       "airline": "Volaris",
       "warnings": [
-       "22 dic",
        "Vendedor no verificado",
        "Horas locales de cada aeropuerto"
       ],
@@ -9699,6 +9766,10 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 832
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 832
      }
     ],
     "Volaris": [
@@ -9721,6 +9792,10 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 936
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 936
      }
     ]
    },
@@ -9728,7 +9803,7 @@
     "level": "high",
     "text": "Google: precios actualmente altos; $832 alto (similares $210–450).",
     "range": "$210–450",
-    "updated": "2026-11-03T17:15:00-06:00"
+    "updated": "2026-11-03T18:15:00-06:00"
    }
   },
   {
@@ -9795,6 +9870,11 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 742,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 742,
+     "airline": "American"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9822,13 +9902,14 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 742,
      "airline": "American",
      "warnings": [
-      "Basic Economy con carry-on incluido; 1ª maleta $55 (Main Cabin $809)",
+      "Basic Economy; precio en lista (fila no reconfirmada esta vez)",
       "Llega al día siguiente",
+      "Viva $702 en lista pero 'ya no disponible' (no verificado)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
@@ -9856,8 +9937,9 @@
      "price": 742,
      "airline": "American",
      "warnings": [
-      "Basic Economy con carry-on incluido; 1ª maleta $55 (Main Cabin $809)",
+      "Basic Economy; precio en lista (fila no reconfirmada esta vez)",
       "Llega al día siguiente",
+      "Viva $702 en lista pero 'ya no disponible' (no verificado)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
@@ -9886,8 +9968,9 @@
       "price": 742,
       "airline": "American",
       "warnings": [
-       "Basic Economy con carry-on incluido; 1ª maleta $55 (Main Cabin $809)",
+       "Basic Economy; precio en lista (fila no reconfirmada esta vez)",
        "Llega al día siguiente",
+       "Viva $702 en lista pero 'ya no disponible' (no verificado)",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
@@ -9923,7 +10006,7 @@
         "label": "Ida",
         "depart": "1:00 PM MZT",
         "arrive": "10:44 PM LGA",
-        "duration": "",
+        "duration": "7 h 44 min",
         "stops": [
          {
           "airport": "IAH",
@@ -9979,6 +10062,10 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 742
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 742
      }
     ],
     "United": [
@@ -10004,6 +10091,10 @@
      },
      {
       "t": "2026-11-03T17:15:00-06:00",
+      "price": 965
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
       "price": 965
      }
     ]
@@ -10128,16 +10219,21 @@
      "t": "2026-11-03T17:15:00-06:00",
      "price": 224,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-03T18:15:00-06:00",
+     "price": 224,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-03T17:15:00-06:00",
+    "checked": "2026-11-03T18:15:00-06:00",
     "cheapest": {
      "price": 224,
      "airline": "American",
      "warnings": [
-      "10 dic",
-      "Basic Economy con carry-on incluido; 1ª maleta $55",
+      "10 dic (mismo precio el 11 dic)",
+      "Puede ser tarifa básica sin carry-on (no verificado)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
@@ -10145,7 +10241,7 @@
        "label": "Ida",
        "depart": "1:55 PM LGA",
        "arrive": "7:04 PM ELP",
-       "duration": "7 h 09 min",
+       "duration": "7 h 9 min",
        "stops": [
         {
          "airport": "DFW",
@@ -10158,22 +10254,22 @@
     },
     "best": {
      "price": 224,
-     "airline": "United",
+     "airline": "American",
      "warnings": [
-      "10 dic",
-      "Basic Economy sin carry-on (Economy con carry-on $284)",
+      "10 dic (mismo precio el 11 dic)",
+      "Puede ser tarifa básica sin carry-on (no verificado)",
       "Horas locales de cada aeropuerto"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "12:25 PM LGA",
-       "arrive": "5:37 PM ELP",
-       "duration": "7 h 12 min",
+       "depart": "1:55 PM LGA",
+       "arrive": "7:04 PM ELP",
+       "duration": "7 h 9 min",
        "stops": [
         {
-         "airport": "IAH",
-         "layover": "50 min",
+         "airport": "DFW",
+         "layover": "53 min",
          "overnight": false
         }
        ]
@@ -10185,8 +10281,8 @@
       "price": 224,
       "airline": "American",
       "warnings": [
-       "10 dic",
-       "Basic Economy con carry-on incluido; 1ª maleta $55",
+       "10 dic (mismo precio el 11 dic)",
+       "Puede ser tarifa básica sin carry-on (no verificado)",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
@@ -10194,7 +10290,7 @@
         "label": "Ida",
         "depart": "1:55 PM LGA",
         "arrive": "7:04 PM ELP",
-        "duration": "7 h 09 min",
+        "duration": "7 h 9 min",
         "stops": [
          {
           "airport": "DFW",
@@ -10209,8 +10305,8 @@
       "price": 224,
       "airline": "United",
       "warnings": [
-       "10 dic",
-       "Basic Economy sin carry-on (Economy con carry-on $284)",
+       "10 dic (mismo precio el 11 dic)",
+       "Puede ser tarifa básica sin carry-on (no verificado)",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
@@ -10233,17 +10329,23 @@
       "price": 224,
       "airline": "Delta",
       "warnings": [
-       "11 dic",
-       "Vendedor no verificado",
+       "10 dic (mismo precio el 11 dic)",
+       "Puede ser tarifa básica sin carry-on (no verificado)",
        "Horas locales de cada aeropuerto"
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "3:00 PM LGA",
-        "arrive": "",
-        "duration": "",
-        "stops": []
+        "depart": "4:00 PM LGA",
+        "arrive": "9:26 PM ELP",
+        "duration": "7 h 26 min",
+        "stops": [
+         {
+          "airport": "ATL",
+          "layover": "1 h 15 min",
+          "overnight": false
+         }
+        ]
        }
       ]
      }
@@ -10306,6 +10408,10 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 224
      }
     ],
     "American": [
@@ -10355,6 +10461,10 @@
      },
      {
       "t": "2026-11-03T17:15:00-06:00",
+      "price": 224
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
       "price": 224
      }
     ],
@@ -10414,6 +10524,10 @@
      {
       "t": "2026-11-03T17:15:00-06:00",
       "price": 224
+     },
+     {
+      "t": "2026-11-03T18:15:00-06:00",
+      "price": 224
      }
     ],
     "Southwest": [
@@ -10429,9 +10543,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "Google: precios típicos (10 y 11 dic); $224 en American, United y Delta, bajo para la ruta.",
+    "text": "Google: precios típicos (10 y 11 dic); $224 en American, United y Delta.",
     "range": "$245–610",
-    "updated": "2026-11-03T17:15:00-06:00"
+    "updated": "2026-11-03T18:15:00-06:00"
    }
   }
  ]
