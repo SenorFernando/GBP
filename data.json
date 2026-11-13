@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:51:14-06:00",
+ "updated": "2026-11-12T21:37:40-06:00",
  "searches": [
   {
    "id": "A",
@@ -4164,17 +4164,22 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 880,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 996,
+     "airline": "Aeroméxico"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
-     "price": 880,
+     "price": 996,
      "airline": "Aeroméxico",
      "warnings": [
-      "boletos separados: Book with Aeroméxico $880; reserva única $921.",
-      "Google mostró la ida en Business y el regreso en Premium Economy pese a la búsqueda en Economy.",
-      "Viva no apareció; Volaris con precio no disponible."
+      "reserva única Classic $996 (Flex $1,137). Google mostró $880/$898, pero el $898 era BudgetAir (agencia, no cuenta).",
+      "1 carry-on incluido en Classic.",
+      "Viva no apareció; Volaris con precio no disponible. Combinaciones más baratas de boletos separados no se pudieron confirmar."
      ],
      "legs": [
       {
@@ -4193,23 +4198,25 @@
       {
        "label": "Regreso",
        "depart": "2 ene 4:03 PM CUL",
-       "arrive": "3 ene 8:45 AM CJS",
-       "duration": "16 hr 42 min",
+       "arrive": "2 ene 10:38 PM CJS",
+       "duration": "6 hr 35 min",
        "stops": [
         {
          "airport": "MEX",
-         "layover": "11 hr 35 min",
-         "overnight": true
+         "layover": "1 hr 45 min",
+         "overnight": false
         }
        ]
       }
      ]
     },
     "best": {
-     "price": 921,
+     "price": 996,
      "airline": "Aeroméxico",
      "warnings": [
-      "reserva única $921. Google mostró ida en Business y regreso en Premium Economy pese a la búsqueda en Economy."
+      "reserva única Classic $996 (Flex $1,137). Google mostró $880/$898, pero el $898 era BudgetAir (agencia, no cuenta).",
+      "1 carry-on incluido en Classic.",
+      "Viva no apareció; Volaris con precio no disponible. Combinaciones más baratas de boletos separados no se pudieron confirmar."
      ],
      "legs": [
       {
@@ -4228,13 +4235,13 @@
       {
        "label": "Regreso",
        "depart": "2 ene 4:03 PM CUL",
-       "arrive": "3 ene 8:45 AM CJS",
-       "duration": "16 hr 42 min",
+       "arrive": "2 ene 10:38 PM CJS",
+       "duration": "6 hr 35 min",
        "stops": [
         {
          "airport": "MEX",
-         "layover": "11 hr 35 min",
-         "overnight": true
+         "layover": "1 hr 45 min",
+         "overnight": false
         }
        ]
       }
@@ -4242,12 +4249,12 @@
     },
     "byAirline": [
      {
-      "price": 880,
+      "price": 996,
       "airline": "Aeroméxico",
       "warnings": [
-       "boletos separados: Book with Aeroméxico $880; reserva única $921.",
-       "Google mostró la ida en Business y el regreso en Premium Economy pese a la búsqueda en Economy.",
-       "Viva no apareció; Volaris con precio no disponible."
+       "reserva única Classic $996 (Flex $1,137). Google mostró $880/$898, pero el $898 era BudgetAir (agencia, no cuenta).",
+       "1 carry-on incluido en Classic.",
+       "Viva no apareció; Volaris con precio no disponible. Combinaciones más baratas de boletos separados no se pudieron confirmar."
       ],
       "legs": [
        {
@@ -4266,13 +4273,13 @@
        {
         "label": "Regreso",
         "depart": "2 ene 4:03 PM CUL",
-        "arrive": "3 ene 8:45 AM CJS",
-        "duration": "16 hr 42 min",
+        "arrive": "2 ene 10:38 PM CJS",
+        "duration": "6 hr 35 min",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "11 hr 35 min",
-          "overnight": true
+          "layover": "1 hr 45 min",
+          "overnight": false
          }
         ]
        }
@@ -4282,9 +4289,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos. $880 es alto para Economy; los vuelos similares a Culiacán suelen costar $365–670.",
-    "range": "$365–670",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios altos; normalmente cuestan $240–$770.",
+    "range": "$240–$770",
+    "updated": "2026-11-12T21:37:40-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -5913,6 +5920,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 880
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 996
      }
     ],
     "Aeroméxico + Volaris": [
@@ -7890,15 +7901,20 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 587,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 589,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
-     "price": 587,
+     "price": 589,
      "airline": "Viva",
      "warnings": [
-      "boletos separados: Book with Viva $587; reserva única $601.",
+      "boletos separados: Book with Viva $589; reserva única $602.",
       "directo ida y vuelta",
       "Google indica carry-on disponible con cargo en ambos tramos."
      ],
@@ -7920,10 +7936,10 @@
      ]
     },
     "best": {
-     "price": 601,
+     "price": 602,
      "airline": "Viva",
      "warnings": [
-      "reserva única $601; $14 más que boletos separados. Directo ida y vuelta."
+      "reserva única $602; $13 más que boletos separados. Directo ida y vuelta."
      ],
      "legs": [
       {
@@ -7944,10 +7960,10 @@
     },
     "byAirline": [
      {
-      "price": 587,
+      "price": 589,
       "airline": "Viva",
       "warnings": [
-       "boletos separados: Book with Viva $587; reserva única $601.",
+       "boletos separados: Book with Viva $589; reserva única $602.",
        "directo ida y vuelta",
        "Google indica carry-on disponible con cargo en ambos tramos."
       ],
@@ -7969,10 +7985,10 @@
       ]
      },
      {
-      "price": 1054,
+      "price": 1055,
       "airline": "Aeroméxico",
       "warnings": [
-       "reserva única Classic $1,054. Ida vía MEX 7h10; regreso vía MEX 8h35 nocturna."
+       "reserva única Classic $1,055 (Flex $1,191). Ida vía MEX 7h10; regreso vía MEX 8h35 nocturna."
       ],
       "legs": [
        {
@@ -8007,9 +8023,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos. Los vuelos similares a Mazatlán suelen costar $220–640.",
-    "range": "$220–640",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios altos; normalmente cuestan $220–$640.",
+    "range": "$220–$640",
+    "updated": "2026-11-12T21:37:40-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -8636,6 +8652,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 587
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 589
      }
     ],
     "Viva + Volaris": [
@@ -9424,6 +9444,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 1054
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 1055
      }
     ],
     "Viva + TAR + Volaris": [
@@ -9779,6 +9803,11 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 449,
      "airline": "Aeroméxico"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 449,
+     "airline": "Aeroméxico"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -9797,12 +9826,13 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
      "price": 449,
      "airline": "Aeroméxico",
      "warnings": [
-      "Classic: 1 carry-on incluido. Escala nocturna en MEX. Viva $309 y Volaris $449 aparecieron en lista pero no se pudieron confirmar (error de Google al abrir opciones)."
+      "fecha 22 dic",
+      "Viva $310 solo agencias (no cuenta); Volaris con precio oculto en el sitio oficial."
      ],
      "legs": [
       {
@@ -9824,7 +9854,8 @@
      "price": 449,
      "airline": "Aeroméxico",
      "warnings": [
-      "Classic: 1 carry-on incluido. Escala nocturna en MEX. Viva $309 y Volaris $449 aparecieron en lista pero no se pudieron confirmar (error de Google al abrir opciones)."
+      "fecha 22 dic",
+      "Viva $310 solo agencias (no cuenta); Volaris con precio oculto en el sitio oficial."
      ],
      "legs": [
       {
@@ -9847,7 +9878,8 @@
       "price": 449,
       "airline": "Aeroméxico",
       "warnings": [
-       "Classic: 1 carry-on incluido. Escala nocturna en MEX. Viva $309 y Volaris $449 aparecieron en lista pero no se pudieron confirmar (error de Google al abrir opciones)."
+       "fecha 22 dic",
+       "Viva $310 solo agencias (no cuenta); Volaris con precio oculto en el sitio oficial."
       ],
       "legs": [
        {
@@ -10008,14 +10040,18 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 449
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 449
      }
     ]
    },
    "insight": {
     "level": "high",
-    "text": "Google indica precios altos; $449 es típico para Economy. Rango $180–590.",
-    "range": "$180–590",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios altos.",
+    "range": "$180–$590",
+    "updated": "2026-11-12T21:37:40-06:00"
    }
   },
   {
@@ -10227,16 +10263,21 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 736,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 736,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
      "price": 736,
      "airline": "Viva",
      "warnings": [
-      "Se revisaron 22 y 23 dic; ambos Viva oficiales a $736. Se usa el 22 dic.",
-      "Carry-on disponible con cargo. Horarios locales de cada aeropuerto. Escala en MTY de 12 h 17 min."
+      "fecha 22 dic (23 dic también $736 oficial)",
+      "Sin acceso a compartimento superior; carry-on disponible con cargo, precio no mostrado."
      ],
      "legs": [
       {
@@ -10258,8 +10299,8 @@
      "price": 736,
      "airline": "Viva",
      "warnings": [
-      "Se revisaron 22 y 23 dic; ambos Viva oficiales a $736. Se usa el 22 dic.",
-      "Carry-on disponible con cargo. Horarios locales de cada aeropuerto. Escala en MTY de 12 h 17 min."
+      "fecha 22 dic (23 dic también $736 oficial)",
+      "Sin acceso a compartimento superior; carry-on disponible con cargo, precio no mostrado."
      ],
      "legs": [
       {
@@ -10282,8 +10323,8 @@
       "price": 736,
       "airline": "Viva",
       "warnings": [
-       "Se revisaron 22 y 23 dic; ambos Viva oficiales a $736. Se usa el 22 dic.",
-       "Carry-on disponible con cargo. Horarios locales de cada aeropuerto. Escala en MTY de 12 h 17 min."
+       "fecha 22 dic (23 dic también $736 oficial)",
+       "Sin acceso a compartimento superior; carry-on disponible con cargo, precio no mostrado."
       ],
       "legs": [
        {
@@ -10302,22 +10343,23 @@
       ]
      },
      {
-      "price": 1182,
-      "airline": "Aeroméxico + Delta",
+      "price": 913,
+      "airline": "Aeroméxico",
       "warnings": [
-       "23 dic. Book with Aeroméxico / Delta $1,182. Escala corta en MEX (1h30). Horarios locales."
+       "fecha 22 dic",
+       "Classic; 1 carry-on incluido."
       ],
       "legs": [
        {
         "label": "Ida",
-        "depart": "23 dic 7:03 AM JFK",
-        "arrive": "23 dic 2:52 PM CUL",
-        "duration": "9 hr 49 min",
+        "depart": "22 dic 4:53 PM JFK",
+        "arrive": "23 dic 7:02 AM CUL",
+        "duration": "16 hr 9 min",
         "stops": [
          {
           "airport": "MEX",
-          "layover": "1 hr 30 min",
-          "overnight": false
+          "layover": "8 hr 1 min",
+          "overnight": true
          }
         ]
        }
@@ -10470,6 +10512,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 736
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 736
      }
     ],
     "Volaris": [
@@ -10536,14 +10582,18 @@
      {
       "t": "2026-11-04T10:25:00-06:00",
       "price": 1525
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 913
      }
     ]
    },
    "insight": {
     "level": "typical",
-    "text": "Precios típicos. $736 es típico para Economy; vuelos similares a Culiacán suelen costar $300–840.",
-    "range": "$300–840",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios normales.",
+    "range": "$300–$840",
+    "updated": "2026-11-12T21:37:40-06:00"
    }
   },
   {
@@ -10705,6 +10755,11 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 710,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 711,
+     "airline": "American"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -10732,12 +10787,14 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
-     "price": 710,
+     "price": 711,
      "airline": "American",
      "warnings": [
-      "Basic Economy; Google mostró 1 carry-on incluido. Horarios locales del aeropuerto; llega a LGA. Escalas en PHX y DFW (nocturna)."
+      "fecha 2 ene",
+      "Google mostró $710; en el sitio de American se confirmó $711.",
+      "Basic Economy; 1 carry-on incluido."
      ],
      "legs": [
       {
@@ -10761,10 +10818,11 @@
      ]
     },
     "best": {
-     "price": 789,
+     "price": 800,
      "airline": "United",
      "warnings": [
-      "Google Best. Basic Economy sin carry-on. Llega a EWR. Horarios locales del aeropuerto."
+      "fecha 2 ene",
+      "Basic Economy sin carry-on; Economy con carry-on $961."
      ],
      "legs": [
       {
@@ -10784,10 +10842,12 @@
     },
     "byAirline": [
      {
-      "price": 710,
+      "price": 711,
       "airline": "American",
       "warnings": [
-       "Basic Economy; Google mostró 1 carry-on incluido. Horarios locales; llega a LGA."
+       "fecha 2 ene",
+       "Google mostró $710; en el sitio de American se confirmó $711.",
+       "Basic Economy; 1 carry-on incluido."
       ],
       "legs": [
        {
@@ -10811,92 +10871,22 @@
       ]
      },
      {
-      "price": 758,
+      "price": 800,
       "airline": "United",
       "warnings": [
-       "Basic Economy sin carry-on. Escala nocturna larga en IAH (14h29). Horarios locales; llega a LGA."
+       "fecha 2 ene",
+       "Basic Economy sin carry-on; Economy con carry-on $961."
       ],
       "legs": [
        {
         "label": "Ida",
         "depart": "2 ene 1:00 PM MZT",
-        "arrive": "3 ene 11:16 AM LGA",
-        "duration": "20 hr 16 min",
+        "arrive": "3 ene 12:27 AM EWR",
+        "duration": "9 hr 27 min",
         "stops": [
          {
           "airport": "IAH",
-          "layover": "14 hr 29 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 1667,
-      "airline": "Alaska",
-      "warnings": [
-       "Main. Escala nocturna en LAX (13h26). Horarios locales; llega a EWR."
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "2 ene 3:21 PM MZT",
-        "arrive": "3 ene 3:24 PM EWR",
-        "duration": "22 hr 3 min",
-        "stops": [
-         {
-          "airport": "LAX",
-          "layover": "13 hr 26 min",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 2463,
-      "airline": "Aeroméxico + Delta",
-      "warnings": [
-       "Book with Delta $2,463 Delta Main Classic. Escalas MEX y IAH (nocturna). Horarios locales; llega a LGA."
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "2 ene 2:08 PM MZT",
-        "arrive": "3 ene 11:29 AM LGA",
-        "duration": "19 hr 21 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "1 hr 30 min",
-          "overnight": false
-         },
-         {
-          "airport": "IAH",
-          "layover": "10 hr",
-          "overnight": true
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 2862,
-      "airline": "Alaska + United",
-      "warnings": [
-       "Book with United $2,862 (precio local México). Horarios locales; llega a EWR."
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "2 ene 3:21 PM MZT",
-        "arrive": "3 ene 5:07 AM EWR",
-        "duration": "11 hr 46 min",
-        "stops": [
-         {
-          "airport": "LAX",
-          "layover": "3 hr 26 min",
+          "layover": "3 hr 34 min",
           "overnight": false
          }
         ]
@@ -11052,6 +11042,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 710
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 711
      }
     ],
     "United": [
@@ -11126,6 +11120,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 758
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 800
      }
     ],
     "Aeroméxico": [
@@ -11159,9 +11157,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "Precios altos. $710 es típico para Economy; vuelos similares a Nueva York suelen costar $500–1,550.",
-    "range": "$500–1,550",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios altos; normalmente cuestan $500–$1,550.",
+    "range": "$500–$1,550",
+    "updated": "2026-11-12T21:37:40-06:00"
    }
   },
   {
@@ -11372,28 +11370,32 @@
      "t": "2026-11-12T15:51:14-06:00",
      "price": 242,
      "airline": "United"
+    },
+    {
+     "t": "2026-11-12T21:37:40-06:00",
+     "price": 242,
+     "airline": "American"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-12T15:51:14-06:00",
+    "checked": "2026-11-12T21:37:40-06:00",
     "cheapest": {
      "price": 242,
-     "airline": "United",
+     "airline": "American",
      "warnings": [
-      "Fecha 10 dic (más barata que el 11 dic; se revisaron ambas).",
-      "United Basic Economy $242 sin carry-on; con carry-on United $302.",
-      "American $247 Basic incluye 1 carry-on. Horarios locales del aeropuerto."
+      "fecha 10 dic (11 dic: Southwest oficial $257)",
+      "Basic Economy; 1 carry-on incluido."
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "10 dic 2:00 PM LGA",
-       "arrive": "10 dic 7:41 PM ELP",
-       "duration": "7 hr 41 min",
+       "depart": "10 dic 1:55 PM LGA",
+       "arrive": "10 dic 7:04 PM ELP",
+       "duration": "7 hr 9 min",
        "stops": [
         {
-         "airport": "IAH",
-         "layover": "1 hr 13 min",
+         "airport": "DFW",
+         "layover": "53 min",
          "overnight": false
         }
        ]
@@ -11402,22 +11404,21 @@
     },
     "best": {
      "price": 242,
-     "airline": "United",
+     "airline": "American",
      "warnings": [
-      "Fecha 10 dic (más barata que el 11 dic; se revisaron ambas).",
-      "United Basic Economy $242 sin carry-on; con carry-on United $302.",
-      "American $247 Basic incluye 1 carry-on. Horarios locales del aeropuerto."
+      "fecha 10 dic (11 dic: Southwest oficial $257)",
+      "Basic Economy; 1 carry-on incluido."
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "10 dic 2:00 PM LGA",
-       "arrive": "10 dic 7:41 PM ELP",
-       "duration": "7 hr 41 min",
+       "depart": "10 dic 1:55 PM LGA",
+       "arrive": "10 dic 7:04 PM ELP",
+       "duration": "7 hr 9 min",
        "stops": [
         {
-         "airport": "IAH",
-         "layover": "1 hr 13 min",
+         "airport": "DFW",
+         "layover": "53 min",
          "overnight": false
         }
        ]
@@ -11427,31 +11428,10 @@
     "byAirline": [
      {
       "price": 242,
-      "airline": "United",
-      "warnings": [
-       "Basic Economy sin carry-on; con carry-on $302. Fecha 10 dic."
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "10 dic 2:00 PM LGA",
-        "arrive": "10 dic 7:41 PM ELP",
-        "duration": "7 hr 41 min",
-        "stops": [
-         {
-          "airport": "IAH",
-          "layover": "1 hr 13 min",
-          "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 247,
       "airline": "American",
       "warnings": [
-       "Basic Economy incluye 1 carry-on. Fecha 10 dic."
+       "fecha 10 dic (11 dic: Southwest oficial $257)",
+       "Basic Economy; 1 carry-on incluido."
       ],
       "legs": [
        {
@@ -11470,10 +11450,34 @@
       ]
      },
      {
-      "price": 247,
+      "price": 242,
+      "airline": "United",
+      "warnings": [
+       "fecha 10 dic",
+       "Basic Economy sin carry-on; Economy con carry-on $302."
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "10 dic 2:00 PM LGA",
+        "arrive": "10 dic 7:41 PM ELP",
+        "duration": "7 hr 41 min",
+        "stops": [
+         {
+          "airport": "IAH",
+          "layover": "1 hr 13 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 242,
       "airline": "Delta",
       "warnings": [
-       "Delta Main Basic incluye 1 carry-on. Fecha 10 dic."
+       "fecha 10 dic",
+       "1 carry-on incluido."
       ],
       "legs": [
        {
@@ -11495,7 +11499,8 @@
       "price": 247,
       "airline": "Southwest",
       "warnings": [
-       "Basic incluye 1 carry-on. Escalas MCI y DAL. Fecha 10 dic."
+       "fecha 10 dic",
+       "1 carry-on incluido."
       ],
       "legs": [
        {
@@ -11633,6 +11638,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 242
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 242
      }
     ],
     "American": [
@@ -11747,6 +11756,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 247
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 242
      }
     ],
     "Delta": [
@@ -11861,6 +11874,10 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 247
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 242
      }
     ],
     "Southwest": [
@@ -11899,14 +11916,18 @@
      {
       "t": "2026-11-12T15:51:14-06:00",
       "price": 247
+     },
+     {
+      "t": "2026-11-12T21:37:40-06:00",
+      "price": 247
      }
     ]
    },
    "insight": {
     "level": "typical",
-    "text": "Precios típicos. $242 es típico para Economy (incluye Basic); vuelos similares a El Paso suelen costar $235–700.",
-    "range": "$235–700",
-    "updated": "2026-11-12T15:51:14-06:00"
+    "text": "Precios normales.",
+    "range": "$235–$700",
+    "updated": "2026-11-12T21:37:40-06:00"
    }
   }
  ]
