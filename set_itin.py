@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Uso: python3 set_itin.py data.json <ID> <itin.json> [checked_ISO]
-# IDs: C, D, CV (desde Ciudad Juárez) · NY1, NY2, NY3 (desde Nueva York, viajes de Dannia)
+# IDs: C, D, CV (desde Ciudad Juárez) · CH (desde Chihuahua) · NY1, NY2, NY3 (desde Nueva York, viajes de Dannia)
 # Solo ida (CV, NY1, NY2, NY3): cada ITIN lleva un solo tramo en "legs": [{"label":"Ida",...}]
 # itin.json: {"cheapest":ITIN,"best":ITIN}  (opcional "checked"); best puede omitirse = igual al más barato
 # opcional "byAirline": [ITIN,...] el más barato por aerolínea (redondo o solo ida); se guarda ordenado por precio
