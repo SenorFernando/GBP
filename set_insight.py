@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Uso: python3 set_insight.py data.json <C|D|CV|NY1|NY2|NY3> <low|typical|high|unknown> "<resumen_es>" "<rango>" <ISO>
+# Uso: python3 set_insight.py data.json <C|D|CV|CH|NY1|NY2|NY3> <low|typical|high|unknown> "<resumen_es>" "<rango>" <ISO>
 # Ej.: python3 set_insight.py data.json NY1 typical "Precios normales; normalmente cuestan $480–$620." "$480–$620" 2026-11-02T15:47:00-06:00
 # Guarda en la búsqueda: "insight": {"level","text","range","updated"}  (rango puede ser "")
 import json,sys,datetime as D
