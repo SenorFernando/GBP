@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Uso: python3 add_point.py data.json <ID> <precio> "<aerolínea>" [ISO_t]
-# IDs: C, D, CV (desde Ciudad Juárez) · NY1, NY2, NY3 (desde Nueva York, viajes de Dannia)
+# IDs: C, D, CV (desde Ciudad Juárez) · CH (desde Chihuahua) · NY1, NY2, NY3 (desde Nueva York, viajes de Dannia)
 # Ej.: python3 add_point.py data.json NY1 832 "Viva" 2026-11-02T15:47:00-06:00
 # Solo agregar precios verificados en el sitio oficial de la aerolínea.
 import json,sys,datetime as D
