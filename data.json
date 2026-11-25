@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:35:28-06:00",
+ "updated": "2026-11-25T15:22:00-06:00",
  "searches": [
   {
    "id": "A",
@@ -4299,16 +4299,21 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 676,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 680,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
-     "price": 676,
+     "price": 680,
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos Book with Viva)",
-      "una reserva Viva $713",
+      "una reserva Viva $760 en este itinerario; otra Viva una reserva $713 en lista (regreso 2:23 PM vía NLU, no abierta)",
       "maleta de mano extra"
      ],
      "legs": [
@@ -4341,11 +4346,11 @@
      ]
     },
     "best": {
-     "price": 676,
+     "price": 680,
      "airline": "Viva",
      "warnings": [
       "boletos separados (ambos Book with Viva)",
-      "una reserva Viva $713",
+      "una reserva Viva $760 en este itinerario; otra Viva una reserva $713 en lista (regreso 2:23 PM vía NLU, no abierta)",
       "maleta de mano extra"
      ],
      "legs": [
@@ -4379,11 +4384,11 @@
     },
     "byAirline": [
      {
-      "price": 676,
+      "price": 680,
       "airline": "Viva",
       "warnings": [
        "boletos separados (ambos Book with Viva)",
-       "una reserva Viva $713",
+       "una reserva Viva $760 en este itinerario; otra Viva una reserva $713 en lista (regreso 2:23 PM vía NLU, no abierta)",
        "maleta de mano extra"
       ],
       "legs": [
@@ -4419,9 +4424,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "$676 es típico para Economy; normalmente cuestan $375–$690.",
-    "range": "$375–$690",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "text": "$680 es típico para Economy; normalmente cuestan $380–$700.",
+    "range": "$380–$700",
+    "updated": "2026-11-25T15:22:00-06:00"
    },
    "airlineHistory": {
     "Viva + Volaris": [
@@ -5258,6 +5263,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 676
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 680
      }
     ],
     "Volaris": [
@@ -8323,18 +8332,23 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 581,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 584,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
-     "price": 581,
+     "price": 584,
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
       "una reserva",
-      "maleta de mano extra",
-      "boletos separados oficiales $568"
+      "boletos separados oficiales $571 (ambos Book with Viva)",
+      "maleta de mano extra"
      ],
      "legs": [
       {
@@ -8354,13 +8368,13 @@
      ]
     },
     "best": {
-     "price": 581,
+     "price": 584,
      "airline": "Viva",
      "warnings": [
       "directo ida y vuelta",
       "una reserva",
-      "maleta de mano extra",
-      "boletos separados oficiales $568"
+      "boletos separados oficiales $571 (ambos Book with Viva)",
+      "maleta de mano extra"
      ],
      "legs": [
       {
@@ -8381,13 +8395,13 @@
     },
     "byAirline": [
      {
-      "price": 581,
+      "price": 584,
       "airline": "Viva",
       "warnings": [
        "directo ida y vuelta",
        "una reserva",
-       "maleta de mano extra",
-       "boletos separados oficiales $568"
+       "boletos separados oficiales $571 (ambos Book with Viva)",
+       "maleta de mano extra"
       ],
       "legs": [
        {
@@ -8410,9 +8424,9 @@
    },
    "insight": {
     "level": "high",
-    "text": "$581 es alto para Economy; normalmente cuestan $165–$470.",
-    "range": "$165–$470",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "text": "$584 es alto para Economy; normalmente cuestan $160–$460.",
+    "range": "$160–$460",
+    "updated": "2026-11-25T15:22:00-06:00"
    },
    "airlineHistory": {
     "Viva": [
@@ -9151,6 +9165,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 581
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 584
      }
     ],
     "Viva + Volaris": [
@@ -10462,6 +10480,11 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 357,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 359,
+     "airline": "Viva"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -10480,14 +10503,14 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
-     "price": 357,
+     "price": 359,
      "airline": "Viva",
      "warnings": [
-      "22 dic",
       "Book with Viva",
-      "maleta de mano extra"
+      "maleta de mano extra",
+      "solo ida 22 dic"
      ],
      "legs": [
       {
@@ -10506,12 +10529,12 @@
      ]
     },
     "best": {
-     "price": 357,
+     "price": 359,
      "airline": "Viva",
      "warnings": [
-      "22 dic",
       "Book with Viva",
-      "maleta de mano extra"
+      "maleta de mano extra",
+      "solo ida 22 dic"
      ],
      "legs": [
       {
@@ -10531,12 +10554,12 @@
     },
     "byAirline": [
      {
-      "price": 357,
+      "price": 359,
       "airline": "Viva",
       "warnings": [
-       "22 dic",
        "Book with Viva",
-       "maleta de mano extra"
+       "maleta de mano extra",
+       "solo ida 22 dic"
       ],
       "legs": [
        {
@@ -10549,30 +10572,6 @@
           "airport": "MTY",
           "layover": "8 h 37 min",
           "overnight": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "price": 456,
-      "airline": "Aeroméxico",
-      "warnings": [
-       "22 dic",
-       "Classic oficial, carry-on incluido",
-       "operado por Aerolitoral"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "22 dic 8:49 PM CJS",
-        "arrive": "23 dic 7:02 AM CUL",
-        "duration": "10 h 13 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "5 h 16 min",
-          "overnight": true
          }
         ]
        }
@@ -10875,14 +10874,18 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 357
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 359
      }
     ]
    },
    "insight": {
     "level": "typical",
-    "text": "$357 es típico para Economy; normalmente cuestan $115–$300.",
+    "text": "$359 es típico para Economy; normalmente cuestan $115–$300.",
     "range": "$115–$300",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   },
   {
@@ -11010,6 +11013,11 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 464,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 464,
+     "airline": "Aeroméxico"
     }
    ],
    "group": "CUU",
@@ -11109,6 +11117,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 515
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 464
      }
     ],
     "Viva": [
@@ -11147,42 +11159,46 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 464
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 466
      }
     ]
    },
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
      "price": 464,
-     "airline": "Viva",
+     "airline": "Aeroméxico",
      "warnings": [
-      "una reserva Book with Viva",
-      "maleta de mano extra"
+      "Classic oficial, una reserva; maleta de mano incluida",
+      "Flex $598"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 10:52 AM CUU",
-       "arrive": "23 dic 4:51 PM CUL",
-       "duration": "6 h 59 min",
+       "depart": "23 dic 9:28 PM CUU",
+       "arrive": "24 dic 7:02 AM CUL",
+       "duration": "10 h 34 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "2 h 58 min",
-         "overnight": false
+         "airport": "MEX",
+         "layover": "5 h 56 min",
+         "overnight": true
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM CUL",
-       "arrive": "3 ene 7:47 AM CUU",
-       "duration": "9 h 19 min",
+       "depart": "2 ene 7:38 AM CUL",
+       "arrive": "2 ene 5:25 PM CUU",
+       "duration": "8 h 47 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "6 h 21 min",
-         "overnight": true
+         "airport": "MEX",
+         "layover": "4 h 20 min",
+         "overnight": false
         }
        ]
       }
@@ -11190,35 +11206,35 @@
     },
     "best": {
      "price": 464,
-     "airline": "Viva",
+     "airline": "Aeroméxico",
      "warnings": [
-      "una reserva Book with Viva",
-      "maleta de mano extra"
+      "Classic oficial, una reserva; maleta de mano incluida",
+      "Flex $598"
      ],
      "legs": [
       {
        "label": "Ida",
-       "depart": "23 dic 10:52 AM CUU",
-       "arrive": "23 dic 4:51 PM CUL",
-       "duration": "6 h 59 min",
+       "depart": "23 dic 9:28 PM CUU",
+       "arrive": "24 dic 7:02 AM CUL",
+       "duration": "10 h 34 min",
        "stops": [
         {
-         "airport": "NLU",
-         "layover": "2 h 58 min",
-         "overnight": false
+         "airport": "MEX",
+         "layover": "5 h 56 min",
+         "overnight": true
         }
        ]
       },
       {
        "label": "Regreso",
-       "depart": "2 ene 9:28 PM CUL",
-       "arrive": "3 ene 7:47 AM CUU",
-       "duration": "9 h 19 min",
+       "depart": "2 ene 7:38 AM CUL",
+       "arrive": "2 ene 5:25 PM CUU",
+       "duration": "8 h 47 min",
        "stops": [
         {
-         "airport": "MTY",
-         "layover": "6 h 21 min",
-         "overnight": true
+         "airport": "MEX",
+         "layover": "4 h 20 min",
+         "overnight": false
         }
        ]
       }
@@ -11227,6 +11243,42 @@
     "byAirline": [
      {
       "price": 464,
+      "airline": "Aeroméxico",
+      "warnings": [
+       "Classic oficial, una reserva; maleta de mano incluida",
+       "Flex $598"
+      ],
+      "legs": [
+       {
+        "label": "Ida",
+        "depart": "23 dic 9:28 PM CUU",
+        "arrive": "24 dic 7:02 AM CUL",
+        "duration": "10 h 34 min",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "5 h 56 min",
+          "overnight": true
+         }
+        ]
+       },
+       {
+        "label": "Regreso",
+        "depart": "2 ene 7:38 AM CUL",
+        "arrive": "2 ene 5:25 PM CUU",
+        "duration": "8 h 47 min",
+        "stops": [
+         {
+          "airport": "MEX",
+          "layover": "4 h 20 min",
+          "overnight": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "price": 466,
       "airline": "Viva",
       "warnings": [
        "una reserva Book with Viva",
@@ -11260,50 +11312,14 @@
         ]
        }
       ]
-     },
-     {
-      "price": 515,
-      "airline": "Aeroméxico",
-      "warnings": [
-       "una reserva Classic oficial (Flex $649)",
-       "carry-on incluido"
-      ],
-      "legs": [
-       {
-        "label": "Ida",
-        "depart": "23 dic 6:01 AM CUU",
-        "arrive": "23 dic 2:52 PM CUL",
-        "duration": "9 h 51 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "5 h 10 min",
-          "overnight": false
-         }
-        ]
-       },
-       {
-        "label": "Regreso",
-        "depart": "2 ene 7:38 AM CUL",
-        "arrive": "2 ene 5:25 PM CUU",
-        "duration": "8 h 47 min",
-        "stops": [
-         {
-          "airport": "MEX",
-          "layover": "4 h 20 min",
-          "overnight": false
-         }
-        ]
-       }
-      ]
      }
     ]
    },
    "insight": {
     "level": "typical",
-    "text": "$464 es típico para Economy; normalmente cuestan $260–$520.",
-    "range": "$260–$520",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "text": "$464 es típico para Economy; normalmente cuestan $260–$510.",
+    "range": "$260–$510",
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   },
   {
@@ -11655,17 +11671,22 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 936,
      "airline": "Viva"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 936,
+     "airline": "Viva"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
      "price": 936,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva oficial",
-      "fecha 22 dic y 23 dic (mismo precio oficial $936)",
-      "maleta de mano extra"
+      "Book with Viva",
+      "maleta de mano extra",
+      "fecha 22 dic (también 23 dic al mismo precio oficial)"
      ],
      "legs": [
       {
@@ -11687,9 +11708,9 @@
      "price": 936,
      "airline": "Viva",
      "warnings": [
-      "Book with Viva oficial",
-      "fecha 22 dic y 23 dic (mismo precio oficial $936)",
-      "maleta de mano extra"
+      "Book with Viva",
+      "maleta de mano extra",
+      "fecha 22 dic (también 23 dic al mismo precio oficial)"
      ],
      "legs": [
       {
@@ -11712,9 +11733,9 @@
       "price": 936,
       "airline": "Viva",
       "warnings": [
-       "Book with Viva oficial",
-       "fecha 22 dic y 23 dic (mismo precio oficial $936)",
-       "maleta de mano extra"
+       "Book with Viva",
+       "maleta de mano extra",
+       "fecha 22 dic (también 23 dic al mismo precio oficial)"
       ],
       "legs": [
        {
@@ -11987,6 +12008,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 936
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 936
      }
     ],
     "Volaris": [
@@ -12122,7 +12147,7 @@
     "level": "high",
     "text": "$936 es alto para Economy; normalmente cuestan $320–$840.",
     "range": "$320–$840",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   },
   {
@@ -12419,6 +12444,11 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 681,
      "airline": "American"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 685,
+     "airline": "American"
     }
    ],
    "pending": "Sin precio oficial confirmado",
@@ -12446,16 +12476,15 @@
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
-     "price": 681,
+     "price": 685,
      "airline": "American",
      "warnings": [
-      "Basic Economy oficial Book with American",
-      "carry-on incluido; maleta documentada $54",
-      "Main Cabin $747",
-      "2 escalas PHX+ORD, escala ORD larga y nocturna",
-      "JFK"
+      "Basic Economy, Book with American",
+      "maleta de mano incluida; Main Cabin $751",
+      "solo ida 2 ene 2027",
+      "2 escalas PHX+ORD, escala ORD larga y nocturna"
      ],
      "legs": [
       {
@@ -12479,14 +12508,13 @@
      ]
     },
     "best": {
-     "price": 681,
+     "price": 685,
      "airline": "American",
      "warnings": [
-      "Basic Economy oficial Book with American",
-      "carry-on incluido; maleta documentada $54",
-      "Main Cabin $747",
-      "2 escalas PHX+ORD, escala ORD larga y nocturna",
-      "JFK"
+      "Basic Economy, Book with American",
+      "maleta de mano incluida; Main Cabin $751",
+      "solo ida 2 ene 2027",
+      "2 escalas PHX+ORD, escala ORD larga y nocturna"
      ],
      "legs": [
       {
@@ -12511,14 +12539,13 @@
     },
     "byAirline": [
      {
-      "price": 681,
+      "price": 685,
       "airline": "American",
       "warnings": [
-       "Basic Economy oficial Book with American",
-       "carry-on incluido; maleta documentada $54",
-       "Main Cabin $747",
-       "2 escalas PHX+ORD, escala ORD larga y nocturna",
-       "JFK"
+       "Basic Economy, Book with American",
+       "maleta de mano incluida; Main Cabin $751",
+       "solo ida 2 ene 2027",
+       "2 escalas PHX+ORD, escala ORD larga y nocturna"
       ],
       "legs": [
        {
@@ -12822,6 +12849,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 681
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 685
      }
     ],
     "United": [
@@ -13009,9 +13040,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "$681 es típico para Economy; normalmente cuestan $315–$920.",
+    "text": "$685 es típico para Economy; normalmente cuestan $315–$920.",
     "range": "$315–$920",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   },
   {
@@ -13362,18 +13393,22 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 325,
      "airline": "Southwest"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 325,
+     "airline": "Southwest"
     }
    ],
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
      "price": 325,
      "airline": "Southwest",
      "warnings": [
-      "Basic oficial Book with Southwest",
-      "fecha 10 dic",
-      "carry-on incluido; maleta $45",
-      "11 dic desde $330"
+      "Basic, Book with Southwest",
+      "maleta de mano incluida; Choice $375",
+      "solo ida 10 dic 2026; 11 dic desde $330"
      ],
      "legs": [
       {
@@ -13395,10 +13430,9 @@
      "price": 325,
      "airline": "Southwest",
      "warnings": [
-      "Basic oficial Book with Southwest",
-      "fecha 10 dic",
-      "carry-on incluido; maleta $45",
-      "11 dic desde $330"
+      "Basic, Book with Southwest",
+      "maleta de mano incluida; Choice $375",
+      "solo ida 10 dic 2026; 11 dic desde $330"
      ],
      "legs": [
       {
@@ -13421,10 +13455,9 @@
       "price": 325,
       "airline": "Southwest",
       "warnings": [
-       "Basic oficial Book with Southwest",
-       "fecha 10 dic",
-       "carry-on incluido; maleta $45",
-       "11 dic desde $330"
+       "Basic, Book with Southwest",
+       "maleta de mano incluida; Choice $375",
+       "solo ida 10 dic 2026; 11 dic desde $330"
       ],
       "legs": [
        {
@@ -14111,6 +14144,10 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 325
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 325
      }
     ]
    },
@@ -14118,7 +14155,7 @@
     "level": "typical",
     "text": "$325 es típico para Economy; normalmente cuestan $295–$640. Poco probable que baje de $325.",
     "range": "$295–$640",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   },
   {
@@ -14175,6 +14212,11 @@
      "t": "2026-11-25T10:35:28-06:00",
      "price": 271,
      "airline": "Delta"
+    },
+    {
+     "t": "2026-11-25T15:22:00-06:00",
+     "price": 271,
+     "airline": "Delta"
     }
    ],
    "airlineHistory": {
@@ -14201,6 +14243,10 @@
      },
      {
       "t": "2026-11-25T10:35:28-06:00",
+      "price": 271
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
       "price": 271
      }
     ],
@@ -14231,6 +14277,10 @@
      },
      {
       "t": "2026-11-25T10:35:28-06:00",
+      "price": 271
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
       "price": 271
      }
     ],
@@ -14276,19 +14326,22 @@
      {
       "t": "2026-11-25T10:35:28-06:00",
       "price": 271
+     },
+     {
+      "t": "2026-11-25T15:22:00-06:00",
+      "price": 271
      }
     ]
    },
    "itineraries": {
-    "checked": "2026-11-25T10:35:28-06:00",
+    "checked": "2026-11-25T15:22:00-06:00",
     "cheapest": {
      "price": 271,
      "airline": "Delta",
      "warnings": [
-      "Main Basic oficial Book with Delta",
-      "carry-on incluido; maleta $45",
-      "Main Classic $331",
-      "fecha 12 dic"
+      "Main Basic, Book with Delta",
+      "maleta de mano incluida; Main Classic $331",
+      "solo ida 12 dic 2026; 11 dic desde $330"
      ],
      "legs": [
       {
@@ -14310,10 +14363,9 @@
      "price": 271,
      "airline": "Delta",
      "warnings": [
-      "Main Basic oficial Book with Delta",
-      "carry-on incluido; maleta $45",
-      "Main Classic $331",
-      "fecha 12 dic"
+      "Main Basic, Book with Delta",
+      "maleta de mano incluida; Main Classic $331",
+      "solo ida 12 dic 2026; 11 dic desde $330"
      ],
      "legs": [
       {
@@ -14336,10 +14388,9 @@
       "price": 271,
       "airline": "American",
       "warnings": [
-       "Basic Economy oficial Book with American",
-       "carry-on incluido; maleta $55",
-       "Main Cabin $331",
-       "fecha 12 dic"
+       "Basic Economy, Book with American",
+       "maleta de mano incluida; Main Cabin $331",
+       "solo ida 12 dic 2026; 11 dic desde $330"
       ],
       "legs": [
        {
@@ -14361,10 +14412,9 @@
       "price": 271,
       "airline": "Delta",
       "warnings": [
-       "Main Basic oficial Book with Delta",
-       "carry-on incluido; maleta $45",
-       "Main Classic $331",
-       "fecha 12 dic"
+       "Main Basic, Book with Delta",
+       "maleta de mano incluida; Main Classic $331",
+       "solo ida 12 dic 2026; 11 dic desde $330"
       ],
       "legs": [
        {
@@ -14386,10 +14436,9 @@
       "price": 271,
       "airline": "United",
       "warnings": [
-       "Basic Economy oficial Book with United",
-       "SIN carry-on (extra)",
-       "Economy con carry-on $331",
-       "fecha 12 dic"
+       "Basic Economy, Book with United",
+       "sin maleta de mano (cargo extra); Economy $331",
+       "solo ida 12 dic 2026; 11 dic desde $330"
       ],
       "legs": [
        {
@@ -14411,9 +14460,9 @@
    },
    "insight": {
     "level": "typical",
-    "text": "$271 es típico para Economy; normalmente cuestan $255–$830. Poco probable que baje de $271.",
-    "range": "$255–$830",
-    "updated": "2026-11-25T10:35:28-06:00"
+    "text": "$271 es típico para Economy; normalmente cuestan $235–$660. Poco probable que baje de $271.",
+    "range": "$235–$660",
+    "updated": "2026-11-25T15:22:00-06:00"
    }
   }
  ]
